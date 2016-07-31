@@ -21,3 +21,6 @@ I thought putting the blog under source control and using GitHub Pages as publis
 {% highlight powershell %}
 Get-Service
 {% endhighlight %}
+
+### Image 
+![alt]({{site.url}}/assets/image743.png)
