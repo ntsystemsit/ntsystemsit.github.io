@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to Jekyll"
 date:   2016-07-31 21:26:14 +0200
 categories: jekyll update
 ---
@@ -9,7 +9,7 @@ categories: jekyll update
 
 So this is my first post using Jekyll and GitHub Pages.
 
-## Mardown
+## Markdown
 I'm digging the idea of using a simple markdown language for blogging, makes things a lot easier.
 
 ## GitHub
