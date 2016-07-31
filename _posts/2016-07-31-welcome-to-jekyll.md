@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll"
 date:   2016-07-31 21:26:14 +0200
-categories: jekyll update
+categories: jekyll
 comments: true
 excerpt_separator: <!--more-->
 ---
@@ -10,7 +10,9 @@ excerpt_separator: <!--more-->
 # My first post
 
 So this is my first post using Jekyll and GitHub Pages.
+
 <!--more-->
+
 ## Markdown
 I'm digging the idea of using a simple markdown language for blogging, makes things a lot easier.
 
