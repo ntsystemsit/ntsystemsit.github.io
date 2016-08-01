@@ -3,7 +3,7 @@ title: My Blog
 email: tom@uclab.eu
 description: this is just another blog
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://blog.tomt.it" # the base hostname & protocol for your site
+url: "https://blog.tomt.it" # the base hostname & protocol for your site
 twitter_username: torggler
 github_username:  tomtorggler
 disqus_username: my_disqus_username
