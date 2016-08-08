@@ -11,4 +11,3 @@ Welcome!
 
 # Jekyll
 So this is our new blog.
-
