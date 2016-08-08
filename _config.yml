@@ -1,12 +1,12 @@
 # properties
-title: My Blog
-email: tom@uclab.eu
-description: this is just another blog
+title: ntSystems | info.tech
+email: postmaster@ntSystems.it
+description: by Daniel Nitz and Thomas Torggler
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.tomt.it" # the base hostname & protocol for your site
-twitter_username: torggler
+twitter_username: ntSystemsit
 github_username:  tomtorggler
-disqus_username: my_disqus_username
+disqus_username: ntsystems
 
 # settings
 markdown: kramdown
