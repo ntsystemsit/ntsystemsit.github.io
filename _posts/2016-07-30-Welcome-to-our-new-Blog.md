@@ -10,4 +10,4 @@ Welcome!
 <!--more-->
 
 # Jekyll
-So this is our new blog.
+So this is our new blog, it's powered by GitHub Pages and [Jekyll](http://jekyllrb.com/)
