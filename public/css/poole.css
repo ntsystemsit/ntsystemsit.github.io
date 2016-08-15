@@ -83,7 +83,7 @@ a:focus {
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
-  font-weight: bold;
+  font-weight: lighter;
   line-height: 1.25;
   color: #313131;
   text-rendering: optimizeLegibility;
@@ -343,6 +343,7 @@ tbody tr:nth-child(odd) th {
 .page-title,
 .post-title {
   margin-top: 0;
+  font-size: 2.5rem;
 }
 
 /* Meta data line below post title */

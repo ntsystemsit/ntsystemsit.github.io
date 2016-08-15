@@ -1,5 +1,5 @@
 # properties
-title: ntSystems | info.tech
+title: ntSystems
 email: postmaster@ntSystems.it
 description: by Daniel Nitz and Thomas Torggler
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -8,14 +8,25 @@ twitter_username: ntSystemsit
 github_username:  tomtorggler
 disqus_username: ntsystems
 
+# data missing ?
+#github:
+#  repo: https://github.com/tomtorggler/tomtorggler.github.io
+
+version: 0.0.5
+
 # settings
 markdown: kramdown
-theme: minima
-paginate: 5
+paginate: 10
+permalink: /:title
 
 # algolia
 gems:
   - algoliasearch-jekyll
 algolia:
   application_id: 'JPAVBSA8D9'
-  index_name:     'ntsystems'
+  index_name: 'ntsystems'
+  read_only_api_key: 'd2c7c639fc2961e6fd5b6033ea22b978'
+  record_css_selector: 'p,ul'
+  excluded_files:
+    - index.html
+  
