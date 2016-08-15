@@ -11,3 +11,11 @@ disqus_username: ntsystems
 # settings
 markdown: kramdown
 theme: minima
+paginate: 5
+
+# algolia
+gems:
+  - algoliasearch-jekyll
+algolia:
+  application_id: 'JPAVBSA8D9'
+  index_name:     'ntsystems'
