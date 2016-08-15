@@ -11,7 +11,7 @@ Welcome!
 <!--more-->
 
 # Jekyll
-This new version is now hosted on GitHub Pages and uses a modified version of the Hyde theme for Jekyll.
+This new version is now hosted on GitHub Pages and uses a modified version of the Hyde theme for [Jekyll](http://jekyllrb.com/).
 
 # Tools
 We use the following tools to make this as awesome as possible:
