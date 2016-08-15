@@ -8,10 +8,8 @@ twitter_username: ntSystemsit
 github_username:  tomtorggler
 disqus_username: ntsystems
 
-# data missing ?
-#github:
-#  repo: https://github.com/tomtorggler/tomtorggler.github.io
-
+github:
+  repo: https://github.com/tomtorggler/tomtorggler.github.io
 version: 0.0.5
 
 # settings

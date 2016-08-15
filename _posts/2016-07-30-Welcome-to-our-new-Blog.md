@@ -11,9 +11,10 @@ Welcome!
 <!--more-->
 
 # Jekyll
-This new version is now hosted on GitHub Pages and uses a modified version of the Hyde theme for Jekyll. s
+This new version is now hosted on GitHub Pages and uses a modified version of the Hyde theme for Jekyll.
 
 # Tools
 We use the following tools to make this as awesome as possible:
-* Algolia Search, because fast matters 
-* http://realfavicongenerator.net/
+
+- [Algolia, Search as a Service](https://www.algolia.com/)
+- [Favicon Generator](http://realfavicongenerator.net/)
