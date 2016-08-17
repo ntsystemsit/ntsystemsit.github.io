@@ -16,5 +16,6 @@ This new version is now hosted on GitHub Pages and uses a modified version of th
 # Tools
 We use the following tools to make this as awesome as possible:
 
-- [Algolia, Search as a Service](https://www.algolia.com/)
+- [Algolia: Search as a Service](https://www.algolia.com/)
 - [Favicon Generator](http://realfavicongenerator.net/)
+- [Shariff: Share without compromising privacy](https://github.com/heiseonline/shariff)

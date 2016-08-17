@@ -24,7 +24,7 @@ algolia:
   application_id: 'JPAVBSA8D9'
   index_name: 'ntsystems'
   read_only_api_key: 'd2c7c639fc2961e6fd5b6033ea22b978'
-  record_css_selector: 'p,ul'
+  record_css_selector: 'p,ul,code'
   excluded_files:
     - index.html
   
