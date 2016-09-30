@@ -2,12 +2,18 @@
 layout: page
 title: Contact
 permalink: /contact/
-comments: true
 ---
 
-Get in touch! Drop us a mail, ping us on twitter, fork us on GitHub or leave a comment.
+## Thomas Torggler
 
-Thomas: [tom@ntsystems.it](mailto:tom@ntsystems.it); [twitter](https://twitter.com/torggler)
+Twitter: [@torggler](https://twitter.com/torggler)
 
+Email: [thomas@ntsystems.it](mailto:thomas@ntsystems.it)
 
-Daniel: [daniel@ntsystems.it](mailto:daniel@ntsystems.it); [twitter](https://twitter.com/nitz_d)
+PGP Public Key: [C21FB617A78DA0CFEB9546AD98FB3F619C5B0B10](https://keybase.io/tomt/key.asc)
+
+## Daniel Nitz
+
+Twitter: [@nitz_d](https://twitter.com/nitz_d)
+
+Email: [daniel@ntsystems.it](mailto:daniel@ntsystems.it)

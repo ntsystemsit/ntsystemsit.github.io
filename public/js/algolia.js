@@ -29,12 +29,12 @@ $(function(config) {
   // Toggle result page
   function showResults() {
     window.scroll(0, 0);
-    $initialContent.addClass('algolia__initial-content--hidden');
+    //$initialContent.addClass('algolia__initial-content--hidden');
     $searchContent.addClass('algolia__search-content--active');
 
   }
   function hideResults() {
-    $initialContent.removeClass('algolia__initial-content--hidden');
+    //$initialContent.removeClass('algolia__initial-content--hidden');
     $searchContent.removeClass('algolia__search-content--active');
   }
 

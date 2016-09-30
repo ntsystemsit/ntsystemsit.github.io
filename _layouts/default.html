@@ -1,26 +1,29 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
   {% include head.html %}
 
-  <body class="layout-reverse">
+  <body>
 
-    {% include sidebar.html %}
+    {% include header.html %}
 
-    <div class="content container">
-      <div class="algolia__initial-content js-algolia__initial-content">{{ content }}</div>
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+              <div class="algolia__initial-content js-algolia__initial-content">{{ content }}</div>
 
       <div class="algolia__search-content js-algolia__search-content">
         <h1 class="page-title">Search</h1>
         <div class="posts algolia__results"></div>
       </div>
-            {% if page.comments %}
-            {% include disqus_comments.html %}
-            {% endif %}
-    </div>
+        {% if page.comments %}
+        {% include disqus_comments.html %}
+        {% endif %}
+    </main>
 
-  {% include shariff.html %}
+    {% include shariff.html %}
 
-  {% include footer.html %}
+    {% include footer.html %}
+
   </body>
+
 </html>

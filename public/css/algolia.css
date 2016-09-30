@@ -3,6 +3,7 @@
   margin-bottom: 1rem;
   font-size: 20px;
   padding:.25rem .5rem;
+  width: 95%;
 }
 
 /* Search results container */
@@ -25,7 +26,7 @@
 }
 .algolia__result-link {
   font-size: 1.25rem;
-  font-weight:bold;
+  font-weight:thinner;
 }
 .algolia__result-date {
   font-size:0.8rem;
@@ -38,7 +39,7 @@
   background-color: rgba(38,139,210,0.2);
 }
 .algolia__result-text .algolia__result-highlight {
-  font-weight:bold;
+  font-weight:thinner;
 }
 
 /* Theming */

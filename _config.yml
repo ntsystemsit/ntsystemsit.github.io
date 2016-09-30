@@ -1,24 +1,33 @@
-# properties
-title: ntSystems
-tagline: info.tech
-email: postmaster@ntSystems.it
-description: by Daniel Nitz and Thomas Torggler
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing these this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: ntSystems | info.tech
+email: blog@ntsystems.it
+description: > # this means to ignore newlines until "baseurl:"
+  by Daniel Nitz and Thomas Torggler.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://blog.tomt.it" # the base hostname & protocol for your site
-twitter_username: ntSystemsit
+url: "https://www.ntsystems.it" # the base hostname & protocol for your site
+twitter_username: ntsystemsit
 github_username:  tomtorggler
-disqus_username: ntsystems
 
-github:
-  repo: https://github.com/tomtorggler/tomtorggler.github.io
-version: 0.0.5
-
-# settings
+# Build settings
 markdown: kramdown
+theme: minima
 paginate: 10
 permalink: /:title
 
-# algolia
 gems:
   - algoliasearch-jekyll
 algolia:
