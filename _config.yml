@@ -1,5 +1,6 @@
 # properties
 title: ntSystems
+tagline: info.tech
 email: postmaster@ntSystems.it
 description: by Daniel Nitz and Thomas Torggler
 baseurl: "" # the subpath of your site, e.g. /blog

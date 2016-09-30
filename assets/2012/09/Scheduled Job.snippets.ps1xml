@@ -1,0 +1,39 @@
+﻿<?xml version='1.0' encoding='utf-8' ?>
+    <Snippets  xmlns='http://schemas.microsoft.com/PowerShell/Snippets'>
+        <Snippet Version='1.0.0'>
+            <Header>
+                <Title>Scheduled Job</Title>
+                <Description>define an register a scheduled job</Description>
+                <Author>thomas.torggler@ntsystems.it</Author>
+                <SnippetTypes>
+                    <SnippetType>Expansion</SnippetType>
+                </SnippetTypes>
+            </Header>
+
+            <Code>
+                <Script Language='PowerShell' CaretOffset='669'>
+                    <![CDATA[
+    # create a JobTrigger
+    $trigger = New-JobTrigger -At 23:00 -Once
+
+    # define JobOptions
+    $options = New-ScheduledJobOption -StartIfOnBattery -ContinueIfGoingOnBattery
+
+    # get a credential which is used to execute the job
+    $cred = Get-Credential
+
+    # define a scriptblock that is executed by the job
+    $sb={
+        param([System.IO.FileInfo]$path,[string]$string)
+        Add-Content -Path $path -Value $string -Force
+    }
+
+    # register the job as scheduled task
+    Register-ScheduledJob -Name "test" -Trigger $trigger -Credential $cred -ScheduledJobOption $options -ScriptBlock $sb -ArgumentList ("c:\temp\test.txt","bla")
+]]>
+                </Script>
+            </Code>
+
+    </Snippet>
+</Snippets>
+
