@@ -1,0 +1,5 @@
+User-agent: *
+Sitemap: http://www.ntsystems.it/sitemap.xml
+Disallow: /search
+
+# WebMatrix 1.0
