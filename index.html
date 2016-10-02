@@ -9,7 +9,12 @@ layout: default
   <ul class="post-list">
     {% for post in paginator.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} {{ post.author }}</span>
+          <span class="post-meta">
+            <img src="{{ site.baseurl }}/public/glyphicons-46-calendar.png" height="12" width="11">
+            {{ post.date | date: "%b %-d, %Y" }} 
+            <img src="{{ site.baseurl }}/public/glyphicons-4-user.png" height="12" width="11">
+            {{ post.author }}
+          </span>
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
         </h2>

@@ -5,6 +5,7 @@ date:   2016-08-08 21:26:14 +0200
 comments: true
 excerpt_separator: <!--more-->
 tags: Cisco, PowerShell
+author: "ttorggler"
 ---
 
 This script uses the CiscoUcs PowerTool to get information about one or more service profiles and creates SIST zoning configuration for NX-OS. The Target's device-alias as well as the name for the ZoneSet and the VSAN can be specified with parameters. Zone names will be automatically created.

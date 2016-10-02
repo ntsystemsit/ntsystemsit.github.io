@@ -1,0 +1,24 @@
+<p class="post-meta">
+    <img src="{{ site.baseurl }}/public/glyphicons-46-calendar.png" height="12" width="11">
+    <time datetime="{{ post.date | date: "%b %-d, %Y" }}" itemprop="datePublished">
+        {{ page.date | date: "%b %-d, %Y" }}
+    </time>
+    {% if page.author %}
+        <img src="{{ site.baseurl }}/public/glyphicons-4-user.png" height="12" width="11">
+        <span itemprop="author" itemscope itemtype="http://schema.org/BlogPosting">
+            <span itemprop="author">
+                {{ page.author }}
+            </span>
+        </span>
+    {% endif %}
+    {% if page.categories %}
+        <img src="{{ site.baseurl }}/public/glyphicons-441-folder-closed.png" height="12" width="11">
+        <span itemprop="category" itemscope itemtype="http://schema.org/BlogPosting">
+            <span itemprop="keywords">
+                {% for cat in page.categories %}
+                    {{ cat }}
+                {% endfor %}
+            </span>
+        </span>
+    {% endif %}
+</p>

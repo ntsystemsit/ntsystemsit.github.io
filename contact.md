@@ -2,6 +2,7 @@
 layout: page
 title: Contact
 permalink: /contact/
+menubar: true
 ---
 
 ## Thomas Torggler

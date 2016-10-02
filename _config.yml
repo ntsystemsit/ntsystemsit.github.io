@@ -37,4 +37,3 @@ algolia:
   record_css_selector: 'p,ul,code'
   excluded_files:
     - index.html
-  
