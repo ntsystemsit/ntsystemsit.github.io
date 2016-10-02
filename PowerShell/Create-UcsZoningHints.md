@@ -4,7 +4,7 @@ title:  "Create-UcsZoningHints"
 date:   2016-08-08 21:26:14 +0200
 comments: true
 excerpt_separator: <!--more-->
-tags: Cisco, PowerShell
+tags: Cisco PowerShell
 author: "ttorggler"
 ---
 
