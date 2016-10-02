@@ -1,4 +1,4 @@
-# Sources for https://blog.tomt.it 
+# Sources for https://ntsystems.it
 
-I'm looking into moving our blog at http://www.ntsystems.it to GitHub and Jekyll. 
-It's currently powered by BlogEngine and running as an Azure Web Site.
+We're in the process of migrating our existing, BlogEngine based web site to GitHub Pages.
+The old stuff is still available at http://ntsystems.azurewebsites.net

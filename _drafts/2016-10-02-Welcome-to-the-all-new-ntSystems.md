@@ -4,10 +4,11 @@ title:  "Welcome to our new blog!"
 date:   2016-08-23 09:10:04 +0200
 categories: jekyll update
 author: "ttorggler"
+excerpt_separator: <!-- more -->
 ---
 
 Welcome to our new home on GitHub.
-<!--more-->
+<!-- more -->
 
 # Jekyll
 This new version is now hosted on GitHub Pages and uses a slightly modified version of the default Minima theme for [Jekyll](http://jekyllrb.com/).
@@ -36,3 +37,11 @@ You can find the source code for the Jekyll new theme at:
 You can find the source code for Jekyll at
 {% include icon-github.html username="jekyll" %} /
 [jekyll](https://github.com/jekyll/jekyll)
+
+# Migration 
+
+http://philippkueng.ch/migrate-from-blogengine-dot-net-to-jekyll.html
+
+```
+$ ruby -r './blogml.rb' -e 'Jekyll::BlogML.process("BlogML.xml")'
+```
