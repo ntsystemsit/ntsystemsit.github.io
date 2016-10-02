@@ -14,7 +14,7 @@ layout: default
             {{ post.date | date: "%b %-d, %Y" }} 
             {% if post.author %}
             <img src="{{ site.baseurl }}/public/glyphicons-4-user.png" height="12" width="11">
-            {{ post.author }}
+            <a href="{{ site.baseurl }}/contact">{{ post.author }}</a>
             {% endif %}
           </span>
         <h2>
