@@ -1,12 +1,11 @@
 ---
 layout: post
-title: "PS: Invoke-SEFAUtil.ps1"
+title: "Invoke-SEFAUtil"
 date: 2013-09-08 17:49:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
+tags: ["blog", "archives", "PowerShell"]
 excerpt_separator: <!-- more -->
-tags: []
 redirect_from: ["/page/PS-Invoke-SEFAUtilps1", "/page/ps-invoke-sefautilps1"]
 ---
 <!-- more -->

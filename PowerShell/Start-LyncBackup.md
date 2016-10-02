@@ -1,13 +1,12 @@
 ---
 layout: post
-title: "PS: Start-LyncBackup.ps1"
+title: "Start-LyncBackup"
 date: 2013-08-28 12:35:25 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
+tags: ["blog", "archives", "PowerShell"]
 excerpt_separator: <!-- more -->
-tags: []
-alias: ["/page/PS-Start-LyncBackupps1.aspx", "/page/ps-start-lyncbackupps1.aspx"]
+alias: ["/page/PS-Start-LyncBackupps1", "/page/ps-start-lyncbackupps1"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

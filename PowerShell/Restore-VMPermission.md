@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "PS: Restore-VMPermission.ps1"
+title: "Restore-VMPermission"
 date: 2013-09-27 21:46:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
+tags: ["blog", "archives", "PowerShell"]
 excerpt_separator: <!-- more -->
 tags: []
-alias: ["/page/PS-Restore-VMPermissionps1.aspx", "/page/ps-restore-vmpermissionps1.aspx"]
+alias: ["/page/PS-Restore-VMPermissionps1", "/page/ps-restore-vmpermissionps1"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

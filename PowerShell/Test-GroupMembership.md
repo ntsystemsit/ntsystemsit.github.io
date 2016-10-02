@@ -1,13 +1,12 @@
 ---
 layout: post
-title: "PS: Test-GroupMembership"
+title: "Test-GroupMembership"
 date: 2013-09-08 17:22:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
+tags: ["blog", "archives", "PowerShell"]
 excerpt_separator: <!-- more -->
-tags: []
-alias: ["/page/PS-Test-GroupMembership.aspx", "/page/ps-test-groupmembership.aspx"]
+alias: ["/page/PS-Test-GroupMembership", "/page/ps-test-groupmembership"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}
