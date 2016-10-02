@@ -7,7 +7,6 @@ published: true
 categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["en", "Azure"]
-author: "ttorggler"
 alias: ["/post/Deploying-Labs-using-Azure-Resource-Manager.aspx", "/post/deploying-labs-using-azure-resource-manager.aspx"]
 ---
 {% include imported_disclaimer.html %}

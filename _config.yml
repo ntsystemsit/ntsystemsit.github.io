@@ -26,10 +26,11 @@ github_username:  tomtorggler
 markdown: kramdown
 theme: minima
 paginate: 10
-permalink: /:title
+permalink: /post/:title
 
 gems:
   - algoliasearch-jekyll
+  - jekyll-redirect-from
 algolia:
   application_id: 'JPAVBSA8D9'
   index_name: 'ntsystems'
