@@ -4,10 +4,9 @@ title: "Import Certificate to RD"
 date: 2014-01-05 13:36:39 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server 2012", "en", "Server 2012 R2", "Remote Desktop"]
-alias: ["/post/Import-Certificate-to-RD.aspx", "/post/import-certificate-to-rd.aspx"]
+redirect_from: ["/post/Import-Certificate-to-RD", "/post/import-certificate-to-rd"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

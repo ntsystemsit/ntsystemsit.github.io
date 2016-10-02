@@ -4,10 +4,9 @@ title: "WSUS auf neuen Server verschieben"
 date: 2010-05-10 21:27:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server"]
-alias: ["/post/WSUS-auf-neuen-Server-verschieben.aspx", "/post/wsus-auf-neuen-server-verschieben.aspx"]
+redirect_from: ["/post/WSUS-auf-neuen-Server-verschieben", "/post/wsus-auf-neuen-server-verschieben"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -4,10 +4,9 @@ title: "Lync 2013 Hosting Pack v2 and Skype federation"
 date: 2014-02-08 17:45:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["en", "Lync"]
-alias: ["/post/Lync-2013-Hosting-Pack-v2-and-Skype-federation.aspx", "/post/lync-2013-hosting-pack-v2-and-skype-federation.aspx"]
+redirect_from: ["/post/Lync-2013-Hosting-Pack-v2-and-Skype-federation", "/post/lync-2013-hosting-pack-v2-and-skype-federation"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

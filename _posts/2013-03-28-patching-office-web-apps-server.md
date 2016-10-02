@@ -4,10 +4,9 @@ title: "Patching Office Web Apps Server"
 date: 2013-03-28 17:36:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server"]
-alias: ["/post/Patching-Office-Web-Apps-Server.aspx", "/post/patching-office-web-apps-server.aspx"]
+redirect_from: ["/post/Patching-Office-Web-Apps-Server", "/post/patching-office-web-apps-server"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -4,10 +4,9 @@ title: "SIP: Anruf halten"
 date: 2013-08-09 22:37:50 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: []
-alias: ["/page/SIP-Anruf-halten.aspx", "/page/sip-anruf-halten.aspx"]
+redirect_from: ["/page/SIP-Anruf-halten", "/page/sip-anruf-halten"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

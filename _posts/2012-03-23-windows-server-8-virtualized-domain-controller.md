@@ -4,10 +4,9 @@ title: "Windows Server 8–Virtualized Domain Controller"
 date: 2012-03-23 23:15:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server 2012"]
-alias: ["/post/Windows-Server-8-Virtualized-Domain-Controller.aspx", "/post/windows-server-8-virtualized-domain-controller.aspx"]
+redirect_from: ["/post/Windows-Server-8-Virtualized-Domain-Controller", "/post/windows-server-8-virtualized-domain-controller"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -4,10 +4,9 @@ title: "Wireless Sniffing mit NetMon 3.4"
 date: 2012-04-14 10:00:04 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Network"]
-alias: ["/post/Wireless-Sniffing-mit-NetMon-34.aspx", "/post/wireless-sniffing-mit-netmon-34.aspx"]
+redirect_from: ["/post/Wireless-Sniffing-mit-NetMon-34", "/post/wireless-sniffing-mit-netmon-34"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

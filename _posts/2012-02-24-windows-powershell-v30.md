@@ -4,10 +4,9 @@ title: "Windows PowerShell v3.0 (CTP 2)"
 date: 2012-02-24 21:09:23 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["PowerShell"]
-alias: ["/post/Windows-PowerShell-v30.aspx", "/post/windows-powershell-v30.aspx"]
+redirect_from: ["/post/Windows-PowerShell-v30", "/post/windows-powershell-v30"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

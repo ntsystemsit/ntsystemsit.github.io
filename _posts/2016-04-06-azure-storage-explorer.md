@@ -4,10 +4,9 @@ title: "Azure Storage Explorer, the easy way to manage your storage"
 date: 2016-04-06 19:05:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Azure"]
-alias: ["/post/Azure-Storage-Explorer.aspx", "/post/azure-storage-explorer.aspx"]
+redirect_from: ["/post/Azure-Storage-Explorer", "/post/azure-storage-explorer"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

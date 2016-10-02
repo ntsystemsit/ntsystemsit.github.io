@@ -4,10 +4,9 @@ title: "Lync: SIP inter-domain federation with Cisco Unified Presence - 2"
 date: 2014-03-03 19:53:56 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["en", "Lync"]
-alias: ["/post/Lync-SIP-inter-domain-federation-with-Cisco-Unified-Presence-2.aspx", "/post/lync-sip-inter-domain-federation-with-cisco-unified-presence-2.aspx"]
+redirect_from: ["/post/Lync-SIP-inter-domain-federation-with-Cisco-Unified-Presence-2", "/post/lync-sip-inter-domain-federation-with-cisco-unified-presence-2"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

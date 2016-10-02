@@ -4,10 +4,9 @@ title: "Installing Lync 2013 Updates"
 date: 2013-03-18 19:25:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Lync", "Server"]
-alias: ["/post/Installing-Lync-2013-Updates.aspx", "/post/installing-lync-2013-updates.aspx"]
+redirect_from: ["/post/Installing-Lync-2013-Updates", "/post/installing-lync-2013-updates"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

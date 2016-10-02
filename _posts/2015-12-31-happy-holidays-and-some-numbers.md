@@ -4,10 +4,9 @@ title: "Happy holidays and some numbers"
 date: 2015-12-31 18:30:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["en"]
-alias: ["/post/Happy-holidays-and-some-numbers.aspx", "/post/happy-holidays-and-some-numbers.aspx"]
+redirect_from: ["/post/Happy-holidays-and-some-numbers", "/post/happy-holidays-and-some-numbers"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

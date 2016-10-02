@@ -4,10 +4,9 @@ title: "Lync and Exchange 2013 OWA integration"
 date: 2013-06-16 09:27:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["en", "Exchange", "Lync"]
-alias: ["/post/Lync-and-Exchange-2013-OWA-integration.aspx", "/post/lync-and-exchange-2013-owa-integration.aspx"]
+redirect_from: ["/post/Lync-and-Exchange-2013-OWA-integration", "/post/lync-and-exchange-2013-owa-integration"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

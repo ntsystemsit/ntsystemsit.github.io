@@ -4,10 +4,9 @@ title: "Your Windows phone does not support this server version…"
 date: 2013-08-05 21:50:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["en", "Exchange"]
-alias: ["/post/Your-Windows-phone-does-not-support-this-server-version….aspx", "/post/your-windows-phone-does-not-support-this-server-version….aspx"]
+redirect_from: ["/post/Your-Windows-phone-does-not-support-this-server-version…", "/post/your-windows-phone-does-not-support-this-server-version…"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

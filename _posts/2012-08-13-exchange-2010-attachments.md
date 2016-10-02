@@ -4,10 +4,9 @@ title: "Exchange 2010, Outlook doesn’t show attachments"
 date: 2012-08-13 15:50:39 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Exchange"]
-alias: ["/post/Exchange-2010-Attachments.aspx", "/post/exchange-2010-attachments.aspx"]
+redirect_from: ["/post/Exchange-2010-Attachments", "/post/exchange-2010-attachments"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -4,10 +4,9 @@ title: "Migration: ntSystems Mail von Aruba nach Office 365"
 date: 2014-02-01 19:41:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["de", "Office 365"]
-alias: ["/post/Migration-ntSystems-Mail-von-Aruba-nach-Office-365.aspx", "/post/migration-ntsystems-mail-von-aruba-nach-office-365.aspx"]
+redirect_from: ["/post/Migration-ntSystems-Mail-von-Aruba-nach-Office-365", "/post/migration-ntsystems-mail-von-aruba-nach-office-365"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

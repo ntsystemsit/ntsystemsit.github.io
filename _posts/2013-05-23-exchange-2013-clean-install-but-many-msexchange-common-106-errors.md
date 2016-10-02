@@ -4,10 +4,9 @@ title: "Exchange 2013 clean install but many MSExchange Common 106 errors"
 date: 2013-05-23 20:07:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["en", "Exchange"]
-alias: ["/post/Exchange-2013-clean-install-but-many-MSExchange-Common-106-errors.aspx", "/post/exchange-2013-clean-install-but-many-msexchange-common-106-errors.aspx"]
+redirect_from: ["/post/Exchange-2013-clean-install-but-many-MSExchange-Common-106-errors", "/post/exchange-2013-clean-install-but-many-msexchange-common-106-errors"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

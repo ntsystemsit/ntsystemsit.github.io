@@ -4,10 +4,9 @@ title: "Exchange 2010 Entourage Web Services Edition- EWS Attachement Size"
 date: 2010-06-30 21:03:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Exchange", "Server"]
-alias: ["/post/Exchange-2010-Entourage-Web-Services-Edition-EWS-Attachement-Size.aspx", "/post/exchange-2010-entourage-web-services-edition-ews-attachement-size.aspx"]
+redirect_from: ["/post/Exchange-2010-Entourage-Web-Services-Edition-EWS-Attachement-Size", "/post/exchange-2010-entourage-web-services-edition-ews-attachement-size"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

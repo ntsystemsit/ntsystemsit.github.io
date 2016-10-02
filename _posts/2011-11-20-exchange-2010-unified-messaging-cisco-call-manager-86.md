@@ -4,10 +4,9 @@ title: "Exchange 2010 Unified Messaging–Cisco Call Manager 8.6"
 date: 2011-11-20 18:50:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Exchange", "Server"]
-alias: ["/post/Exchange-2010-Unified-Messaging-Cisco-Call-Manager-86.aspx", "/post/exchange-2010-unified-messaging-cisco-call-manager-86.aspx"]
+redirect_from: ["/post/Exchange-2010-Unified-Messaging-Cisco-Call-Manager-86", "/post/exchange-2010-unified-messaging-cisco-call-manager-86"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

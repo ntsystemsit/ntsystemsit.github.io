@@ -4,10 +4,9 @@ title: "Lync 2013 – Prepare AD and build Topology"
 date: 2013-02-02 14:25:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Lync", "Server 2012"]
-alias: ["/post/Lync-2013-Prepare-AD-and-build-Topology.aspx", "/post/lync-2013-prepare-ad-and-build-topology.aspx"]
+redirect_from: ["/post/Lync-2013-Prepare-AD-and-build-Topology", "/post/lync-2013-prepare-ad-and-build-topology"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

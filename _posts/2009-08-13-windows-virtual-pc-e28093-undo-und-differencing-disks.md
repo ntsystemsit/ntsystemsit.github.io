@@ -4,10 +4,9 @@ title: "Windows Virtual PC – UnDo und Differencing Disks"
 date: 2009-08-13 17:43:33 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Client"]
-alias: ["/post/Windows-Virtual-PC-e28093-UnDo-und-Differencing-Disks.aspx", "/post/windows-virtual-pc-e28093-undo-und-differencing-disks.aspx"]
+redirect_from: ["/post/Windows-Virtual-PC-e28093-UnDo-und-Differencing-Disks", "/post/windows-virtual-pc-e28093-undo-und-differencing-disks"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

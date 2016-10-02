@@ -4,10 +4,9 @@ title: "VB.Net PowerShell Script starten"
 date: 2012-07-24 19:16:57 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["PowerShell"]
-alias: ["/post/VBNet-PowerShell-Script-starten.aspx", "/post/vbnet-powershell-script-starten.aspx"]
+redirect_from: ["/post/VBNet-PowerShell-Script-starten", "/post/vbnet-powershell-script-starten"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

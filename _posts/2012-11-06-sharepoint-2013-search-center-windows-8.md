@@ -4,10 +4,9 @@ title: "SharePoint 2013 Search Center – Windows 8"
 date: 2012-11-06 12:18:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server", "Sharepoint"]
-alias: ["/post/SharePoint-2013-Search-Center-Windows-8.aspx", "/post/sharepoint-2013-search-center-windows-8.aspx"]
+redirect_from: ["/post/SharePoint-2013-Search-Center-Windows-8", "/post/sharepoint-2013-search-center-windows-8"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

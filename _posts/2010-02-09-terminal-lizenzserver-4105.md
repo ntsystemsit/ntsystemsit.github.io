@@ -4,10 +4,9 @@ title: "Terminal-Lizenzserver, 4105"
 date: 2010-02-09 21:45:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server", "Server 2008", "Server 2003"]
-alias: ["/post/Terminal-Lizenzserver-4105.aspx", "/post/terminal-lizenzserver-4105.aspx"]
+redirect_from: ["/post/Terminal-Lizenzserver-4105", "/post/terminal-lizenzserver-4105"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

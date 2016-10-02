@@ -4,10 +4,9 @@ title: "AppV–Adobe Reader Sequencing Receipe"
 date: 2010-08-02 20:44:45 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Client"]
-alias: ["/post/AppVe28093Adobe-Reader-Sequencing-Receipe.aspx", "/post/appve28093adobe-reader-sequencing-receipe.aspx"]
+redirect_from: ["/post/AppVe28093Adobe-Reader-Sequencing-Receipe", "/post/appve28093adobe-reader-sequencing-receipe"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

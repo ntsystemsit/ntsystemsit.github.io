@@ -4,10 +4,9 @@ title: "AppV–Sequencer"
 date: 2010-08-02 20:36:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Client"]
-alias: ["/post/AppVe28093Sequencer.aspx", "/post/appve28093sequencer.aspx"]
+redirect_from: ["/post/AppVe28093Sequencer", "/post/appve28093sequencer"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

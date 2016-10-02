@@ -4,10 +4,9 @@ title: "Lync 2013 Survivable Branch Server – Planung"
 date: 2013-09-21 22:03:02 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["de", "Lync"]
-alias: ["/post/Lync-2013-Survivable-Branch-Server-Planung.aspx", "/post/lync-2013-survivable-branch-server-planung.aspx"]
+redirect_from: ["/post/Lync-2013-Survivable-Branch-Server-Planung", "/post/lync-2013-survivable-branch-server-planung"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -4,10 +4,9 @@ title: "Windows Server 2012 – DirectAccess"
 date: 2012-11-11 16:50:16 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server 2012", "Server"]
-alias: ["/post/Windows-Server-2012-DirectAccess.aspx", "/post/windows-server-2012-directaccess.aspx"]
+redirect_from: ["/post/Windows-Server-2012-DirectAccess", "/post/windows-server-2012-directaccess"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

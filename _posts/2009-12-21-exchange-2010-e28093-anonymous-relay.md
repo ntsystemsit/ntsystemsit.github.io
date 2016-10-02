@@ -4,10 +4,9 @@ title: "Exchange 2010 – Anonymous Relay"
 date: 2009-12-21 23:07:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Exchange", "Server"]
-alias: ["/post/Exchange-2010-e28093-Anonymous-Relay.aspx", "/post/exchange-2010-e28093-anonymous-relay.aspx"]
+redirect_from: ["/post/Exchange-2010-e28093-Anonymous-Relay", "/post/exchange-2010-e28093-anonymous-relay"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

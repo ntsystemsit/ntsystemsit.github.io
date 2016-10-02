@@ -4,10 +4,9 @@ title: "Sharepoint 2010, external List, BCS, SQL"
 date: 2010-10-21 21:56:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Sharepoint", "SQL"]
-alias: ["/post/Sharepoint-2010-external-List-BCS-SQL.aspx", "/post/sharepoint-2010-external-list-bcs-sql.aspx"]
+redirect_from: ["/post/Sharepoint-2010-external-List-BCS-SQL", "/post/sharepoint-2010-external-list-bcs-sql"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

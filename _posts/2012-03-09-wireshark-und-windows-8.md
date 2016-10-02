@@ -4,10 +4,9 @@ title: "Wireshark und Windows 8"
 date: 2012-03-09 22:27:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Client", "de", "Server 2012"]
-alias: ["/post/Wireshark-und-Windows-8.aspx", "/post/wireshark-und-windows-8.aspx"]
+redirect_from: ["/post/Wireshark-und-Windows-8", "/post/wireshark-und-windows-8"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

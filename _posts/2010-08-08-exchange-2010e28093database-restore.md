@@ -4,10 +4,9 @@ title: "Exchange 2010–Database Restore"
 date: 2010-08-08 13:54:27 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Exchange"]
-alias: ["/post/Exchange-2010e28093Database-Restore.aspx", "/post/exchange-2010e28093database-restore.aspx"]
+redirect_from: ["/post/Exchange-2010e28093Database-Restore", "/post/exchange-2010e28093database-restore"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

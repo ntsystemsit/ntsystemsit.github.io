@@ -4,10 +4,9 @@ title: "Windows 8 to Go"
 date: 2012-03-12 20:36:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Client", "de"]
-alias: ["/post/Windows-8-to-Go.aspx", "/post/windows-8-to-go.aspx"]
+redirect_from: ["/post/Windows-8-to-Go", "/post/windows-8-to-go"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

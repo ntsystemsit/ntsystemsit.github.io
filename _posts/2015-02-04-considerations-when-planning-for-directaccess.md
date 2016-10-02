@@ -4,10 +4,9 @@ title: "Considerations when planning for DirectAccess"
 date: 2015-02-04 18:26:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server", "Server 2012 R2"]
-alias: ["/post/Considerations-when-planning-for-DirectAccess.aspx", "/post/considerations-when-planning-for-directaccess.aspx"]
+redirect_from: ["/post/Considerations-when-planning-for-DirectAccess", "/post/considerations-when-planning-for-directaccess"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

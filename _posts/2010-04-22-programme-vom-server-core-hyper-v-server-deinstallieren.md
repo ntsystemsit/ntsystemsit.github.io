@@ -4,10 +4,9 @@ title: "Programme vom Server Core / Hyper-V Server deinstallieren"
 date: 2010-04-22 21:35:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Hyper-V", "Server"]
-alias: ["/post/Programme-vom-Server-Core-Hyper-V-Server-deinstallieren.aspx", "/post/programme-vom-server-core-hyper-v-server-deinstallieren.aspx"]
+redirect_from: ["/post/Programme-vom-Server-Core-Hyper-V-Server-deinstallieren", "/post/programme-vom-server-core-hyper-v-server-deinstallieren"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

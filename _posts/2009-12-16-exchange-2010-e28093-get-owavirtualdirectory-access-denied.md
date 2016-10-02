@@ -4,10 +4,9 @@ title: "Exchange 2010 – Get-OwaVirtualDirectory Access Denied"
 date: 2009-12-16 22:05:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server", "Exchange"]
-alias: ["/post/Exchange-2010-e28093-Get-OwaVirtualDirectory-Access-Denied.aspx", "/post/exchange-2010-e28093-get-owavirtualdirectory-access-denied.aspx"]
+redirect_from: ["/post/Exchange-2010-e28093-Get-OwaVirtualDirectory-Access-Denied", "/post/exchange-2010-e28093-get-owavirtualdirectory-access-denied"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -4,10 +4,9 @@ title: "Sharepoint Web Apps lassen sich nicht installieren"
 date: 2010-08-11 22:27:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Sharepoint"]
-alias: ["/post/Sharepoint-Web-Apps-lassen-sich-nicht-installieren.aspx", "/post/sharepoint-web-apps-lassen-sich-nicht-installieren.aspx"]
+redirect_from: ["/post/Sharepoint-Web-Apps-lassen-sich-nicht-installieren", "/post/sharepoint-web-apps-lassen-sich-nicht-installieren"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

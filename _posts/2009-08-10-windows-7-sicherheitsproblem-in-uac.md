@@ -4,10 +4,9 @@ title: "Windows 7 - Sicherheitsproblem in UAC"
 date: 2009-08-10 14:58:20 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Client"]
-alias: ["/post/Windows-7-Sicherheitsproblem-in-UAC.aspx", "/post/windows-7-sicherheitsproblem-in-uac.aspx"]
+redirect_from: ["/post/Windows-7-Sicherheitsproblem-in-UAC", "/post/windows-7-sicherheitsproblem-in-uac"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

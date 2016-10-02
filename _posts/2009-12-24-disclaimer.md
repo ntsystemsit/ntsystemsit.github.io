@@ -4,10 +4,9 @@ title: "disclaimer"
 date: 2009-12-24 19:21:44 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: []
-alias: ["/page/disclaimer.aspx"]
+redirect_from: ["/page/disclaimer"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

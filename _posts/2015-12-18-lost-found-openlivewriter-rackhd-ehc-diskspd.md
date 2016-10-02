@@ -4,10 +4,9 @@ title: "lost & found: OpenLiveWriter, RackHD, EHC, diskspd"
 date: 2015-12-18 21:56:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Client", "en", "Server", "VMware"]
-alias: ["/post/lost-found-OpenLiveWriter-RackHD-EHC-diskspd.aspx", "/post/lost-found-openlivewriter-rackhd-ehc-diskspd.aspx"]
+redirect_from: ["/post/lost-found-OpenLiveWriter-RackHD-EHC-diskspd", "/post/lost-found-openlivewriter-rackhd-ehc-diskspd"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

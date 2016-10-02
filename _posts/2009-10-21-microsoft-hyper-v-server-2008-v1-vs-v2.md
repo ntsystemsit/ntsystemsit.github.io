@@ -4,10 +4,9 @@ title: "Microsoft Hyper-V Server 2008 V1 vs. V2"
 date: 2009-10-21 19:11:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server", "Hyper-V"]
-alias: ["/post/Microsoft-Hyper-V-Server-2008-V1-vs-V2.aspx", "/post/microsoft-hyper-v-server-2008-v1-vs-v2.aspx"]
+redirect_from: ["/post/Microsoft-Hyper-V-Server-2008-V1-vs-V2", "/post/microsoft-hyper-v-server-2008-v1-vs-v2"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

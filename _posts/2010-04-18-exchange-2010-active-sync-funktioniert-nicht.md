@@ -4,10 +4,9 @@ title: "Exchange 2010 - Active Sync funktioniert nicht"
 date: 2010-04-18 21:02:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Events", "Exchange"]
-alias: ["/post/Exchange-2010-Active-Sync-funktioniert-nicht.aspx", "/post/exchange-2010-active-sync-funktioniert-nicht.aspx"]
+redirect_from: ["/post/Exchange-2010-Active-Sync-funktioniert-nicht", "/post/exchange-2010-active-sync-funktioniert-nicht"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

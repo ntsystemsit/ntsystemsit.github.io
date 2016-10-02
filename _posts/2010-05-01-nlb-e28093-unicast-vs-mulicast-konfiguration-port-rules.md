@@ -4,10 +4,9 @@ title: "NLB – Unicast vs. Multicast, Konfiguration, Port Rules"
 date: 2010-05-01 16:27:07 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server"]
-alias: ["/post/NLB-e28093-Unicast-vs-Mulicast-Konfiguration-Port-Rules.aspx", "/post/nlb-e28093-unicast-vs-mulicast-konfiguration-port-rules.aspx"]
+redirect_from: ["/post/NLB-e28093-Unicast-vs-Mulicast-Konfiguration-Port-Rules", "/post/nlb-e28093-unicast-vs-mulicast-konfiguration-port-rules"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

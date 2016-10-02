@@ -4,10 +4,9 @@ title: "Upgrade auf Windows 7"
 date: 2009-09-28 21:17:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Client"]
-alias: ["/post/Upgrade-auf-Windows-7.aspx", "/post/upgrade-auf-windows-7.aspx"]
+redirect_from: ["/post/Upgrade-auf-Windows-7", "/post/upgrade-auf-windows-7"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

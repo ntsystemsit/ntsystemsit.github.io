@@ -4,10 +4,9 @@ title: "Migration Sharepoint Services v3 zu Sharepoint Foundation 2010"
 date: 2010-06-15 20:13:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Sharepoint"]
-alias: ["/post/Migration-Sharepoint-Services-v3-zu-Sharepoint-Foundation-2010.aspx", "/post/migration-sharepoint-services-v3-zu-sharepoint-foundation-2010.aspx"]
+redirect_from: ["/post/Migration-Sharepoint-Services-v3-zu-Sharepoint-Foundation-2010", "/post/migration-sharepoint-services-v3-zu-sharepoint-foundation-2010"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

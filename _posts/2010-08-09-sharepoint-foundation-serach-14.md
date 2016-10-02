@@ -4,10 +4,9 @@ title: "Sharepoint Foundation Serach, 14"
 date: 2010-08-09 21:36:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Sharepoint"]
-alias: ["/post/Sharepoint-Foundation-Serach-14.aspx", "/post/sharepoint-foundation-serach-14.aspx"]
+redirect_from: ["/post/Sharepoint-Foundation-Serach-14", "/post/sharepoint-foundation-serach-14"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

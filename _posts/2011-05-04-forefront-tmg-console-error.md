@@ -4,10 +4,9 @@ title: "Forefront TMG Console – Script Error"
 date: 2011-05-04 21:07:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Client", "de", "Security"]
-alias: ["/post/Forefront-TMG-Console-Error.aspx", "/post/forefront-tmg-console-error.aspx"]
+redirect_from: ["/post/Forefront-TMG-Console-Error", "/post/forefront-tmg-console-error"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

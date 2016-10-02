@@ -4,10 +4,9 @@ title: "What’s happening these days…"
 date: 2013-05-15 20:05:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["PowerShell"]
-alias: ["/post/Whats-happening-these-days….aspx", "/post/whats-happening-these-days….aspx"]
+redirect_from: ["/post/Whats-happening-these-days…", "/post/whats-happening-these-days…"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

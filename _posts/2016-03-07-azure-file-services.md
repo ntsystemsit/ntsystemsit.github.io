@@ -4,10 +4,9 @@ title: "Azure File Services"
 date: 2016-03-07 17:45:50 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Azure"]
-alias: ["/post/Azure-File-Services.aspx", "/post/azure-file-services.aspx"]
+redirect_from: ["/post/Azure-File-Services", "/post/azure-file-services"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

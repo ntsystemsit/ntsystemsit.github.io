@@ -4,10 +4,9 @@ title: "ActiveDirectory DisplayName mit Umlauten und AudioCodes ISDN"
 date: 2014-05-04 12:39:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["de", "Lync"]
-alias: ["/post/ActiveDirectory-DisplayName-mit-Umlauten-und-AudioCodes-ISDN.aspx", "/post/activedirectory-displayname-mit-umlauten-und-audiocodes-isdn.aspx"]
+redirect_from: ["/post/ActiveDirectory-DisplayName-mit-Umlauten-und-AudioCodes-ISDN", "/post/activedirectory-displayname-mit-umlauten-und-audiocodes-isdn"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

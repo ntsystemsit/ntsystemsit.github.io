@@ -4,10 +4,9 @@ title: "SoftAP - Windows 7 Wireless Access Point"
 date: 2011-04-12 18:29:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Client", "de"]
-alias: ["/post/SoftAP-Windows-7-Wireless-Access-Point.aspx", "/post/softap-windows-7-wireless-access-point.aspx"]
+redirect_from: ["/post/SoftAP-Windows-7-Wireless-Access-Point", "/post/softap-windows-7-wireless-access-point"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

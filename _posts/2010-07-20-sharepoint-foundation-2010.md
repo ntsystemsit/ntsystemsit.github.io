@@ -4,10 +4,9 @@ title: "Sharepoint Foundation 2010, Fehler Web.config, requestFiltering"
 date: 2010-07-20 12:49:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Sharepoint"]
-alias: ["/post/Sharepoint-Foundation-2010.aspx", "/post/sharepoint-foundation-2010.aspx"]
+redirect_from: ["/post/Sharepoint-Foundation-2010", "/post/sharepoint-foundation-2010"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

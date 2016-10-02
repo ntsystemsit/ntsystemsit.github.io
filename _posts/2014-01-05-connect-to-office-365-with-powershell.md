@@ -4,10 +4,9 @@ title: "Connect to Office 365 with Powershell"
 date: 2014-01-05 15:14:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["en", "Office 365"]
-alias: ["/post/Connect-to-Office-365-with-Powershell.aspx", "/post/connect-to-office-365-with-powershell.aspx"]
+redirect_from: ["/post/Connect-to-Office-365-with-Powershell", "/post/connect-to-office-365-with-powershell"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

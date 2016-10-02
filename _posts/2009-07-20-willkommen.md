@@ -4,10 +4,9 @@ title: "Willkommen"
 date: 2009-07-20 13:23:33 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: []
-alias: ["/post/Willkommen.aspx", "/post/willkommen.aspx"]
+redirect_from: ["/post/Willkommen", "/post/willkommen"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

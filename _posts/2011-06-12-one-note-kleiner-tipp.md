@@ -4,10 +4,9 @@ title: "One Note–Kleiner Tipp"
 date: 2011-06-12 15:15:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["de", "Client"]
-alias: ["/post/One-Note-Kleiner-Tipp.aspx", "/post/one-note-kleiner-tipp.aspx"]
+redirect_from: ["/post/One-Note-Kleiner-Tipp", "/post/one-note-kleiner-tipp"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -4,10 +4,9 @@ title: "E14 SP1 Import/Export Update"
 date: 2010-08-28 22:03:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Exchange"]
-alias: ["/post/E14-SP1-ImportExport-Update.aspx", "/post/e14-sp1-importexport-update.aspx"]
+redirect_from: ["/post/E14-SP1-ImportExport-Update", "/post/e14-sp1-importexport-update"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

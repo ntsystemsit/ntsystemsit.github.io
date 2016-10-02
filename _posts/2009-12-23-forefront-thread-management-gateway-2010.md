@@ -4,10 +4,9 @@ title: "Forefront Threat Management Gateway 2010"
 date: 2009-12-23 20:32:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["de", "Security"]
-alias: ["/post/Forefront-Thread-Management-Gateway-2010.aspx", "/post/forefront-thread-management-gateway-2010.aspx"]
+redirect_from: ["/post/Forefront-Thread-Management-Gateway-2010", "/post/forefront-thread-management-gateway-2010"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -4,10 +4,9 @@ title: "My PowerShell Profile"
 date: 2012-07-29 20:41:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["PowerShell"]
-alias: ["/post/My-PowerShell-Profile.aspx", "/post/my-powershell-profile.aspx"]
+redirect_from: ["/post/My-PowerShell-Profile", "/post/my-powershell-profile"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

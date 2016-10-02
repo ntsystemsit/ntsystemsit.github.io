@@ -4,10 +4,9 @@ title: "Windows 7 – RTM Verfügbarkeit"
 date: 2009-07-22 09:59:11 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: []
-alias: ["/post/Windows-7-e28093-RTM-Verfugbarkeit.aspx", "/post/windows-7-e28093-rtm-verfugbarkeit.aspx"]
+redirect_from: ["/post/Windows-7-e28093-RTM-Verfugbarkeit", "/post/windows-7-e28093-rtm-verfugbarkeit"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

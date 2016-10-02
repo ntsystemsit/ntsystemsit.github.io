@@ -4,10 +4,9 @@ title: "Office 2013 Web Apps"
 date: 2012-11-01 11:12:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server 2012", "Sharepoint"]
-alias: ["/post/Office-2013-Web-Apps.aspx", "/post/office-2013-web-apps.aspx"]
+redirect_from: ["/post/Office-2013-Web-Apps", "/post/office-2013-web-apps"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

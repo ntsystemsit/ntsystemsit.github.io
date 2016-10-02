@@ -4,10 +4,9 @@ title: "Hyper-V General access denied error"
 date: 2013-09-27 22:16:33 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["en", "Hyper-V"]
-alias: ["/post/Hyper-V-General-access-denied-error.aspx", "/post/hyper-v-general-access-denied-error.aspx"]
+redirect_from: ["/post/Hyper-V-General-access-denied-error", "/post/hyper-v-general-access-denied-error"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

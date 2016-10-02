@@ -4,10 +4,9 @@ title: "ESXi–Persistent Scratch Location"
 date: 2011-07-30 15:56:05 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["VMware", "Server"]
-alias: ["/post/ESXi-Persistent-Scratch-Location.aspx", "/post/esxi-persistent-scratch-location.aspx"]
+redirect_from: ["/post/ESXi-Persistent-Scratch-Location", "/post/esxi-persistent-scratch-location"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

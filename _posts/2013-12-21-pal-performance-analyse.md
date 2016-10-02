@@ -4,10 +4,9 @@ title: "PAL: Performance Analyse"
 date: 2013-12-21 21:34:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["de", "Exchange", "Lync"]
-alias: ["/post/PAL-Performance-Analyse.aspx", "/post/pal-performance-analyse.aspx"]
+redirect_from: ["/post/PAL-Performance-Analyse", "/post/pal-performance-analyse"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

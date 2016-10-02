@@ -4,10 +4,9 @@ title: "Azure Backup - Part One"
 date: 2016-03-27 10:18:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Azure", "en"]
-alias: ["/post/Azure-Backup-Part-One.aspx", "/post/azure-backup-part-one.aspx"]
+redirect_from: ["/post/Azure-Backup-Part-One", "/post/azure-backup-part-one"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

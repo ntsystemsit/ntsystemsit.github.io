@@ -4,10 +4,9 @@ title: "Exchange 2010 – SafeList Aggregation"
 date: 2010-05-14 22:00:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Exchange", "Server"]
-alias: ["/post/Exchange-2010-e28093-SafeList-Aggregation.aspx", "/post/exchange-2010-e28093-safelist-aggregation.aspx"]
+redirect_from: ["/post/Exchange-2010-e28093-SafeList-Aggregation", "/post/exchange-2010-e28093-safelist-aggregation"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

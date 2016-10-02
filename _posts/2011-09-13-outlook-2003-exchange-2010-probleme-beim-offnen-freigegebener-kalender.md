@@ -4,10 +4,9 @@ title: "Outlook 2003 / Exchange 2010 Probleme beim Öffnen freigegebener Kalende
 date: 2011-09-13 21:27:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Exchange"]
-alias: ["/post/Outlook-2003-Exchange-2010-Probleme-beim-Offnen-freigegebener-Kalender.aspx", "/post/outlook-2003-exchange-2010-probleme-beim-offnen-freigegebener-kalender.aspx"]
+redirect_from: ["/post/Outlook-2003-Exchange-2010-Probleme-beim-Offnen-freigegebener-Kalender", "/post/outlook-2003-exchange-2010-probleme-beim-offnen-freigegebener-kalender"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

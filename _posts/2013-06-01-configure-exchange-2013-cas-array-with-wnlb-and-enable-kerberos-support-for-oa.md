@@ -4,10 +4,9 @@ title: "Configure Exchange 2013 CAS Array with WNLB and enable Kerberos support 
 date: 2013-06-01 16:18:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["en", "Exchange"]
-alias: ["/post/Configure-Exchange-2013-CAS-Array-with-WNLB-and-enable-Kerberos-support-for-OA.aspx", "/post/configure-exchange-2013-cas-array-with-wnlb-and-enable-kerberos-support-for-oa.aspx"]
+redirect_from: ["/post/Configure-Exchange-2013-CAS-Array-with-WNLB-and-enable-Kerberos-support-for-OA", "/post/configure-exchange-2013-cas-array-with-wnlb-and-enable-kerberos-support-for-oa"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

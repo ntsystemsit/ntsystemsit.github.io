@@ -4,10 +4,9 @@ title: "ActiveSync, ForeFront TMG and AccountLockoutThreshold"
 date: 2013-02-25 16:20:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["en", "Server", "Security"]
-alias: ["/post/ActiveSync-ForeFront-TMG-and-AccountLockoutThreshold.aspx", "/post/activesync-forefront-tmg-and-accountlockoutthreshold.aspx"]
+redirect_from: ["/post/ActiveSync-ForeFront-TMG-and-AccountLockoutThreshold", "/post/activesync-forefront-tmg-and-accountlockoutthreshold"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

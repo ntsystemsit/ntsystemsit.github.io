@@ -4,10 +4,9 @@ title: "WSUS auf anderen Server verschieben"
 date: 2010-01-12 22:18:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server"]
-alias: ["/post/WSUS-verschieben.aspx", "/post/wsus-verschieben.aspx"]
+redirect_from: ["/post/WSUS-verschieben", "/post/wsus-verschieben"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

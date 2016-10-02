@@ -4,10 +4,9 @@ title: "Exchange 2013, Open Public Folder on Exchange 2010"
 date: 2013-06-04 20:41:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["en", "Exchange"]
-alias: ["/post/Exchange-2013-Open-Public-Folder-on-Exchange-2010.aspx", "/post/exchange-2013-open-public-folder-on-exchange-2010.aspx"]
+redirect_from: ["/post/Exchange-2013-Open-Public-Folder-on-Exchange-2010", "/post/exchange-2013-open-public-folder-on-exchange-2010"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

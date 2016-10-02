@@ -4,10 +4,9 @@ title: "Scheduled Jobs in PowerShell v3"
 date: 2012-09-07 21:36:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["PowerShell"]
-alias: ["/post/Scheduled-Jobs-in-PowerShell-v3.aspx", "/post/scheduled-jobs-in-powershell-v3.aspx"]
+redirect_from: ["/post/Scheduled-Jobs-in-PowerShell-v3", "/post/scheduled-jobs-in-powershell-v3"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

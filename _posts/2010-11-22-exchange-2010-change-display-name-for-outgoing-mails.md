@@ -4,10 +4,9 @@ title: "Exchange 2010, change Display Name for outgoing Mails"
 date: 2010-11-22 21:40:25 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Exchange"]
-alias: ["/post/Exchange-2010-change-Display-Name-for-outgoing-Mails.aspx", "/post/exchange-2010-change-display-name-for-outgoing-mails.aspx"]
+redirect_from: ["/post/Exchange-2010-change-Display-Name-for-outgoing-Mails", "/post/exchange-2010-change-display-name-for-outgoing-mails"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

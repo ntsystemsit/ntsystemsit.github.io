@@ -4,10 +4,9 @@ title: "NVSPBIND für Hyper-V"
 date: 2010-01-26 20:35:22 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Hyper-V"]
-alias: ["/post/NVSPBIND-fur-Hyper-V.aspx", "/post/nvspbind-fur-hyper-v.aspx"]
+redirect_from: ["/post/NVSPBIND-fur-Hyper-V", "/post/nvspbind-fur-hyper-v"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -4,10 +4,9 @@ title: "Windows Server 8 CP–Remote Group Policy refresh"
 date: 2012-03-04 14:35:10 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server", "Server 2012"]
-alias: ["/post/Windows-Server-8-CP-Remote-Group-Policy-refresh.aspx", "/post/windows-server-8-cp-remote-group-policy-refresh.aspx"]
+redirect_from: ["/post/Windows-Server-8-CP-Remote-Group-Policy-refresh", "/post/windows-server-8-cp-remote-group-policy-refresh"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

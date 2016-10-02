@@ -4,10 +4,9 @@ title: "Troubleshooting Sharepoint Error Messages"
 date: 2013-08-11 20:46:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["en", "Sharepoint"]
-alias: ["/post/Troubleshooting-Sharepoint-Error-Messages.aspx", "/post/troubleshooting-sharepoint-error-messages.aspx"]
+redirect_from: ["/post/Troubleshooting-Sharepoint-Error-Messages", "/post/troubleshooting-sharepoint-error-messages"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -4,10 +4,9 @@ title: "Sharepoint 2013 change default settings of “Upload Image” Pop-Up"
 date: 2012-11-16 18:22:40 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Sharepoint"]
-alias: ["/post/Sharepoint-2013-change-default-settings-of-Upload-Image-Pop-Up.aspx", "/post/sharepoint-2013-change-default-settings-of-upload-image-pop-up.aspx"]
+redirect_from: ["/post/Sharepoint-2013-change-default-settings-of-Upload-Image-Pop-Up", "/post/sharepoint-2013-change-default-settings-of-upload-image-pop-up"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

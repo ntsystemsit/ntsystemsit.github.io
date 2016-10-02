@@ -4,10 +4,9 @@ title: "WMF 5 Preview: Update is not applicable to your computer"
 date: 2014-10-21 19:49:57 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["en", "PowerShell"]
-alias: ["/post/WMF-5-Preview-Update-is-not-applicable-to-your-computer.aspx", "/post/wmf-5-preview-update-is-not-applicable-to-your-computer.aspx"]
+redirect_from: ["/post/WMF-5-Preview-Update-is-not-applicable-to-your-computer", "/post/wmf-5-preview-update-is-not-applicable-to-your-computer"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

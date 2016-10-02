@@ -4,10 +4,9 @@ title: "Migrating from Exchange 2010 to 2013 – part 1"
 date: 2013-05-17 22:10:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["en", "Exchange", "Server"]
-alias: ["/post/Migrating-from-Exchange-2010-to-2013-part-1.aspx", "/post/migrating-from-exchange-2010-to-2013-part-1.aspx"]
+redirect_from: ["/post/Migrating-from-Exchange-2010-to-2013-part-1", "/post/migrating-from-exchange-2010-to-2013-part-1"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

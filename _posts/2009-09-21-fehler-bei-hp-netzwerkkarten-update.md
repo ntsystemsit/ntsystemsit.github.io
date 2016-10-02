@@ -4,10 +4,9 @@ title: "Fehler bei HP Netzwerkkarten Update"
 date: 2009-09-21 21:13:42 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server"]
-alias: ["/post/Fehler-bei-HP-Netzwerkkarten-Update.aspx", "/post/fehler-bei-hp-netzwerkkarten-update.aspx"]
+redirect_from: ["/post/Fehler-bei-HP-Netzwerkkarten-Update", "/post/fehler-bei-hp-netzwerkkarten-update"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

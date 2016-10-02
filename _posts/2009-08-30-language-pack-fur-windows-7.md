@@ -4,10 +4,9 @@ title: "Language Pack für Windows 7"
 date: 2009-08-30 21:00:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Client"]
-alias: ["/post/Language-Pack-fur-Windows-7.aspx", "/post/language-pack-fur-windows-7.aspx"]
+redirect_from: ["/post/Language-Pack-fur-Windows-7", "/post/language-pack-fur-windows-7"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

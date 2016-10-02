@@ -4,10 +4,9 @@ title: "Windows Home Server PP3 (Beta) – Windows 7"
 date: 2009-07-30 20:15:45 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Windows Home Server", "Server", "Client"]
-alias: ["/post/Windows-Home-Server-PP3-(Beta)-e28093-Windows-7.aspx", "/post/windows-home-server-pp3-(beta)-e28093-windows-7.aspx"]
+redirect_from: ["/post/Windows-Home-Server-PP3-(Beta)-e28093-Windows-7", "/post/windows-home-server-pp3-(beta)-e28093-windows-7"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

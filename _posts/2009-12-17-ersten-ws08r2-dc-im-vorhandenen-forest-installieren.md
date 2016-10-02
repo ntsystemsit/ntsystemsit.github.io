@@ -4,10 +4,9 @@ title: "Ersten WS08R2 DC im vorhandenen Forest installieren"
 date: 2009-12-17 22:35:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server", "Server 2008 R2"]
-alias: ["/post/Ersten-WS08R2-DC-im-vorhandenen-Forest-installieren.aspx", "/post/ersten-ws08r2-dc-im-vorhandenen-forest-installieren.aspx"]
+redirect_from: ["/post/Ersten-WS08R2-DC-im-vorhandenen-Forest-installieren", "/post/ersten-ws08r2-dc-im-vorhandenen-forest-installieren"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

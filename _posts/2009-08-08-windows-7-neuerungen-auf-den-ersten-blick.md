@@ -4,10 +4,9 @@ title: "Windows 7 Neuerungen auf den ersten Blick"
 date: 2009-08-08 12:44:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Client"]
-alias: ["/post/Windows-7-Neuerungen-auf-den-ersten-Blick.aspx", "/post/windows-7-neuerungen-auf-den-ersten-blick.aspx"]
+redirect_from: ["/post/Windows-7-Neuerungen-auf-den-ersten-Blick", "/post/windows-7-neuerungen-auf-den-ersten-blick"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

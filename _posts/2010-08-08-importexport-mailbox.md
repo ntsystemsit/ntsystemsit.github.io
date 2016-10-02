@@ -4,10 +4,9 @@ title: "Import/Export Mailbox"
 date: 2010-08-08 13:40:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Exchange"]
-alias: ["/post/ImportExport-Mailbox.aspx", "/post/importexport-mailbox.aspx"]
+redirect_from: ["/post/ImportExport-Mailbox", "/post/importexport-mailbox"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

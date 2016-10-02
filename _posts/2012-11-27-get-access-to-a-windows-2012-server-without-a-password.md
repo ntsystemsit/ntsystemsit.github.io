@@ -4,10 +4,9 @@ title: "Get access to a Windows 2012 Server without a password"
 date: 2012-11-27 17:20:51 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server 2012"]
-alias: ["/post/Get-access-to-a-Windows-2012-Server-without-a-password.aspx", "/post/get-access-to-a-windows-2012-server-without-a-password.aspx"]
+redirect_from: ["/post/Get-access-to-a-Windows-2012-Server-without-a-password", "/post/get-access-to-a-windows-2012-server-without-a-password"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

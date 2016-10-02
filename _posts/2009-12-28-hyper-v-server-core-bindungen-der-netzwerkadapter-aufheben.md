@@ -4,10 +4,9 @@ title: "Hyper-V Server / Core Bindungen der Netzwerkadapter aufheben"
 date: 2009-12-28 12:04:23 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Hyper-V", "Server"]
-alias: ["/post/Hyper-V-Server-Core-Bindungen-der-Netzwerkadapter-aufheben.aspx", "/post/hyper-v-server-core-bindungen-der-netzwerkadapter-aufheben.aspx"]
+redirect_from: ["/post/Hyper-V-Server-Core-Bindungen-der-Netzwerkadapter-aufheben", "/post/hyper-v-server-core-bindungen-der-netzwerkadapter-aufheben"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

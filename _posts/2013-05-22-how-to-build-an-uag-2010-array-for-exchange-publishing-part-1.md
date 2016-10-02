@@ -4,10 +4,9 @@ title: "How to build an UAG 2010 Array for Exchange publishing–Part 1"
 date: 2013-05-22 21:26:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["en", "Exchange", "Lync"]
-alias: ["/post/How-to-build-an-UAG-2010-Array-for-Exchange-publishing-Part-1.aspx", "/post/how-to-build-an-uag-2010-array-for-exchange-publishing-part-1.aspx"]
+redirect_from: ["/post/How-to-build-an-UAG-2010-Array-for-Exchange-publishing-Part-1", "/post/how-to-build-an-uag-2010-array-for-exchange-publishing-part-1"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

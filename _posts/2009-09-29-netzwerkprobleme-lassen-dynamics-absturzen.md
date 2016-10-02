@@ -4,10 +4,9 @@ title: "Netzwerkprobleme lassen Dynamics abstürzen"
 date: 2009-09-29 18:42:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server"]
-alias: ["/post/Netzwerkprobleme-lassen-Dynamics-absturzen.aspx", "/post/netzwerkprobleme-lassen-dynamics-absturzen.aspx"]
+redirect_from: ["/post/Netzwerkprobleme-lassen-Dynamics-absturzen", "/post/netzwerkprobleme-lassen-dynamics-absturzen"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

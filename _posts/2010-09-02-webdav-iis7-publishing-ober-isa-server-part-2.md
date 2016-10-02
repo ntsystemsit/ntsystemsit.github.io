@@ -4,10 +4,9 @@ title: "WebDav, IIS7 publishing over ISA Server Part 2"
 date: 2010-09-02 17:25:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Client", "Server"]
-alias: ["/post/WebDav-IIS7-publishing-ober-ISA-Server-Part-2.aspx", "/post/webdav-iis7-publishing-ober-isa-server-part-2.aspx"]
+redirect_from: ["/post/WebDav-IIS7-publishing-ober-ISA-Server-Part-2", "/post/webdav-iis7-publishing-ober-isa-server-part-2"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -4,10 +4,9 @@ title: "TMG–Fehler beim Ausführen von Abfragen im Log"
 date: 2011-02-03 21:35:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["de", "Security", "SQL"]
-alias: ["/post/TMGe28093Fehler-beim-Ausfuhren-von-Abfragen-im-Log.aspx", "/post/tmge28093fehler-beim-ausfuhren-von-abfragen-im-log.aspx"]
+redirect_from: ["/post/TMGe28093Fehler-beim-Ausfuhren-von-Abfragen-im-Log", "/post/tmge28093fehler-beim-ausfuhren-von-abfragen-im-log"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

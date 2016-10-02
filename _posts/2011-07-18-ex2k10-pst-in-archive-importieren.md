@@ -4,10 +4,9 @@ title: "EX2k10 PST in Archive importieren"
 date: 2011-07-18 21:20:31 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Exchange"]
-alias: ["/post/EX2k10-PST-in-Archive-importieren.aspx", "/post/ex2k10-pst-in-archive-importieren.aspx"]
+redirect_from: ["/post/EX2k10-PST-in-Archive-importieren", "/post/ex2k10-pst-in-archive-importieren"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

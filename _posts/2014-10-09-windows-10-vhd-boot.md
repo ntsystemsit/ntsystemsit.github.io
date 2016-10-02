@@ -4,10 +4,9 @@ title: "Windows 10 VHD Boot"
 date: 2014-10-09 18:51:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Client"]
-alias: ["/post/Windows-10-VHD-Boot.aspx", "/post/windows-10-vhd-boot.aspx"]
+redirect_from: ["/post/Windows-10-VHD-Boot", "/post/windows-10-vhd-boot"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -4,10 +4,9 @@ title: "AppLocker"
 date: 2009-08-17 19:31:21 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Client", "Server"]
-alias: ["/post/AppLocker.aspx", "/post/applocker.aspx"]
+redirect_from: ["/post/AppLocker", "/post/applocker"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

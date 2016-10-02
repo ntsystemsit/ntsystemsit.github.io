@@ -4,10 +4,9 @@ title: "Hyper-Convergence with Nano Server: Part 3"
 date: 2016-03-24 21:47:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server", "en"]
-alias: ["/post/Hyper-Convergence-with-Nano-Server-Part-3.aspx", "/post/hyper-convergence-with-nano-server-part-3.aspx"]
+redirect_from: ["/post/Hyper-Convergence-with-Nano-Server-Part-3", "/post/hyper-convergence-with-nano-server-part-3"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

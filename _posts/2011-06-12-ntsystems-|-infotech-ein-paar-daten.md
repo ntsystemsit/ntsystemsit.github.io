@@ -4,10 +4,9 @@ title: "ntSystems | info.tech ein paar Daten"
 date: 2011-06-12 15:42:39 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: []
-alias: ["/post/ntSystems-|-infotech-ein-paar-Daten.aspx", "/post/ntsystems-|-infotech-ein-paar-daten.aspx"]
+redirect_from: ["/post/ntSystems-|-infotech-ein-paar-Daten", "/post/ntsystems-|-infotech-ein-paar-daten"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

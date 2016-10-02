@@ -4,10 +4,9 @@ title: "Exchange 2010 – Dynamic Signature"
 date: 2009-09-22 19:30:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server"]
-alias: ["/post/Exchange-2010-e28093-Dynamic-Signature.aspx", "/post/exchange-2010-e28093-dynamic-signature.aspx"]
+redirect_from: ["/post/Exchange-2010-e28093-Dynamic-Signature", "/post/exchange-2010-e28093-dynamic-signature"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

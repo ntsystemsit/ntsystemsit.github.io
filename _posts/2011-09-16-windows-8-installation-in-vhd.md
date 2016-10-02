@@ -4,10 +4,9 @@ title: "Windows 8 - Installation in VHD"
 date: 2011-09-16 22:00:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["de", "Client"]
-alias: ["/post/Windows-8-Installation-in-VHD.aspx", "/post/windows-8-installation-in-vhd.aspx"]
+redirect_from: ["/post/Windows-8-Installation-in-VHD", "/post/windows-8-installation-in-vhd"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

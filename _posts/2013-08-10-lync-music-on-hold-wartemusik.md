@@ -4,10 +4,9 @@ title: "Lync: Music on Hold / Wartemusik"
 date: 2013-08-10 23:01:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["de", "Lync"]
-alias: ["/post/Lync-Music-on-Hold-Wartemusik.aspx", "/post/lync-music-on-hold-wartemusik.aspx"]
+redirect_from: ["/post/Lync-Music-on-Hold-Wartemusik", "/post/lync-music-on-hold-wartemusik"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

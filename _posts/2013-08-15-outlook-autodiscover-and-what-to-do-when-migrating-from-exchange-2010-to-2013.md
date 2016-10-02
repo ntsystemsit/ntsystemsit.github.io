@@ -4,10 +4,9 @@ title: "Outlook Autodiscover and what to do when migrating from Exchange 2010 to
 date: 2013-08-15 14:07:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["en", "Exchange"]
-alias: ["/post/Outlook-Autodiscover-and-what-to-do-when-migrating-from-Exchange-2010-to-2013.aspx", "/post/outlook-autodiscover-and-what-to-do-when-migrating-from-exchange-2010-to-2013.aspx"]
+redirect_from: ["/post/Outlook-Autodiscover-and-what-to-do-when-migrating-from-Exchange-2010-to-2013", "/post/outlook-autodiscover-and-what-to-do-when-migrating-from-exchange-2010-to-2013"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -4,10 +4,9 @@ title: "PowerShell loves WMI – OS Info"
 date: 2012-02-28 21:20:37 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["PowerShell"]
-alias: ["/post/PowerShell-loves-WMI-OS-Info.aspx", "/post/powershell-loves-wmi-os-info.aspx"]
+redirect_from: ["/post/PowerShell-loves-WMI-OS-Info", "/post/powershell-loves-wmi-os-info"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

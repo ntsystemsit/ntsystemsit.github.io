@@ -4,10 +4,9 @@ title: "Work Folders Demo mit Microsoft Azure"
 date: 2014-05-29 21:34:57 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: []
-alias: ["/post/Work-Folders-Demo-mit-Microsoft-Azure.aspx", "/post/work-folders-demo-mit-microsoft-azure.aspx"]
+redirect_from: ["/post/Work-Folders-Demo-mit-Microsoft-Azure", "/post/work-folders-demo-mit-microsoft-azure"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

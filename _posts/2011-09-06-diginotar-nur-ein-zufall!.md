@@ -4,10 +4,9 @@ title: "DigiNotar–nur ein Zufall!?"
 date: 2011-09-06 23:25:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["de", "Client", "Server"]
-alias: ["/post/DigiNotar-nur-ein-Zufall!.aspx", "/post/diginotar-nur-ein-zufall!.aspx"]
+redirect_from: ["/post/DigiNotar-nur-ein-Zufall!", "/post/diginotar-nur-ein-zufall!"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

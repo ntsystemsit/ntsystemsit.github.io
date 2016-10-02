@@ -4,10 +4,9 @@ title: "Hyper-V Server 2008 R2 Cluster"
 date: 2009-08-26 23:00:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Client", "Hyper-V", "Server", "Server 2008 R2"]
-alias: ["/post/Hyper-V-Server-2008-R2-Cluster.aspx", "/post/hyper-v-server-2008-r2-cluster.aspx"]
+redirect_from: ["/post/Hyper-V-Server-2008-R2-Cluster", "/post/hyper-v-server-2008-r2-cluster"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

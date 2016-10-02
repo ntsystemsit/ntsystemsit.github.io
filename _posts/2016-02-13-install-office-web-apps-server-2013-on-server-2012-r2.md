@@ -4,10 +4,9 @@ title: "Install Office Web Apps Server 2013 on Server 2012 R2"
 date: 2016-02-13 19:15:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["en", "Server"]
-alias: ["/post/Install-Office-Web-Apps-Server-2013-on-Server-2012-R2.aspx", "/post/install-office-web-apps-server-2013-on-server-2012-r2.aspx"]
+redirect_from: ["/post/Install-Office-Web-Apps-Server-2013-on-Server-2012-R2", "/post/install-office-web-apps-server-2013-on-server-2012-r2"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

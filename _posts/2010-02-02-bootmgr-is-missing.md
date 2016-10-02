@@ -4,10 +4,9 @@ title: "BOOTMGR is missing"
 date: 2010-02-02 21:54:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server"]
-alias: ["/post/BOOTMGR-is-missing.aspx", "/post/bootmgr-is-missing.aspx"]
+redirect_from: ["/post/BOOTMGR-is-missing", "/post/bootmgr-is-missing"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

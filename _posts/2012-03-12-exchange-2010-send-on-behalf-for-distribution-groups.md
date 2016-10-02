@@ -4,10 +4,9 @@ title: "Exchange 2010 Send on behalf for distribution Groups"
 date: 2012-03-12 20:46:58 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Exchange"]
-alias: ["/post/Exchange-2010-Send-on-behalf-for-distribution-Groups.aspx", "/post/exchange-2010-send-on-behalf-for-distribution-groups.aspx"]
+redirect_from: ["/post/Exchange-2010-Send-on-behalf-for-distribution-Groups", "/post/exchange-2010-send-on-behalf-for-distribution-groups"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

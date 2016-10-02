@@ -4,10 +4,9 @@ title: "BlueScreen “Stop 0x0000007E” beim aktivieren der Virtualisierungs-Te
 date: 2009-12-28 09:25:03 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Hyper-V", "Server 2008 R2"]
-alias: ["/post/BlueScreen-e2809cStop-0x0000007Ee2809d-beim-aktivieren-der-Virtualisierung.aspx", "/post/bluescreen-e2809cstop-0x0000007ee2809d-beim-aktivieren-der-virtualisierung.aspx"]
+redirect_from: ["/post/BlueScreen-e2809cStop-0x0000007Ee2809d-beim-aktivieren-der-Virtualisierung", "/post/bluescreen-e2809cstop-0x0000007ee2809d-beim-aktivieren-der-virtualisierung"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

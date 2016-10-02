@@ -4,10 +4,9 @@ title: "Lync Private Line"
 date: 2013-09-14 21:08:41 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["en", "Lync"]
-alias: ["/post/Lync-Private-Line.aspx", "/post/lync-private-line.aspx"]
+redirect_from: ["/post/Lync-Private-Line", "/post/lync-private-line"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -4,10 +4,9 @@ title: "Lync 2013 Survivable Branch Server – Installation"
 date: 2013-10-04 20:37:52 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Lync", "de"]
-alias: ["/post/Lync-2013-Survivable-Branch-Server-Installation.aspx", "/post/lync-2013-survivable-branch-server-installation.aspx"]
+redirect_from: ["/post/Lync-2013-Survivable-Branch-Server-Installation", "/post/lync-2013-survivable-branch-server-installation"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -4,10 +4,9 @@ title: "Keine Mailzustellung auf Öffentliche Ordner nach Exchange 2010 Upgrade 
 date: 2010-07-28 17:00:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Exchange"]
-alias: ["/post/Keine-Mailzustellung-auf-Offentliche-Ordner-nach-Exchange-2010-Upgrade-(von-Exchange-2k3).aspx", "/post/keine-mailzustellung-auf-offentliche-ordner-nach-exchange-2010-upgrade-(von-exchange-2k3).aspx"]
+redirect_from: ["/post/Keine-Mailzustellung-auf-Offentliche-Ordner-nach-Exchange-2010-Upgrade-(von-Exchange-2k3)", "/post/keine-mailzustellung-auf-offentliche-ordner-nach-exchange-2010-upgrade-(von-exchange-2k3)"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

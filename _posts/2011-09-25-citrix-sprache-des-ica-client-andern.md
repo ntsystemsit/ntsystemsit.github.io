@@ -4,10 +4,9 @@ title: "Citrix, Sprache des ICA Client ändern"
 date: 2011-09-25 21:23:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Citrix"]
-alias: ["/post/Citrix-Sprache-des-ICA-Client-andern.aspx", "/post/citrix-sprache-des-ica-client-andern.aspx"]
+redirect_from: ["/post/Citrix-Sprache-des-ICA-Client-andern", "/post/citrix-sprache-des-ica-client-andern"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

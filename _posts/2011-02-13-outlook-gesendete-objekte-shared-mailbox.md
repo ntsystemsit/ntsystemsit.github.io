@@ -4,10 +4,9 @@ title: "Outlook–gesendete Objekte–Shared Mailbox"
 date: 2011-02-13 14:07:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Exchange", "Client"]
-alias: ["/post/Outlook-gesendete-Objekte-Shared-Mailbox.aspx", "/post/outlook-gesendete-objekte-shared-mailbox.aspx"]
+redirect_from: ["/post/Outlook-gesendete-Objekte-Shared-Mailbox", "/post/outlook-gesendete-objekte-shared-mailbox"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

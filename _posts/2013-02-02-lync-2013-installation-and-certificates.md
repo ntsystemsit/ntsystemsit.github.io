@@ -4,10 +4,9 @@ title: "Lync 2013 – Installation and Certificates"
 date: 2013-02-02 15:35:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Lync", "Server 2012"]
-alias: ["/post/Lync-2013-Installation-and-Certificates.aspx", "/post/lync-2013-installation-and-certificates.aspx"]
+redirect_from: ["/post/Lync-2013-Installation-and-Certificates", "/post/lync-2013-installation-and-certificates"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -4,10 +4,9 @@ title: "Ein paar Infos zu “DirectAccess”"
 date: 2009-07-26 21:25:10 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server 2008 R2", "Client", "Server"]
-alias: ["/post/Ein-paar-Infos-zu-e2809cDirectAccesse2809d.aspx", "/post/ein-paar-infos-zu-e2809cdirectaccesse2809d.aspx"]
+redirect_from: ["/post/Ein-paar-Infos-zu-e2809cDirectAccesse2809d", "/post/ein-paar-infos-zu-e2809cdirectaccesse2809d"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

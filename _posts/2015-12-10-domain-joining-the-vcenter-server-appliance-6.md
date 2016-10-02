@@ -4,10 +4,9 @@ title: "Domain-joining the vCenter Server Appliance 6"
 date: 2015-12-10 18:42:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["en", "Server", "VMware"]
-alias: ["/post/Domain-joining-the-vCenter-Server-Appliance-6.aspx", "/post/domain-joining-the-vcenter-server-appliance-6.aspx"]
+redirect_from: ["/post/Domain-joining-the-vCenter-Server-Appliance-6", "/post/domain-joining-the-vcenter-server-appliance-6"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

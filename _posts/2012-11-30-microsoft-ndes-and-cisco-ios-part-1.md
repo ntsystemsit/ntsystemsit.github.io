@@ -4,10 +4,9 @@ title: "Microsoft NDES and Cisco IOS – part 1"
 date: 2012-11-30 18:13:47 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Network"]
-alias: ["/post/Microsoft-NDES-and-Cisco-IOS-part-1.aspx", "/post/microsoft-ndes-and-cisco-ios-part-1.aspx"]
+redirect_from: ["/post/Microsoft-NDES-and-Cisco-IOS-part-1", "/post/microsoft-ndes-and-cisco-ios-part-1"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -4,10 +4,9 @@ title: "Exchange 2010 – Edge Subscription"
 date: 2009-12-17 22:09:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server", "Exchange"]
-alias: ["/post/Exchange-2010-e28093-Edge-Subscription.aspx", "/post/exchange-2010-e28093-edge-subscription.aspx"]
+redirect_from: ["/post/Exchange-2010-e28093-Edge-Subscription", "/post/exchange-2010-e28093-edge-subscription"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

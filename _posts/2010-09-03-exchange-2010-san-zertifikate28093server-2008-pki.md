@@ -4,10 +4,9 @@ title: "Exchange 2010 SAN Zertifikat–Server 2008 PKI"
 date: 2010-09-03 12:52:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Exchange"]
-alias: ["/post/Exchange-2010-SAN-Zertifikate28093Server-2008-PKI.aspx", "/post/exchange-2010-san-zertifikate28093server-2008-pki.aspx"]
+redirect_from: ["/post/Exchange-2010-SAN-Zertifikate28093Server-2008-PKI", "/post/exchange-2010-san-zertifikate28093server-2008-pki"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

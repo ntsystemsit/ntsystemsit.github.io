@@ -4,10 +4,9 @@ title: "App-V and the start menu folder redirection issue"
 date: 2014-04-04 18:06:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["AppV", "en"]
-alias: ["/post/App-V-and-the-start-menu-folder-redirection-issue.aspx", "/post/app-v-and-the-start-menu-folder-redirection-issue.aspx"]
+redirect_from: ["/post/App-V-and-the-start-menu-folder-redirection-issue", "/post/app-v-and-the-start-menu-folder-redirection-issue"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

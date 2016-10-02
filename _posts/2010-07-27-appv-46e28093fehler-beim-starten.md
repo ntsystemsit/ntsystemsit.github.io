@@ -4,10 +4,9 @@ title: "AppV 4.6–Fehler beim Starten"
 date: 2010-07-27 18:34:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Client", "Server"]
-alias: ["/post/AppV-46e28093Fehler-beim-starten.aspx", "/post/appv-46e28093fehler-beim-starten.aspx"]
+redirect_from: ["/post/AppV-46e28093Fehler-beim-starten", "/post/appv-46e28093fehler-beim-starten"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

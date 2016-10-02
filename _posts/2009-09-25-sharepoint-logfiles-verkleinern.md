@@ -4,10 +4,9 @@ title: "Sharepoint LogFiles verkleinern"
 date: 2009-09-25 18:52:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Sharepoint"]
-alias: ["/post/Sharepoint-LogFiles-verkleinern.aspx", "/post/sharepoint-logfiles-verkleinern.aspx"]
+redirect_from: ["/post/Sharepoint-LogFiles-verkleinern", "/post/sharepoint-logfiles-verkleinern"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

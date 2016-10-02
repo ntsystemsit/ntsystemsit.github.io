@@ -4,10 +4,9 @@ title: "Mail Sensitivity Header Exchange 2010 SP1"
 date: 2010-11-02 20:31:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Exchange", "Server"]
-alias: ["/post/Mail-Sensitivity-Header-Exchange-2010-SP1.aspx", "/post/mail-sensitivity-header-exchange-2010-sp1.aspx"]
+redirect_from: ["/post/Mail-Sensitivity-Header-Exchange-2010-SP1", "/post/mail-sensitivity-header-exchange-2010-sp1"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -4,10 +4,9 @@ title: "Windows Server 8 CP –ServerManager"
 date: 2012-03-04 12:49:58 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server", "Server 2012"]
-alias: ["/post/Windows-Server-8-CP-ServerManager.aspx", "/post/windows-server-8-cp-servermanager.aspx"]
+redirect_from: ["/post/Windows-Server-8-CP-ServerManager", "/post/windows-server-8-cp-servermanager"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

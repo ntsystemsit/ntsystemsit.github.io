@@ -4,10 +4,9 @@ title: "Azure Backup - Part Two"
 date: 2016-04-04 17:00:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Azure"]
-alias: ["/post/Azure-Backup-Part-Two.aspx", "/post/azure-backup-part-two.aspx"]
+redirect_from: ["/post/Azure-Backup-Part-Two", "/post/azure-backup-part-two"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

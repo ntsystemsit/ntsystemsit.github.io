@@ -4,10 +4,9 @@ title: "Azure Backup"
 date: 2015-09-06 14:08:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Cloud", "de"]
-alias: ["/post/Azure-Backup.aspx", "/post/azure-backup.aspx"]
+redirect_from: ["/post/Azure-Backup", "/post/azure-backup"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

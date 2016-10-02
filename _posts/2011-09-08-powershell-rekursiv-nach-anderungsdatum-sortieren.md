@@ -4,10 +4,9 @@ title: "PowerShell–Rekursiv nach Änderungsdatum sortieren"
 date: 2011-09-08 21:12:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["PowerShell"]
-alias: ["/post/PowerShell-Rekursiv-nach-Anderungsdatum-sortieren.aspx", "/post/powershell-rekursiv-nach-anderungsdatum-sortieren.aspx"]
+redirect_from: ["/post/PowerShell-Rekursiv-nach-Anderungsdatum-sortieren", "/post/powershell-rekursiv-nach-anderungsdatum-sortieren"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

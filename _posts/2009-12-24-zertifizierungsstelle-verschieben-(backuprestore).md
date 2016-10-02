@@ -4,10 +4,9 @@ title: "Zertifizierungsstelle verschieben (Backup/Restore)"
 date: 2009-12-24 18:20:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server"]
-alias: ["/post/Zertifizierungsstelle-verschieben-(BackupRestore).aspx", "/post/zertifizierungsstelle-verschieben-(backuprestore).aspx"]
+redirect_from: ["/post/Zertifizierungsstelle-verschieben-(BackupRestore)", "/post/zertifizierungsstelle-verschieben-(backuprestore)"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

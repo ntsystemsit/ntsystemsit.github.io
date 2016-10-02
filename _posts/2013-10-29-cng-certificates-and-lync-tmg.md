@@ -4,10 +4,9 @@ title: "CNG Certificates and Lync/ TMG"
 date: 2013-10-29 20:30:51 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["en", "Lync"]
-alias: ["/post/CNG-Certificates-and-Lync-TMG.aspx", "/post/cng-certificates-and-lync-tmg.aspx"]
+redirect_from: ["/post/CNG-Certificates-and-Lync-TMG", "/post/cng-certificates-and-lync-tmg"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

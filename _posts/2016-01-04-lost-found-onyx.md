@@ -4,10 +4,9 @@ title: "lost & found: Onyx"
 date: 2016-01-04 22:40:27 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: []
-alias: ["/post/lost-found-Onyx.aspx", "/post/lost-found-onyx.aspx"]
+redirect_from: ["/post/lost-found-Onyx", "/post/lost-found-onyx"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

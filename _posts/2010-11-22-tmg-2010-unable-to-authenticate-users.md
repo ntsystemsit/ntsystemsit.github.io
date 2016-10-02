@@ -4,10 +4,9 @@ title: "TMG 2010 unable to authenticate users after reboot"
 date: 2010-11-22 22:01:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["de", "Server", "Security"]
-alias: ["/post/TMG-2010-unable-to-authenticate-users.aspx", "/post/tmg-2010-unable-to-authenticate-users.aspx"]
+redirect_from: ["/post/TMG-2010-unable-to-authenticate-users", "/post/tmg-2010-unable-to-authenticate-users"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

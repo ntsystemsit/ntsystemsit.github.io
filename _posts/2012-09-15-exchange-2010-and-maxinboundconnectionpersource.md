@@ -4,10 +4,9 @@ title: "Exchange 2010 and MaxInboundConnectionPerSource"
 date: 2012-09-15 09:08:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Exchange", "Server"]
-alias: ["/post/Exchange-2010-and-MaxInboundConnectionPerSource.aspx", "/post/exchange-2010-and-maxinboundconnectionpersource.aspx"]
+redirect_from: ["/post/Exchange-2010-and-MaxInboundConnectionPerSource", "/post/exchange-2010-and-maxinboundconnectionpersource"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -4,10 +4,9 @@ title: "Lync 2013 backend on SQL Cluster with mixed authentication mode"
 date: 2014-08-15 17:37:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Lync", "en"]
-alias: ["/post/Lync-2013-backend-on-SQL-Cluster-with-mixed-authentication-mode.aspx", "/post/lync-2013-backend-on-sql-cluster-with-mixed-authentication-mode.aspx"]
+redirect_from: ["/post/Lync-2013-backend-on-SQL-Cluster-with-mixed-authentication-mode", "/post/lync-2013-backend-on-sql-cluster-with-mixed-authentication-mode"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

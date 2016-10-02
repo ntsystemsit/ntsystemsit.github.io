@@ -4,10 +4,9 @@ title: "Steve Ballmer on Exciting Times–Office 2013"
 date: 2012-07-16 22:59:45 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Client", "Server"]
-alias: ["/post/Steve-Ballmer-on-Exciting-Times-Office-2013.aspx", "/post/steve-ballmer-on-exciting-times-office-2013.aspx"]
+redirect_from: ["/post/Steve-Ballmer-on-Exciting-Times-Office-2013", "/post/steve-ballmer-on-exciting-times-office-2013"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

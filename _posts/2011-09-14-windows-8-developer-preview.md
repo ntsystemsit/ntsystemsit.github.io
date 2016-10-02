@@ -4,10 +4,9 @@ title: "Windows 8–Developer Preview"
 date: 2011-09-14 22:10:09 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Client"]
-alias: ["/post/Windows-8-Developer-Preview.aspx", "/post/windows-8-developer-preview.aspx"]
+redirect_from: ["/post/Windows-8-Developer-Preview", "/post/windows-8-developer-preview"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

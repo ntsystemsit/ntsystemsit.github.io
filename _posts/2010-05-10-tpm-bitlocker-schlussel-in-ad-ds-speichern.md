@@ -4,10 +4,9 @@ title: "TPM / BitLocker Schlüssel in AD DS speichern"
 date: 2010-05-10 22:24:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Client", "de", "Server", "Server 2008", "Server 2008 R2"]
-alias: ["/post/TPM-BitLocker-Schlussel-in-AD-DS-speichern.aspx", "/post/tpm-bitlocker-schlussel-in-ad-ds-speichern.aspx"]
+redirect_from: ["/post/TPM-BitLocker-Schlussel-in-AD-DS-speichern", "/post/tpm-bitlocker-schlussel-in-ad-ds-speichern"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

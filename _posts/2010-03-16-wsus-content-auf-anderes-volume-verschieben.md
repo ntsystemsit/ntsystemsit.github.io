@@ -4,10 +4,9 @@ title: "WSUS content / database auf anderes Volume verschieben"
 date: 2010-03-16 21:16:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server"]
-alias: ["/post/WSUS-content-auf-anderes-Volume-verschieben.aspx", "/post/wsus-content-auf-anderes-volume-verschieben.aspx"]
+redirect_from: ["/post/WSUS-content-auf-anderes-Volume-verschieben", "/post/wsus-content-auf-anderes-volume-verschieben"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

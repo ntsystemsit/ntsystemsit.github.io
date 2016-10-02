@@ -4,10 +4,9 @@ title: "PowerShell Scripts"
 date: 2010-12-07 11:18:51 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: []
-alias: ["/page/PowerShell-Scripts.aspx", "/page/powershell-scripts.aspx"]
+redirect_from: ["/page/PowerShell-Scripts", "/page/powershell-scripts"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

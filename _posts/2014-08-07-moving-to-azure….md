@@ -4,10 +4,9 @@ title: "Moving to Azure…"
 date: 2014-08-07 16:11:19 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: []
-alias: ["/post/Moving-to-Azure….aspx", "/post/moving-to-azure….aspx"]
+redirect_from: ["/post/Moving-to-Azure…", "/post/moving-to-azure…"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

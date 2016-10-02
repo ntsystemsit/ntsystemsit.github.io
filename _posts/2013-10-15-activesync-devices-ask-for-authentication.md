@@ -4,10 +4,9 @@ title: "ActiveSync devices ask for authentication"
 date: 2013-10-15 18:29:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["en", "Exchange"]
-alias: ["/post/ActiveSync-devices-ask-for-authentication.aspx", "/post/activesync-devices-ask-for-authentication.aspx"]
+redirect_from: ["/post/ActiveSync-devices-ask-for-authentication", "/post/activesync-devices-ask-for-authentication"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

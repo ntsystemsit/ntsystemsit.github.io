@@ -4,10 +4,9 @@ title: "AppV 4.6–SCCM 2007R2 Streaming Applications"
 date: 2010-08-12 18:48:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["AppV", "Server"]
-alias: ["/post/AppV-46e28093SCCM-2007R2-Streaming-Applications.aspx", "/post/appv-46e28093sccm-2007r2-streaming-applications.aspx"]
+redirect_from: ["/post/AppV-46e28093SCCM-2007R2-Streaming-Applications", "/post/appv-46e28093sccm-2007r2-streaming-applications"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -4,10 +4,9 @@ title: "Subdomain Certificate Enrollment"
 date: 2011-06-12 15:06:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["de", "Client", "Server"]
-alias: ["/post/Subdomain-Certificate-Enrollment.aspx", "/post/subdomain-certificate-enrollment.aspx"]
+redirect_from: ["/post/Subdomain-Certificate-Enrollment", "/post/subdomain-certificate-enrollment"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -4,10 +4,9 @@ title: "lost & found: Windows Tech Preview, Delve, Sway and Keybase.io"
 date: 2014-10-06 17:30:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Client", "Server"]
-alias: ["/post/lost-found-Windows-Tech-Preview-Delve-Sway-and-Keybaseio.aspx", "/post/lost-found-windows-tech-preview-delve-sway-and-keybaseio.aspx"]
+redirect_from: ["/post/lost-found-Windows-Tech-Preview-Delve-Sway-and-Keybaseio", "/post/lost-found-windows-tech-preview-delve-sway-and-keybaseio"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

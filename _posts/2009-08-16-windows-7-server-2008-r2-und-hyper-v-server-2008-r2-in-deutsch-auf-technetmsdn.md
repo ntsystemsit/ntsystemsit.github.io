@@ -4,10 +4,9 @@ title: "Windows 7, Server 2008 R2 und Hyper-V Server 2008 R2 in Deutsch auf Tech
 date: 2009-08-16 20:17:25 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Client", "Server", "Server 2008 R2", "Hyper-V"]
-alias: ["/post/Windows-7-Server-2008-R2-und-Hyper-V-Server-2008-R2-in-Deutsch-auf-TechNetMSDN.aspx", "/post/windows-7-server-2008-r2-und-hyper-v-server-2008-r2-in-deutsch-auf-technetmsdn.aspx"]
+redirect_from: ["/post/Windows-7-Server-2008-R2-und-Hyper-V-Server-2008-R2-in-Deutsch-auf-TechNetMSDN", "/post/windows-7-server-2008-r2-und-hyper-v-server-2008-r2-in-deutsch-auf-technetmsdn"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

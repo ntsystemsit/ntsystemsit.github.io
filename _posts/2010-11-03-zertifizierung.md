@@ -4,10 +4,9 @@ title: "Zertifizierung"
 date: 2010-11-03 18:56:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: []
-alias: ["/post/Zertifizierung.aspx", "/post/zertifizierung.aspx"]
+redirect_from: ["/post/Zertifizierung", "/post/zertifizierung"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

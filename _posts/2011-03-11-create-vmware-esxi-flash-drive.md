@@ -4,10 +4,9 @@ title: "Create VMWare ESXi Flash Drive"
 date: 2011-03-11 20:13:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server", "VMware"]
-alias: ["/post/Create-VMWare-ESXi-Flash-Drive.aspx", "/post/create-vmware-esxi-flash-drive.aspx"]
+redirect_from: ["/post/Create-VMWare-ESXi-Flash-Drive", "/post/create-vmware-esxi-flash-drive"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

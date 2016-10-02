@@ -4,10 +4,9 @@ title: "Exchange 2010 – This Attachment was removed"
 date: 2010-01-30 16:19:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Exchange"]
-alias: ["/post/Exchange-2010-e28093-This-Attachment-was-removed.aspx", "/post/exchange-2010-e28093-this-attachment-was-removed.aspx"]
+redirect_from: ["/post/Exchange-2010-e28093-This-Attachment-was-removed", "/post/exchange-2010-e28093-this-attachment-was-removed"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

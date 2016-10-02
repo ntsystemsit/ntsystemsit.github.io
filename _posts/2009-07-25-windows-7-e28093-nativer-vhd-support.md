@@ -4,10 +4,9 @@ title: "Windows 7 – Nativer VHD Support"
 date: 2009-07-25 23:30:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Client"]
-alias: ["/post/Windows-7-e28093-Nativer-VHD-Support.aspx", "/post/windows-7-e28093-nativer-vhd-support.aspx"]
+redirect_from: ["/post/Windows-7-e28093-Nativer-VHD-Support", "/post/windows-7-e28093-nativer-vhd-support"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

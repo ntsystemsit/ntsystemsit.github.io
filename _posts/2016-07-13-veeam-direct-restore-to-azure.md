@@ -4,10 +4,9 @@ title: "Veeam direct restore to Azure"
 date: 2016-07-13 18:40:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Azure", "Veeam"]
-alias: ["/post/Veeam-direct-restore-to-Azure.aspx", "/post/veeam-direct-restore-to-azure.aspx"]
+redirect_from: ["/post/Veeam-direct-restore-to-Azure", "/post/veeam-direct-restore-to-azure"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

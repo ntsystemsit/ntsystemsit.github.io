@@ -4,10 +4,9 @@ title: "Forefront TMG 2010 SP2–NLB Kerberos"
 date: 2012-03-10 16:44:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["de", "Server", "Security"]
-alias: ["/post/Forefront-TMG-2010-SP2-NLB-Kerberos.aspx", "/post/forefront-tmg-2010-sp2-nlb-kerberos.aspx"]
+redirect_from: ["/post/Forefront-TMG-2010-SP2-NLB-Kerberos", "/post/forefront-tmg-2010-sp2-nlb-kerberos"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

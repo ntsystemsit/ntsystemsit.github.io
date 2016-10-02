@@ -4,10 +4,9 @@ title: "Exchange 2010–Restore Mailbox Content"
 date: 2011-11-20 19:37:28 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Exchange"]
-alias: ["/post/Exchange-2010-Recovery.aspx", "/post/exchange-2010-recovery.aspx"]
+redirect_from: ["/post/Exchange-2010-Recovery", "/post/exchange-2010-recovery"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

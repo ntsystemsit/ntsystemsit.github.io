@@ -4,10 +4,9 @@ title: "Exchange Unified Messaging Sprachauswahl"
 date: 2013-08-31 21:37:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["de", "Lync", "Exchange"]
-alias: ["/post/Exchange-Unified-Messaging-Sprachauswahl.aspx", "/post/exchange-unified-messaging-sprachauswahl.aspx"]
+redirect_from: ["/post/Exchange-Unified-Messaging-Sprachauswahl", "/post/exchange-unified-messaging-sprachauswahl"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -4,10 +4,9 @@ title: "Azure Backup: Restore"
 date: 2015-12-03 19:48:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Cloud", "de"]
-alias: ["/post/Azure-Backup-Restore.aspx", "/post/azure-backup-restore.aspx"]
+redirect_from: ["/post/Azure-Backup-Restore", "/post/azure-backup-restore"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

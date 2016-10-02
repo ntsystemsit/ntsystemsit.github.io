@@ -4,10 +4,9 @@ title: "Server Logs in SQL Datenbank importieren"
 date: 2009-07-29 19:39:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Security", "SQL"]
-alias: ["/post/Server-Logs-in-SQL-Datenbank-importieren.aspx", "/post/server-logs-in-sql-datenbank-importieren.aspx"]
+redirect_from: ["/post/Server-Logs-in-SQL-Datenbank-importieren", "/post/server-logs-in-sql-datenbank-importieren"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

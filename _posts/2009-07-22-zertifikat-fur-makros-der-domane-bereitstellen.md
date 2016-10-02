@@ -4,10 +4,9 @@ title: "Zertifikat für Makros der Domäne bereitstellen"
 date: 2009-07-22 08:03:19 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: []
-alias: ["/post/Zertifikat-fur-Makros-der-Domane-bereitstellen.aspx", "/post/zertifikat-fur-makros-der-domane-bereitstellen.aspx"]
+redirect_from: ["/post/Zertifikat-fur-Makros-der-Domane-bereitstellen", "/post/zertifikat-fur-makros-der-domane-bereitstellen"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

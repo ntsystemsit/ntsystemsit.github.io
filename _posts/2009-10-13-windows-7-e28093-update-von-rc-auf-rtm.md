@@ -4,10 +4,9 @@ title: "Windows 7 – Update von RC (7100) auf RTM (7600)"
 date: 2009-10-13 19:32:14 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Client"]
-alias: ["/post/Windows-7-e28093-Update-von-RC-auf-RTM.aspx", "/post/windows-7-e28093-update-von-rc-auf-rtm.aspx"]
+redirect_from: ["/post/Windows-7-e28093-Update-von-RC-auf-RTM", "/post/windows-7-e28093-update-von-rc-auf-rtm"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -4,10 +4,9 @@ title: "Lync 2013 (Client) and LyncDiscoverInternal"
 date: 2013-02-09 09:04:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Lync", "Client"]
-alias: ["/post/Lync-2013-(Client)-and-LyncDiscoverInternal.aspx", "/post/lync-2013-(client)-and-lyncdiscoverinternal.aspx"]
+redirect_from: ["/post/Lync-2013-(Client)-and-LyncDiscoverInternal", "/post/lync-2013-(client)-and-lyncdiscoverinternal"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

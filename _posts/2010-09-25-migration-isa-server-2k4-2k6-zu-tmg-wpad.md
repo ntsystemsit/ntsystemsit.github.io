@@ -4,10 +4,9 @@ title: "Migration ISA Server 2k4, 2k6 zu TMG, WPAD"
 date: 2010-09-25 14:04:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Client", "de", "Server", "Security"]
-alias: ["/post/Migration-ISA-Server-2k4-2k6-zu-TMG-WPAD.aspx", "/post/migration-isa-server-2k4-2k6-zu-tmg-wpad.aspx"]
+redirect_from: ["/post/Migration-ISA-Server-2k4-2k6-zu-TMG-WPAD", "/post/migration-isa-server-2k4-2k6-zu-tmg-wpad"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

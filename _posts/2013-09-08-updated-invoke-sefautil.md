@@ -4,10 +4,9 @@ title: "Updated: Invoke-SEFAUtil"
 date: 2013-09-08 21:52:08 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["en", "PowerShell", "Lync"]
-alias: ["/post/Updated-Invoke-SEFAUtil.aspx", "/post/updated-invoke-sefautil.aspx"]
+redirect_from: ["/post/Updated-Invoke-SEFAUtil", "/post/updated-invoke-sefautil"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

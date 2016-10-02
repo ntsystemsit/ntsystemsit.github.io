@@ -4,10 +4,9 @@ title: "WDS TFTP TimeOut"
 date: 2010-02-12 16:31:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server", "Server 2008 R2", "Server 2008", "Server 2003"]
-alias: ["/post/WDS-TFTP-TimeOut.aspx", "/post/wds-tftp-timeout.aspx"]
+redirect_from: ["/post/WDS-TFTP-TimeOut", "/post/wds-tftp-timeout"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

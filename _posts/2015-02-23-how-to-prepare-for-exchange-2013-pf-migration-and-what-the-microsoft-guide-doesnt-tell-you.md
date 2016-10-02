@@ -4,10 +4,9 @@ title: "How to prepare for Exchange 2013 PF migration and what the Microsoft Gui
 date: 2015-02-23 17:19:18 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Exchange"]
-alias: ["/post/How-to-prepare-for-Exchange-2013-PF-migration-and-what-the-Microsoft-Guide-doesnt-tell-you.aspx", "/post/how-to-prepare-for-exchange-2013-pf-migration-and-what-the-microsoft-guide-doesnt-tell-you.aspx"]
+redirect_from: ["/post/How-to-prepare-for-Exchange-2013-PF-migration-and-what-the-Microsoft-Guide-doesnt-tell-you", "/post/how-to-prepare-for-exchange-2013-pf-migration-and-what-the-microsoft-guide-doesnt-tell-you"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

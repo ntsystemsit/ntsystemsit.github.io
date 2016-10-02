@@ -4,10 +4,9 @@ title: "Windows Server / Hyper-V Server 2008; storflt kann nicht geladen werden"
 date: 2009-09-07 21:00:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server"]
-alias: ["/post/Windows-Server-Hyper-V-Server-20083b-storflt-kann-nicht-geladen-werden.aspx", "/post/windows-server-hyper-v-server-20083b-storflt-kann-nicht-geladen-werden.aspx"]
+redirect_from: ["/post/Windows-Server-Hyper-V-Server-20083b-storflt-kann-nicht-geladen-werden", "/post/windows-server-hyper-v-server-20083b-storflt-kann-nicht-geladen-werden"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -4,10 +4,9 @@ title: "Windows Server 8 CP–DHCP Server Failover"
 date: 2012-03-09 22:56:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server", "Server 2012"]
-alias: ["/post/Windows-Server-8-CP-DHCP-Server-Failover.aspx", "/post/windows-server-8-cp-dhcp-server-failover.aspx"]
+redirect_from: ["/post/Windows-Server-8-CP-DHCP-Server-Failover", "/post/windows-server-8-cp-dhcp-server-failover"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

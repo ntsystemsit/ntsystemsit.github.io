@@ -4,10 +4,9 @@ title: "Invoke-SEFAUtil – a PowerShell wrapper function"
 date: 2013-08-07 22:18:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["en", "Lync", "PowerShell"]
-alias: ["/post/Invoke-SEFAUtil-a-PowerShell-wrapper-function.aspx", "/post/invoke-sefautil-a-powershell-wrapper-function.aspx"]
+redirect_from: ["/post/Invoke-SEFAUtil-a-PowerShell-wrapper-function", "/post/invoke-sefautil-a-powershell-wrapper-function"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

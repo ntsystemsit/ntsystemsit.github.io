@@ -4,10 +4,9 @@ title: "Microsoft TechDay Dezember 2009"
 date: 2009-10-21 22:35:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Events"]
-alias: ["/post/Microsoft-TechDay-Dezember-2009.aspx", "/post/microsoft-techday-dezember-2009.aspx"]
+redirect_from: ["/post/Microsoft-TechDay-Dezember-2009", "/post/microsoft-techday-dezember-2009"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

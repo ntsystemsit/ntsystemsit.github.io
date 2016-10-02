@@ -4,10 +4,9 @@ title: "Citrix IMA Dienst startet nicht mehr"
 date: 2011-07-18 21:40:16 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Citrix"]
-alias: ["/post/Citrix-IMA-Dienst-startet-nicht-mehr.aspx", "/post/citrix-ima-dienst-startet-nicht-mehr.aspx"]
+redirect_from: ["/post/Citrix-IMA-Dienst-startet-nicht-mehr", "/post/citrix-ima-dienst-startet-nicht-mehr"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

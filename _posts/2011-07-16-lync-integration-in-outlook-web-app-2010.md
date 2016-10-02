@@ -4,10 +4,9 @@ title: "Lync Integration in Outlook Web App 2010"
 date: 2011-07-16 16:54:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server"]
-alias: ["/post/Lync-Integration-in-Outlook-Web-App-2010.aspx", "/post/lync-integration-in-outlook-web-app-2010.aspx"]
+redirect_from: ["/post/Lync-Integration-in-Outlook-Web-App-2010", "/post/lync-integration-in-outlook-web-app-2010"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

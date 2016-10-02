@@ -4,10 +4,9 @@ title: "ntSystems - Update"
 date: 2010-05-15 00:34:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: []
-alias: ["/post/ntSystems-Update.aspx", "/post/ntsystems-update.aspx"]
+redirect_from: ["/post/ntSystems-Update", "/post/ntsystems-update"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

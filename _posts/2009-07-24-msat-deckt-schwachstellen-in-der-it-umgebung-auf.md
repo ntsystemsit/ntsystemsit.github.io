@@ -4,10 +4,9 @@ title: "MSAT deckt Schwachstellen in der IT Umgebung auf"
 date: 2009-07-24 13:41:47 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: []
-alias: ["/post/MSAT-deckt-Schwachstellen-in-der-IT-Umgebung-auf.aspx", "/post/msat-deckt-schwachstellen-in-der-it-umgebung-auf.aspx"]
+redirect_from: ["/post/MSAT-deckt-Schwachstellen-in-der-IT-Umgebung-auf", "/post/msat-deckt-schwachstellen-in-der-it-umgebung-auf"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

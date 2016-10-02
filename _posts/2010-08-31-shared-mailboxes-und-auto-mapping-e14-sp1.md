@@ -4,10 +4,9 @@ title: "Shared Mailboxes und Auto Mapping E14 Sp1"
 date: 2010-08-31 20:05:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Exchange"]
-alias: ["/post/Shared-Mailboxes-und-Auto-Mapping-E14-Sp1.aspx", "/post/shared-mailboxes-und-auto-mapping-e14-sp1.aspx"]
+redirect_from: ["/post/Shared-Mailboxes-und-Auto-Mapping-E14-Sp1", "/post/shared-mailboxes-und-auto-mapping-e14-sp1"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

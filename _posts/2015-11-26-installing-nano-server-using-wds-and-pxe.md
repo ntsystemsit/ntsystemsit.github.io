@@ -4,10 +4,9 @@ title: "Installing Nano Server using WDS and PxE "
 date: 2015-11-26 14:51:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["en", "Server"]
-alias: ["/post/Installing-Nano-Server-using-WDS-and-PxE.aspx", "/post/installing-nano-server-using-wds-and-pxe.aspx"]
+redirect_from: ["/post/Installing-Nano-Server-using-WDS-and-PxE", "/post/installing-nano-server-using-wds-and-pxe"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

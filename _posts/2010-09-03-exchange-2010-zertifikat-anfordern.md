@@ -4,10 +4,9 @@ title: "Exchange 2010 Zertifikat anfordern"
 date: 2010-09-03 13:55:54 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Exchange"]
-alias: ["/post/Exchange-2010-Zertifikat-anfordern.aspx", "/post/exchange-2010-zertifikat-anfordern.aspx"]
+redirect_from: ["/post/Exchange-2010-Zertifikat-anfordern", "/post/exchange-2010-zertifikat-anfordern"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

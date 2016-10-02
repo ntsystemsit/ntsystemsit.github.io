@@ -4,10 +4,9 @@ title: "SharePoint–Dienstkonto wechseln, Probleme mit Kerberos"
 date: 2011-03-06 20:23:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Sharepoint"]
-alias: ["/post/SharePoint-Dienstkonto-wechseln.aspx", "/post/sharepoint-dienstkonto-wechseln.aspx"]
+redirect_from: ["/post/SharePoint-Dienstkonto-wechseln", "/post/sharepoint-dienstkonto-wechseln"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

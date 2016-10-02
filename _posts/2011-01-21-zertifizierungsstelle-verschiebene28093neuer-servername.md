@@ -4,10 +4,9 @@ title: "Zertifizierungsstelle verschieben–neuer Servername"
 date: 2011-01-21 23:51:21 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server"]
-alias: ["/post/Zertifizierungsstelle-verschiebene28093neuer-Servername.aspx", "/post/zertifizierungsstelle-verschiebene28093neuer-servername.aspx"]
+redirect_from: ["/post/Zertifizierungsstelle-verschiebene28093neuer-Servername", "/post/zertifizierungsstelle-verschiebene28093neuer-servername"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

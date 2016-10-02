@@ -4,10 +4,9 @@ title: "Exchange 2010 Pfad einer Mailboxdatenbank ändern"
 date: 2010-09-18 14:11:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Exchange", "Server"]
-alias: ["/post/Exchange-2010-Pfad-einer-Mailboxdatenbank-andern.aspx", "/post/exchange-2010-pfad-einer-mailboxdatenbank-andern.aspx"]
+redirect_from: ["/post/Exchange-2010-Pfad-einer-Mailboxdatenbank-andern", "/post/exchange-2010-pfad-einer-mailboxdatenbank-andern"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

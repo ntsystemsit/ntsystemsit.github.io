@@ -4,10 +4,9 @@ title: "SCVMM–HyperV Script to reboots VM’s with powershell"
 date: 2014-08-19 18:07:58 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: []
-alias: ["/post/SCVMM-HyperV-Script-to-reboots-VMs-with-powershell.aspx", "/post/scvmm-hyperv-script-to-reboots-vms-with-powershell.aspx"]
+redirect_from: ["/post/SCVMM-HyperV-Script-to-reboots-VMs-with-powershell", "/post/scvmm-hyperv-script-to-reboots-vms-with-powershell"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

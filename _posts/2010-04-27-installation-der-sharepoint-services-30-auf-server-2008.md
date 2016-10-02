@@ -4,10 +4,9 @@ title: "Installation der Sharepoint Services 3.0 auf Server 2008"
 date: 2010-04-27 21:47:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server", "Server 2008", "Server 2008 R2", "Sharepoint"]
-alias: ["/post/Installation-der-Sharepoint-Services-30-auf-Server-2008.aspx", "/post/installation-der-sharepoint-services-30-auf-server-2008.aspx"]
+redirect_from: ["/post/Installation-der-Sharepoint-Services-30-auf-Server-2008", "/post/installation-der-sharepoint-services-30-auf-server-2008"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -4,10 +4,9 @@ title: "Domain Controller umbenennen"
 date: 2009-12-24 17:25:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server 2008 R2", "Server 2008", "Server"]
-alias: ["/post/Domain-Controller-umbenennen.aspx", "/post/domain-controller-umbenennen.aspx"]
+redirect_from: ["/post/Domain-Controller-umbenennen", "/post/domain-controller-umbenennen"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

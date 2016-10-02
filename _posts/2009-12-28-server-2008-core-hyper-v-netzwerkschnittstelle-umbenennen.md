@@ -4,10 +4,9 @@ title: "Server 2008 Core / Hyper-V Netzwerkschnittstelle umbenennen"
 date: 2009-12-28 09:17:29 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server", "Hyper-V"]
-alias: ["/post/Server-2008-Core-Hyper-V-Netzwerkschnittstelle-umbenennen.aspx", "/post/server-2008-core-hyper-v-netzwerkschnittstelle-umbenennen.aspx"]
+redirect_from: ["/post/Server-2008-Core-Hyper-V-Netzwerkschnittstelle-umbenennen", "/post/server-2008-core-hyper-v-netzwerkschnittstelle-umbenennen"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

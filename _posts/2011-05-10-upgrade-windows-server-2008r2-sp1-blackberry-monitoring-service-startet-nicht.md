@@ -4,10 +4,9 @@ title: "Upgrade Windows Server 2008R2 Sp1 - BlackBerry Monitoring Service starte
 date: 2011-05-10 22:45:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server"]
-alias: ["/post/Upgrade-Windows-Server-2008R2-Sp1-BlackBerry-Monitoring-Service-startet-nicht.aspx", "/post/upgrade-windows-server-2008r2-sp1-blackberry-monitoring-service-startet-nicht.aspx"]
+redirect_from: ["/post/Upgrade-Windows-Server-2008R2-Sp1-BlackBerry-Monitoring-Service-startet-nicht", "/post/upgrade-windows-server-2008r2-sp1-blackberry-monitoring-service-startet-nicht"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -4,10 +4,9 @@ title: "Netlogon Fehler 5719 auf Server (nicht DC)"
 date: 2009-10-21 18:54:22 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server"]
-alias: ["/post/Netlogon-Fehler-5719-auf-Server-(nicht-DC).aspx", "/post/netlogon-fehler-5719-auf-server-(nicht-dc).aspx"]
+redirect_from: ["/post/Netlogon-Fehler-5719-auf-Server-(nicht-DC)", "/post/netlogon-fehler-5719-auf-server-(nicht-dc)"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -4,10 +4,9 @@ title: "PowerShell v3 Invoke-WebRequest"
 date: 2012-12-04 17:14:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["PowerShell"]
-alias: ["/post/PowerShell-v3-Invoke-WebRequest.aspx", "/post/powershell-v3-invoke-webrequest.aspx"]
+redirect_from: ["/post/PowerShell-v3-Invoke-WebRequest", "/post/powershell-v3-invoke-webrequest"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

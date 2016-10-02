@@ -4,10 +4,9 @@ title: "Joining WiFi before login on Mac OS X 10.8"
 date: 2013-04-19 23:03:47 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Network"]
-alias: ["/post/Joining-WiFi-before-login-on-Mac-OS-X-108.aspx", "/post/joining-wifi-before-login-on-mac-os-x-108.aspx"]
+redirect_from: ["/post/Joining-WiFi-before-login-on-Mac-OS-X-108", "/post/joining-wifi-before-login-on-mac-os-x-108"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

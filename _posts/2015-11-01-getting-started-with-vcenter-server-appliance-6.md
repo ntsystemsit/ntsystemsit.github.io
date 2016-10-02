@@ -4,10 +4,9 @@ title: "Getting started with vCenter Server Appliance 6"
 date: 2015-11-01 20:30:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["en", "Server", "VMware"]
-alias: ["/post/getting-started-with-vcenter-server-appliance-6.aspx"]
+redirect_from: ["/post/getting-started-with-vcenter-server-appliance-6"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

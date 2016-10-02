@@ -4,10 +4,9 @@ title: "Delta CRL “Unable to Download” IIS 7"
 date: 2009-07-21 14:40:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: []
-alias: ["/post/Delta-CRL-e2809cUnable-to-Downloade2809d-IIS-7.aspx", "/post/delta-crl-e2809cunable-to-downloade2809d-iis-7.aspx"]
+redirect_from: ["/post/Delta-CRL-e2809cUnable-to-Downloade2809d-IIS-7", "/post/delta-crl-e2809cunable-to-downloade2809d-iis-7"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

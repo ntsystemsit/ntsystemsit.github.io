@@ -4,10 +4,9 @@ title: "DistributedCOM Fehler 10016, fehlende Berechtigungen"
 date: 2010-06-11 16:41:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server", "Server 2008", "Server 2008 R2"]
-alias: ["/post/DistributedCOM-Fehler-10016-fehlende-Berechtigungen.aspx", "/post/distributedcom-fehler-10016-fehlende-berechtigungen.aspx"]
+redirect_from: ["/post/DistributedCOM-Fehler-10016-fehlende-Berechtigungen", "/post/distributedcom-fehler-10016-fehlende-berechtigungen"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

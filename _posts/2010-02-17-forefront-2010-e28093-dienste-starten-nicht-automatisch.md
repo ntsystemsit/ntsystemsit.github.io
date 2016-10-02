@@ -4,10 +4,9 @@ title: "Forefront 2010 – Dienste starten nicht automatisch"
 date: 2010-02-17 20:21:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["de", "Server", "Security"]
-alias: ["/post/Forefront-2010-e28093-Dienste-starten-nicht-automatisch.aspx", "/post/forefront-2010-e28093-dienste-starten-nicht-automatisch.aspx"]
+redirect_from: ["/post/Forefront-2010-e28093-Dienste-starten-nicht-automatisch", "/post/forefront-2010-e28093-dienste-starten-nicht-automatisch"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

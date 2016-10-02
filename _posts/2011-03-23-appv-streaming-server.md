@@ -4,10 +4,9 @@ title: "AppV Streaming Server"
 date: 2011-03-23 21:03:13 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["AppV", "Client", "Server"]
-alias: ["/post/AppV-Streaming-Server.aspx", "/post/appv-streaming-server.aspx"]
+redirect_from: ["/post/AppV-Streaming-Server", "/post/appv-streaming-server"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

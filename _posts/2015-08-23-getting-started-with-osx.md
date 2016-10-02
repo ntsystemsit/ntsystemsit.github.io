@@ -4,10 +4,9 @@ title: "Getting started with OSX"
 date: 2015-08-23 16:15:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Client", "en"]
-alias: ["/post/getting-started-with-osx.aspx"]
+redirect_from: ["/post/getting-started-with-osx"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

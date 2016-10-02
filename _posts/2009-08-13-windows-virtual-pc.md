@@ -4,10 +4,9 @@ title: "Windows Virtual PC"
 date: 2009-08-13 17:08:27 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Client"]
-alias: ["/post/Windows-Virtual-PC.aspx", "/post/windows-virtual-pc.aspx"]
+redirect_from: ["/post/Windows-Virtual-PC", "/post/windows-virtual-pc"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

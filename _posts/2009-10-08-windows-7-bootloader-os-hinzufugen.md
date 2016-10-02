@@ -4,10 +4,9 @@ title: "Windows 7 Bootloader, OS hinzufügen"
 date: 2009-10-08 21:27:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Client"]
-alias: ["/post/Windows-7-Bootloader-OS-hinzufugen.aspx", "/post/windows-7-bootloader-os-hinzufugen.aspx"]
+redirect_from: ["/post/Windows-7-Bootloader-OS-hinzufugen", "/post/windows-7-bootloader-os-hinzufugen"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

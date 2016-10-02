@@ -4,10 +4,9 @@ title: "GAL Photos reloaded–batch import"
 date: 2012-08-12 16:02:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Exchange", "Server"]
-alias: ["/post/GAL-Photos-reloaded-batch-import.aspx", "/post/gal-photos-reloaded-batch-import.aspx"]
+redirect_from: ["/post/GAL-Photos-reloaded-batch-import", "/post/gal-photos-reloaded-batch-import"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

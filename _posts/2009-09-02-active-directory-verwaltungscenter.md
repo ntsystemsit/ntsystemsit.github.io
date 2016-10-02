@@ -4,10 +4,9 @@ title: "Active-Directory-Verwaltungscenter"
 date: 2009-09-02 21:26:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server"]
-alias: ["/post/Active-Directory-Verwaltungscenter.aspx", "/post/active-directory-verwaltungscenter.aspx"]
+redirect_from: ["/post/Active-Directory-Verwaltungscenter", "/post/active-directory-verwaltungscenter"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

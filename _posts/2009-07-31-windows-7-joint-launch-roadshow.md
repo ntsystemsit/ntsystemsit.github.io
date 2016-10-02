@@ -4,10 +4,9 @@ title: "Microsoft Roadshow zu neue Produkte"
 date: 2009-07-31 19:31:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Events"]
-alias: ["/post/Windows-7-Joint-Launch-Roadshow.aspx", "/post/windows-7-joint-launch-roadshow.aspx"]
+redirect_from: ["/post/Windows-7-Joint-Launch-Roadshow", "/post/windows-7-joint-launch-roadshow"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -4,10 +4,9 @@ title: "Sharepoint Foundation 2010 Dateien lassen sich nicht öffnen"
 date: 2010-06-14 18:29:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Sharepoint"]
-alias: ["/post/Sharepoint-Foundation-2010-Dateien-lassen-sich-nicht-offnen.aspx", "/post/sharepoint-foundation-2010-dateien-lassen-sich-nicht-offnen.aspx"]
+redirect_from: ["/post/Sharepoint-Foundation-2010-Dateien-lassen-sich-nicht-offnen", "/post/sharepoint-foundation-2010-dateien-lassen-sich-nicht-offnen"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

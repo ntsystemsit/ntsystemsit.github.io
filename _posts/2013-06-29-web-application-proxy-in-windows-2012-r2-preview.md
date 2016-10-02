@@ -4,10 +4,9 @@ title: "Web Application Proxy in Windows 2012 R2 preview"
 date: 2013-06-29 01:49:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["en", "Server"]
-alias: ["/post/Web-Application-Proxy-in-Windows-2012-R2-preview.aspx", "/post/web-application-proxy-in-windows-2012-r2-preview.aspx"]
+redirect_from: ["/post/Web-Application-Proxy-in-Windows-2012-R2-preview", "/post/web-application-proxy-in-windows-2012-r2-preview"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

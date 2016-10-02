@@ -4,10 +4,9 @@ title: "Apple IPad"
 date: 2010-06-30 21:30:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: []
-alias: ["/post/Apple-IPad.aspx", "/post/apple-ipad.aspx"]
+redirect_from: ["/post/Apple-IPad", "/post/apple-ipad"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

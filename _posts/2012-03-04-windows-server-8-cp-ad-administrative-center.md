@@ -4,10 +4,9 @@ title: "Windows Server 8 CP–AD Administrative Center"
 date: 2012-03-04 19:41:57 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server 2012", "Server"]
-alias: ["/post/Windows-Server-8-CP-AD-Administrative-Center.aspx", "/post/windows-server-8-cp-ad-administrative-center.aspx"]
+redirect_from: ["/post/Windows-Server-8-CP-AD-Administrative-Center", "/post/windows-server-8-cp-ad-administrative-center"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

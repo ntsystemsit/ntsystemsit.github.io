@@ -4,10 +4,9 @@ title: "Doch kein Windows 7 E"
 date: 2009-08-03 13:15:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Client"]
-alias: ["/post/Doch-kein-Windows-7-E.aspx", "/post/doch-kein-windows-7-e.aspx"]
+redirect_from: ["/post/Doch-kein-Windows-7-E", "/post/doch-kein-windows-7-e"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

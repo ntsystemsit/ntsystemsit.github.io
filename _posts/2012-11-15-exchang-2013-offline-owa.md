@@ -4,10 +4,9 @@ title: "Exchang 2013, Offline OWA"
 date: 2012-11-15 21:18:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["en", "Exchange"]
-alias: ["/post/Exchang-2013-Offline-OWA.aspx", "/post/exchang-2013-offline-owa.aspx"]
+redirect_from: ["/post/Exchang-2013-Offline-OWA", "/post/exchang-2013-offline-owa"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

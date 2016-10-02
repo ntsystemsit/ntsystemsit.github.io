@@ -4,10 +4,9 @@ title: "lost & found: Nano Server, GitHub, PSGallery, Pester"
 date: 2016-04-16 16:55:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["en", "PowerShell"]
-alias: ["/post/lost-found-Nano-Server-GitHub-PSGallery-Pester.aspx", "/post/lost-found-nano-server-github-psgallery-pester.aspx"]
+redirect_from: ["/post/lost-found-Nano-Server-GitHub-PSGallery-Pester", "/post/lost-found-nano-server-github-psgallery-pester"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

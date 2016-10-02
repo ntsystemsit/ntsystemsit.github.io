@@ -4,10 +4,9 @@ title: "Sharepoint 2010, Fehler in der SQL Datenbank beheben"
 date: 2010-08-23 20:37:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Sharepoint"]
-alias: ["/post/Sharepoint-2010-Fehler-in-der-SQL-Datenbank-beheben.aspx", "/post/sharepoint-2010-fehler-in-der-sql-datenbank-beheben.aspx"]
+redirect_from: ["/post/Sharepoint-2010-Fehler-in-der-SQL-Datenbank-beheben", "/post/sharepoint-2010-fehler-in-der-sql-datenbank-beheben"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

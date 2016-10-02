@@ -4,10 +4,9 @@ title: "Exchange 2010 SP2 Installation"
 date: 2012-02-24 22:14:58 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Exchange", "Server"]
-alias: ["/post/Exchange-2010-SP2-Installation.aspx", "/post/exchange-2010-sp2-installation.aspx"]
+redirect_from: ["/post/Exchange-2010-SP2-Installation", "/post/exchange-2010-sp2-installation"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

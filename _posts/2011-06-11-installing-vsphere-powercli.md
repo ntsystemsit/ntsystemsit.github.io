@@ -4,10 +4,9 @@ title: "Installing vSphere PowerCLI"
 date: 2011-06-11 10:56:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server", "VMware"]
-alias: ["/post/Installing-vSphere-PowerCLI.aspx", "/post/installing-vsphere-powercli.aspx"]
+redirect_from: ["/post/Installing-vSphere-PowerCLI", "/post/installing-vsphere-powercli"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

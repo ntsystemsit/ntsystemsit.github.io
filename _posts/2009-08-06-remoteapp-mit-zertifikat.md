@@ -4,10 +4,9 @@ title: "RemoteApp mit Zertifikat"
 date: 2009-08-06 21:22:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Client", "Server", "Server 2008"]
-alias: ["/post/RemoteApp-mit-Zertifikat.aspx", "/post/remoteapp-mit-zertifikat.aspx"]
+redirect_from: ["/post/RemoteApp-mit-Zertifikat", "/post/remoteapp-mit-zertifikat"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

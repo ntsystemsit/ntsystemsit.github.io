@@ -4,10 +4,9 @@ title: "PowerShell Implicit Remoting"
 date: 2012-02-25 18:47:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["PowerShell"]
-alias: ["/post/PowerShell-Implicit-Remoting.aspx", "/post/powershell-implicit-remoting.aspx"]
+redirect_from: ["/post/PowerShell-Implicit-Remoting", "/post/powershell-implicit-remoting"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

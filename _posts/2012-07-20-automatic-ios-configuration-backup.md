@@ -4,10 +4,9 @@ title: "Automatic IOS configuration backup"
 date: 2012-07-20 19:58:34 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Network"]
-alias: ["/post/Automatic-IOS-configuration-backup.aspx", "/post/automatic-ios-configuration-backup.aspx"]
+redirect_from: ["/post/Automatic-IOS-configuration-backup", "/post/automatic-ios-configuration-backup"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

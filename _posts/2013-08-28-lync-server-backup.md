@@ -4,10 +4,9 @@ title: "Lync Server Backup"
 date: 2013-08-28 21:37:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["en", "Lync"]
-alias: ["/post/Lync-Server-Backup.aspx", "/post/lync-server-backup.aspx"]
+redirect_from: ["/post/Lync-Server-Backup", "/post/lync-server-backup"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

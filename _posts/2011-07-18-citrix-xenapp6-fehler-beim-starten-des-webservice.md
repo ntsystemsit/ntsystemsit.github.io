@@ -4,10 +4,9 @@ title: "Citrix XenApp6 Fehler beim starten des Webservice"
 date: 2011-07-18 21:27:33 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Citrix"]
-alias: ["/post/Citrix-XenApp6-Fehler-beim-starten-des-Webservice.aspx", "/post/citrix-xenapp6-fehler-beim-starten-des-webservice.aspx"]
+redirect_from: ["/post/Citrix-XenApp6-Fehler-beim-starten-des-Webservice", "/post/citrix-xenapp6-fehler-beim-starten-des-webservice"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

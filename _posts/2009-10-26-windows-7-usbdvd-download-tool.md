@@ -4,10 +4,9 @@ title: "Windows 7 USB/DVD Download Tool"
 date: 2009-10-26 20:51:04 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Client"]
-alias: ["/post/Windows-7-USBDVD-Download-Tool.aspx", "/post/windows-7-usbdvd-download-tool.aspx"]
+redirect_from: ["/post/Windows-7-USBDVD-Download-Tool", "/post/windows-7-usbdvd-download-tool"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

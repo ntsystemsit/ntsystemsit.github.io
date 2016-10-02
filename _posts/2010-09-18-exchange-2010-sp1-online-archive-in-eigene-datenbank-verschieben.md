@@ -4,10 +4,9 @@ title: "Exchange 2010 SP1 Online Archive in eigene Datenbank verschieben"
 date: 2010-09-18 02:14:15 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Exchange", "Server"]
-alias: ["/post/Exchange-2010-SP1-Online-Archive-in-eigene-Datenbank-verschieben.aspx", "/post/exchange-2010-sp1-online-archive-in-eigene-datenbank-verschieben.aspx"]
+redirect_from: ["/post/Exchange-2010-SP1-Online-Archive-in-eigene-Datenbank-verschieben", "/post/exchange-2010-sp1-online-archive-in-eigene-datenbank-verschieben"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

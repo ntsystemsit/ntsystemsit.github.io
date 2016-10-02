@@ -4,10 +4,9 @@ title: "Lync SDN API and Cisco WLC"
 date: 2016-06-26 19:39:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Lync", "en"]
-alias: ["/post/Lync-SDN-API-and-Cisco-WLC.aspx", "/post/lync-sdn-api-and-cisco-wlc.aspx"]
+redirect_from: ["/post/Lync-SDN-API-and-Cisco-WLC", "/post/lync-sdn-api-and-cisco-wlc"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

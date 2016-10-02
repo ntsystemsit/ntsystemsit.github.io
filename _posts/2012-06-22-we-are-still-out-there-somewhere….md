@@ -4,10 +4,9 @@ title: "We are still out there, somewhere…"
 date: 2012-06-22 20:21:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: []
-alias: ["/post/We-are-still-out-there-somewhere….aspx", "/post/we-are-still-out-there-somewhere….aspx"]
+redirect_from: ["/post/We-are-still-out-there-somewhere…", "/post/we-are-still-out-there-somewhere…"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

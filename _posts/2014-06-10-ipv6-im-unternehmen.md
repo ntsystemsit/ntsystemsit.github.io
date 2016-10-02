@@ -4,10 +4,9 @@ title: "IPv6 im Unternehmen"
 date: 2014-06-10 21:29:43 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["de", "Network"]
-alias: ["/post/IPv6-im-Unternehmen.aspx", "/post/ipv6-im-unternehmen.aspx"]
+redirect_from: ["/post/IPv6-im-Unternehmen", "/post/ipv6-im-unternehmen"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

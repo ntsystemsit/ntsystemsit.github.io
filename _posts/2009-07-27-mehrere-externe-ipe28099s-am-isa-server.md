@@ -4,10 +4,9 @@ title: "Mehrere externe IP’s am ISA Server"
 date: 2009-07-27 13:23:45 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server", "Security"]
-alias: ["/post/Mehrere-externe-IPe28099s-am-ISA-Server.aspx", "/post/mehrere-externe-ipe28099s-am-isa-server.aspx"]
+redirect_from: ["/post/Mehrere-externe-IPe28099s-am-ISA-Server", "/post/mehrere-externe-ipe28099s-am-isa-server"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

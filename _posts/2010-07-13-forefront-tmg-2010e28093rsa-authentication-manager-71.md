@@ -4,10 +4,9 @@ title: "Forefront TMG 2010–RSA Authentication Manager 7.1"
 date: 2010-07-13 22:33:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["de", "Server", "Security"]
-alias: ["/post/Forefront-TMG-2010e28093RSA-Authentication-Manager-71.aspx", "/post/forefront-tmg-2010e28093rsa-authentication-manager-71.aspx"]
+redirect_from: ["/post/Forefront-TMG-2010e28093RSA-Authentication-Manager-71", "/post/forefront-tmg-2010e28093rsa-authentication-manager-71"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

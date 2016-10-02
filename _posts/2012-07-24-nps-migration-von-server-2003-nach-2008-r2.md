@@ -4,10 +4,9 @@ title: "NPS Migration von Server 2003 nach 2008 R2"
 date: 2012-07-24 18:55:15 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server 2008 R2"]
-alias: ["/post/NPS-Migration-von-Server-2003-nach-2008-R2.aspx", "/post/nps-migration-von-server-2003-nach-2008-r2.aspx"]
+redirect_from: ["/post/NPS-Migration-von-Server-2003-nach-2008-R2", "/post/nps-migration-von-server-2003-nach-2008-r2"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

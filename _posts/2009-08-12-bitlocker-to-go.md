@@ -4,10 +4,9 @@ title: "BitLocker To Go"
 date: 2009-08-12 21:32:03 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Client"]
-alias: ["/post/BitLocker-To-Go.aspx", "/post/bitlocker-to-go.aspx"]
+redirect_from: ["/post/BitLocker-To-Go", "/post/bitlocker-to-go"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

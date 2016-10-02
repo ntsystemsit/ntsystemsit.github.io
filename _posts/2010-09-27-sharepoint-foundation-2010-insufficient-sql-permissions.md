@@ -4,10 +4,9 @@ title: "Sharepoint Foundation 2010, insufficient SQL permissions"
 date: 2010-09-27 19:00:12 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Sharepoint", "SQL"]
-alias: ["/post/Sharepoint-Foundation-2010-insufficient-SQL-permissions.aspx", "/post/sharepoint-foundation-2010-insufficient-sql-permissions.aspx"]
+redirect_from: ["/post/Sharepoint-Foundation-2010-insufficient-SQL-permissions", "/post/sharepoint-foundation-2010-insufficient-sql-permissions"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

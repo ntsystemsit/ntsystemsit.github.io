@@ -4,10 +4,9 @@ title: "netsh trace and the Message Analyzer"
 date: 2015-02-15 17:37:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Network", "en"]
-alias: ["/post/netsh-trace-and-the-Message-Analyzer.aspx", "/post/netsh-trace-and-the-message-analyzer.aspx"]
+redirect_from: ["/post/netsh-trace-and-the-Message-Analyzer", "/post/netsh-trace-and-the-message-analyzer"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

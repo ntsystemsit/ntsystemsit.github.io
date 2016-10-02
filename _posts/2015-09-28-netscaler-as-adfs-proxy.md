@@ -4,10 +4,9 @@ title: "Netscaler as ADFS Proxy"
 date: 2015-09-28 19:30:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["ADFS", "Citrix", "en"]
-alias: ["/post/Netscaler-as-ADFS-Proxy.aspx", "/post/netscaler-as-adfs-proxy.aspx"]
+redirect_from: ["/post/Netscaler-as-ADFS-Proxy", "/post/netscaler-as-adfs-proxy"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

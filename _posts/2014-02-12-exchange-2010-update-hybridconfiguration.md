@@ -4,10 +4,9 @@ title: "Exchange 2010 Update-HybridConfiguration"
 date: 2014-02-12 07:49:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Exchange", "Office 365", "de"]
-alias: ["/post/Exchange-2010-Update-HybridConfiguration.aspx", "/post/exchange-2010-update-hybridconfiguration.aspx"]
+redirect_from: ["/post/Exchange-2010-Update-HybridConfiguration", "/post/exchange-2010-update-hybridconfiguration"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

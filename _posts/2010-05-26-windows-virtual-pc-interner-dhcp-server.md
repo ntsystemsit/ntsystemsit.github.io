@@ -4,10 +4,9 @@ title: "Windows Virtual PC / interner DHCP Server"
 date: 2010-05-26 21:39:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Client"]
-alias: ["/post/Windows-Virtual-PC-interner-DHCP-Server.aspx", "/post/windows-virtual-pc-interner-dhcp-server.aspx"]
+redirect_from: ["/post/Windows-Virtual-PC-interner-DHCP-Server", "/post/windows-virtual-pc-interner-dhcp-server"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

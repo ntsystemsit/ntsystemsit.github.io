@@ -4,10 +4,9 @@ title: "Upgrade Exchange 2k3 - 2010"
 date: 2010-07-19 22:15:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Exchange"]
-alias: ["/post/Upgrade-Exchange-2k3-2010.aspx", "/post/upgrade-exchange-2k3-2010.aspx"]
+redirect_from: ["/post/Upgrade-Exchange-2k3-2010", "/post/upgrade-exchange-2k3-2010"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

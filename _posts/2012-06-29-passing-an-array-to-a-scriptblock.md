@@ -4,10 +4,9 @@ title: "Passing an array to a {scriptblock}"
 date: 2012-06-29 07:10:00 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["PowerShell"]
-alias: ["/post/Passing-an-array-to-a-scriptblock.aspx", "/post/passing-an-array-to-a-scriptblock.aspx"]
+redirect_from: ["/post/Passing-an-array-to-a-scriptblock", "/post/passing-an-array-to-a-scriptblock"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

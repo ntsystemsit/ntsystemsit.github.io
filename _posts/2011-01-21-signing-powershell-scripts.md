@@ -4,10 +4,9 @@ title: "Signing PowerShell Scripts"
 date: 2011-01-21 23:19:35 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["PowerShell"]
-alias: ["/post/Signing-PowerShell-Scripts.aspx", "/post/signing-powershell-scripts.aspx"]
+redirect_from: ["/post/Signing-PowerShell-Scripts", "/post/signing-powershell-scripts"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

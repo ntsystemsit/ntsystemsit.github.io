@@ -4,10 +4,9 @@ title: "Lync 2013 – Voicemail Escape"
 date: 2013-01-30 18:28:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server", "Lync"]
-alias: ["/post/Lync-2013-Voicemail-Escape.aspx", "/post/lync-2013-voicemail-escape.aspx"]
+redirect_from: ["/post/Lync-2013-Voicemail-Escape", "/post/lync-2013-voicemail-escape"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

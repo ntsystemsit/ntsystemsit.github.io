@@ -4,10 +4,9 @@ title: "Prepare Windows Server 2012 for Lync 2013"
 date: 2013-03-18 21:26:00 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Lync"]
-alias: ["/post/Prepare-Windows-Server-2012-for-Lync-2013.aspx", "/post/prepare-windows-server-2012-for-lync-2013.aspx"]
+redirect_from: ["/post/Prepare-Windows-Server-2012-for-Lync-2013", "/post/prepare-windows-server-2012-for-lync-2013"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

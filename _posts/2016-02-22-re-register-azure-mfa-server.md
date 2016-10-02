@@ -4,10 +4,9 @@ title: "Re-register Azure MFA Server"
 date: 2016-02-22 18:00:46 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Azure"]
-alias: ["/post/Re-register-Azure-MFA-Server.aspx", "/post/re-register-azure-mfa-server.aspx"]
+redirect_from: ["/post/Re-register-Azure-MFA-Server", "/post/re-register-azure-mfa-server"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

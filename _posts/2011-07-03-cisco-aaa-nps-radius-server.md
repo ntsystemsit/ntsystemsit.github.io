@@ -4,10 +4,9 @@ title: "Cisco AAA–NPS RADIUS Server"
 date: 2011-07-03 10:49:46 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Server", "Network"]
-alias: ["/post/Cisco-AAA-NPS-RADIUS-Server.aspx", "/post/cisco-aaa-nps-radius-server.aspx"]
+redirect_from: ["/post/Cisco-AAA-NPS-RADIUS-Server", "/post/cisco-aaa-nps-radius-server"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

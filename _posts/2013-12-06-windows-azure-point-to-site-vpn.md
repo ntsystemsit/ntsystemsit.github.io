@@ -4,10 +4,9 @@ title: "Windows Azure – Point to Site VPN"
 date: 2013-12-06 22:09:37 +0100
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["en", "Cloud"]
-alias: ["/post/Windows-Azure-Point-to-Site-VPN.aspx", "/post/windows-azure-point-to-site-vpn.aspx"]
+redirect_from: ["/post/Windows-Azure-Point-to-Site-VPN", "/post/windows-azure-point-to-site-vpn"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

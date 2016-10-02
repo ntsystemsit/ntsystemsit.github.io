@@ -4,10 +4,9 @@ title: "ActiveSync Organization Settings–Mobile Device Management"
 date: 2012-07-09 21:04:36 +0200
 comments: true
 published: true
-categories: ["blog", "archives"]
 excerpt_separator: <!-- more -->
 tags: ["Exchange", "Server"]
-alias: ["/post/ActiveSync-Organization-Settings-Mobile-Device-Management.aspx", "/post/activesync-organization-settings-mobile-device-management.aspx"]
+redirect_from: ["/post/ActiveSync-Organization-Settings-Mobile-Device-Management", "/post/activesync-organization-settings-mobile-device-management"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}
