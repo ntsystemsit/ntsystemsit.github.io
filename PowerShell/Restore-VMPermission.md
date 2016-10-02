@@ -6,8 +6,7 @@ comments: true
 published: true
 tags: ["blog", "archives", "PowerShell"]
 excerpt_separator: <!-- more -->
-tags: []
-alias: ["/page/PS-Restore-VMPermissionps1", "/page/ps-restore-vmpermissionps1"]
+redirect_from: ["/page/PS-Restore-VMPermissionps1", "/page/ps-restore-vmpermissionps1"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

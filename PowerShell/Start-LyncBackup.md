@@ -6,7 +6,7 @@ comments: true
 published: true
 tags: ["blog", "archives", "PowerShell"]
 excerpt_separator: <!-- more -->
-alias: ["/page/PS-Start-LyncBackupps1", "/page/ps-start-lyncbackupps1"]
+redirect_from: ["/page/PS-Start-LyncBackupps1", "/page/ps-start-lyncbackupps1"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -6,7 +6,7 @@ comments: true
 published: true
 tags: ["blog", "archives", "PowerShell"]
 excerpt_separator: <!-- more -->
-alias: ["/page/PS-Test-GroupMembership", "/page/ps-test-groupmembership"]
+redirect_from: ["/page/PS-Test-GroupMembership", "/page/ps-test-groupmembership"]
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}
