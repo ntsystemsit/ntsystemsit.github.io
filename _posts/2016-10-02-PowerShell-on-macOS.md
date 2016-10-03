@@ -6,7 +6,7 @@ comments: true
 published: true
 categories: PowerShell
 excerpt_separator: <!-- more -->
-author: "ttorggler"
+author: thomas torggler
 ---
 
 Just sharing some quick notes on how to run PowerShell (and dotnet core) on macOS Sierra.

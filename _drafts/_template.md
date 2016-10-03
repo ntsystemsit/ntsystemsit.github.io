@@ -1,12 +1,14 @@
 ---
 layout: post
-title:  "Welcome to our new blog!"
-date:   2016-08-23 09:10:04 +0200
-categories: en Powershell
-author: "ttorggler"
+title: "PowerShell on macOS"
+date: 2016-10-02 09:25:06 +0200
+comments: true
+published: true
+categories: en
+tags: PowerShell
 excerpt_separator: <!-- more -->
+author: thomas torggler
 ---
-
 Intro
 
 <!-- more -->
