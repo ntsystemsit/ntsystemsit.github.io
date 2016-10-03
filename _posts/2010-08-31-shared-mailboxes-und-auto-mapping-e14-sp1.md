@@ -5,8 +5,10 @@ date: 2010-08-31 20:05:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Exchange"]
 redirect_from: ["/post/Shared-Mailboxes-und-Auto-Mapping-E14-Sp1", "/post/shared-mailboxes-und-auto-mapping-e14-sp1"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

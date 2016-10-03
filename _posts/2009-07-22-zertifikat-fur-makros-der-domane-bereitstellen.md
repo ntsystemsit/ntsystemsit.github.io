@@ -5,8 +5,10 @@ date: 2009-07-22 08:03:19 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: []
 redirect_from: ["/post/Zertifikat-fur-Makros-der-Domane-bereitstellen", "/post/zertifikat-fur-makros-der-domane-bereitstellen"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

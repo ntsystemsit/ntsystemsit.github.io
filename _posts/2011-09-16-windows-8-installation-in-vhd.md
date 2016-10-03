@@ -5,8 +5,10 @@ date: 2011-09-16 22:00:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["de", "Client"]
 redirect_from: ["/post/Windows-8-Installation-in-VHD", "/post/windows-8-installation-in-vhd"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

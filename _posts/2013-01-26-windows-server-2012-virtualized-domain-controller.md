@@ -5,8 +5,10 @@ date: 2013-01-26 11:19:14 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Server", "Server 2012"]
 redirect_from: ["/post/Windows-Server-2012-Virtualized-Domain-Controller", "/post/windows-server-2012-virtualized-domain-controller"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

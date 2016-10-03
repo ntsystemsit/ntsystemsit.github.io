@@ -5,8 +5,10 @@ date: 2014-05-29 21:34:57 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: []
 redirect_from: ["/post/Work-Folders-Demo-mit-Microsoft-Azure", "/post/work-folders-demo-mit-microsoft-azure"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

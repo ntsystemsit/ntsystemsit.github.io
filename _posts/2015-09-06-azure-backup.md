@@ -5,8 +5,10 @@ date: 2015-09-06 14:08:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Cloud", "de"]
 redirect_from: ["/post/Azure-Backup", "/post/azure-backup"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

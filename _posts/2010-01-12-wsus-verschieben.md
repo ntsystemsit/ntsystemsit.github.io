@@ -5,8 +5,10 @@ date: 2010-01-12 22:18:00 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Server"]
 redirect_from: ["/post/WSUS-verschieben", "/post/wsus-verschieben"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

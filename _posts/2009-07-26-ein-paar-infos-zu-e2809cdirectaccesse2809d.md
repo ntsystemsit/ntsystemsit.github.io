@@ -5,8 +5,10 @@ date: 2009-07-26 21:25:10 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Server 2008 R2", "Client", "Server"]
 redirect_from: ["/post/Ein-paar-Infos-zu-e2809cDirectAccesse2809d", "/post/ein-paar-infos-zu-e2809cdirectaccesse2809d"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

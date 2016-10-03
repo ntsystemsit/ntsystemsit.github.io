@@ -5,8 +5,10 @@ date: 2009-12-17 22:09:00 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Server", "Exchange"]
 redirect_from: ["/post/Exchange-2010-e28093-Edge-Subscription", "/post/exchange-2010-e28093-edge-subscription"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

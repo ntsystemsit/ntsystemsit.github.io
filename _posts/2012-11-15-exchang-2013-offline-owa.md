@@ -5,8 +5,10 @@ date: 2012-11-15 21:18:00 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["en", "Exchange"]
 redirect_from: ["/post/Exchang-2013-Offline-OWA", "/post/exchang-2013-offline-owa"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

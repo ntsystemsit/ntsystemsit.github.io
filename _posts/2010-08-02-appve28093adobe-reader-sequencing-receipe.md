@@ -5,8 +5,10 @@ date: 2010-08-02 20:44:45 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Client"]
 redirect_from: ["/post/AppVe28093Adobe-Reader-Sequencing-Receipe", "/post/appve28093adobe-reader-sequencing-receipe"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

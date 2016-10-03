@@ -5,8 +5,10 @@ date: 2012-09-07 21:36:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["PowerShell"]
 redirect_from: ["/post/Scheduled-Jobs-in-PowerShell-v3", "/post/scheduled-jobs-in-powershell-v3"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

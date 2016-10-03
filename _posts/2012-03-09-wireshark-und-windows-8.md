@@ -5,8 +5,10 @@ date: 2012-03-09 22:27:00 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Client", "de", "Server 2012"]
 redirect_from: ["/post/Wireshark-und-Windows-8", "/post/wireshark-und-windows-8"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

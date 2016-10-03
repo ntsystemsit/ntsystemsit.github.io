@@ -5,8 +5,10 @@ date: 2009-07-25 22:12:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Client"]
 redirect_from: ["/post/Windows-7-e28093-Installation-mit-USB-Stick", "/post/windows-7-e28093-installation-mit-usb-stick"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

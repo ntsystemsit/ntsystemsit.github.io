@@ -5,8 +5,10 @@ date: 2012-04-14 10:00:04 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Network"]
 redirect_from: ["/post/Wireless-Sniffing-mit-NetMon-34", "/post/wireless-sniffing-mit-netmon-34"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

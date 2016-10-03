@@ -5,8 +5,10 @@ date: 2010-04-27 21:47:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Server", "Server 2008", "Server 2008 R2", "Sharepoint"]
 redirect_from: ["/post/Installation-der-Sharepoint-Services-30-auf-Server-2008", "/post/installation-der-sharepoint-services-30-auf-server-2008"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

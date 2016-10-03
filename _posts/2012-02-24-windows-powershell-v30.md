@@ -5,8 +5,10 @@ date: 2012-02-24 21:09:23 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["PowerShell"]
 redirect_from: ["/post/Windows-PowerShell-v30", "/post/windows-powershell-v30"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

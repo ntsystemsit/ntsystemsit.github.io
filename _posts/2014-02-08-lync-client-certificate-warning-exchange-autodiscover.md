@@ -5,8 +5,10 @@ date: 2014-02-08 08:40:00 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["en", "Lync"]
 redirect_from: ["/post/Lync-Client-certificate-warning-Exchange-Autodiscover", "/post/lync-client-certificate-warning-exchange-autodiscover"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

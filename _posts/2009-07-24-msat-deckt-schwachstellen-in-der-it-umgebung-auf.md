@@ -5,8 +5,10 @@ date: 2009-07-24 13:41:47 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: []
 redirect_from: ["/post/MSAT-deckt-Schwachstellen-in-der-IT-Umgebung-auf", "/post/msat-deckt-schwachstellen-in-der-it-umgebung-auf"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

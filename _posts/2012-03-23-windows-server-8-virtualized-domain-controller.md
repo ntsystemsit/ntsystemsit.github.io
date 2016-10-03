@@ -5,8 +5,10 @@ date: 2012-03-23 23:15:00 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Server 2012"]
 redirect_from: ["/post/Windows-Server-8-Virtualized-Domain-Controller", "/post/windows-server-8-virtualized-domain-controller"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}
@@ -19,9 +21,7 @@ redirect_from: ["/post/Windows-Server-8-Virtualized-Domain-Controller", "/post/w
 <p>Der wiederhergestellte DC setzt seine Invocation ID zur&uuml;ck und da seine Replikationspartner diese ID noch nicht kennen kann die Replikation wieder aufgenommen werden. Au&szlig;erdem wird der SYSVOL Ordner &ldquo;nicht autorisierend&rdquo; wiederhergestellt und folgendes Ereignis wird im &ldquo;Directory Service&rdquo; Event Log protokolliert.</p>
 <p><a href="/assets/image_422.png"><img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="image" src="/assets/image_thumb_420.png" border="0" alt="image" width="244" height="171" /></a></p>
 <p>Folgendes Active Directory Attribut wird f&uuml;r die VM-Generation ID verwendet. <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/hh446580(v=VS.85).aspx">Hier</a> geht&rsquo;s zum entsprechenden Eintrag im MSDN.</p>
-<blockquote>
-<p>ms-DS-Generation-Id</p>
-</blockquote>
+<p><code>ms-DS-Generation-Id</code></p>
 <p><a href="/assets/image_423.png"><img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="image" src="/assets/image_thumb_421.png" border="0" alt="image" width="219" height="244" /></a></p>
 <p>VDC Safe Restore muss (und kann) nicht konfiguriert werden, sofern der Hypervisor das VM-Generation ID Feature unterst&uuml;tzt ist es automatisch aktiv. Aktuell unterst&uuml;tzt nur Windows Server 8 Hyper-V dieses Feature, andere Herstellen werden hoffentlich bald nachziehen.</p>
 <p>Achtung, dieses Feature soll die USN Rollback Problematik l&ouml;sen, es ist auf keinem Fall ein Ersatz f&uuml;r ein konsistentes Backup! Der DC wird &ldquo;nicht autorisierend&rdquo; wiederhergestellt.</p>

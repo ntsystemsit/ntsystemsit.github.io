@@ -5,8 +5,10 @@ date: 2010-06-11 16:41:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Server", "Server 2008", "Server 2008 R2"]
 redirect_from: ["/post/DistributedCOM-Fehler-10016-fehlende-Berechtigungen", "/post/distributedcom-fehler-10016-fehlende-berechtigungen"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

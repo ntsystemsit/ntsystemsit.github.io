@@ -5,8 +5,10 @@ date: 2014-10-09 18:51:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Client"]
 redirect_from: ["/post/Windows-10-VHD-Boot", "/post/windows-10-vhd-boot"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

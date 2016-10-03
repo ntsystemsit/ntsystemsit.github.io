@@ -5,8 +5,10 @@ date: 2009-07-21 14:40:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: []
 redirect_from: ["/post/Delta-CRL-e2809cUnable-to-Downloade2809d-IIS-7", "/post/delta-crl-e2809cunable-to-downloade2809d-iis-7"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

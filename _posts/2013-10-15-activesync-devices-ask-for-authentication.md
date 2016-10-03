@@ -5,8 +5,10 @@ date: 2013-10-15 18:29:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["en", "Exchange"]
 redirect_from: ["/post/ActiveSync-devices-ask-for-authentication", "/post/activesync-devices-ask-for-authentication"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

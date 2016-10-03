@@ -5,8 +5,10 @@ date: 2013-12-21 21:34:00 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["de", "Exchange", "Lync"]
 redirect_from: ["/post/PAL-Performance-Analyse", "/post/pal-performance-analyse"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

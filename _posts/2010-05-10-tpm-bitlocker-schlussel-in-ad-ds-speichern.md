@@ -5,8 +5,10 @@ date: 2010-05-10 22:24:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Client", "de", "Server", "Server 2008", "Server 2008 R2"]
 redirect_from: ["/post/TPM-BitLocker-Schlussel-in-AD-DS-speichern", "/post/tpm-bitlocker-schlussel-in-ad-ds-speichern"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

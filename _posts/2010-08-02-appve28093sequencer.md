@@ -5,8 +5,10 @@ date: 2010-08-02 20:36:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Client"]
 redirect_from: ["/post/AppVe28093Sequencer", "/post/appve28093sequencer"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

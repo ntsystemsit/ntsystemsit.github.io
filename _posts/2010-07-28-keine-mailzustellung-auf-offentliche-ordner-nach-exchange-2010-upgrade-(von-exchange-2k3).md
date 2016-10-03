@@ -5,8 +5,10 @@ date: 2010-07-28 17:00:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Exchange"]
 redirect_from: ["/post/Keine-Mailzustellung-auf-Offentliche-Ordner-nach-Exchange-2010-Upgrade-(von-Exchange-2k3)", "/post/keine-mailzustellung-auf-offentliche-ordner-nach-exchange-2010-upgrade-(von-exchange-2k3)"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

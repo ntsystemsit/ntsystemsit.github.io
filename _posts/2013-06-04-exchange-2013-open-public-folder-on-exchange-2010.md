@@ -5,8 +5,10 @@ date: 2013-06-04 20:41:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["en", "Exchange"]
 redirect_from: ["/post/Exchange-2013-Open-Public-Folder-on-Exchange-2010", "/post/exchange-2013-open-public-folder-on-exchange-2010"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

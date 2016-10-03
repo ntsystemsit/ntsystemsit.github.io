@@ -5,8 +5,10 @@ date: 2011-07-03 10:49:46 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Server", "Network"]
 redirect_from: ["/post/Cisco-AAA-NPS-RADIUS-Server", "/post/cisco-aaa-nps-radius-server"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

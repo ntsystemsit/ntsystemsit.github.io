@@ -5,8 +5,10 @@ date: 2009-07-31 19:31:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Events"]
 redirect_from: ["/post/Windows-7-Joint-Launch-Roadshow", "/post/windows-7-joint-launch-roadshow"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

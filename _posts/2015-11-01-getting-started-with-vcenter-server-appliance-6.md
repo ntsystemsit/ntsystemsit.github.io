@@ -5,8 +5,10 @@ date: 2015-11-01 20:30:00 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["en", "Server", "VMware"]
 redirect_from: ["/post/getting-started-with-vcenter-server-appliance-6"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

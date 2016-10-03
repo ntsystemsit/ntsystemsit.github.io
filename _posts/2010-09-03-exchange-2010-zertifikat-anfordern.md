@@ -5,8 +5,10 @@ date: 2010-09-03 13:55:54 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Exchange"]
 redirect_from: ["/post/Exchange-2010-Zertifikat-anfordern", "/post/exchange-2010-zertifikat-anfordern"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

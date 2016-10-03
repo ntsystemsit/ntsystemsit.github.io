@@ -5,8 +5,10 @@ date: 2009-07-22 09:59:11 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: []
 redirect_from: ["/post/Windows-7-e28093-RTM-Verfugbarkeit", "/post/windows-7-e28093-rtm-verfugbarkeit"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -5,8 +5,10 @@ date: 2010-08-23 20:37:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Sharepoint"]
 redirect_from: ["/post/Sharepoint-2010-Fehler-in-der-SQL-Datenbank-beheben", "/post/sharepoint-2010-fehler-in-der-sql-datenbank-beheben"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

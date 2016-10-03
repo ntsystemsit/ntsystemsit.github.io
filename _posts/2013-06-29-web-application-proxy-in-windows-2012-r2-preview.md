@@ -5,8 +5,10 @@ date: 2013-06-29 01:49:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["en", "Server"]
 redirect_from: ["/post/Web-Application-Proxy-in-Windows-2012-R2-preview", "/post/web-application-proxy-in-windows-2012-r2-preview"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

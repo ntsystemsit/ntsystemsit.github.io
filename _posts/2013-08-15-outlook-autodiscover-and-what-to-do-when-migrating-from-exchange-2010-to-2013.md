@@ -5,8 +5,10 @@ date: 2013-08-15 14:07:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["en", "Exchange"]
 redirect_from: ["/post/Outlook-Autodiscover-and-what-to-do-when-migrating-from-Exchange-2010-to-2013", "/post/outlook-autodiscover-and-what-to-do-when-migrating-from-exchange-2010-to-2013"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

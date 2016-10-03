@@ -5,8 +5,10 @@ date: 2009-09-21 21:13:42 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Server"]
 redirect_from: ["/post/Fehler-bei-HP-Netzwerkkarten-Update", "/post/fehler-bei-hp-netzwerkkarten-update"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

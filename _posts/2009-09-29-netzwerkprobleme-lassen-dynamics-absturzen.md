@@ -5,8 +5,10 @@ date: 2009-09-29 18:42:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Server"]
 redirect_from: ["/post/Netzwerkprobleme-lassen-Dynamics-absturzen", "/post/netzwerkprobleme-lassen-dynamics-absturzen"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

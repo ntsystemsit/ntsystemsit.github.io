@@ -5,8 +5,10 @@ date: 2014-01-05 15:14:00 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["en", "Office 365"]
 redirect_from: ["/post/Connect-to-Office-365-with-Powershell", "/post/connect-to-office-365-with-powershell"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

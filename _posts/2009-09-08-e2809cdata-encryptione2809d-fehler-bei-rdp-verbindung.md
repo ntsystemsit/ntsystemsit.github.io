@@ -5,8 +5,10 @@ date: 2009-09-08 23:00:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Server 2003", "Server"]
 redirect_from: ["/post/e2809cDATA-ENCRYPTIONe2809d-Fehler-bei-RDP-Verbindung", "/post/e2809cdata-encryptione2809d-fehler-bei-rdp-verbindung"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

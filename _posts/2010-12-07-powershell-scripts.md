@@ -5,8 +5,10 @@ date: 2010-12-07 11:18:51 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: []
 redirect_from: ["/page/PowerShell-Scripts", "/page/powershell-scripts"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

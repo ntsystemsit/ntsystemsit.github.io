@@ -5,8 +5,10 @@ date: 2014-04-04 18:06:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["AppV", "en"]
 redirect_from: ["/post/App-V-and-the-start-menu-folder-redirection-issue", "/post/app-v-and-the-start-menu-folder-redirection-issue"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

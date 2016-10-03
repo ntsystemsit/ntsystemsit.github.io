@@ -5,8 +5,10 @@ date: 2009-09-25 18:52:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Sharepoint"]
 redirect_from: ["/post/Sharepoint-LogFiles-verkleinern", "/post/sharepoint-logfiles-verkleinern"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

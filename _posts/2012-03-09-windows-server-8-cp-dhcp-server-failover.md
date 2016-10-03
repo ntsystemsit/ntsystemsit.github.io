@@ -5,8 +5,10 @@ date: 2012-03-09 22:56:00 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Server", "Server 2012"]
 redirect_from: ["/post/Windows-Server-8-CP-DHCP-Server-Failover", "/post/windows-server-8-cp-dhcp-server-failover"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

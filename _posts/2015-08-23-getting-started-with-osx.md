@@ -5,8 +5,10 @@ date: 2015-08-23 16:15:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Client", "en"]
 redirect_from: ["/post/getting-started-with-osx"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

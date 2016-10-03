@@ -5,8 +5,10 @@ date: 2010-06-30 21:30:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: []
 redirect_from: ["/post/Apple-IPad", "/post/apple-ipad"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -5,8 +5,10 @@ date: 2010-06-30 21:03:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Exchange", "Server"]
 redirect_from: ["/post/Exchange-2010-Entourage-Web-Services-Edition-EWS-Attachement-Size", "/post/exchange-2010-entourage-web-services-edition-ews-attachement-size"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

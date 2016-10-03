@@ -5,8 +5,10 @@ date: 2015-11-26 14:51:00 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["en", "Server"]
 redirect_from: ["/post/Installing-Nano-Server-using-WDS-and-PxE", "/post/installing-nano-server-using-wds-and-pxe"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

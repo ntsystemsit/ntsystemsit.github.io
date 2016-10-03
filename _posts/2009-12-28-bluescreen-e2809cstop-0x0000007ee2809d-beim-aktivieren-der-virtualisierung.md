@@ -5,8 +5,10 @@ date: 2009-12-28 09:25:03 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Hyper-V", "Server 2008 R2"]
 redirect_from: ["/post/BlueScreen-e2809cStop-0x0000007Ee2809d-beim-aktivieren-der-Virtualisierung", "/post/bluescreen-e2809cstop-0x0000007ee2809d-beim-aktivieren-der-virtualisierung"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

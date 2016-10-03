@@ -5,8 +5,10 @@ date: 2010-11-22 22:01:00 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["de", "Server", "Security"]
 redirect_from: ["/post/TMG-2010-unable-to-authenticate-users", "/post/tmg-2010-unable-to-authenticate-users"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

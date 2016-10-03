@@ -5,8 +5,10 @@ date: 2010-04-22 21:35:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Hyper-V", "Server"]
 redirect_from: ["/post/Programme-vom-Server-Core-Hyper-V-Server-deinstallieren", "/post/programme-vom-server-core-hyper-v-server-deinstallieren"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

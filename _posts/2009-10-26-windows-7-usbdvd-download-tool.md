@@ -5,8 +5,10 @@ date: 2009-10-26 20:51:04 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Client"]
 redirect_from: ["/post/Windows-7-USBDVD-Download-Tool", "/post/windows-7-usbdvd-download-tool"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

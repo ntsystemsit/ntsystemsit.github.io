@@ -5,8 +5,10 @@ date: 2013-05-26 16:09:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Exchange"]
 redirect_from: ["/post/Migrating-from-Exchange-2010-to-2013-part-3", "/post/migrating-from-exchange-2010-to-2013-part-3"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}
@@ -29,16 +31,12 @@ redirect_from: ["/post/Migrating-from-Exchange-2010-to-2013-part-3", "/post/migr
 <p>To add Exchange 2013 servers as sources to the existing send connectors, use the Exchange Admin Center and navigate to &ldquo;mail flow, send connectors&rdquo;. Then select the send connector to edit and add the new source server under &ldquo;scoping&rdquo;</p>
 <p><a href="/assets/image_522.png"><img style="display: inline; border-width: 0px;" title="image" src="/assets/image_thumb_520.png" alt="image" width="244" height="219" border="0" /></a></p>
 <p>We could also use PowerShell to add additional SourceTransportServers to the connector, be aware though, that the existing servers have to be included in the command.</p>
-<blockquote>
-<p>Set-SendConnector &ndash;Id ToInternet &ndash;SourceTransportServers ex14,ex15</p>
-</blockquote>
+<p><code>Set-SendConnector &ndash;Id ToInternet &ndash;SourceTransportServers ex14,ex15</code></p>
 <p>Another interesting flag sits under the &ldquo;general&rdquo; node of the send connector&rsquo;s properties: Proxy though client access server&rdquo;</p>
 <p><a href="/assets/image_523.png"><img style="display: inline; border-width: 0px;" title="image" src="/assets/image_thumb_521.png" alt="image" width="244" height="167" border="0" /></a></p>
 <p>So what&rsquo;s that all about? If this flag is checked, outbound mails are not sent directly by the mailbox server&rsquo;s transport role, but are proxied through a Client Access Server. This could be interesting if only a subset of Exchange Servers (CAS) were allowed to connect to the internet via SMTP. With multi role servers, which are recommended for many environments, this flag will have no effect.</p>
 <p>Ok, so now we have got our outbound mail flow configured, what about incoming mails? Receive connectors are per-server settings, so we have to check the configuration of existing connectors and configure the new server accordingly.</p>
-<blockquote>
-<p>Get-ReceiveConnector &ndash;Server ex14 | ft Identity,Enabled,Bindings,RemoteIpRanges</p>
-</blockquote>
+<p><code>Get-ReceiveConnector &ndash;Server ex14 | ft Identity,Enabled,Bindings,RemoteIpRanges</code></p>
 <p>This command shows all receive connectors on the 2010 server, along with the Ports used and the remote IP addresses that are allowed to use this connector. Obviously, if there are custom AD permissions or authentication methods defined, those have to be configured on the new server, too.</p>
 <p>Nice, now we have got client access and transport covered, the next post will finally include moving some mailboxes to the new Exchange server.</p>
 <p>&nbsp;</p>

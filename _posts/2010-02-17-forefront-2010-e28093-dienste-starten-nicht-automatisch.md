@@ -5,8 +5,10 @@ date: 2010-02-17 20:21:00 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["de", "Server", "Security"]
 redirect_from: ["/post/Forefront-2010-e28093-Dienste-starten-nicht-automatisch", "/post/forefront-2010-e28093-dienste-starten-nicht-automatisch"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}
@@ -19,9 +21,7 @@ redirect_from: ["/post/Forefront-2010-e28093-Dienste-starten-nicht-automatisch",
 </ul>
 <p>Forefront beantwortet somit keine Anfragen und jeglicher Zugriff von allen au&szlig;er den Management Computern wird blockiert.</p>
 <p>Das liegt daran dass Standardm&auml;&szlig;ig eine Lokale SQL Instanz also Logging Ziel konfiguriert ist, der SQL Dienst aber erst nach den Forefront Diensten startet&hellip; Und wenn Forefront nicht Protokollieren kann dann wird der Dienst beendet. Im Eventlog steht:</p>
-<blockquote>
-<p>The Microsoft Forefront TMG Control service terminated with service-specific error %%278540.</p>
-</blockquote>
+<p><code>The Microsoft Forefront TMG Control service terminated with service-specific error %%278540.</code></p>
 <p>L&ouml;sen l&auml;sst sich das Problem ganz einfach, entweder man stellt auf Logging to File</p>
 <p><a href="/assets/image_99.png"><img style="display: inline; border-width: 0px;" title="image" src="/assets/image_thumb_99.png" alt="image" width="220" height="244" border="0" /></a>&nbsp;</p>
 <p>oder man Konfiguriert die vier oben genannten Dienste f&uuml;r verz&ouml;gerten Start.</p>

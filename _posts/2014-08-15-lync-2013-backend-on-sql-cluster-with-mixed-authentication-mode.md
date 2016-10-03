@@ -5,8 +5,10 @@ date: 2014-08-15 17:37:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Lync", "en"]
 redirect_from: ["/post/Lync-2013-backend-on-SQL-Cluster-with-mixed-authentication-mode", "/post/lync-2013-backend-on-sql-cluster-with-mixed-authentication-mode"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

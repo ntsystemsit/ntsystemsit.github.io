@@ -5,8 +5,10 @@ date: 2010-05-14 22:00:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Exchange", "Server"]
 redirect_from: ["/post/Exchange-2010-e28093-SafeList-Aggregation", "/post/exchange-2010-e28093-safelist-aggregation"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

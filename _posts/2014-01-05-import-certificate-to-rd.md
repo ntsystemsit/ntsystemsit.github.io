@@ -5,8 +5,10 @@ date: 2014-01-05 13:36:39 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Server 2012", "en", "Server 2012 R2", "Remote Desktop"]
 redirect_from: ["/post/Import-Certificate-to-RD", "/post/import-certificate-to-rd"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

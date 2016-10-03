@@ -5,8 +5,10 @@ date: 2012-08-13 15:50:39 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Exchange"]
 redirect_from: ["/post/Exchange-2010-Attachments", "/post/exchange-2010-attachments"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -5,8 +5,10 @@ date: 2012-08-12 16:02:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Exchange", "Server"]
 redirect_from: ["/post/GAL-Photos-reloaded-batch-import", "/post/gal-photos-reloaded-batch-import"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}
@@ -15,9 +17,7 @@ redirect_from: ["/post/GAL-Photos-reloaded-batch-import", "/post/gal-photos-relo
 <p>Now in the last couple of days I wrote a &ldquo;cmdlet&rdquo; to make batch importing images easier. For starters, the cmdlet gets all *.jpg files in folder, then it uses the files BaseName to find corresponding Exchange Mailboxes. After that the image&rsquo;s physical dimensions as well as file size are verified, if they are ok, the image is imported using Import-RecipientDataProperty.</p>
 <p>The folder containing the images can be set using the cmdlet&rsquo;s &ndash;FilePath parameter, the cmdlet takes pipeline input from Get-ChildItem too.</p>
 <p>Here are two examples of how the cmdlet could be used:</p>
-<blockquote>
-<p>PS C:\&gt; Import-GalPhoto -FilePath 'c:\temp\pics' <br />&nbsp; <br />PS C:\&gt; dir 'c:\temp\pics' | Select-Object -First 2 | Import-GalPhoto</p>
-</blockquote>
+<p><code>PS C:\&gt; Import-GalPhoto -FilePath 'c:\temp\pics' <br />&nbsp; <br />PS C:\&gt; dir 'c:\temp\pics' | Select-Object -First 2 | Import-GalPhoto</code></p>
 <p>I&rsquo;ve pasted the function to <a href="http://poshcode.org/3570" target="_blank">PoshCode</a>, here it goes:</p>
 <p>
 <script type="text/javascript" src="http://PoshCode.org/embed/3570"></script>

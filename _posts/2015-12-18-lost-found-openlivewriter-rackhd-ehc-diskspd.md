@@ -5,8 +5,10 @@ date: 2015-12-18 21:56:00 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Client", "en", "Server", "VMware"]
 redirect_from: ["/post/lost-found-OpenLiveWriter-RackHD-EHC-diskspd", "/post/lost-found-openlivewriter-rackhd-ehc-diskspd"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

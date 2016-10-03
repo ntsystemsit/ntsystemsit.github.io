@@ -5,8 +5,10 @@ date: 2012-07-24 19:16:57 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["PowerShell"]
 redirect_from: ["/post/VBNet-PowerShell-Script-starten", "/post/vbnet-powershell-script-starten"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

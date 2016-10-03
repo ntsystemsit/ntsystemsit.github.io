@@ -5,8 +5,10 @@ date: 2010-10-21 21:56:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Sharepoint", "SQL"]
 redirect_from: ["/post/Sharepoint-2010-external-List-BCS-SQL", "/post/sharepoint-2010-external-list-bcs-sql"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

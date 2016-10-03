@@ -5,8 +5,10 @@ date: 2012-06-29 07:10:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["PowerShell"]
 redirect_from: ["/post/Passing-an-array-to-a-scriptblock", "/post/passing-an-array-to-a-scriptblock"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -5,8 +5,10 @@ date: 2010-11-22 21:40:25 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Exchange"]
 redirect_from: ["/post/Exchange-2010-change-Display-Name-for-outgoing-Mails", "/post/exchange-2010-change-display-name-for-outgoing-mails"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

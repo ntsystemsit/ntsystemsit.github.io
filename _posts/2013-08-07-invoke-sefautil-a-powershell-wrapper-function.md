@@ -5,8 +5,10 @@ date: 2013-08-07 22:18:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["en", "Lync", "PowerShell"]
 redirect_from: ["/post/Invoke-SEFAUtil-a-PowerShell-wrapper-function", "/post/invoke-sefautil-a-powershell-wrapper-function"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

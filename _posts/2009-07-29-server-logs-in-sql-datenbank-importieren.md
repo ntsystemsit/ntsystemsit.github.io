@@ -5,8 +5,10 @@ date: 2009-07-29 19:39:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Security", "SQL"]
 redirect_from: ["/post/Server-Logs-in-SQL-Datenbank-importieren", "/post/server-logs-in-sql-datenbank-importieren"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

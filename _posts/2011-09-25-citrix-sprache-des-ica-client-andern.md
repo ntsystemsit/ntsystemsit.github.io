@@ -5,8 +5,10 @@ date: 2011-09-25 21:23:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Citrix"]
 redirect_from: ["/post/Citrix-Sprache-des-ICA-Client-andern", "/post/citrix-sprache-des-ica-client-andern"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

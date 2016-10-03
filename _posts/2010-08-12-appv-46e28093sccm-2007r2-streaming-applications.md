@@ -5,8 +5,10 @@ date: 2010-08-12 18:48:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["AppV", "Server"]
 redirect_from: ["/post/AppV-46e28093SCCM-2007R2-Streaming-Applications", "/post/appv-46e28093sccm-2007r2-streaming-applications"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

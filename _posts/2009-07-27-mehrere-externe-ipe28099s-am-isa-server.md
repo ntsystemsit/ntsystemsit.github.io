@@ -5,8 +5,10 @@ date: 2009-07-27 13:23:45 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Server", "Security"]
 redirect_from: ["/post/Mehrere-externe-IPe28099s-am-ISA-Server", "/post/mehrere-externe-ipe28099s-am-isa-server"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

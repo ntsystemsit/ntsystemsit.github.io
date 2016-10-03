@@ -5,8 +5,10 @@ date: 2014-10-21 19:49:57 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["en", "PowerShell"]
 redirect_from: ["/post/WMF-5-Preview-Update-is-not-applicable-to-your-computer", "/post/wmf-5-preview-update-is-not-applicable-to-your-computer"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

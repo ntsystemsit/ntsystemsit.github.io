@@ -5,8 +5,10 @@ date: 2012-07-24 18:55:15 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Server 2008 R2"]
 redirect_from: ["/post/NPS-Migration-von-Server-2003-nach-2008-R2", "/post/nps-migration-von-server-2003-nach-2008-r2"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

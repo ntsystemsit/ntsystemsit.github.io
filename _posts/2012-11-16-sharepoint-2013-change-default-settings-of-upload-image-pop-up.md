@@ -5,8 +5,10 @@ date: 2012-11-16 18:22:40 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Sharepoint"]
 redirect_from: ["/post/Sharepoint-2013-change-default-settings-of-Upload-Image-Pop-Up", "/post/sharepoint-2013-change-default-settings-of-upload-image-pop-up"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

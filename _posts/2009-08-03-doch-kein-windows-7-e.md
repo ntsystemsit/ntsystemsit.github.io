@@ -5,8 +5,10 @@ date: 2009-08-03 13:15:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Client"]
 redirect_from: ["/post/Doch-kein-Windows-7-E", "/post/doch-kein-windows-7-e"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

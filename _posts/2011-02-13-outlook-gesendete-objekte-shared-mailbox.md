@@ -5,8 +5,10 @@ date: 2011-02-13 14:07:00 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Exchange", "Client"]
 redirect_from: ["/post/Outlook-gesendete-Objekte-Shared-Mailbox", "/post/outlook-gesendete-objekte-shared-mailbox"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

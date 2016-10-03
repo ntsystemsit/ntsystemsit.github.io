@@ -5,8 +5,10 @@ date: 2009-08-13 17:43:33 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Client"]
 redirect_from: ["/post/Windows-Virtual-PC-e28093-UnDo-und-Differencing-Disks", "/post/windows-virtual-pc-e28093-undo-und-differencing-disks"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

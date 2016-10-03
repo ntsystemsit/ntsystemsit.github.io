@@ -5,8 +5,10 @@ date: 2012-08-06 20:00:30 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Server 2008 R2"]
 redirect_from: ["/post/Server-2008-R2-Disk-Management-und-DiskPart-lasst-sich-nicht-starten", "/post/server-2008-r2-disk-management-und-diskpart-lasst-sich-nicht-starten"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

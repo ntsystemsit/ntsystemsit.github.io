@@ -5,8 +5,10 @@ date: 2013-10-15 18:29:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["en", "Exchange", "Sharepoint"]
 redirect_from: ["/post/Connect-Sharepoint-2013-with-Exchange-2013-to-sync-tasks", "/post/connect-sharepoint-2013-with-exchange-2013-to-sync-tasks"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -5,8 +5,10 @@ date: 2011-02-03 21:35:00 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["de", "Security", "SQL"]
 redirect_from: ["/post/TMGe28093Fehler-beim-Ausfuhren-von-Abfragen-im-Log", "/post/tmge28093fehler-beim-ausfuhren-von-abfragen-im-log"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

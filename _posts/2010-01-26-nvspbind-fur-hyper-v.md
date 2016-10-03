@@ -5,8 +5,10 @@ date: 2010-01-26 20:35:22 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Hyper-V"]
 redirect_from: ["/post/NVSPBIND-fur-Hyper-V", "/post/nvspbind-fur-hyper-v"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

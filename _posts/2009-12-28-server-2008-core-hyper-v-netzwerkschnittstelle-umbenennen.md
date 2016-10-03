@@ -5,8 +5,10 @@ date: 2009-12-28 09:17:29 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Server", "Hyper-V"]
 redirect_from: ["/post/Server-2008-Core-Hyper-V-Netzwerkschnittstelle-umbenennen", "/post/server-2008-core-hyper-v-netzwerkschnittstelle-umbenennen"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

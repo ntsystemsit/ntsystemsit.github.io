@@ -5,8 +5,10 @@ date: 2010-01-12 21:34:00 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Server 2008", "Server 2008 R2", "Server", "Client"]
 redirect_from: ["/post/WPAD-und-Server-2008", "/post/wpad-und-server-2008"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

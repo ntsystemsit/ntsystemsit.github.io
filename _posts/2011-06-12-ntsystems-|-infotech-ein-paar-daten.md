@@ -5,8 +5,10 @@ date: 2011-06-12 15:42:39 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: []
 redirect_from: ["/post/ntSystems-|-infotech-ein-paar-Daten", "/post/ntsystems-|-infotech-ein-paar-daten"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

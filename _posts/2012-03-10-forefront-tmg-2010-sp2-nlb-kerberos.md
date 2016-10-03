@@ -5,8 +5,10 @@ date: 2012-03-10 16:44:00 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["de", "Server", "Security"]
 redirect_from: ["/post/Forefront-TMG-2010-SP2-NLB-Kerberos", "/post/forefront-tmg-2010-sp2-nlb-kerberos"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}
@@ -27,14 +29,10 @@ redirect_from: ["/post/Forefront-TMG-2010-SP2-NLB-Kerberos", "/post/forefront-tm
 <h1>SPN hinzuf&uuml;gen</h1>
 <p>Um einen Serivce Principal Name zum Service Account hinzuzuf&uuml;gen, kann man z.B. das Tool &ldquo;setspn&rdquo; verwenden.</p>
 <p>Registrierte SPNs anzeigen:</p>
-<blockquote>
-<p>setspn &ndash;L benutzername</p>
-<p>setspn &ndash;L computername</p>
-</blockquote>
+<p><code>setspn &ndash;L benutzername</p>
+<p>setspn &ndash;L computername</code></p>
 <p>Neuen SPN registrieren:</p>
-<blockquote>
-<p>setspn -S http/myArray.ntsystems.local tmgSvcUsr</p>
-</blockquote>
+<p><code>setspn -S http/myArray.ntsystems.local tmgSvcUsr</code></p>
 <p>Der Parameter &ndash;S &uuml;berpr&uuml;ft zuerst ob der SPN nicht bereits von einem anderen Konto verwendet wird, anschlie&szlig;end wird er zum Konto hinzugef&uuml;gt.</p>
 <h1>Verify Kerberos Authentication</h1>
 <p>Mit einem Netzwerk Analyse Tool sieht man dass vor der Registrierung des SPN NTLM f&uuml;r Proxy Authentifizierung verwendet wird.</p>

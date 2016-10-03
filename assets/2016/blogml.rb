@@ -114,9 +114,9 @@ module Jekyll
           
           ## This section is used to cleanup any content data.
           #
-          # Replace blockquote with code
-          content.gsub!(/<blockquote> <p>/, "<p><code>")
-          content.gsub!(/<\/p><\/blockquote>/, "</code><\/p>")
+          # Replace blockquote with code (as i used blockquote mostly for code formatting)
+          content.gsub!(/<blockquote>\s*<p>/, "<p><code>")
+          content.gsub!(/<\/p>\s*<\/blockquote>/, "</code><\/p>")
           
           # Replace /image.axd?picture= with /images/
           content.gsub!(/\/image\.axd\?picture\=/, "/assets/")
@@ -150,7 +150,7 @@ module Jekyll
           filename = "_posts/#{timestamp.strftime("%Y-%m-%d")}-#{name}.md"
           puts "filename: #{filename}"
         
-          ## Keep old URL
+          ## Keep old URL but remove .aspx
           # old_url = name
           # htaccess.puts "RewriteRule ^#{name}$ "
           # for GitHub pages, we need to setup an alias
@@ -171,6 +171,15 @@ module Jekyll
             tags.push(cats[category.attributes["ref"]])
           end
           puts "tags: #{tags}"
+
+          #author = item.elements["authors"]
+          #puts "author: #{author}"
+
+          author = String.new
+          item.elements.each("authors/author") do |author_name|
+            author = author_name.attributes["ref"].downcase
+          end
+          puts "author: #{author}"
         
           # puts "#{link} -> #{filename}"
           File.open(filename, "w") do |f|
@@ -189,8 +198,10 @@ date: #{timestamp.strftime("%Y-%m-%d %H:%M:%S %z")}
 comments: true
 published: #{published}
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: #{tags}
 redirect_from: #{old_url}
+author: #{author}
 ---
             HEADER
             # f.puts

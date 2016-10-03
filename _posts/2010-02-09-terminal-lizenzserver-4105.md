@@ -5,8 +5,10 @@ date: 2010-02-09 21:45:00 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Server", "Server 2008", "Server 2003"]
 redirect_from: ["/post/Terminal-Lizenzserver-4105", "/post/terminal-lizenzserver-4105"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -5,8 +5,10 @@ date: 2015-12-31 18:30:00 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["en"]
 redirect_from: ["/post/Happy-holidays-and-some-numbers", "/post/happy-holidays-and-some-numbers"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

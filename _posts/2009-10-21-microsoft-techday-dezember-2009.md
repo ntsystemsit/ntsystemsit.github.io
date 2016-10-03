@@ -5,8 +5,10 @@ date: 2009-10-21 22:35:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Events"]
 redirect_from: ["/post/Microsoft-TechDay-Dezember-2009", "/post/microsoft-techday-dezember-2009"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

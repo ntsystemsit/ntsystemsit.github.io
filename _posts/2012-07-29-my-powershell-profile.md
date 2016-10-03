@@ -5,8 +5,10 @@ date: 2012-07-29 20:41:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["PowerShell"]
 redirect_from: ["/post/My-PowerShell-Profile", "/post/my-powershell-profile"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

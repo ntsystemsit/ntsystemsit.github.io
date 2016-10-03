@@ -5,8 +5,10 @@ date: 2010-08-28 22:03:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Exchange"]
 redirect_from: ["/post/E14-SP1-ImportExport-Update", "/post/e14-sp1-importexport-update"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -5,8 +5,10 @@ date: 2010-08-08 13:54:27 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Exchange"]
 redirect_from: ["/post/Exchange-2010e28093Database-Restore", "/post/exchange-2010e28093database-restore"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -5,8 +5,10 @@ date: 2010-09-27 19:00:12 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Sharepoint", "SQL"]
 redirect_from: ["/post/Sharepoint-Foundation-2010-insufficient-SQL-permissions", "/post/sharepoint-foundation-2010-insufficient-sql-permissions"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

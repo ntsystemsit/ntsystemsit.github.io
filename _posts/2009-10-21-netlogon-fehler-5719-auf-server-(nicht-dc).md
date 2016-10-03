@@ -5,8 +5,10 @@ date: 2009-10-21 18:54:22 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Server"]
 redirect_from: ["/post/Netlogon-Fehler-5719-auf-Server-(nicht-DC)", "/post/netlogon-fehler-5719-auf-server-(nicht-dc)"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

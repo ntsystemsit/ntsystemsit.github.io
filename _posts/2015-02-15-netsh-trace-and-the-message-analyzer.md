@@ -5,8 +5,10 @@ date: 2015-02-15 17:37:00 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Network", "en"]
 redirect_from: ["/post/netsh-trace-and-the-Message-Analyzer", "/post/netsh-trace-and-the-message-analyzer"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

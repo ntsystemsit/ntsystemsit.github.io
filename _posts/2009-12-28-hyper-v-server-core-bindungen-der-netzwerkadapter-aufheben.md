@@ -5,8 +5,10 @@ date: 2009-12-28 12:04:23 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Hyper-V", "Server"]
 redirect_from: ["/post/Hyper-V-Server-Core-Bindungen-der-Netzwerkadapter-aufheben", "/post/hyper-v-server-core-bindungen-der-netzwerkadapter-aufheben"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

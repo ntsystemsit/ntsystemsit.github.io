@@ -5,8 +5,10 @@ date: 2014-03-03 19:29:59 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["en", "Lync"]
 redirect_from: ["/post/Lync-SIP-inter-domain-federation-with-Cisco-Unified-Presence-1", "/post/lync-sip-inter-domain-federation-with-cisco-unified-presence-1"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

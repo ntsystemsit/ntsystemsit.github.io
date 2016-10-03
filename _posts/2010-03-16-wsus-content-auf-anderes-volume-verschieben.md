@@ -5,8 +5,10 @@ date: 2010-03-16 21:16:00 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Server"]
 redirect_from: ["/post/WSUS-content-auf-anderes-Volume-verschieben", "/post/wsus-content-auf-anderes-volume-verschieben"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -5,8 +5,10 @@ date: 2009-08-08 12:44:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Client"]
 redirect_from: ["/post/Windows-7-Neuerungen-auf-den-ersten-Blick", "/post/windows-7-neuerungen-auf-den-ersten-blick"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -5,8 +5,10 @@ date: 2010-09-03 12:52:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Exchange"]
 redirect_from: ["/post/Exchange-2010-SAN-Zertifikate28093Server-2008-PKI", "/post/exchange-2010-san-zertifikate28093server-2008-pki"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

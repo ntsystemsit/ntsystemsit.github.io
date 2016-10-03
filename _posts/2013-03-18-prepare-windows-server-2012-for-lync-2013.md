@@ -5,8 +5,10 @@ date: 2013-03-18 21:26:00 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Lync"]
 redirect_from: ["/post/Prepare-Windows-Server-2012-for-Lync-2013", "/post/prepare-windows-server-2012-for-lync-2013"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

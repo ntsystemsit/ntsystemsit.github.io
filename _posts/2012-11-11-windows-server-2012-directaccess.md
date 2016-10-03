@@ -5,8 +5,10 @@ date: 2012-11-11 16:50:16 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Server 2012", "Server"]
 redirect_from: ["/post/Windows-Server-2012-DirectAccess", "/post/windows-server-2012-directaccess"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

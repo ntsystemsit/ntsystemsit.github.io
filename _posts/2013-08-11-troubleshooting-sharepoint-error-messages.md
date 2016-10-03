@@ -5,8 +5,10 @@ date: 2013-08-11 20:46:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["en", "Sharepoint"]
 redirect_from: ["/post/Troubleshooting-Sharepoint-Error-Messages", "/post/troubleshooting-sharepoint-error-messages"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

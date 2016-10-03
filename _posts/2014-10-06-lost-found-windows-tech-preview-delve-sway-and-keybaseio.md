@@ -5,8 +5,10 @@ date: 2014-10-06 17:30:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Client", "Server"]
 redirect_from: ["/post/lost-found-Windows-Tech-Preview-Delve-Sway-and-Keybaseio", "/post/lost-found-windows-tech-preview-delve-sway-and-keybaseio"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -5,8 +5,10 @@ date: 2009-08-12 21:32:03 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Client"]
 redirect_from: ["/post/BitLocker-To-Go", "/post/bitlocker-to-go"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

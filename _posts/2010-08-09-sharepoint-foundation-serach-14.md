@@ -5,8 +5,10 @@ date: 2010-08-09 21:36:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Sharepoint"]
 redirect_from: ["/post/Sharepoint-Foundation-Serach-14", "/post/sharepoint-foundation-serach-14"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

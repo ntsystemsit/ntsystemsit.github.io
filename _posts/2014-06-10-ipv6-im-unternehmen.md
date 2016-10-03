@@ -5,8 +5,10 @@ date: 2014-06-10 21:29:43 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["de", "Network"]
 redirect_from: ["/post/IPv6-im-Unternehmen", "/post/ipv6-im-unternehmen"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

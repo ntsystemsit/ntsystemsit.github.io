@@ -5,8 +5,10 @@ date: 2013-06-09 17:12:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["en", "Exchange"]
 redirect_from: ["/post/Migrating-from-Exchange-2010-to-2013-part-4", "/post/migrating-from-exchange-2010-to-2013-part-4"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

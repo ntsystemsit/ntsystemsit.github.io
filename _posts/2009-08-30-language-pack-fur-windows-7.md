@@ -5,8 +5,10 @@ date: 2009-08-30 21:00:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Client"]
 redirect_from: ["/post/Language-Pack-fur-Windows-7", "/post/language-pack-fur-windows-7"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

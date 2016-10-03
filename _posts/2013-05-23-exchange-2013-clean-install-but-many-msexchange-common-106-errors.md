@@ -5,8 +5,10 @@ date: 2013-05-23 20:07:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["en", "Exchange"]
 redirect_from: ["/post/Exchange-2013-clean-install-but-many-MSExchange-Common-106-errors", "/post/exchange-2013-clean-install-but-many-msexchange-common-106-errors"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

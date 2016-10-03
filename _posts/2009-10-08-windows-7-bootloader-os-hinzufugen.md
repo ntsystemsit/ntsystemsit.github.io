@@ -5,8 +5,10 @@ date: 2009-10-08 21:27:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Client"]
 redirect_from: ["/post/Windows-7-Bootloader-OS-hinzufugen", "/post/windows-7-bootloader-os-hinzufugen"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -5,8 +5,10 @@ date: 2012-07-14 11:40:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["PowerShell"]
 redirect_from: ["/post/Why-am-I-learning-Powershell-And-why-do-I-think-you-should-give-it-a-try-too", "/post/why-am-i-learning-powershell-and-why-do-i-think-you-should-give-it-a-try-too"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

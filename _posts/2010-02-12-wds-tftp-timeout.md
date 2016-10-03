@@ -5,8 +5,10 @@ date: 2010-02-12 16:31:00 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Server", "Server 2008 R2", "Server 2008", "Server 2003"]
 redirect_from: ["/post/WDS-TFTP-TimeOut", "/post/wds-tftp-timeout"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -5,8 +5,10 @@ date: 2013-06-01 16:18:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["en", "Exchange"]
 redirect_from: ["/post/Configure-Exchange-2013-CAS-Array-with-WNLB-and-enable-Kerberos-support-for-OA", "/post/configure-exchange-2013-cas-array-with-wnlb-and-enable-kerberos-support-for-oa"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

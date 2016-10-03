@@ -5,8 +5,10 @@ date: 2010-09-18 02:14:15 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Exchange", "Server"]
 redirect_from: ["/post/Exchange-2010-SP1-Online-Archive-in-eigene-Datenbank-verschieben", "/post/exchange-2010-sp1-online-archive-in-eigene-datenbank-verschieben"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -5,8 +5,10 @@ date: 2014-08-07 16:11:19 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: []
 redirect_from: ["/post/Moving-to-Azure…", "/post/moving-to-azure…"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -5,8 +5,10 @@ date: 2009-12-24 19:21:44 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: []
 redirect_from: ["/page/disclaimer"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -5,8 +5,10 @@ date: 2010-11-02 20:31:00 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Exchange", "Server"]
 redirect_from: ["/post/Mail-Sensitivity-Header-Exchange-2010-SP1", "/post/mail-sensitivity-header-exchange-2010-sp1"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

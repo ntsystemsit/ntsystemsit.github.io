@@ -5,8 +5,10 @@ date: 2010-09-25 14:04:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Client", "de", "Server", "Security"]
 redirect_from: ["/post/Migration-ISA-Server-2k4-2k6-zu-TMG-WPAD", "/post/migration-isa-server-2k4-2k6-zu-tmg-wpad"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

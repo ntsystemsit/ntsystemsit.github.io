@@ -5,8 +5,10 @@ date: 2009-07-20 17:32:57 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: []
 redirect_from: ["/post/Drucken-mit-Internet-Explorer-8-nicht-mehr-moglich", "/post/drucken-mit-internet-explorer-8-nicht-mehr-moglich"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

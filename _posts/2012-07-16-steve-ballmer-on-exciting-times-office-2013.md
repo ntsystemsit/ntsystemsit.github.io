@@ -5,8 +5,10 @@ date: 2012-07-16 22:59:45 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Client", "Server"]
 redirect_from: ["/post/Steve-Ballmer-on-Exciting-Times-Office-2013", "/post/steve-ballmer-on-exciting-times-office-2013"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

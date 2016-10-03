@@ -5,8 +5,10 @@ date: 2016-04-16 16:55:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["en", "PowerShell"]
 redirect_from: ["/post/lost-found-Nano-Server-GitHub-PSGallery-Pester", "/post/lost-found-nano-server-github-psgallery-pester"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

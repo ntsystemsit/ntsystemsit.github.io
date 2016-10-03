@@ -5,8 +5,10 @@ date: 2013-01-30 18:28:00 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Server", "Lync"]
 redirect_from: ["/post/Lync-2013-Voicemail-Escape", "/post/lync-2013-voicemail-escape"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}
@@ -20,8 +22,6 @@ redirect_from: ["/post/Lync-2013-Voicemail-Escape", "/post/lync-2013-voicemail-e
 <p>The Lync Monitoring server shows those ignored answers with a SIP Response Code of 480 and a Reason of: &rsquo;Terminating call as it is answered earlier than the specified voicemail escape timer&rsquo;</p>
 <p><a href="/assets/image_484.png"><img style="display: inline; border-width: 0px;" title="image" src="/assets/image_thumb_482.png" alt="image" width="244" height="64" border="0" /></a></p>
 <p>The Lync Server Logging tool (Component: S4, Level: All) shows the timer in the SIP INVITE packet as:</p>
-<blockquote>
-<p>ms-vm-escape-timer: 5000</p>
-</blockquote>
+<p><code>ms-vm-escape-timer: 5000</code></p>
 <p>You may have to tune the timer depending on your setup and the providers you are using. I had to set it pretty high to actually see an effect.</p>
 <p>so long, <br />tom</p>

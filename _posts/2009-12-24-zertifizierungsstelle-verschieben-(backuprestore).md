@@ -5,8 +5,10 @@ date: 2009-12-24 18:20:00 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Server"]
 redirect_from: ["/post/Zertifizierungsstelle-verschieben-(BackupRestore)", "/post/zertifizierungsstelle-verschieben-(backuprestore)"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -5,8 +5,10 @@ date: 2011-09-06 23:25:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["de", "Client", "Server"]
 redirect_from: ["/post/DigiNotar-nur-ein-Zufall!", "/post/diginotar-nur-ein-zufall!"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}
@@ -69,10 +71,8 @@ redirect_from: ["/post/DigiNotar-nur-ein-Zufall!", "/post/diginotar-nur-ein-zufa
 <h4>&nbsp;</h4>
 <h1>Apple</h1>
 <p>Apple hat wohl zur Zeit andere Priorit&auml;ten, MAC Benutzer sollten auf jeden Fall manuell die oben genannten Zertifikate entfernen. Chester Wisniewski von <a href="http://nakedsecurity.sophos.com" target="_blank">Sophos</a> beschreibt das Ganze so:</p>
-<blockquote>
-<p>What about Apple users? Well, apparently they are too busy playing Angry Birds and making pictures in Photoshop to worry about pesky certificate issues.</p>
-<p>My advice if you run a Mac? Use BootCamp and Windows 7 until Apple decides to provide a patch. Or I guess you could use Firefox (not Chome, it also uses Apple's KeyChain)...</p>
-</blockquote>
+<p><code>What about Apple users? Well, apparently they are too busy playing Angry Birds and making pictures in Photoshop to worry about pesky certificate issues.</p>
+<p>My advice if you run a Mac? Use BootCamp and Windows 7 until Apple decides to provide a patch. Or I guess you could use Firefox (not Chome, it also uses Apple's KeyChain)...</code></p>
 <p>Ein erster Bericht der Security Consultants Fox-IT zum Thema ist verf&uuml;gbar:</p>
 <p><a title="http://www.rijksoverheid.nl/ministeries/bzk/documenten-en-publicaties/rapporten/2011/09/05/diginotar-public-report-version-1.html" href="http://www.rijksoverheid.nl/ministeries/bzk/documenten-en-publicaties/rapporten/2011/09/05/diginotar-public-report-version-1.html">http://www.rijksoverheid.nl/ministeries/bzk/documenten-en-publicaties/rapporten/2011/09/05/diginotar-public-report-version-1.html</a></p>
 <p>stay secure <img class="wlEmoticon wlEmoticon-winkingsmile" src="/assets/wlEmoticon-winkingsmile.png" alt="Zwinkerndes Smiley" /> <br />tom</p>

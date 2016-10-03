@@ -5,8 +5,10 @@ date: 2009-09-29 23:11:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Server", "Client", "Server 2008", "Server 2003"]
 redirect_from: ["/post/Servergespeicherte-TS-Profile-Fehler-1543", "/post/servergespeicherte-ts-profile-fehler-1543"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

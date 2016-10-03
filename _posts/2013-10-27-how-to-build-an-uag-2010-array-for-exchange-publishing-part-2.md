@@ -5,8 +5,10 @@ date: 2013-10-27 13:57:00 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["en", "Exchange", "Lync", "uag"]
 redirect_from: ["/post/How-to-build-an-UAG-2010-Array-for-Exchange-publishing-Part-2", "/post/how-to-build-an-uag-2010-array-for-exchange-publishing-part-2"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

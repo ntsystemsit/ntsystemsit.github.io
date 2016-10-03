@@ -5,8 +5,10 @@ date: 2016-02-13 19:15:00 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["en", "Server"]
 redirect_from: ["/post/Install-Office-Web-Apps-Server-2013-on-Server-2012-R2", "/post/install-office-web-apps-server-2013-on-server-2012-r2"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

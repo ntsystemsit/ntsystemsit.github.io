@@ -5,8 +5,10 @@ date: 2011-03-06 20:23:00 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Sharepoint"]
 redirect_from: ["/post/SharePoint-Dienstkonto-wechseln", "/post/sharepoint-dienstkonto-wechseln"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

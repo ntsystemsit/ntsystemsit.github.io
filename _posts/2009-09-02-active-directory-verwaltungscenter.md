@@ -5,8 +5,10 @@ date: 2009-09-02 21:26:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Server"]
 redirect_from: ["/post/Active-Directory-Verwaltungscenter", "/post/active-directory-verwaltungscenter"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

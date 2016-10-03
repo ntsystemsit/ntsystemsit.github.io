@@ -5,8 +5,10 @@ date: 2010-08-08 13:40:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Exchange"]
 redirect_from: ["/post/ImportExport-Mailbox", "/post/importexport-mailbox"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -5,8 +5,10 @@ date: 2010-02-02 21:54:00 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Server"]
 redirect_from: ["/post/BOOTMGR-is-missing", "/post/bootmgr-is-missing"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

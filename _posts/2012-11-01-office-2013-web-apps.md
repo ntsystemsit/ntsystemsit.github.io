@@ -5,8 +5,10 @@ date: 2012-11-01 11:12:00 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Server 2012", "Sharepoint"]
 redirect_from: ["/post/Office-2013-Web-Apps", "/post/office-2013-web-apps"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

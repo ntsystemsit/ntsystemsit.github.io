@@ -5,8 +5,10 @@ date: 2009-08-26 23:00:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Client", "Hyper-V", "Server", "Server 2008 R2"]
 redirect_from: ["/post/Hyper-V-Server-2008-R2-Cluster", "/post/hyper-v-server-2008-r2-cluster"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

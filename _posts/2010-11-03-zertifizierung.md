@@ -5,8 +5,10 @@ date: 2010-11-03 18:56:00 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: []
 redirect_from: ["/post/Zertifizierung", "/post/zertifizierung"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

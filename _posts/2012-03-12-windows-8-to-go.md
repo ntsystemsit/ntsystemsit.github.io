@@ -5,8 +5,10 @@ date: 2012-03-12 20:36:00 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Client", "de"]
 redirect_from: ["/post/Windows-8-to-Go", "/post/windows-8-to-go"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

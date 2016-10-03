@@ -5,8 +5,10 @@ date: 2016-03-27 10:18:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Azure", "en"]
 redirect_from: ["/post/Azure-Backup-Part-One", "/post/azure-backup-part-one"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

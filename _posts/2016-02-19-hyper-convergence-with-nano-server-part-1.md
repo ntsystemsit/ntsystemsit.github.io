@@ -5,8 +5,10 @@ date: 2016-02-19 20:13:00 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["en", "Server"]
 redirect_from: ["/post/Hyper-Convergence-with-Nano-Server-Part-1", "/post/hyper-convergence-with-nano-server-part-1"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}
@@ -23,23 +25,17 @@ redirect_from: ["/post/Hyper-Convergence-with-Nano-Server-Part-1", "/post/hyper-
  <p>Now we are ready to create the Nano Server VMs and deploy from WDS.  </p>
 <h1>VMs</h1>
  <p>I create four VMs with the following specs on my lab ESXi host:  </p>
-<blockquote>
- <p>NumCPU = 2;</p>
+<p><code>NumCPU = 2;</p>
  <p>MemoryGB = 16;</p>
  <p>DiskGB = 20;</p>
  <p>DiskStorageFormat = 'Thin';</p>
- <p>GuestID = 'windows9Server64Guest'</p>
-</blockquote>
+ <p>GuestID = 'windows9Server64Guest'</code></p>
  <p>Then I remove the default NIC and add two of the Type 'vmxnet3' and make sure they are connected at startup. Finally, I add two hard disks to the VMs:<b></b>  </p>
-<blockquote>
- <p>StorageFormat = 'Thin'</p>
+<p><code>StorageFormat = 'Thin'</p>
  <p>CapacityGB = 100;</p>
- <p>DiskType = 'Flat'</p>
-</blockquote>
+ <p>DiskType = 'Flat'</code></p>
  <p>Once again, please note that I had to use the SATA controller for these data disks, using default LSA or even the VMware paravirtual controllers, resulted in the following error in the Cluster Validation Wizard:</p>
- <blockquote>
- <p>Disk partition style is GPT. Disk has a Microsoft Reserved Partition. Disk type is BASIC. The required inquiry data (<strong>SCSI page 83h VPD descriptor</strong>) was reported as not being supported. </p>
-</blockquote>
+ <p><code>Disk partition style is GPT. Disk has a Microsoft Reserved Partition. Disk type is BASIC. The required inquiry data (<strong>SCSI page 83h VPD descriptor</strong>) was reported as not being supported. </code></p>
  <p>Using a SATA controller, and attaching the hard disks to that controller, solved the problem.&nbsp; </p>
 <p>To install the Nano Servers, all I need to do now, is to boot the VMs, press F12 and select the right image on the Windows Deployment Service. About a minute later my server is ready :)  </p>
 <p>Yes, I did also create the VMs with PowerShell, look for a post on that soon…ish.  </p>

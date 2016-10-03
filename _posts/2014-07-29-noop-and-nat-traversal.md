@@ -5,8 +5,10 @@ date: 2014-07-29 20:03:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["en", "Lync"]
 redirect_from: ["/post/NoOp-and-NAT-Traversal", "/post/noop-and-nat-traversal"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

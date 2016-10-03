@@ -5,8 +5,10 @@ date: 2016-03-07 17:45:50 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Azure"]
 redirect_from: ["/post/Azure-File-Services", "/post/azure-file-services"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

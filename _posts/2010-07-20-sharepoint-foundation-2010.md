@@ -5,8 +5,10 @@ date: 2010-07-20 12:49:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Sharepoint"]
 redirect_from: ["/post/Sharepoint-Foundation-2010", "/post/sharepoint-foundation-2010"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

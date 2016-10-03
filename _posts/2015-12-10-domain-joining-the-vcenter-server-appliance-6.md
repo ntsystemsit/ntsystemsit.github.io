@@ -5,8 +5,10 @@ date: 2015-12-10 18:42:00 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["en", "Server", "VMware"]
 redirect_from: ["/post/Domain-joining-the-vCenter-Server-Appliance-6", "/post/domain-joining-the-vcenter-server-appliance-6"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

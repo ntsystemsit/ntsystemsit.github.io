@@ -5,8 +5,10 @@ date: 2010-09-02 17:25:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Client", "Server"]
 redirect_from: ["/post/WebDav-IIS7-publishing-ober-ISA-Server-Part-2", "/post/webdav-iis7-publishing-ober-isa-server-part-2"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -5,8 +5,10 @@ date: 2016-02-22 18:00:46 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Azure"]
 redirect_from: ["/post/Re-register-Azure-MFA-Server", "/post/re-register-azure-mfa-server"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

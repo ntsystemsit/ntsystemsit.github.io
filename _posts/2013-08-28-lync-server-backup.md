@@ -5,8 +5,10 @@ date: 2013-08-28 21:37:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["en", "Lync"]
 redirect_from: ["/post/Lync-Server-Backup", "/post/lync-server-backup"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

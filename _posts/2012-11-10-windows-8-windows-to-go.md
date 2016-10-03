@@ -5,8 +5,10 @@ date: 2012-11-10 10:59:00 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Client", "en"]
 redirect_from: ["/post/Windows-8-Windows-To-Go", "/post/windows-8-windows-to-go"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

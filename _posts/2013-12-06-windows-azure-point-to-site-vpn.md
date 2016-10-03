@@ -5,8 +5,10 @@ date: 2013-12-06 22:09:37 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["en", "Cloud"]
 redirect_from: ["/post/Windows-Azure-Point-to-Site-VPN", "/post/windows-azure-point-to-site-vpn"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

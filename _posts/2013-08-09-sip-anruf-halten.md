@@ -5,8 +5,10 @@ date: 2013-08-09 22:37:50 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: []
 redirect_from: ["/page/SIP-Anruf-halten", "/page/sip-anruf-halten"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

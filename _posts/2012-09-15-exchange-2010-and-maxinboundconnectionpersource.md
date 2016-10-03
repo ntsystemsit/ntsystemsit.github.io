@@ -5,8 +5,10 @@ date: 2012-09-15 09:08:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Exchange", "Server"]
 redirect_from: ["/post/Exchange-2010-and-MaxInboundConnectionPerSource", "/post/exchange-2010-and-maxinboundconnectionpersource"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -5,8 +5,10 @@ date: 2012-03-12 20:46:58 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Exchange"]
 redirect_from: ["/post/Exchange-2010-Send-on-behalf-for-distribution-Groups", "/post/exchange-2010-send-on-behalf-for-distribution-groups"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

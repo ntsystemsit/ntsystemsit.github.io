@@ -5,13 +5,14 @@ date: 2010-09-01 18:45:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Client", "Server"]
 redirect_from: ["/post/WebDav-IIS7-publishing-over-ISA-Server-Part-1", "/post/webdav-iis7-publishing-over-isa-server-part-1"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}
-<blockquote>
-<p>Dies ist der erste aus 2 Teilen zum Thema WebDav. WebDav (Web-based Distributed Authoring and Versioning) ist ein offizieller Standard, Dateien im Internet bereitzustellen.</p>
+<p><code>Dies ist der erste aus 2 Teilen zum Thema WebDav. WebDav (Web-based Distributed Authoring and Versioning) ist ein offizieller Standard, Dateien im Internet bereitzustellen.</p>
 <p>Der Vorteil von WebDav ist, dass es nicht wie FTP oder SSH spezielle Ports verwendet, sondern &uuml;ber HTTP und HTTPS &uuml;bertragen wird und somit durch jede Firewall kommt, welche Port 80 und 443 ge&ouml;ffnet hat.</p>
 <p>Im ersten Teil werde ich zeigen wie ein Verzeichnis unter IIS7 erstellt und &uuml;ber WebDav freigegeben wird. Im 2. Teil werde ich beschreiben wie man das Ganze &uuml;ber den ISA Server ver&ouml;ffentlicht.</p>
 <p>&nbsp;</p>
@@ -36,5 +37,4 @@ redirect_from: ["/post/WebDav-IIS7-publishing-over-ISA-Server-Part-1", "/post/we
 <p>Als Adresse geben wir <a href="https://Servername">https://Servername</a> ein</p>
 <p><a href="/assets/image_243.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" src="/assets/image_thumb_241.png" border="0" alt="image" width="244" height="199" /></a></p>
 <p>Jetzt k&ouml;nnen wir auf das Verzeichnis &uuml;ber HTTPS zugreifen.</p>
-<p>Gr&uuml;&szlig;e <br />dn</p>
-</blockquote>
+<p>Gr&uuml;&szlig;e <br />dn</code></p>

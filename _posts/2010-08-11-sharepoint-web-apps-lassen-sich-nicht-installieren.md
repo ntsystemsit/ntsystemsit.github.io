@@ -5,8 +5,10 @@ date: 2010-08-11 22:27:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Sharepoint"]
 redirect_from: ["/post/Sharepoint-Web-Apps-lassen-sich-nicht-installieren", "/post/sharepoint-web-apps-lassen-sich-nicht-installieren"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

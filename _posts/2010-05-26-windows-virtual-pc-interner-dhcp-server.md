@@ -5,8 +5,10 @@ date: 2010-05-26 21:39:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Client"]
 redirect_from: ["/post/Windows-Virtual-PC-interner-DHCP-Server", "/post/windows-virtual-pc-interner-dhcp-server"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

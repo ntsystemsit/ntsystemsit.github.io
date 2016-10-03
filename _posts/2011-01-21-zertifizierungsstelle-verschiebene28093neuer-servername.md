@@ -5,8 +5,10 @@ date: 2011-01-21 23:51:21 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Server"]
 redirect_from: ["/post/Zertifizierungsstelle-verschiebene28093neuer-Servername", "/post/zertifizierungsstelle-verschiebene28093neuer-servername"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

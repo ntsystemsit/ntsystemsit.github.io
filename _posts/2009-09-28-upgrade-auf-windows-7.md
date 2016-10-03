@@ -5,8 +5,10 @@ date: 2009-09-28 21:17:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Client"]
 redirect_from: ["/post/Upgrade-auf-Windows-7", "/post/upgrade-auf-windows-7"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

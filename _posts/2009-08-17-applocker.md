@@ -5,8 +5,10 @@ date: 2009-08-17 19:31:21 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Client", "Server"]
 redirect_from: ["/post/AppLocker", "/post/applocker"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

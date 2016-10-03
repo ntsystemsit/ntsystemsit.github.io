@@ -5,8 +5,10 @@ date: 2016-06-26 19:39:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Lync", "en"]
 redirect_from: ["/post/Lync-SDN-API-and-Cisco-WLC", "/post/lync-sdn-api-and-cisco-wlc"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

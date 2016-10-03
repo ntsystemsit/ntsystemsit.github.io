@@ -5,8 +5,10 @@ date: 2014-08-19 18:07:58 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: []
 redirect_from: ["/post/SCVMM-HyperV-Script-to-reboots-VMs-with-powershell", "/post/scvmm-hyperv-script-to-reboots-vms-with-powershell"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -5,8 +5,10 @@ date: 2011-09-14 22:10:09 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Client"]
 redirect_from: ["/post/Windows-8-Developer-Preview", "/post/windows-8-developer-preview"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -5,8 +5,10 @@ date: 2016-02-08 19:50:00 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["en", "Server"]
 redirect_from: ["/post/Hyper-Convergence-with-Nano-Server-Intro", "/post/hyper-convergence-with-nano-server-intro"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -5,8 +5,10 @@ date: 2011-06-12 15:06:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["de", "Client", "Server"]
 redirect_from: ["/post/Subdomain-Certificate-Enrollment", "/post/subdomain-certificate-enrollment"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

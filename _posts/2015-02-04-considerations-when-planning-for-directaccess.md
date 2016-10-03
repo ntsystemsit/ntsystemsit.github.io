@@ -5,8 +5,10 @@ date: 2015-02-04 18:26:00 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Server", "Server 2012 R2"]
 redirect_from: ["/post/Considerations-when-planning-for-DirectAccess", "/post/considerations-when-planning-for-directaccess"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

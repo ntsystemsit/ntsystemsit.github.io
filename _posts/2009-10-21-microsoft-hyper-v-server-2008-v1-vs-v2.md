@@ -5,8 +5,10 @@ date: 2009-10-21 19:11:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Server", "Hyper-V"]
 redirect_from: ["/post/Microsoft-Hyper-V-Server-2008-V1-vs-V2", "/post/microsoft-hyper-v-server-2008-v1-vs-v2"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

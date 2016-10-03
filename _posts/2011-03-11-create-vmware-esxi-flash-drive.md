@@ -5,8 +5,10 @@ date: 2011-03-11 20:13:00 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Server", "VMware"]
 redirect_from: ["/post/Create-VMWare-ESXi-Flash-Drive", "/post/create-vmware-esxi-flash-drive"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

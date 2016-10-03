@@ -5,8 +5,10 @@ date: 2009-08-13 17:08:27 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Client"]
 redirect_from: ["/post/Windows-Virtual-PC", "/post/windows-virtual-pc"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

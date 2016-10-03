@@ -5,8 +5,10 @@ date: 2009-10-13 19:32:14 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Client"]
 redirect_from: ["/post/Windows-7-e28093-Update-von-RC-auf-RTM", "/post/windows-7-e28093-update-von-rc-auf-rtm"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

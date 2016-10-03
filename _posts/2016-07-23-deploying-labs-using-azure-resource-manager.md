@@ -5,8 +5,10 @@ date: 2016-07-23 17:25:06 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["en", "Azure"]
 redirect_from: ["/post/Deploying-Labs-using-Azure-Resource-Manager", "/post/deploying-labs-using-azure-resource-manager"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

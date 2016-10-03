@@ -5,8 +5,10 @@ date: 2013-09-21 22:03:02 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["de", "Lync"]
 redirect_from: ["/post/Lync-2013-Survivable-Branch-Server-Planung", "/post/lync-2013-survivable-branch-server-planung"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

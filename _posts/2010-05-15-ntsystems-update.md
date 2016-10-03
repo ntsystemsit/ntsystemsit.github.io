@@ -5,8 +5,10 @@ date: 2010-05-15 00:34:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: []
 redirect_from: ["/post/ntSystems-Update", "/post/ntsystems-update"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

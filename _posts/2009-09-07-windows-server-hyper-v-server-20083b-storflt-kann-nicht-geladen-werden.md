@@ -5,8 +5,10 @@ date: 2009-09-07 21:00:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Server"]
 redirect_from: ["/post/Windows-Server-Hyper-V-Server-20083b-storflt-kann-nicht-geladen-werden", "/post/windows-server-hyper-v-server-20083b-storflt-kann-nicht-geladen-werden"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

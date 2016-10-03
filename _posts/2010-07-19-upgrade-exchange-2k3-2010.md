@@ -5,8 +5,10 @@ date: 2010-07-19 22:15:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Exchange"]
 redirect_from: ["/post/Upgrade-Exchange-2k3-2010", "/post/upgrade-exchange-2k3-2010"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

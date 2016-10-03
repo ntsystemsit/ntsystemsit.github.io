@@ -5,8 +5,10 @@ date: 2012-11-06 12:18:00 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Server", "Sharepoint"]
 redirect_from: ["/post/SharePoint-2013-Search-Center-Windows-8", "/post/sharepoint-2013-search-center-windows-8"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

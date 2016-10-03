@@ -5,8 +5,10 @@ date: 2009-07-30 20:15:45 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Windows Home Server", "Server", "Client"]
 redirect_from: ["/post/Windows-Home-Server-PP3-(Beta)-e28093-Windows-7", "/post/windows-home-server-pp3-(beta)-e28093-windows-7"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

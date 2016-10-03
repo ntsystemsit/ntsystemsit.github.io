@@ -5,8 +5,10 @@ date: 2015-02-23 17:19:18 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Exchange"]
 redirect_from: ["/post/How-to-prepare-for-Exchange-2013-PF-migration-and-what-the-Microsoft-Guide-doesnt-tell-you", "/post/how-to-prepare-for-exchange-2013-pf-migration-and-what-the-microsoft-guide-doesnt-tell-you"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

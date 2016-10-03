@@ -5,8 +5,10 @@ date: 2015-09-28 19:30:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["ADFS", "Citrix", "en"]
 redirect_from: ["/post/Netscaler-as-ADFS-Proxy", "/post/netscaler-as-adfs-proxy"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -5,8 +5,10 @@ date: 2011-07-16 16:54:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Server"]
 redirect_from: ["/post/Lync-Integration-in-Outlook-Web-App-2010", "/post/lync-integration-in-outlook-web-app-2010"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}
@@ -43,12 +45,8 @@ redirect_from: ["/post/Lync-Integration-in-Outlook-Web-App-2010", "/post/lync-in
 <li>CWAOWASSP.msp </li>
 </ol>
 <p>Die ben&ouml;tigte Software ist somit installiert, jetzt muss Instant Messaging noch aktiviert werden. Die Konfiguration daf&uuml;r wird am OWA Virtual Directory gemacht. Der InstantMessagingType wird auf OCS ge&auml;ndert, als InstantMessagingServerName wird der Lync Server angegeben. Au&szlig;erdem muss der Thumbprint des Zertifikates das f&uuml;r TLS verwendet werden soll angegeben werden und InstantMessaging aktiviert werden. Folgende PowerShell Befehl erledigt dieses Schritte:</p>
-<blockquote>
-<p>$iiscert = (Get-ExchangeCertificate | Where {$_.Services -like "*IIS*"}).Thumbprint</p>
-</blockquote>
-<blockquote>
-<p>Get-OWAVirtualDirectory -Server ex14.ntsystems.local | Set-OWAVirtualDirectory -InstantMessagingType OCS -InstantMessagingEnabled:$true -InstantMessagingCertificateThumbprint $iiscert -InstantMessagingServerName lync.ntsystems.local</p>
-</blockquote>
+<p><code>$iiscert = (Get-ExchangeCertificate | Where {$_.Services -like "*IIS*"}).Thumbprint</code></p>
+<p><code>Get-OWAVirtualDirectory -Server ex14.ntsystems.local | Set-OWAVirtualDirectory -InstantMessagingType OCS -InstantMessagingEnabled:$true -InstantMessagingCertificateThumbprint $iiscert -InstantMessagingServerName lync.ntsystems.local</code></p>
 <p>Achtung: Wenn bei Get-OWAVirtualDirectory der Parameter Server weggelassen wird werden alle Virtual Directories der Exchange Umgebung konfiguriert. Bei InstantMessagingServerName muss der FQDN des Lync Servers angegeben werden.</p>
 <p>In einem CAS Array m&uuml;ssen diese Schritte auf allen Servern wiederholt werden.</p>
 <h1>Lync Server Konfiguration</h1>
@@ -60,13 +58,9 @@ redirect_from: ["/post/Lync-Integration-in-Outlook-Web-App-2010", "/post/lync-in
 <p><a href="/assets/image_332.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" src="/assets/image_thumb_330.png" border="0" alt="image" width="244" height="69" /></a></p>
 <p>Jetzt kann die &Auml;nderung der Topologie ver&ouml;ffentlicht werden, dazu klickt auf Action, Topology und Publish.</p>
 <p>Es fehlt noch die CSTrustedApplication, diese wird &uuml;ber die Lync Server Management Shell angelegt. Auch dabei muss wieder der FQDN des Client Access Servers oder des CAS Arrays angegeben werden, au&szlig;erdem wird ein Port f&uuml;r die Applikation angegeben, nat&uuml;rlich muss ein Port verwendet werden der frei ist. (netstat &ndash;an zeigt verwendete Ports an). Mit folgendem PowerShell Befehl wird die Applikation erstellt:</p>
-<blockquote>
-<p>New-CsTrustedApplication -ApplicationID OWA -TrustedApplicationPoolFqdn ex14.ntsystems.local -Port 4999</p>
-</blockquote>
+<p><code>New-CsTrustedApplication -ApplicationID OWA -TrustedApplicationPoolFqdn ex14.ntsystems.local -Port 4999</code></p>
 <p>Diese Konfiguration muss noch aktiviert werden, das wird mit folgendem PowerShell cmdlet gemacht:</p>
-<blockquote>
-<p>Enable-CsTopology</p>
-</blockquote>
+<p><code>Enable-CsTopology</code></p>
 <h1>Enjoy</h1>
 <p>Die Konfiguration ist jetzt abgeschlossen, ab jetzt sind die neuen Features in Outlook Web App aktiv&hellip;</p>
 <p><a href="/assets/image_333.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" src="/assets/image_thumb_331.png" border="0" alt="image" width="244" height="215" /></a></p>

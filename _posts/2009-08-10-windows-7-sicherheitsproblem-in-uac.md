@@ -5,8 +5,10 @@ date: 2009-08-10 14:58:20 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Client"]
 redirect_from: ["/post/Windows-7-Sicherheitsproblem-in-UAC", "/post/windows-7-sicherheitsproblem-in-uac"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

@@ -5,8 +5,10 @@ date: 2010-05-10 21:27:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Server"]
 redirect_from: ["/post/WSUS-auf-neuen-Server-verschieben", "/post/wsus-auf-neuen-server-verschieben"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

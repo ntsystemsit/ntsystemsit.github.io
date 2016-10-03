@@ -5,8 +5,10 @@ date: 2010-03-17 22:31:00 +0100
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["Server"]
 redirect_from: ["/post/WDS-Remoteinstallationsordner-verschieben", "/post/wds-remoteinstallationsordner-verschieben"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

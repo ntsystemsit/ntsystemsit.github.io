@@ -5,8 +5,10 @@ date: 2010-07-13 22:33:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["de", "Server", "Security"]
 redirect_from: ["/post/Forefront-TMG-2010e28093RSA-Authentication-Manager-71", "/post/forefront-tmg-2010e28093rsa-authentication-manager-71"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

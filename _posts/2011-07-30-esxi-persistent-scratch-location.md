@@ -5,8 +5,10 @@ date: 2011-07-30 15:56:05 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["VMware", "Server"]
 redirect_from: ["/post/ESXi-Persistent-Scratch-Location", "/post/esxi-persistent-scratch-location"]
+author: thomas torggler
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}

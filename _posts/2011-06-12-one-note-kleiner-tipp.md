@@ -5,8 +5,10 @@ date: 2011-06-12 15:15:00 +0200
 comments: true
 published: true
 excerpt_separator: <!-- more -->
+categories: Archive
 tags: ["de", "Client"]
 redirect_from: ["/post/One-Note-Kleiner-Tipp", "/post/one-note-kleiner-tipp"]
+author: daniel nitz
 ---
 <!-- more -->
 {% include imported_disclaimer.html %}
