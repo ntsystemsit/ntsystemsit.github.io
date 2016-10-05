@@ -19,7 +19,7 @@ Recently I started publishing some of the PowerShell code I'm writing to [GitHub
 As of 2016-10-02 we moved to Jekyll. The current version of our little blog is hosted on GitHub Pages and uses a slightly modified version of the default Minima theme for [Jekyll](http://jekyllrb.com/).
 
 # Tools
-As this is now , essentially, a static website, we have to use the some tools to make it as awesome as possible:
+As this is now, essentially, a static website, we have to use some tools to make it as awesome as possible:
 
 - [Cloudflare: Security, IPv6, TLSv3, Page Rules... and more awesomeness](https://cloudflare.com)
 - [Algolia: Search as a Service](https://www.algolia.com/)
@@ -31,7 +31,7 @@ This migration is a work in progress and therefore not all features the good, ol
 
 
 We do hope you enjoy our new look. It is all open source, so if you are interested in how we do stuff, just check out [our repo](https://github.com/tomtorggler/tomtorggler.github.io)
-If you want to correct any errors just send us a pull-request :-)
+Oh and if you find any errors you'd wish to correct, please just send us a pull-request :-)
 
 
 So long,
