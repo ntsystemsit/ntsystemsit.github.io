@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Welcome to our new blog!"
-date:   2016-05-10 22:21:04 +0200
+date:   2016-10-05 22:21:04 +0200
 categories: jekyll update
 author: thomas torggler
 excerpt_separator: <!-- more -->
