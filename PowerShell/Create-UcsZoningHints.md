@@ -1,11 +1,12 @@
 ---
-layout: post
+layout: page
 title:  "Create-UcsZoningHints"
 date:   2016-08-08 21:26:14 +0200
 comments: true
+published: true
 excerpt_separator: <!--more-->
 tags: ["Cisco", "PowerShell"]
-author: "ttorggler"
+author: thomas torggler
 redirect_from: page/PS-Create-UcsZoningHintsps1
 ---
 

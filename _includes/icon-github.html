@@ -1,1 +1,11 @@
-<a href="https://github.com/{{ include.username }}"><span class="icon icon--github">{% include icon-github.svg %}</span><span class="username">{{ include.username }}</span></a>
+{% if include.reponame %}
+    <a href="https://github.com/{{ include.username }}/{{ include.reponame }}" target="_blank">
+        <span class="icon icon--github">{% include icon-github.svg %}</span>
+        <span class="username">{{ include.username }}/{{ include.reponame }}</span>
+    </a>
+{% else %}
+    <a href="https://github.com/{{ include.username }}" target="_blank">
+        <span class="icon icon--github">{% include icon-github.svg %}</span>
+        <span class="username">{{ include.username }}</span>
+    </a>
+{% endif %}

@@ -1,11 +1,11 @@
 ---
-layout: post
+layout: page
 title: "Start-LyncBackup"
 date: 2013-08-28 12:35:25 +0200
 comments: true
 published: true
+author: thomas torggler
 tags: ["blog", "archives", "PowerShell"]
-excerpt_separator: <!-- more -->
 redirect_from: ["/page/PS-Start-LyncBackupps1", "/page/ps-start-lyncbackupps1"]
 ---
 <!-- more -->

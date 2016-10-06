@@ -1,31 +1,75 @@
 ---
-layout: post
+layout: page
 title: "Restore-VMPermission"
 date: 2013-09-27 21:46:00 +0200
 comments: true
 published: true
+author: thomas torggler
 tags: ["blog", "archives", "PowerShell"]
-excerpt_separator: <!-- more -->
 redirect_from: ["/page/PS-Restore-VMPermissionps1", "/page/ps-restore-vmpermissionps1"]
 ---
-<!-- more -->
-{% include imported_disclaimer.html %}
-<p>This script is intended for test/demo environments only. It uses the Hyper-V Module to update permissions for all assigned disks on one ore more VMs. This is useful if you move/replace VHDs and the read permission ACE for VMId is missing.</p>
-  <p><strong>Inputs</strong></p>
-  <p>You can pipe objects with a VMName property, such as returned by Get-VM, to this script.</p>
-  <p><strong>Outputs</strong></p>
-  <p>None. This script does not write any objects to the pipeline. </p>
-  <p><strong>Role</strong></p>
-  <p>Get-VM does not return anything without administrative rights. Depending on the location of the virtual disk files, administrative permissions might be required to update ACLs.</p>
-  <p><strong>Example 1</strong></p>
-  <p>.\Restore-VMPermission.ps1 -VM dc01</p>
-  <p>This example adds permission the VMId of dc01 to the ACL of all assigned disks for dc01.</p>
-  <p><strong>Example 2</strong></p>
-  <p>Get-VM | .\Restore-VMPermission.ps1</p>
-  <p>This example uses Get-VM to get all VMs on the local machine. It gets all disks for all VMs and adds the required permissions for the VMId of the VM to the ACL of every disk.</p>
-  <h1>Download&nbsp;</h1>
-  <p>I uploaded the Script to the <a href="https://www.powershellgallery.com/packages/Restore-VMPermission" target="_blank">PowerShell Gallery</a>, so you can easily download it&nbsp;using:</p>
-<p> <blockquote>
-Save-Script -Name Restore-VMPermission -Path &lt;path&gt;&nbsp;&nbsp;</blockquote></p>
-<p>Alternatively, the latest version of the script can be found here:</p>
-  <p><iframe width="165" height="128" src="https://skydrive.live.com/embed?cid=9BFCE0941114C6E8&amp;resid=9BFCE0941114C6E8%2113252&amp;authkey=ACsbIC9ezwzD9-w" frameborder="0" scrolling="no"></iframe></p>
+
+# SYNOPSIS
+Adds permissions for the VMId to all assigned disks.
+
+# SYNTAX
+```
+.\Restore-VMPermission.ps1 [-VM] <String[]> [-WhatIf] [-Confirm] [<CommonParameters>]
+```
+
+# DESCRIPTION
+This script uses the Hyper-V Module to update permissions for all assigned disks on one ore more VMs. This is useful if you move/replace VHDs and the read permission ACE for VMId is missing.
+
+# PARAMETERS
+    -VM <String[]>
+        VM, specify the VM that needs permissions fixed.
+
+        Required?                    true
+        Position?                    1
+        Default value
+        Accept pipeline input?       true (ByPropertyName)
+        Accept wildcard characters?  false
+
+    -WhatIf [<SwitchParameter>]
+
+        Required?                    false
+        Position?                    named
+        Default value
+        Accept pipeline input?       false
+        Accept wildcard characters?  false
+
+    -Confirm [<SwitchParameter>]
+
+        Required?                    false
+        Position?                    named
+        Default value
+        Accept pipeline input?       false
+        Accept wildcard characters?  false
+
+    <CommonParameters>
+        This cmdlet supports the common parameters: Verbose, Debug,
+        ErrorAction, ErrorVariable, WarningAction, WarningVariable,
+        OutBuffer, PipelineVariable, and OutVariable. For more information, see
+        about_CommonParameters (https://go.microsoft.com/fwlink/?LinkID=113216).
+
+# INPUTS
+    You can pipe objcets with a VMName property, such as returned by Get-VM, to this script.
+
+
+# OUTPUTS
+    None. This script does not write any objects to the pipeline.
+
+
+# EXAMPLE 1
+```
+PS C:\>Restore-VMPermission.ps1 -VM dc01
+```
+This example adds permission for dc01 VMId to the ACL of all assigned disks for dc01.
+
+# EXAMPLE 2
+```
+PS C:\>Get-VM | Restore-VMPermission.ps1
+``` 
+This example uses Get-VM to get all VMs on the local machine. It gets all disks for all VMs and adds the required premissions for VMId to the ACL.
+
+{% include psgallery.html packagename="Restore-VMPermission" type="Script" %}

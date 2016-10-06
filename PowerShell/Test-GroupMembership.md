@@ -4,8 +4,8 @@ title: "Test-GroupMembership"
 date: 2013-09-08 17:22:00 +0200
 comments: true
 published: true
+author: thomas torggler
 tags: ["blog", "archives", "PowerShell"]
-excerpt_separator: <!-- more -->
 redirect_from: ["/page/PS-Test-GroupMembership", "/page/ps-test-groupmembership"]
 ---
 <!-- more -->

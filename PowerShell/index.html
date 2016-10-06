@@ -9,7 +9,7 @@ menubar: true
 
   <ul class="post-list">
     {% for page in site.pages %}
-    {% if page.path contains 'PowerShell/' and page.path != 'PowerShell/index.html' %}
+    {% if page.path contains 'PowerShell/' and page.path != 'PowerShell/index.html' and page.published %}
       <li>
         <span class="post-meta">{{ page.date | date: "%b %-d, %Y" }} {{ page.author }}</span>
         <h2>
