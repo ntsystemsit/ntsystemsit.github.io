@@ -136,12 +136,5 @@ PS Scripts:\> Get-UcsServiceProfile | .\Create-UcsZoningHints.ps1 -TargetAlias v
 ````
 This example creates zoning configuration for all configured Service Profiles to all specified Targets.
 
-# Download
-I uploaded the Script to the PowerShell Gallery, so you can easily download it using:
-
-```
-Save-Script -Name Create-UcsZoningHints -Path <path>
-```
-
-# Source 
-Find the source over at my GitHub [Repository](https://github.com/tomtorggler/CiscoUCS) 
+{% include psgallery.html packagename="Create-UcsZoningHints" type="Script" reponame="CiscoUCS" %}
+And you can find the source in the following GitHub Repository: {% include icon-github.html username='tomtorggler' reponame='CiscoUCS' %}
