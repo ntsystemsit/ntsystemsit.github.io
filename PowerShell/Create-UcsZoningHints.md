@@ -137,4 +137,3 @@ PS Scripts:\> Get-UcsServiceProfile | .\Create-UcsZoningHints.ps1 -TargetAlias v
 This example creates zoning configuration for all configured Service Profiles to all specified Targets.
 
 {% include psgallery.html packagename="Create-UcsZoningHints" type="Script" reponame="CiscoUCS" %}
-And you can find the source in the following GitHub Repository: {% include icon-github.html username='tomtorggler' reponame='CiscoUCS' %}
