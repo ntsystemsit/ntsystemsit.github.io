@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Invoke-SEFAUtil"
 date: 2013-09-08 17:49:00 +0200
 comments: true

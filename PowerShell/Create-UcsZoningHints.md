@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title:  "Create-UcsZoningHints"
 date:   2016-08-08 21:26:14 +0200
 comments: true

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Start-LyncBackup"
 date: 2013-08-28 12:35:25 +0200
 comments: true

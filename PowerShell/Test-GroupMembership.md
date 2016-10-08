@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Test-GroupMembership"
 date: 2013-09-08 17:22:00 +0200
 comments: true

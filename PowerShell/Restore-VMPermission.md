@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Restore-VMPermission"
 date: 2013-09-27 21:46:00 +0200
 comments: true
