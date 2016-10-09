@@ -4,7 +4,8 @@ title: "PowerShell on macOS"
 date: 2016-10-02 09:25:06 +0200
 comments: true
 published: true
-categories: PowerShell
+category: PowerShell
+tags: PowerShell, macOS
 excerpt_separator: <!-- more -->
 author: thomas torggler
 ---

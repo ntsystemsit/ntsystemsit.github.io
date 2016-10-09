@@ -5,6 +5,7 @@ date: 2013-09-27 21:46:00 +0200
 comments: true
 published: true
 author: thomas torggler
+category: PowerShell
 tags: ["blog", "archives", "PowerShell"]
 redirect_from: ["/page/PS-Restore-VMPermissionps1", "/page/ps-restore-vmpermissionps1"]
 ---

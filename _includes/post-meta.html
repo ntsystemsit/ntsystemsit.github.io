@@ -8,12 +8,12 @@
                 <a href="{{ site.baseurl }}/contact"><span itemprop="author">{{ post.author }}</span></a> &thinsp;
             </span>
         {% endif %}
-        {% if post.categories %}
+        {% if post.category %}
             <img src="{{ site.baseurl }}/public/glyphicons-441-folder-closed.png" height="12" width="11">
             <span itemprop="category" itemscope itemtype="http://schema.org/BlogPosting">
                 <span itemprop="keywords">
-                    {% for cat in post.categories %}
-                        {{ cat }}
+                    {% for cat in post.category %}
+                        {{ cat }} 
                     {% endfor %}
                 </span>
             </span>
@@ -29,11 +29,11 @@
                 <a href="{{ site.baseurl }}/contact"><span itemprop="author">{{ page.author }}</span></a> &thinsp;
             </span>
         {% endif %}
-        {% if page.categories %}
+        {% if page.category %}
             <img src="{{ site.baseurl }}/public/glyphicons-441-folder-closed.png" height="12" width="11">
             <span itemprop="category" itemscope itemtype="http://schema.org/BlogPosting">
                 <span itemprop="keywords">
-                    {% for cat in page.categories %}
+                    {% for cat in page.category %}
                         {{ cat }}
                     {% endfor %}
                 </span>

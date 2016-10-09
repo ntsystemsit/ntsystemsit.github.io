@@ -9,19 +9,11 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-              <div class="algolia__initial-content js-algolia__initial-content">{{ content }}</div>
-
-      <div class="algolia__search-content js-algolia__search-content">
-        <h1 class="page-title">Search</h1>
-        <div class="posts algolia__results"></div>
+          {{ content }}
       </div>
-        {% if page.comments %}
-        {% include disqus_comments.html %}
-        {% endif %}
     </main>
 
     <script src="{{ "/public/js/shariff.complete.js" | prepend: site.baseurl }}"></script>
-
     {% include footer.html %}
 
   </body>

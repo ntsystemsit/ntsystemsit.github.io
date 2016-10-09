@@ -5,6 +5,7 @@ date: 2013-08-28 12:35:25 +0200
 comments: true
 published: true
 author: thomas torggler
+category: PowerShell
 tags: ["blog", "archives", "PowerShell"]
 redirect_from: ["/page/PS-Start-LyncBackupps1", "/page/ps-start-lyncbackupps1"]
 ---
