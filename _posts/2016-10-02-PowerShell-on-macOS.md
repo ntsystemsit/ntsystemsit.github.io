@@ -6,7 +6,6 @@ comments: true
 published: true
 category: PowerShell
 tags: PowerShell macOS
-excerpt_separator: <!-- more -->
 author: thomas torggler
 ---
 

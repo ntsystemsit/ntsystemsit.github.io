@@ -14,7 +14,7 @@ menubar: true
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
         </h2>
         {% include post-meta.html %}
-        {{ post.content | strip_html | truncatewords: 20 }}
+        {{ post.excerpt }}
       </li>
     {% endif %}
     {% endfor %}
