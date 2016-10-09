@@ -4,7 +4,7 @@ title:  "Welcome to our new blog!"
 date:   2016-10-05 22:21:04 +0200
 comments: true
 category: ntsystems
-tags: update, jekyll
+tags: update jekyll
 author: thomas torggler
 excerpt_separator: <!-- more -->
 ---

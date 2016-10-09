@@ -6,7 +6,7 @@ comments: true
 published: true
 author: thomas torggler
 category: PowerShell
-tags: ["blog", "archives", "PowerShell"]
+tags: ["blog", "archives", "PowerShell", "OnlineHelp"]
 redirect_from: ["/page/PS-Test-GroupMembership", "/page/ps-test-groupmembership"]
 ---
 <!-- more -->

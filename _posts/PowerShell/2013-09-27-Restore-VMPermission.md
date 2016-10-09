@@ -6,7 +6,7 @@ comments: true
 published: true
 author: thomas torggler
 category: PowerShell
-tags: ["blog", "archives", "PowerShell"]
+tags: ["OnlineHelp", "Hyper-V", "PowerShell"]
 redirect_from: ["/page/PS-Restore-VMPermissionps1", "/page/ps-restore-vmpermissionps1"]
 ---
 

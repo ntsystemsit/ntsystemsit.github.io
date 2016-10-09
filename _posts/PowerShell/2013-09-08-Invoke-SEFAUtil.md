@@ -4,9 +4,10 @@ title: "Invoke-SEFAUtil"
 date: 2013-09-08 17:49:00 +0200
 comments: true
 published: true
+excerpt_separator: <!-- more -->
 author: thomas torggler
 category: PowerShell
-tags: ["blog", "archives", "PowerShell"]
+tags: ["PowerShell", "OnlineHelp", "Lync"]
 redirect_from: ["/page/PS-Invoke-SEFAUtilps1", "/page/ps-invoke-sefautilps1"]
 ---
 
