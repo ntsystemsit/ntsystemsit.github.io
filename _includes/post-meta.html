@@ -1,43 +1,32 @@
-{% if paginator %}
-    <p class="post-meta">
-        <img src="{{ site.baseurl }}/public/glyphicons-46-calendar.png" height="12" width="11">
+<p class="post-meta">
+    <img src="{{ site.baseurl }}/public/glyphicons-46-calendar.png">
+    {% if post.date %}
         <time datetime="{{ post.date | date: "%b %-d, %Y" }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }} &thinsp; </time>
-        {% if post.author %}
-            <img src="{{ site.baseurl }}/public/glyphicons-4-user.png" height="12" width="11">
-            <span itemprop="author" itemscope itemtype="http://schema.org/BlogPosting">
-                <a href="{{ site.baseurl }}/contact"><span itemprop="author">{{ post.author }}</span></a> &thinsp;
+    {% else %}
+        <time datetime="{{ page.date | date: "%b %-d, %Y" }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }} &thinsp; </time>
+    {% endif %}
+        <img src="{{ site.baseurl }}/public/glyphicons-4-user.png">
+        <span itemprop="author" itemscope itemtype="http://schema.org/BlogPosting">
+            {% if post.author %}
+                <span itemprop="author">{{ post.author }}</span>
+            {% else %}
+                <a href="{{ site.baseurl }}/contact"><span itemprop="author">{{ page.author }}</span></a>
+            {% endif %}
+        </span>&thinsp;
+    {% if page.category %}
+        <img src="{{ site.baseurl }}/public/glyphicons-441-folder-closed.png">
+        <span itemprop="category" itemscope itemtype="http://schema.org/BlogPosting">
+            <span itemprop="keywords">{{ page.category }}</span> &thinsp;
+        </span>
+    {% endif %}
+    {% if page.tags %}
+        <img src="{{ site.baseurl }}/public/glyphicons-67-tags.png">
+        <span itemprop="category" itemscope itemtype="http://schema.org/BlogPosting">
+            <span itemprop="keywords">
+                {% for tag in page.tags %}
+                    {{ tag }} {% unless forloop.last %}-{% endunless %}
+                {% endfor %}
             </span>
-        {% endif %}
-        {% if post.categories %}
-            <img src="{{ site.baseurl }}/public/glyphicons-441-folder-closed.png" height="12" width="11">
-            <span itemprop="category" itemscope itemtype="http://schema.org/BlogPosting">
-                <span itemprop="keywords">
-                    {% for cat in post.categories %}
-                        {{ cat }}
-                    {% endfor %}
-                </span>
-            </span>
-        {% endif %}
-    </p>
-{% else %}
-    <p class="post-meta">
-        <img src="{{ site.baseurl }}/public/glyphicons-46-calendar.png" height="12" width="11">
-        <time datetime="{{ post.date | date: "%b %-d, %Y" }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }} &thinsp; </time>
-        {% if page.author %}
-            <img src="{{ site.baseurl }}/public/glyphicons-4-user.png" height="12" width="11">
-            <span itemprop="author" itemscope itemtype="http://schema.org/BlogPosting">
-                <a href="{{ site.baseurl }}/contact"><span itemprop="author">{{ page.author }}</span></a> &thinsp;
-            </span>
-        {% endif %}
-        {% if page.categories %}
-            <img src="{{ site.baseurl }}/public/glyphicons-441-folder-closed.png" height="12" width="11">
-            <span itemprop="category" itemscope itemtype="http://schema.org/BlogPosting">
-                <span itemprop="keywords">
-                    {% for cat in page.categories %}
-                        {{ cat }}
-                    {% endfor %}
-                </span>
-            </span>
-        {% endif %}
-    </p>
-{% endif %}
+        </span>
+    {% endif %}
+</p>

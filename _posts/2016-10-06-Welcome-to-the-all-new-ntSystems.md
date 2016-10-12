@@ -3,9 +3,9 @@ layout: post
 title:  "Welcome to our new blog!"
 date:   2016-10-05 22:21:04 +0200
 comments: true
-categories: jekyll update
+category: ntsystems
+tags: update jekyll
 author: thomas torggler
-excerpt_separator: <!-- more -->
 ---
 
 This site has been running on [Azure Web Sites for some time](https://ntsystems.it/post/moving-to-azure). As we are doing this for fun and are not making any money with the site (see any ad?) we had to use the "Shared" pricing tier which was economically acceptable but from a performance and feature point-of-view, well, not great. We used [Cloudflare](https://www.cloudflare.com) to get some caching and enable stuff like https and IPv6 for the site and it was OK :) Then came...

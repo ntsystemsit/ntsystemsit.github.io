@@ -3,14 +3,14 @@ layout: post
 title: "Start-LyncBackup"
 date: 2013-08-28 12:35:25 +0200
 comments: true
-published: true
 author: thomas torggler
-tags: ["blog", "archives", "PowerShell"]
+category: PowerShell
+tags: OnlineHelp Lync PowerShell
 redirect_from: ["/page/PS-Start-LyncBackupps1", "/page/ps-start-lyncbackupps1"]
 ---
-<!-- more -->
 {% include imported_disclaimer.html %}
 <p>This script exports Lync Core Data and Settings according to the documentation availabe on <a href="http://technet.microsoft.com/en-us/library/hh202170.aspx" target="_blank">TechNet</a>. It is intended to be run as scheduled task, the Retention parameter can be used to indicate how long to keep existing backup files in the target directory.</p>
+<!-- more -->
 <p><strong>Inputs</strong></p>
 <p>None. This script does not take any pipeline input.</p>
 <p><strong>Outputs</strong></p>

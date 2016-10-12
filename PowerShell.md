@@ -1,15 +1,14 @@
 ---
-layout: default
+layout: page
+title: PowerShell
+permalink: /PowerShell/
+menubar: true
 ---
-
 <div class="home">
-  
-  <header class="post-header">
-    <h1 class="post-title">Posts</h1>
-  </header>
 
   <ul class="post-list">
-    {% for post in paginator.posts %}
+    {% for post in site.tags.OnlineHelp %}
+    {% if post.category == "PowerShell" %}
       <li>
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
@@ -17,9 +16,7 @@ layout: default
         {% include post-meta.html %}
         {{ post.excerpt }}
       </li>
+    {% endif %}
     {% endfor %}
   </ul>
-
 </div>
-
-{% include paginator.html %}

@@ -3,15 +3,14 @@ layout: post
 title: "Restore-VMPermission"
 date: 2013-09-27 21:46:00 +0200
 comments: true
-published: true
 author: thomas torggler
-tags: ["blog", "archives", "PowerShell"]
+category: PowerShell
+tags: ["OnlineHelp", "Hyper-V", "PowerShell"]
 redirect_from: ["/page/PS-Restore-VMPermissionps1", "/page/ps-restore-vmpermissionps1"]
 ---
 
-# SYNOPSIS
 Adds permissions for the VMId to all assigned disks.
-
+<!-- more -->
 # SYNTAX
 ```
 .\Restore-VMPermission.ps1 [-VM] <String[]> [-WhatIf] [-Confirm] [<CommonParameters>]

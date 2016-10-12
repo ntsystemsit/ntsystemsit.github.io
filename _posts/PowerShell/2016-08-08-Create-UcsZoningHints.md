@@ -3,15 +3,14 @@ layout: post
 title:  "Create-UcsZoningHints"
 date:   2016-08-08 21:26:14 +0200
 comments: true
-published: true
-excerpt_separator: <!--more-->
-tags: ["Cisco", "PowerShell"]
 author: thomas torggler
+category: PowerShell
+tags: ["Cisco", "PowerShell", "OnlineHelp"]
 redirect_from: page/PS-Create-UcsZoningHintsps1
 ---
 
 This script uses the CiscoUcs PowerTool to get information about one or more service profiles and creates SIST zoning configuration for NX-OS. The Target's device-alias as well as the name for the ZoneSet and the VSAN can be specified with parameters. Zone names will be automatically created.
-<!--more-->
+<!-- more -->
 
 # Syntax
 ```
