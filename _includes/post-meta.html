@@ -5,12 +5,14 @@
     {% else %}
         <time datetime="{{ page.date | date: "%b %-d, %Y" }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }} &thinsp; </time>
     {% endif %}
-    {% if page.author or post.author %}
         <img src="{{ site.baseurl }}/public/glyphicons-4-user.png">
         <span itemprop="author" itemscope itemtype="http://schema.org/BlogPosting">
-            <a href="{{ site.baseurl }}/contact"><span itemprop="author">{% if post.author %}{{ post.author }}{% else %}{{ page.author }}{% endif %}</span></a> &thinsp;
-        </span>
-    {% endif %}
+            {% if post.author %}
+                <span itemprop="author">{{ post.author }}</span>
+            {% else %}
+                <a href="{{ site.baseurl }}/contact"><span itemprop="author">{{ page.author }}</span></a>
+            {% endif %}
+        </span>&thinsp;
     {% if page.category %}
         <img src="{{ site.baseurl }}/public/glyphicons-441-folder-closed.png">
         <span itemprop="category" itemscope itemtype="http://schema.org/BlogPosting">
