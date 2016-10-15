@@ -23,7 +23,7 @@ As of 2016-10-02 we moved to Jekyll. The current version of our little blog is h
 As this is now, essentially, a static website, we have to use some tools to make it as awesome as possible:
 
 - [Cloudflare: Security, IPv6, TLSv3, Page Rules... and more awesomeness](https://cloudflare.com)
-- ~~[Algolia: Search as a Service](https://www.algolia.com/)~~~
+- ~~[Algolia: Search as a Service](https://www.algolia.com/)~~
 - [lunr.js: Full-text search in your browser](http://lunrjs.com)
 - [Favicon Generator](http://realfavicongenerator.net/)
 - [Shariff: Share without compromising privacy](https://github.com/heiseonline/shariff)
