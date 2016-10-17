@@ -3,15 +3,12 @@ layout: post
 title: "Scheduled Jobs in PowerShell v3"
 date: 2012-09-07 21:36:00 +0200
 comments: true
-published: true
-excerpt_separator: <!-- more -->
-categories: Archive
+category: Archive
 tags: ["PowerShell"]
 redirect_from: ["/post/Scheduled-Jobs-in-PowerShell-v3", "/post/scheduled-jobs-in-powershell-v3"]
 author: thomas torggler
 ---
 <!-- more -->
-{% include imported_disclaimer.html %}
 <p>I am really excited to write about that great feature of PowerShell I started using recently. It's all about scheduling administrative tasks, actually it's more like scheduling everything, to run when I am at home sleeping happily <span style="font-family: Wingdings;">J</span></p>
 <p>So as I have mentioned before I'm no PowerShell expert at all and I'm sure all that stuff can be done many other ways, but then this thing is working for me&hellip;</p>
 <h1>Snippets</h1>
@@ -63,3 +60,4 @@ author: thomas torggler
 <p style="background: white;">So long, have a nice weekend!</p>
 <p style="background: white;">tom</p>
 <p>&nbsp;</p>
+{% include imported_disclaimer.html %}

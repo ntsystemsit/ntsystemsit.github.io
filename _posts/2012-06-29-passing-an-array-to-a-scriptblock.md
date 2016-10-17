@@ -3,15 +3,12 @@ layout: post
 title: "Passing an array to a {scriptblock}"
 date: 2012-06-29 07:10:00 +0200
 comments: true
-published: true
-excerpt_separator: <!-- more -->
-categories: Archive
+category: Archive
 tags: ["PowerShell"]
 redirect_from: ["/post/Passing-an-array-to-a-scriptblock", "/post/passing-an-array-to-a-scriptblock"]
 author: thomas torggler
 ---
 <!-- more -->
-{% include imported_disclaimer.html %}
 <p class="brush: ps;">Some Friday PowerShell fun today.</p>
 <p>I created a PowerShell script the other day where I was passing a variable to a scriptblock. As long as the variable was a simple string everything was just fine, but when the variable was of the type System.Array only the first item would have been passed to the scriptblock.</p>
 <p>[more]</p>
@@ -36,3 +33,4 @@ Invoke-Command -ScriptBlock $myBlock &ndash;ArgumentList (,$myArray)
 <p>tom</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
+{% include imported_disclaimer.html %}

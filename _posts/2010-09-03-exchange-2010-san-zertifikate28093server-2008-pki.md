@@ -3,19 +3,16 @@ layout: post
 title: "Exchange 2010 SAN Zertifikat–Server 2008 PKI"
 date: 2010-09-03 12:52:00 +0200
 comments: true
-published: true
-excerpt_separator: <!-- more -->
-categories: Archive
+category: Archive
 tags: ["Exchange"]
 redirect_from: ["/post/Exchange-2010-SAN-Zertifikate28093Server-2008-PKI", "/post/exchange-2010-san-zertifikate28093server-2008-pki"]
 author: thomas torggler
 ---
 <!-- more -->
-{% include imported_disclaimer.html %}
 <p>Zertifikate f&uuml;r den Exchange 2010 Client Zugriff beinhalteten mehrere Subject Names. Standardm&auml;&szlig;ig werden sogenannte SAN Zertifikate von Server 2008 Certificate Authorities nicht unterst&uuml;tzt.</p>
 <p>Damit die CA ein SAN Zertifikat ausstellen kann muss folgender Befehl von einer Eingabeaufforderung mit administrativen Rechten ausgef&uuml;hrt werden:</p>
 <p>certutil &ndash;setreg policy\EditFlags +EDITF_ATTRIBUTESUBJECTALTNAME2</p>
-<p><a href="/assets/image_262.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" src="/assets/image_thumb_260.png" border="0" alt="image" width="244" height="175" /></a></p>
+<p><a href="/assets/archive/image_262.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" src="/assets/archive/image_thumb_260.png" border="0" alt="image" width="244" height="175" /></a></p>
 <p>Anschlie&szlig;end m&uuml;ssen die CA Dienste neu gestartet werden. Am besten mit "net stop certsvc &amp;&amp; net start certsvc&rdquo;.</p>
 <p>Will man jetzt einen Certificate Request &uuml;ber die MMC einreichen erscheint folgender Fehler:</p>
 <p>&ldquo;The request contains no Certificate template information. 0x80094801 (-2146875391) Denied by Policy Module 0x80094801, the request does not contain a Certificate template extension or the Certificate Template request attribute.&rdquo;</p>
@@ -24,3 +21,4 @@ author: thomas torggler
 <p>Beispiel: certreq.exe -submit -attrib "CertificateTemplate:WebServer" c:\certreq.req</p>
 <p>&nbsp;</p>
 <p>tom<br />live vom ntSystems techDAY :)</p>
+{% include imported_disclaimer.html %}

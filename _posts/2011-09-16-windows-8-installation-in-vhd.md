@@ -3,15 +3,12 @@ layout: post
 title: "Windows 8 - Installation in VHD"
 date: 2011-09-16 22:00:00 +0200
 comments: true
-published: true
-excerpt_separator: <!-- more -->
-categories: Archive
+category: Archive
 tags: ["de", "Client"]
 redirect_from: ["/post/Windows-8-Installation-in-VHD", "/post/windows-8-installation-in-vhd"]
 author: thomas torggler
 ---
 <!-- more -->
-{% include imported_disclaimer.html %}
 <p>In diesem Post (<a title="Windows 7 - Nativer VHD Support" href="/post.aspx?id=6b426c87-4f8a-4911-a884-8ccfdeeb5ba4">Windows 7 - Nativer VHD Support</a>) habe ich vor einiger Zeit beschrieben wie man Windows 7 in eine VHD installieren kann.</p>
 <p>Nun, das funktioniert genau gleich f&uuml;r das&nbsp;Windows 8 Developer Preview! Hier nochmal eine kuze Zusammenfassung:</p>
 <ol>
@@ -25,3 +22,4 @@ author: thomas torggler
 <p>Der neue Bootmanager ist &uuml;brigens auch im Metrostyle ;)</p>
 <p>Wie Windows 7 kann man auch <a href="/post.aspx?id=926634b0-a77d-4cf4-a201-48074a5e0cf1">Windows 8 vom USB Stick installieren</a>, auch diese Anleitung funtioniert weiterhin!</p>
 <p>enjoy!!</p>
+{% include imported_disclaimer.html %}

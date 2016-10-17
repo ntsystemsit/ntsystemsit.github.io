@@ -56,11 +56,6 @@ module Jekyll
       content = ""
       open(source, "r") { |f| content << f.read }
       
-      FileUtils.touch ".htaccess"
-      File.open(".htaccess", "w") do |htaccess|
-      
-        htaccess.puts "RewriteEngine on"
-      
         # first, we need to parse the existing categories into a known hash for later lookup
         cats = Hash.new
         catdoc = REXML::Document.new(content)
@@ -99,19 +94,14 @@ module Jekyll
           # the <![CDATA[ markers in the content.  this caused the Ruby REXML parser
           # to ignore all content within element.  i had to remove all of those
           # in order for this line to parse.
-          content = item.elements["content"].text   
-
-          ## i'd like to insert a diclaimer that I have imported these posts.
-          # note that you'll have to create the file source/_includes/imported_disclaimer.html
-          # to render.  i just put a {% blockquote %} with some verbage in it.
-          content = "{% include imported_disclaimer.html %}\r\n" + content
-
+          content = item.elements["content"].text
+          
           ## i'd like to cut off old content from showing in the blog roll. since
           # it requires <!-- more --> to be inserted, we'll just do it at the
           # very top.  someone with more time can make it insert after the first
           # paragraph or something.
-          content = "<!-- more -->\r\n" + content
-          
+          content = "<!-- more -->\r\n" + content + "\r\n{% include imported_disclaimer.html %}\r\n"
+
           ## This section is used to cleanup any content data.
           #
           # Replace blockquote with code (as i used blockquote mostly for code formatting)
@@ -119,28 +109,19 @@ module Jekyll
           content.gsub!(/<\/p>\s*<\/blockquote>/, "</code><\/p>")
           
           # Replace /image.axd?picture= with /images/
-          content.gsub!(/\/image\.axd\?picture\=/, "/assets/")
+          content.gsub!(/\/image\.axd\?picture\=/, "/assets/archive/")
           # Replace /file.axd?file= with /files/
-          content.gsub!(/\/file\.axd\?file\=/, "/assets/")
+          # content.gsub!(/\/file\.axd\?file\=/, "/assets/")
           # Replace encoded /'s with real thing
           #content.gsub!(/\%2f/, "/")
           content.gsub!(/http:\/\/www.ntsystems.it/, "")  # remove the domain from my links and images
           content.gsub!(/http:\/\/ntsystems.it/, "")  # remove the domain from my links and images
           content.gsub!(/https:\/\/www.ntsystems.it/, "")  # remove the domain from my links and images
           content.gsub!(/https:\/\/ntsystems.it/, "")  # remove the domain from my links and images
-          content.gsub!(/\/blog\/thumbnail\//, "/blog/archives/assets/")
-          # handle my old [PostIcon] mod
-          content.gsub!(/\[PostIcon((.*;)|(.*"))?\]+/i, "<img alt='#{title}' src='")
-          content.gsub!(/\[Posticon((.*;)|(.*"))?\]+/i, "<img alt='#{title}' src='")  # /i doesn't seem to be working
-          content.gsub!(/\[posticon((.*;)|(.*"))?\]+/i, "<img alt='#{title}' src='")  # /i doesn't seem to be working
-          # [PostIcon Anchor=&quot;Top&quot;]
-          content.gsub!(/\[\/PostIcon\]+/i, "'/>")
-          content.gsub!(/\[\/Posticon\]+/i, "'/>")  # /i doesn't seem to be working
-          content.gsub!(/\[\/posticon\]+/i, "'/>")  # /i doesn't seem to be working
         
           ## is this published?
-          published = item.attributes["approved"]
-          puts "published: #{published}"
+          ## published = item.attributes["approved"]
+          ## puts "published: #{published}"
 
           timestamp = Time.parse(item.attributes["date-created"])
           puts "timestamp: #{timestamp}"
@@ -160,9 +141,6 @@ module Jekyll
           end
           #old_url = old_url.gsub!(/\.aspx/,"")
           puts "old_url: #{old_url}"
-
-          # Add URL rewrite to htaccess (broken now that we use old_url as an array)
-          #htaccess.puts "RewriteRule ^post/#{old_url}$ /#{name}.html [R=301,NC]"
 
           # since BlogML doesn't support tags, and I haphazardly used categories as tags,
           # we are going to read categories and use them as tags.
@@ -196,9 +174,7 @@ layout: post
 title: "#{title}"
 date: #{timestamp.strftime("%Y-%m-%d %H:%M:%S %z")}
 comments: true
-published: #{published}
-excerpt_separator: <!-- more -->
-categories: Archive
+category: Archive
 tags: #{tags}
 redirect_from: #{old_url}
 author: #{author}
@@ -209,12 +185,9 @@ author: #{author}
             # f.puts "---\n#{content}"
             f.puts content
           end
-          
           posts += 1
         end
         puts "Created #{posts} posts!"
-        
-      end
     end
   end
 end

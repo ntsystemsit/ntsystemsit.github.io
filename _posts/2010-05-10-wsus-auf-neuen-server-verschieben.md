@@ -3,15 +3,12 @@ layout: post
 title: "WSUS auf neuen Server verschieben"
 date: 2010-05-10 21:27:00 +0200
 comments: true
-published: true
-excerpt_separator: <!-- more -->
-categories: Archive
+category: Archive
 tags: ["Server"]
 redirect_from: ["/post/WSUS-auf-neuen-Server-verschieben", "/post/wsus-auf-neuen-server-verschieben"]
 author: thomas torggler
 ---
 <!-- more -->
-{% include imported_disclaimer.html %}
 <p style="text-align: justify;">Daniel hat in <a href="/post/WSUS-verschieben.aspx">diesem Artikel</a> bereits dar&uuml;ber geschrieben.</p>
 <p style="text-align: justify;">Im Gro&szlig;en und Ganzen habe ich die Migration genau gleich gemacht. Also WSUS auf dem neuen Server installiert, WSUS Content kopiert und mit "wsutil export datei.cab datei.log" und "wsutil import datei.cab datei.log" die Updates importiert. Allerdings wollte ich die Einstellungen nicht manuell &uuml;bernehmen, daf&uuml;r gibt es WSUSMigrate.</p>
 <p style="text-align: justify;">Man findet das Tool im <a href="http://technet.microsoft.com/en-us/wsus/default.aspx" target="_blank">WSUS TechCenter</a> unter API Samples and Tools. Installiert man diese, erh&auml;lt man diverse zus&auml;tzliche Tools f&uuml;r WSUS, unter anderm WSUSMigrationImport und WSUSMigrationExport mitsamt kurzem HowTo.</p>
@@ -38,3 +35,4 @@ author: thomas torggler
 </ul>
 <p style="text-align: justify;">Noch ein Beispiel f&uuml;r den Import Befehl:<br />"WSUSMigrationImport datei.xml All None" -&gt; Importiert alle Gruppen und Approvals und ver&auml;ndert bestehende Gruppen auf dem Zielserver nicht.</p>
 <p style="text-align: justify;">so long!<br />tomt</p>
+{% include imported_disclaimer.html %}

@@ -3,15 +3,12 @@ layout: post
 title: "lost & found: TP4, TH2, Win32-OpenSSH, VS Code"
 date: 2015-11-25 19:08:00 +0100
 comments: true
-published: true
-excerpt_separator: <!-- more -->
-categories: Archive
+category: Archive
 tags: ["Client", "en", "Server"]
 redirect_from: ["/post/lost-found-TP4-TH2-Win32-OpenSSH-VS-Code", "/post/lost-found-tp4-th2-win32-openssh-vs-code"]
 author: thomas torggler
 ---
 <!-- more -->
-{% include imported_disclaimer.html %}
 <h1>Tech Preview 4
 </h1><p>The latest preview of Windows Server 2016 has been released, it brings many new features including options for Containers and Nano Server.
 </p><p>Download it from the Evaluation Center: <a href="http://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-technical-preview">http://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-technical-preview</a>
@@ -28,7 +25,7 @@ author: thomas torggler
 </span></p><p>And don't forget to create a firewall rule: 
 </p><p style="margin-left: 36pt;"><span style="font-family: Consolas; font-size: 10pt;">New-NetFirewallRule -Protocol TCP -LocalPort 22 -Direction Inbound -Action Allow -DisplayName SSH
 </span></p><p>Then I was able to connect from my MacBook: 
-</p><p><img alt="" src="/assets/112515_1908_lostfoundT1.png">
+</p><p><img alt="" src="/assets/archive/112515_1908_lostfoundT1.png">
 	</p><p>Find more info, a wiki and the download over at GitHub: <a href="https://github.com/PowerShell/Win32-OpenSSH">https://github.com/PowerShell/Win32-OpenSSH</a>
 	</p><h1>Visual Studio Code
 </h1><p>A free, cross platform code editor with interesting language support.
@@ -36,3 +33,4 @@ author: thomas torggler
 	</p><p>
 &nbsp;</p><p>Have fun,
 </p><p>Tom</p>
+{% include imported_disclaimer.html %}

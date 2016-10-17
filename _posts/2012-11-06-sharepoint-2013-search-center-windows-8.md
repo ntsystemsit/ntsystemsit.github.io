@@ -3,15 +3,12 @@ layout: post
 title: "SharePoint 2013 Search Center – Windows 8"
 date: 2012-11-06 12:18:00 +0100
 comments: true
-published: true
-excerpt_separator: <!-- more -->
-categories: Archive
+category: Archive
 tags: ["Server", "Sharepoint"]
 redirect_from: ["/post/SharePoint-2013-Search-Center-Windows-8", "/post/sharepoint-2013-search-center-windows-8"]
 author: thomas torggler
 ---
 <!-- more -->
-{% include imported_disclaimer.html %}
 <p>SharePoint 2013 Enterprise Search Center provides powerful indexing and search, not only for the local SharePoint instance but for file shares and other SharePoint farms as well.</p>
 <p>More info: <a href="http://technet.microsoft.com/en-us/library/ee667266(v=office.15)">What's new in search in SharePoint Server 2013</a></p>
 <h2>Federated Search</h2>
@@ -30,7 +27,7 @@ author: thomas torggler
 <p>&nbsp;</p>
 <p>Simply create a new file using notepad, adjust the URLs to point to your SharePoint Enterprise Search Center and save it with the .osdx extension.<br />There are many possibilities for customization within the OSDX specification, check out MSDN to learn more about <a href="http://msdn.microsoft.com/en-us/library/dd742951(v=VS.85).aspx">Creating an OpenSearch Description File.</a></p>
 <p>To test the OSDX files, double-click it and click "Add" to add the search connector to Windows Explorer.</p>
-<p><img src="/assets/110612_1126_SharePoint21.png" alt="" /></p>
+<p><img src="/assets/archive/110612_1126_SharePoint21.png" alt="" /></p>
 <p>This adds a link to "Favorites" so you can easily search SharePoint from there.</p>
 <h2>Deploy OSDX</h2>
 <p>Now, to deploy this to more than one client, you could publish a link to the OSDX file and have your users click on that link to add the search provider.</p>
@@ -40,16 +37,17 @@ author: thomas torggler
 <li>
 <div>Create a GPO and use the 'Files' GPP to copy the searchConnector-ms file from the share to %UserProfile%\Searches</div>
 <p>&nbsp;</p>
-<p><img src="/assets/110612_1126_SharePoint22.png" alt="" /></p>
+<p><img src="/assets/archive/110612_1126_SharePoint22.png" alt="" /></p>
 <p>&nbsp;</p>
 </li>
 <li>
 <div>Use the 'Shortcuts' GPP to create a Shortcut in the "User Profile, Links" folder, remember to select a nice Icon&hellip; ;)</div>
 <p>&nbsp;</p>
-<p><img src="/assets/110612_1126_SharePoint23.png" alt="" /></p>
+<p><img src="/assets/archive/110612_1126_SharePoint23.png" alt="" /></p>
 <p>&nbsp;</p>
 </li>
 </ol>
 <p>So that's how to get results from SharePoint into Windows Explorer.</p>
 <p>&nbsp;</p>
 <p>So long, <br />tom</p>
+{% include imported_disclaimer.html %}

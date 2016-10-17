@@ -3,15 +3,12 @@ layout: post
 title: "Getting started with OSX"
 date: 2015-08-23 16:15:00 +0200
 comments: true
-published: true
-excerpt_separator: <!-- more -->
-categories: Archive
+category: Archive
 tags: ["Client", "en"]
 redirect_from: ["/post/getting-started-with-osx"]
 author: thomas torggler
 ---
 <!-- more -->
-{% include imported_disclaimer.html %}
 <div style="direction:ltr;border-width:100%">
 
 <div style="direction:ltr;margin-top:0in;margin-left:0in;width:7.525in">
@@ -141,3 +138,4 @@ hard way: <a href="http://learnpythonthehardway.org/book/">http://learnpythonthe
 </div>
 
 </div>
+{% include imported_disclaimer.html %}

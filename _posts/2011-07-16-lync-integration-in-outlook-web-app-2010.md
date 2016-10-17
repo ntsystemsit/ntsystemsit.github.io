@@ -3,15 +3,12 @@ layout: post
 title: "Lync Integration in Outlook Web App 2010"
 date: 2011-07-16 16:54:00 +0200
 comments: true
-published: true
-excerpt_separator: <!-- more -->
-categories: Archive
+category: Archive
 tags: ["Server"]
 redirect_from: ["/post/Lync-Integration-in-Outlook-Web-App-2010", "/post/lync-integration-in-outlook-web-app-2010"]
 author: thomas torggler
 ---
 <!-- more -->
-{% include imported_disclaimer.html %}
 <p>Seit einiger Zeit ist der Nachfolger des Office Communication Servers verf&uuml;gbar, Lync 2010 vereint Enterprise Voice, Instant Messaging, Presence sowie Live Meeting, weitere Details gibts hier: <a href="http://lync.microsoft.com/en-us/Pages/default.aspx">http://lync.microsoft.com/en-us/Pages/default.aspx</a></p>
 <p>Auch Outlook Web App kann als Lync Client konfiguriert werden, folgende Features werden direkt von OWA unterst&uuml;tzt, es wird daf&uuml;r kein Client auf dem PC ben&ouml;tigt:</p>
 <ul>
@@ -51,11 +48,11 @@ author: thomas torggler
 <p>In einem CAS Array m&uuml;ssen diese Schritte auf allen Servern wiederholt werden.</p>
 <h1>Lync Server Konfiguration</h1>
 <p>Mit dem Lync Server Topology Builder wird jetzt unter &ldquo;Trusted Application Servers&rdquo; ein neuer Application Pool angelegt. Dieser Pool wird als Single Computer Pool angelegt, der FQDN muss dabei entweder dem Namen des Client Access Server oder dem Namen des CAS Arrays entsprechen.</p>
-<p><a href="/assets/image_330.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" src="/assets/image_thumb_328.png" border="0" alt="image" width="244" height="193" /></a></p>
+<p><a href="/assets/archive/image_330.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" src="/assets/archive/image_thumb_328.png" border="0" alt="image" width="244" height="193" /></a></p>
 <p>Jetzt wird der Lync Server Frontend Pool ausgew&auml;hlt, welcher f&uuml;r diese Applikation verwendet werden soll.</p>
-<p><a href="/assets/image_331.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" src="/assets/image_thumb_329.png" border="0" alt="image" width="244" height="193" /></a></p>
+<p><a href="/assets/archive/image_331.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" src="/assets/archive/image_thumb_329.png" border="0" alt="image" width="244" height="193" /></a></p>
 <p>Der Server ist jetzt erstellt, Standardm&auml;&szlig;ig ist &ldquo;Enable replication of configuration data to this pool&rdquo; aktiviert, das wird nicht ben&ouml;tigt und kann in den Eigenschaften des soeben erstellten Objektes deaktiviert werden.</p>
-<p><a href="/assets/image_332.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" src="/assets/image_thumb_330.png" border="0" alt="image" width="244" height="69" /></a></p>
+<p><a href="/assets/archive/image_332.png"><img style="background-image: none; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" src="/assets/archive/image_thumb_330.png" border="0" alt="image" width="244" height="69" /></a></p>
 <p>Jetzt kann die &Auml;nderung der Topologie ver&ouml;ffentlicht werden, dazu klickt auf Action, Topology und Publish.</p>
 <p>Es fehlt noch die CSTrustedApplication, diese wird &uuml;ber die Lync Server Management Shell angelegt. Auch dabei muss wieder der FQDN des Client Access Servers oder des CAS Arrays angegeben werden, au&szlig;erdem wird ein Port f&uuml;r die Applikation angegeben, nat&uuml;rlich muss ein Port verwendet werden der frei ist. (netstat &ndash;an zeigt verwendete Ports an). Mit folgendem PowerShell Befehl wird die Applikation erstellt:</p>
 <p><code>New-CsTrustedApplication -ApplicationID OWA -TrustedApplicationPoolFqdn ex14.ntsystems.local -Port 4999</code></p>
@@ -63,7 +60,7 @@ author: thomas torggler
 <p><code>Enable-CsTopology</code></p>
 <h1>Enjoy</h1>
 <p>Die Konfiguration ist jetzt abgeschlossen, ab jetzt sind die neuen Features in Outlook Web App aktiv&hellip;</p>
-<p><a href="/assets/image_333.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" src="/assets/image_thumb_331.png" border="0" alt="image" width="244" height="215" /></a></p>
+<p><a href="/assets/archive/image_333.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" src="/assets/archive/image_thumb_331.png" border="0" alt="image" width="244" height="215" /></a></p>
 <h1>Troubleshooting</h1>
 <ol>
 <li>FQDN &ndash; Der CN im Zertifikat des Client Access Servers (oder Arrays) muss passen. Mit Get-CsTrustedApplication bzw. Get-CsTrustedApplicationComputer kann man die Lync Konfiguration nochmal &uuml;berpr&uuml;fen </li>
@@ -71,3 +68,4 @@ author: thomas torggler
 </ol>
 <p>&nbsp;</p>
 <p>viel Spa&szlig;    <br />tom</p>
+{% include imported_disclaimer.html %}

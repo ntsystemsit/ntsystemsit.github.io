@@ -3,15 +3,12 @@ layout: post
 title: "Microsoft Roadshow zu neue Produkte"
 date: 2009-07-31 19:31:00 +0200
 comments: true
-published: true
-excerpt_separator: <!-- more -->
-categories: Archive
+category: Archive
 tags: ["Events"]
 redirect_from: ["/post/Windows-7-Joint-Launch-Roadshow", "/post/windows-7-joint-launch-roadshow"]
 author: daniel nitz
 ---
 <!-- more -->
-{% include imported_disclaimer.html %}
 <p>Microsoft startet Roadshow zu <strong>Windows 7</strong>, <strong>Windows Server 2008 R2</strong>, <strong>Exchange Server 2010</strong> in f&uuml;nf deutsche St&auml;dte.</p>
 <p>Steve Ballmer selbst wird in M&uuml;nchen die neuen Produkte vorstellen.</p>
 <p><strong>Eventtermine</strong></p>
@@ -25,3 +22,4 @@ author: daniel nitz
 <p>Gr&uuml;&szlig;e, dn</p>
 <span style="font-size: xx-small;">Danke an </span><a href="http://blogs.technet.com/dmelanchthon/archive/2009/07/30/windows-7-joint-launch-roadshow.aspx"><span style="font-size: xx-small;">Daniel</span></a><span style="font-size: xx-small;"> f&uuml;r die Info.</span> 
 </ul>
+{% include imported_disclaimer.html %}

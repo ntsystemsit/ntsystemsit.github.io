@@ -3,15 +3,12 @@ layout: post
 title: "Import/Export Mailbox"
 date: 2010-08-08 13:40:00 +0200
 comments: true
-published: true
-excerpt_separator: <!-- more -->
-categories: Archive
+category: Archive
 tags: ["Exchange"]
 redirect_from: ["/post/ImportExport-Mailbox", "/post/importexport-mailbox"]
 author: thomas torggler
 ---
 <!-- more -->
-{% include imported_disclaimer.html %}
 <p>Mit den cmdlets import-Mailbox und export-Mailbox kann Inhalt von einer Mailbox exportiert oder in eine Mailbox importiert werden. Soviel sagt eigentlich der Name auch ;)</p>
 <p>Diese cmdlets sind standardm&auml;&szlig;ig aber nicht verf&uuml;gbar, bzw. hat ein &bdquo;normaler&ldquo; Exchange Organization Administrator keine Berechtigungen sie zu verwenden. Bevor diese Berechtigungen gesetzt werden sollte man RBAC (Role Based Access Control) verstehen.</p>
 <p>Man erstellt eine neue Universelle Gruppe im Active Directory, ich gebe ihr einen beschreibenden Namen &bdquo;Enterprise Import Export Users&ldquo;. Jetzt wei&szlig;e ich dieser Gruppe die Management Rolle &bdquo;Mailbox Import Export&ldquo; zu, dazu verwende ich folgendes cmdlet in der Exchange Management Shell:</p>
@@ -31,3 +28,4 @@ author: thomas torggler
 <p style="padding-left: 30px">Export-Mailbox -Identity test -PstFolderPath c:\pst\test.pst</p>
 <p>Genauere Informationen gibts im Technet: <a href="http://technet.microsoft.com/en-us/library/aa998579.aspx" target="_blank">Export-Mailbox</a>, <a href="http://technet.microsoft.com/en-us/library/bb629586.aspx" target="_blank">Import-Mailbox</a></p>
 <p>tom</p>
+{% include imported_disclaimer.html %}

@@ -3,15 +3,12 @@ layout: post
 title: "Getting started with vCenter Server Appliance 6"
 date: 2015-11-01 20:30:00 +0100
 comments: true
-published: true
-excerpt_separator: <!-- more -->
-categories: Archive
+category: Archive
 tags: ["en", "Server", "VMware"]
 redirect_from: ["/post/getting-started-with-vcenter-server-appliance-6"]
 author: thomas torggler
 ---
 <!-- more -->
-{% include imported_disclaimer.html %}
 <p style="line-height: 1.4;">So I’ve done some work with VMware in the past and even got certified on vSphere 4, but then I changed jobs and ended up working, almost exclusively, with Microsoft software. That included a little bit of Hyper-V but mostly I worked “higher up” in the stack, with applications like Exchange and Lync, that is. As I changed jobs again and find myself focusing on Datacenter technologies now, I decided it was time to reactivate some VMware skills and get to know the latest version.</p><p style="margin-bottom: 0px; line-height: 1.4; -webkit-text-stroke-color: rgb(0, 0, 0);">I deployed a vCenter Server Appliance in a new environment the other day, and thought it might be a good starting point.</p><h1 style="line-height: 1.4;">Prepare</h1><p style="margin-bottom: 0px; line-height: 1.4; -webkit-text-stroke-color: rgb(0, 0, 0);">You may have heard that VMware want’s to ditch the good ol’ vSphere client and switch to a Web Client kind of a thing, this has been going on for a while, but in every release they are getting more serious about it. New features almost always come “web only”. Unfortunately they decided to make this a flash-based client, yeah, it’s almost as bad as java, but that’s another story.</p><p style="margin-bottom: 0px; line-height: 1.4; -webkit-text-stroke-color: rgb(0, 0, 0);">So get yourself a machine with a web browser and install/enable the flash plugin. I had troubles with Safari, Chrome and IE11 so I ended up using Firefox (think about that for a sec…).&nbsp;</p><p style="margin-bottom: 0px; line-height: 1.4; -webkit-text-stroke-color: rgb(0, 0, 0); min-height: 13px;"><br></p><p style="margin-bottom: 0px; line-height: 1.4; -webkit-text-stroke-color: rgb(0, 0, 0);">Download the VCSA from <a href="http://vmware.com">vmware.com</a>, it comes as an ISO image that you will have to mount on your management machine. The idea is, basically, to use a website to deploy an OVF template to one of your vSphere hosts.</p><h1 style="line-height: 1.4;">Install&nbsp;</h1><p style="margin-bottom: 0px; line-height: 1.4; -webkit-text-stroke-color: rgb(0, 0, 0);">Inside the ISO you’ll find the Web Client Plugin, which is required to deploy the OVF template, it’s located at: \vcsa\VMware-ClientIntegrationPlugin-6.0.0.exe</p><p style="margin-bottom: 0px; line-height: 1.4; -webkit-text-stroke-color: rgb(0, 0, 0);">Once the Client Plugin has been installed, open the \vcsa-setup.html file and follow the wizard.</p><p style="margin-bottom: 0px; line-height: 1.4; -webkit-text-stroke-color: rgb(0, 0, 0); min-height: 13px;"><br></p><p style="margin-bottom: 0px; line-height: 1.4; -webkit-text-stroke-color: rgb(0, 0, 0);">Most steps are straightforward, first select the target ESXi host and configure the VM name and a password for the root account.</p><p style="line-height: 1.4;">
 
 
@@ -36,3 +33,4 @@ author: thomas torggler
 <p style="margin-bottom: 0px; line-height: 1.4; -webkit-text-stroke-color: rgb(0, 0, 0); min-height: 13px;"><br></p>
 <p style="margin-bottom: 0px; line-height: 1.4; -webkit-text-stroke-color: rgb(0, 0, 0);">Stay tuned for more :)</p>
 <p style="margin-bottom: 0px; line-height: 1.4; -webkit-text-stroke-color: rgb(0, 0, 0);">Tom</p></div><div style="line-height: 1.4;"><br></div>
+{% include imported_disclaimer.html %}

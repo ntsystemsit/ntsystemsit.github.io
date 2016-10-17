@@ -3,15 +3,12 @@ layout: post
 title: "Lync Conf 2014 Keynote"
 date: 2014-02-19 19:46:00 +0100
 comments: true
-published: true
-excerpt_separator: <!-- more -->
-categories: Archive
+category: Archive
 tags: ["de", "Lync"]
 redirect_from: ["/post/Lync-Conf-2014-Keynote", "/post/lync-conf-2014-keynote"]
 author: thomas torggler
 ---
 <!-- more -->
-{% include imported_disclaimer.html %}
 <p>Gestern wurde die zweite Lync Conference in Las Vegas er&ouml;ffnet. In der Keynote gab es einige interessante Ank&uuml;ndigungen:</p>
 <h1>Skype und Mobile</h1>
 <p>Unter anderem hat Derek Burney die lange erwartete Video Kommunikation mit Skype demonstriert. Weitere Infos dazu gibt&rsquo;s auf dem <a href="http://blogs.skype.com/2014/02/18/microsoft-lync-skype-connectivity-v2-adds-video-and-more/">Skype Blog</a> und auf dem <a href="http://blogs.technet.com/b/microsoft_blog/archive/2014/02/18/from-unified-to-universal-the-next-stage-for-communications.aspx">Offical Microsoft Blog</a>, hier schreibt der neue (alte) Pr&auml;sident der Lync &amp; Skype Engineering Gruppe, Gurdeep Singh Pall auch &uuml;ber weitere Ziele. Die Unterschiede in Bedienung und Funktion der Technologien die wir im privat- bzw. Arbeitsleben einsetzen, sollen wegfallen. Der Fokus liegt auf Work-Life-Balance und sogenannten Digital Natives.</p>
@@ -34,3 +31,4 @@ author: thomas torggler
 <p><a href="http://www.lyncconf.com">http://www.lyncconf.com</a></p>
 <p>Na dann, willkommen im Zeitalter der Universal Communications :)</p>
 <p>Tom</p>
+{% include imported_disclaimer.html %}

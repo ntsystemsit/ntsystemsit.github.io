@@ -3,15 +3,12 @@ layout: post
 title: "Invoke-SEFAUtil – a PowerShell wrapper function"
 date: 2013-08-07 22:18:00 +0200
 comments: true
-published: true
-excerpt_separator: <!-- more -->
-categories: Archive
+category: Archive
 tags: ["en", "Lync", "PowerShell"]
 redirect_from: ["/post/Invoke-SEFAUtil-a-PowerShell-wrapper-function", "/post/invoke-sefautil-a-powershell-wrapper-function"]
 author: thomas torggler
 ---
 <!-- more -->
-{% include imported_disclaimer.html %}
 <p>I had to use SEFAUtil to get some tasks done the other day. As I prefer using PowerShell over just another command line tool, I decided to come up with a quick wrapper function that is intended to make my life a little easier.</p>
 <p>If you don&rsquo;t know what SEFAUtil is and how to configure it, check out this <a href="http://blogs.technet.com/b/jenstr/archive/2010/12/07/how-to-get-sefautil-running.aspx" target="_blank">great post.</a>Or <a href="http://www.msxfaq.de/lync/sefautil.htm" target="_blank">this one</a> if you prefer German ;) In a nutshell, it&rsquo;s a command line tool to configure Lync Voice Features (like call forwarding, team call) on behalf of end-users.</p>
 <p><strong>Warning: I do not recommend using this in production without understanding what it does, although I did test it in my lab, it may break something!</strong></p>
@@ -36,3 +33,4 @@ author: thomas torggler
 <p>Note: Changing the CallAnswerTime only does not work, a limitation of the SEFAUtil.exe does not allow this setting to be changed without also configuring CallForwarding</p>
 <p>&nbsp;</p>
 <p>so long, <br />tom</p>
+{% include imported_disclaimer.html %}

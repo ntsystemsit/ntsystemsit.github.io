@@ -3,15 +3,12 @@ layout: post
 title: "Exchange 2010 – Edge Subscription"
 date: 2009-12-17 22:09:00 +0100
 comments: true
-published: true
-excerpt_separator: <!-- more -->
-categories: Archive
+category: Archive
 tags: ["Server", "Exchange"]
 redirect_from: ["/post/Exchange-2010-e28093-Edge-Subscription", "/post/exchange-2010-e28093-edge-subscription"]
 author: thomas torggler
 ---
 <!-- more -->
-{% include imported_disclaimer.html %}
 <p>Exchange 2010 bringt wie sein Vorg&auml;nger die Edge Transport Rolle mit. In Exchange 2007 wurde bei jeder Synchronisation die gesamte Konfiguration repliziert, dieser Prozess wurde mit Exchange 2010 verbessert, jetzt ist die erste Replikation vollst&auml;ndig, bei allen weiteren werden nur noch die &Auml;nderungen repliziert (incremental updates).<br />Diese Serverrolle kann als einzige nicht mit anderen Rollen auf einem Server installiert werden, der Grund daf&uuml;r ist auch einfach erkl&auml;rt: der Edge Transport Server wird als Mail Relay in der DMZ eingesetzt und ist kein Dom&auml;nenmitglied bzw. hat nur sehr eingeschr&auml;nkten Zugriff auf das LAN.</p>
 <p>Vor der Installation des Edge Transport Servers muss die interne Hub Transport Rolle konfiguriert werden. Das hei&szlig;t Accepted Domains und die Connectoren m&uuml;ssen konfiguriert werden. <a href="http://technet.microsoft.com/en-us/library/dd335218.aspx" target="_blank">Hier ein Link</a> zur entsprechenden Technet Seite.</p>
 <p>Die Installation des Edge Transport Servers gestaltet sich sehr einfach. Man braucht einen x64 Server 2008 (am besten R2) in der Standard Edition. Dort wird das .net Framework installiert. Au&szlig;erdem wird ein Verzeichnisdienst ben&ouml;tigt, der Edge Transport Server muss ja wissen welche Empf&auml;nger es im Active Directory gibt. Active Direcotry Lightweight Directory Services (ADLDS), der Nachfolger des ADAM, und die entsprechende Verwaltungskonsole werden also auch installiert.</p>
@@ -37,3 +34,4 @@ author: thomas torggler
 <p>Durch die EdgeSync werden die ben&ouml;tigten Connectoren erstellt und die relevanten Einstellungen &uuml;bernommen. So wird z.B. die Konfiguration des Default Recipient Connector sowie die Accepted Domains vom internen Server &uuml;bernommen.</p>
 <p>Weiterf&uuml;hrend kann ich das <a href="http://technet.microsoft.com/en-us/exchange/2010/default.aspx">Exchange 2010 TechCenter</a> empfehlen.<br />Sehr lesenswert ist auch der Exchange Team Blog, zu finden in der Blogroll.</p>
 <p>viele Gr&uuml;&szlig;e<br />tt</p>
+{% include imported_disclaimer.html %}

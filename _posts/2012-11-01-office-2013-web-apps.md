@@ -3,15 +3,12 @@ layout: post
 title: "Office 2013 Web Apps"
 date: 2012-11-01 11:12:00 +0100
 comments: true
-published: true
-excerpt_separator: <!-- more -->
-categories: Archive
+category: Archive
 tags: ["Server 2012", "Sharepoint"]
 redirect_from: ["/post/Office-2013-Web-Apps", "/post/office-2013-web-apps"]
 author: thomas torggler
 ---
 <!-- more -->
-{% include imported_disclaimer.html %}
 <p>So October has been pretty quiet around here, but I have some cool stuff to share with you today.</p>
 <p>Office 2013 RTM'd some time ago and so did all the server products. So with SharePoint 2013 available on TechNet I decided to set up some demo sites to get a feel for the product, after looking for a new version of the Office Web Apps I realized that there was some change coming here.</p>
 <h2>Office Web Apps Server</h2>
@@ -45,6 +42,7 @@ author: thomas torggler
 <p>To check if it worked, use:(<span style="color: blue;">Get-SPSecurityTokenServiceConfig</span>)<span style="color: darkgray;">.</span>AllowOAuthOverHttp </p>
 <h2>Try it&hellip;</h2>
 <p>Ready to see it? Open a browser, go to your SharePoint 2013 sites and create a new Document or open an existing one, should be looking like that:</p>
-<p><img src="/assets/110112_1016_Office2013W1.png" alt="" /></p>
+<p><img src="/assets/archive/110112_1016_Office2013W1.png" alt="" /></p>
 <p>&nbsp;</p>
 <p>So long,<br />tom</p>
+{% include imported_disclaimer.html %}

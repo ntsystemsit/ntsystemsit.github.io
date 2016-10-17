@@ -3,15 +3,12 @@ layout: post
 title: "PowerShell Implicit Remoting"
 date: 2012-02-25 18:47:00 +0100
 comments: true
-published: true
-excerpt_separator: <!-- more -->
-categories: Archive
+category: Archive
 tags: ["PowerShell"]
 redirect_from: ["/post/PowerShell-Implicit-Remoting", "/post/powershell-implicit-remoting"]
 author: thomas torggler
 ---
 <!-- more -->
-{% include imported_disclaimer.html %}
 <p>Eine der wichtigsten Funktionen der PowerShell ist die M&ouml;glichkeit cmdlet&rsquo;s (ScriptBlocks) auf remoten System auszuf&uuml;hren. Dazu wird eine PowerShell Sesion mit dem Remote Computer erstellt, die Befehle werden remote ausgef&uuml;hrt und das Ergebnis lokal angezeigt.</p>
 <p>Nun gibt es verschiedene Module f&uuml;r das Verwalten von Serverrollen wie z.B. Active Directory, Exchange 2010 oder Lync 2010. Will ich von meinem Client aus diese cmdlet&rsquo;s verwenden muss ich die Module installieren. Oder?</p>
 <h1>Session erstellen und Modul Laden</h1>
@@ -44,3 +41,4 @@ author: thomas torggler
 <p>&nbsp;</p>
 <p>so long, happy hacking!</p>
 <p>tom</p>
+{% include imported_disclaimer.html %}

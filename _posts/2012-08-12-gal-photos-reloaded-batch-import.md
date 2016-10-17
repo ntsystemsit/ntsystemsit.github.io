@@ -3,15 +3,12 @@ layout: post
 title: "GAL Photos reloaded–batch import"
 date: 2012-08-12 16:02:00 +0200
 comments: true
-published: true
-excerpt_separator: <!-- more -->
-categories: Archive
+category: Archive
 tags: ["Exchange", "Server"]
 redirect_from: ["/post/GAL-Photos-reloaded-batch-import", "/post/gal-photos-reloaded-batch-import"]
 author: thomas torggler
 ---
 <!-- more -->
-{% include imported_disclaimer.html %}
 <p>About two years ago I&rsquo;ve posted an article about <a href="/post/Exchange-2010e28093GAL-Fotos.aspx">Exchange 2010 and GAL Photos</a>. Now this is not great news anymore, there are two great articles on the Exchange Team Blog, that explain how to configure this, too. Find them here: <a href="http://aka.ms/galphotos">aka.ms/galphotos</a>and <a href="http://aka.ms/galphotosfaq">aka.ms/galphotosfaq</a></p>
 <p>Key points are the the minor schema change and the maximum file size of 10KB. Images can be max. 96x96 pixels in size.</p>
 <p>Now in the last couple of days I wrote a &ldquo;cmdlet&rdquo; to make batch importing images easier. For starters, the cmdlet gets all *.jpg files in folder, then it uses the files BaseName to find corresponding Exchange Mailboxes. After that the image&rsquo;s physical dimensions as well as file size are verified, if they are ok, the image is imported using Import-RecipientDataProperty.</p>
@@ -23,3 +20,4 @@ author: thomas torggler
 <script type="text/javascript" src="http://PoshCode.org/embed/3570"></script>
 </p>
 <p>enjoy, <br />tom</p>
+{% include imported_disclaimer.html %}

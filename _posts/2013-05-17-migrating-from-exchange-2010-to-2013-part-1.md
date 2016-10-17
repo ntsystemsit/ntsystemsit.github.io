@@ -3,15 +3,12 @@ layout: post
 title: "Migrating from Exchange 2010 to 2013 – part 1"
 date: 2013-05-17 22:10:00 +0200
 comments: true
-published: true
-excerpt_separator: <!-- more -->
-categories: Archive
+category: Archive
 tags: ["en", "Exchange", "Server"]
 redirect_from: ["/post/Migrating-from-Exchange-2010-to-2013-part-1", "/post/migrating-from-exchange-2010-to-2013-part-1"]
 author: thomas torggler
 ---
 <!-- more -->
-{% include imported_disclaimer.html %}
 <p>This is my first post about migrating from an existing Exchange 2010 environment to Exchange 2013. I&rsquo;ll try do cover everything that seems important to me, if I miss something that you think should be covered&hellip; well, that&rsquo;s what comments are for :)</p>
 <h1>Preparing for Exchange 2013</h1>
 <p>All servers in the Exchange 2010 organization must be running service pack 3, if you haven&rsquo;t already installed SP3, as always it&rsquo;s a very good idea to start with reading the <a href="http://technet.microsoft.com/en-us/library/jj965774(v=exchg.141).aspx">release notes</a>. On the Exchange 2013 side of things, we need Cumulative Update 1, there is a <a href="http://blogs.technet.com/b/exchange/archive/2013/04/02/released-exchange-server-2013-rtm-cumulative-update-1.aspx">very good post</a> at the Exchange Team Blog about that.</p>
@@ -40,3 +37,4 @@ author: thomas torggler
 <p>I see some real world projects coming closer and I know Daniel is working hard on the topic, I&rsquo;m sure there is more content coming&hellip; :)</p>
 <p><br />so long, enjoy your weekend!</p>
 <p>tom</p>
+{% include imported_disclaimer.html %}

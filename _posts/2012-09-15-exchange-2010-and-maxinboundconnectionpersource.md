@@ -3,15 +3,12 @@ layout: post
 title: "Exchange 2010 and MaxInboundConnectionPerSource"
 date: 2012-09-15 09:08:00 +0200
 comments: true
-published: true
-excerpt_separator: <!-- more -->
-categories: Archive
+category: Archive
 tags: ["Exchange", "Server"]
 redirect_from: ["/post/Exchange-2010-and-MaxInboundConnectionPerSource", "/post/exchange-2010-and-maxinboundconnectionpersource"]
 author: thomas torggler
 ---
 <!-- more -->
-{% include imported_disclaimer.html %}
 <p>Exchange receive connectors do have a setting of <span style="color: black;">MaxInboundConnectionPerSource which limits the maximum number of connections from a single IP address at any moment. So with a default value of 20, there are no more than 20 connections from a specific IP address allowed.</span> The following warning is logged in the transport server's application log if the limit is exceeded:</p>
 <p style="margin-left: 36pt;">Event ID: 1021</p>
 <p style="margin-left: 36pt;">Event Source: MSExchangeTransport</p>
@@ -29,3 +26,4 @@ author: thomas torggler
 <p><span style="color: black;">More info on: <a href="http://technet.microsoft.com/en-us/library/bb125140.aspx">TechNet</a> </span></p>
 <p>&nbsp;</p>
 <p>So long<br />tom</p>
+{% include imported_disclaimer.html %}

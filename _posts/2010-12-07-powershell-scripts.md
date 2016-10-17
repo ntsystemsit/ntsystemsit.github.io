@@ -3,15 +3,12 @@ layout: post
 title: "PowerShell Scripts"
 date: 2010-12-07 11:18:51 +0100
 comments: true
-published: true
-excerpt_separator: <!-- more -->
-categories: Archive
+category: Archive
 tags: []
 redirect_from: ["/page/PowerShell-Scripts", "/page/powershell-scripts"]
 author: thomas torggler
 ---
 <!-- more -->
-{% include imported_disclaimer.html %}
 <p>Achtung: Diese Scripts sind Beispiele, sie sind <strong>nicht</strong> f&uuml;r die Verwendung in Produktivsystemen gedacht! Die Autoren von ntSystems.it k&ouml;nnen keine Haftung f&uuml;r eventuelle Sch&auml;den durch diese Scripts &uuml;bernehmen.</p>
 <p>&nbsp;</p>
 <p><strong>Exchange: Set SimpleDisplayName on all Mailboxes where this Attribute is empty; change characters like &ouml; to oe; send E-Mail if script fails</strong></p>
@@ -105,3 +102,4 @@ author: thomas torggler
 <pre style="text-align: left; line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: 'Courier New', courier, monospace; direction: ltr; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span id="lnum13" style="color: #606060;">  13:</span> }</pre>
 <!--CRLF--></div>
 </div>
+{% include imported_disclaimer.html %}

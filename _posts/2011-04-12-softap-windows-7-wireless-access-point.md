@@ -3,15 +3,12 @@ layout: post
 title: "SoftAP - Windows 7 Wireless Access Point"
 date: 2011-04-12 18:29:00 +0200
 comments: true
-published: true
-excerpt_separator: <!-- more -->
-categories: Archive
+category: Archive
 tags: ["Client", "de"]
 redirect_from: ["/post/SoftAP-Windows-7-Wireless-Access-Point", "/post/softap-windows-7-wireless-access-point"]
 author: thomas torggler
 ---
 <!-- more -->
-{% include imported_disclaimer.html %}
 <p>Hinter dem Namen SoftAp oder Virtual WIFI verbirgt sich ein tolles Feature von Windows 7, es erm&ouml;glicht durch das Erstellen eines virtuellen Netzwerkadapters das Betreiben eines Access Point mit Windows 7. Damit man einen virtuellen Wlan Adapter erstellen kann muss nat&uuml;rlich ein Wlan Adapter installiert und aktiviert sein.</p>
 <p>Man erstellt den Virtual WIFI Adapter mit Hilfe des Command-Line Tools "netsh", dazu ben&ouml;tigt man eine Administrative Eingabeaufforderung in die man dann folgenden Befehl eintippt:</p>
 <p><code>netsh wlan set hostednetwork mode=allow ssid=* key=* keyUsage=persistent</code></p>
@@ -31,3 +28,4 @@ author: thomas torggler
 <p>Hier der Link zur entsprechenden TechNet Seite: <a href="http://technet.microsoft.com/en-us/library/cc755301(v=WS.10).aspx">http://technet.microsoft.com/en-us/library/cc755301(v=WS.10).aspx</a></p>
 <p>&nbsp;</p>
 <p>Tom</p>
+{% include imported_disclaimer.html %}

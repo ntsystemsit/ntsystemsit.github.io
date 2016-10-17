@@ -3,15 +3,12 @@ layout: post
 title: "Installing Nano Server using WDS and PxE "
 date: 2015-11-26 14:51:00 +0100
 comments: true
-published: true
-excerpt_separator: <!-- more -->
-categories: Archive
+category: Archive
 tags: ["en", "Server"]
 redirect_from: ["/post/Installing-Nano-Server-using-WDS-and-PxE", "/post/installing-nano-server-using-wds-and-pxe"]
 author: thomas torggler
 ---
 <!-- more -->
-{% include imported_disclaimer.html %}
 <p>Technical Preview 4 of Windows Server 2016 brings along new "packages" for Nano Server, it can now run DNS and IIS along other roles. See <a href="https://technet.microsoft.com/en-us/library/mt126167.aspx">TechNet</a> for a complete list. So to get started with Nano, I tried to deploy it via WDS.
 </p><p>&nbsp;
 &nbsp;</p><p><span style="color:#1e4e79; font-size:16pt">Prepare
@@ -25,18 +22,18 @@ author: thomas torggler
 </p><p>&nbsp;
 &nbsp;</p><p style="margin-left: 27pt"><span style="font-family:Consolas; font-size:10pt">New-NanoServerImage -BasePath C:\nanotemp -TargetPath C:\Nano\Nano_dns.vhd -OEMDrivers -Packages Microsoft-NanoServer-DNS-Package -ComputerName nano_dns -DomainName tomt.it -Language en-us
 </span></p><p>&nbsp;
-&nbsp;</p><p style="margin-left: 27pt"><img src="/assets/112615_1451_InstallingN1.png" alt="">
+&nbsp;</p><p style="margin-left: 27pt"><img src="/assets/archive/112615_1451_InstallingN1.png" alt="">
 	</p><p style="margin-left: 27pt">&nbsp;
 &nbsp;</p><p>Note: I had to specify the Language parameter as I my system is not using en-us. I am planning to run the VHD on VMware, that's why I included "OEMDrivers" and not "GuestDrivers".
 </p><p>&nbsp;
 &nbsp;</p><p><span style="color:#1e4e79; font-size:16pt">WDS 
 </span></p><p>The steps above created a VHD at the target path and in the next step I am adding this VHD as an install image to WDS:
 </p><p>&nbsp;
-&nbsp;</p><p><img src="/assets/112615_1451_InstallingN2.png" alt="">
+&nbsp;</p><p><img src="/assets/archive/112615_1451_InstallingN2.png" alt="">
 	</p><p>&nbsp;
 &nbsp;</p><p>I changed the name to avoid confusion :)
 </p><p>&nbsp;
-&nbsp;</p><p><img src="/assets/112615_1451_InstallingN3.png" alt="">
+&nbsp;</p><p><img src="/assets/archive/112615_1451_InstallingN3.png" alt="">
 	</p><p>&nbsp;
 &nbsp;</p><p>The same can be achieved using PowerShell:
 </p><p>&nbsp;
@@ -47,13 +44,13 @@ author: thomas torggler
 &nbsp;</p><p><span style="color:#1e4e79; font-size:16pt">Install
 </span></p><p>I created a new VM using the "Windows 2016" template in Fusion, but before installing I reduced the size of the new virtual disk to 10G, which still is way to much ;)
 </p><p>&nbsp;
-&nbsp;</p><p><img src="/assets/112615_1451_InstallingN4.png" alt="">
+&nbsp;</p><p><img src="/assets/archive/112615_1451_InstallingN4.png" alt="">
 	</p><p>&nbsp;
-&nbsp;</p><p><img src="/assets/112615_1451_InstallingN5.png" alt="">
+&nbsp;</p><p><img src="/assets/archive/112615_1451_InstallingN5.png" alt="">
 	</p><p>&nbsp;
 &nbsp;</p><p>Very few miutes later our new DNS server is ready.
 </p><p>&nbsp;
-&nbsp;</p><p><img src="/assets/112615_1451_InstallingN6.png" alt="">
+&nbsp;</p><p><img src="/assets/archive/112615_1451_InstallingN6.png" alt="">
 	</p><p>&nbsp;
 &nbsp;</p><p>There is nothing really to be done on the server console, the "Emergency Console" can be used to configure networking, the rest is done with RSAT or PowerShell remoting.
 </p><p>&nbsp;
@@ -62,20 +59,21 @@ author: thomas torggler
 </p><p>&nbsp;
 &nbsp;</p><p>So first of all, using Get-WindowsFeature I checked which features were installed and which ones were available. As you can see from the screenshot, there are not very many features available:
 </p><p>&nbsp;
-&nbsp;</p><p><img src="/assets/112615_1451_InstallingN7.png" alt="">
+&nbsp;</p><p><img src="/assets/archive/112615_1451_InstallingN7.png" alt="">
 	</p><p>&nbsp;
 &nbsp;</p><p>Using the following command, I installed DNS Server role: 
 </p><p style="margin-left: 27pt"><span style="font-family:Consolas; font-size:10pt">Add-WindowsFeature -ComputerName nano_dns -Name DNS
 </span></p><p>&nbsp;
 &nbsp;</p><p>After that, I was able to add the Server to the DNS Management console and configure DNS zones:
 </p><p>&nbsp;
-&nbsp;</p><p><img src="/assets/112615_1451_InstallingN8.png" alt="">
+&nbsp;</p><p><img src="/assets/archive/112615_1451_InstallingN8.png" alt="">
 	</p><p>&nbsp;
 &nbsp;</p><p>&nbsp;
 &nbsp;</p><p>Oh, and of those of you who care, the size of the virtual harddisk is 626,6MB. Awesome, right? :)
 </p><p>&nbsp;
-&nbsp;</p><p><img src="/assets/112615_1451_InstallingN9.png" alt="">
+&nbsp;</p><p><img src="/assets/archive/112615_1451_InstallingN9.png" alt="">
 	</p><p>&nbsp;
 &nbsp;</p><p>&nbsp;
 &nbsp;</p><p>Enjoy, Tom
 </p>
+{% include imported_disclaimer.html %}

@@ -3,15 +3,12 @@ layout: post
 title: "Lync and Exchange 2013 OWA integration"
 date: 2013-06-16 09:27:00 +0200
 comments: true
-published: true
-excerpt_separator: <!-- more -->
-categories: Archive
+category: Archive
 tags: ["en", "Exchange", "Lync"]
 redirect_from: ["/post/Lync-and-Exchange-2013-OWA-integration", "/post/lync-and-exchange-2013-owa-integration"]
 author: thomas torggler
 ---
 <!-- more -->
-{% include imported_disclaimer.html %}
 <p>I configured Lync 2013 to work with Exchange 2013 these days, as it took me a while to get the &lsquo;Online Meeting request&rsquo; up and running, I thought I&rsquo;d post a quick post here.</p>
 <h1>Certificates</h1>
 <p>The first thing to consider when thinking about integration between Exchange 2013 and Lync is certificates. The servers use OAuth and TLS connections and we need the certificate common names to match the names that the servers use to access the resource. In my simple environment I do have the CN ly14.ntsystems.local on my Lync server&rsquo;s certificate, the Exchange server&rsquo;s certificate has a CN of ex14.ntsystems.local.</p>
@@ -43,10 +40,11 @@ author: thomas torggler
 <p><code>Set-OwaMailboxPolicy -Identity "Default" -InstantMessagingEnabled $True -InstantMessagingType "OCS"</code></p>
 <p>Wow, now that all configuration is done, I like to do a quick iisreset to make sure all the configuration changes are picked up, obviously this should not be done on production machines&hellip;</p>
 <p>If users sign in to webmail, they will be able to sign into Lync, set their state and participate in IM chats.</p>
-<p><a href="/assets/image_541.png"><img style="display: inline; border-width: 0px;" title="image" src="/assets/image_thumb_539.png" alt="image" width="244" height="100" border="0" /></a></p>
+<p><a href="/assets/archive/image_541.png"><img style="display: inline; border-width: 0px;" title="image" src="/assets/archive/image_thumb_539.png" alt="image" width="244" height="100" border="0" /></a></p>
 <p>And, as a nice little addon, we can now also create Online Meeting requests from OWA:</p>
-<p><a href="/assets/image_542.png"><img style="display: inline; border-width: 0px;" title="image" src="/assets/image_thumb_540.png" alt="image" width="244" height="180" border="0" /></a></p>
+<p><a href="/assets/archive/image_542.png"><img style="display: inline; border-width: 0px;" title="image" src="/assets/archive/image_thumb_540.png" alt="image" width="244" height="180" border="0" /></a></p>
 <p>Note, Exchange 2013 CU1 is required for Online Meeting requests and Lyncdiscover has to be set up, too.</p>
 <p>&nbsp;</p>
 <p>Enjoy,</p>
 <p>tom</p>
+{% include imported_disclaimer.html %}

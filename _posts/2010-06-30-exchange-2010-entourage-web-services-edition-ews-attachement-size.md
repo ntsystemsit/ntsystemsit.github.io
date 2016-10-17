@@ -3,21 +3,18 @@ layout: post
 title: "Exchange 2010 Entourage Web Services Edition- EWS Attachement Size"
 date: 2010-06-30 21:03:00 +0200
 comments: true
-published: true
-excerpt_separator: <!-- more -->
-categories: Archive
+category: Archive
 tags: ["Exchange", "Server"]
 redirect_from: ["/post/Exchange-2010-Entourage-Web-Services-Edition-EWS-Attachement-Size", "/post/exchange-2010-entourage-web-services-edition-ews-attachement-size"]
 author: thomas torggler
 ---
 <!-- more -->
-{% include imported_disclaimer.html %}
 <p>&nbsp;</p>
 <p>Auch MAC Clients k&ouml;nnen mit Exchange 2010 arbeiten. Daf&uuml;r gibt es entweder den Microsoft Entourage Client oder den integrierten MAC Mail Client. Entourage muss in der Web Services Edition verwendet werden, da Exchange 2010 kein WebDAV mehr unterst&uuml;tzt, die aktuelle Version von MAC Mail (Snow Leopard) macht das von Haus aus.</p>
 <p>&nbsp;</p>
 <p>Will man allerdings einen Anhang gr&ouml;&szlig;er als ca. 12MB verschicken meckert sowohl Entourage als auch MAC Mail. Entourage bringt folgende Fehlermeldung: &ldquo;HTTP-Fehler: Die Anforderung kann vom Server nicht verarbeitet werden&rdquo;.</p>
 <p>&nbsp;</p>
-<p><a href="/assets/amc.jpg"><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="HTTP-Fehler: Die Anforderung kann vom Server nicht verarbeitet werden" src="/assets/amc_thumb.jpg" border="0" alt="HTTP-Fehler: Die Anforderung kann vom Server nicht verarbeitet werden" width="244" height="208" /></a></p>
+<p><a href="/assets/archive/amc.jpg"><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="HTTP-Fehler: Die Anforderung kann vom Server nicht verarbeitet werden" src="/assets/archive/amc_thumb.jpg" border="0" alt="HTTP-Fehler: Die Anforderung kann vom Server nicht verarbeitet werden" width="244" height="208" /></a></p>
 <p>&nbsp;</p>
 <p>Man kontrolliert also erstmal die Gr&ouml;&szlig;enbeschr&auml;nkungen der betreffenden Mailbox, die der Send und Receive Connectoren und in der Transport Konfiguration, am schnellsten geht das wohl in der Management Shell mit folgenden cmdlets:</p>
 <ul>
@@ -83,10 +80,11 @@ author: thomas torggler
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p><strong>Tipp:</strong> Man kann mit der PowerShell ganz einfach Werte in Byte und wieder Retour konvertieren. Einfach mal 50mb eintippen und versuchen.</p>
-<p><a href="/assets/image_146.png"><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="powershell" src="/assets/image_thumb_144.png" border="0" alt="powershell" width="224" height="136" /></a></p>
+<p><a href="/assets/archive/image_146.png"><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="powershell" src="/assets/archive/image_thumb_144.png" border="0" alt="powershell" width="224" height="136" /></a></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>Naja, ich hoffe ich kann damit einigen weiterhelfen.</p>
 <p>&nbsp;</p>
 <p>Gr&uuml;&szlig;e</p>
 <p>tom</p>
+{% include imported_disclaimer.html %}

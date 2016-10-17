@@ -3,15 +3,12 @@ layout: post
 title: "Zertifizierungsstelle verschieben (Backup/Restore)"
 date: 2009-12-24 18:20:00 +0100
 comments: true
-published: true
-excerpt_separator: <!-- more -->
-categories: Archive
+category: Archive
 tags: ["Server"]
 redirect_from: ["/post/Zertifizierungsstelle-verschieben-(BackupRestore)", "/post/zertifizierungsstelle-verschieben-(backuprestore)"]
 author: thomas torggler
 ---
 <!-- more -->
-{% include imported_disclaimer.html %}
 <p>Eine Zertifizierungsstelle geh&ouml;rt zu den Serverrollen die &uuml;ber viele Jahre gleich bleiben und einige Hardware- bzw. Betriebsystem- Lifecycles &uuml;berdauern. Aus diesem Grund kann es vorkommen dass man eine CA von einem Server auf einen anderen migrieren muss.</p>
 <p>Wichtig dabei ist dass der Name des Servers sich nicht &auml;ndern sollte, kann man eine &Auml;nderung nicht verhindern gibt es <a href="http://support.microsoft.com/kb/298138" target="_blank">hier</a> einen KB Artikel der die Vorgehensweise beschreibt. Aber wie gesagt, besser/einfacher ist es den Namen nicht zu &auml;ndern.</p>
 <p>Nun denn, zuerst gilt es eine Strategie zu w&auml;hlen, ich habe es so gemacht dass ich die CA gesichert habe, CA deinstalliert, DC heruntergestuft, Server aus der Domain genommen. Neuen Server mit gleichem Namen installiert, zum DC hochgestuft, CA installiert, CA widerhergestellt und l&auml;uft.</p>
@@ -73,3 +70,4 @@ author: thomas torggler
 </ul>
 <p dir="ltr">Weihnachtliche Gr&uuml;&szlig;e <br />tom</p>
 <p style="margin-right: 0px">&nbsp;</p>
+{% include imported_disclaimer.html %}

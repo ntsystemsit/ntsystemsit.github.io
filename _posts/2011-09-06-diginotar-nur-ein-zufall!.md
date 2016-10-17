@@ -3,15 +3,12 @@ layout: post
 title: "DigiNotar–nur ein Zufall!?"
 date: 2011-09-06 23:25:00 +0200
 comments: true
-published: true
-excerpt_separator: <!-- more -->
-categories: Archive
+category: Archive
 tags: ["de", "Client", "Server"]
 redirect_from: ["/post/DigiNotar-nur-ein-Zufall!", "/post/diginotar-nur-ein-zufall!"]
 author: thomas torggler
 ---
 <!-- more -->
-{% include imported_disclaimer.html %}
 <p>Vor einigen Tagen wurde bekannt das bereits Anfang Juni(!!) bei einem Hack der niederl&auml;ndischen Zertifizierungsstelle &ldquo;DigiNotar&rdquo; mehr als 500 &ldquo;gef&auml;lschte&rdquo; Zertifikate ausgestellt wurden.</p>
 <p>Unter den Zertifikaten befinden sich folgende Wildcard Zertifikate:</p>
 <ul>
@@ -67,7 +64,7 @@ author: thomas torggler
 <p>F&uuml;r Mozilla Firefox wir ein Update in k&uuml;rze erwartet, hier empfiehlt es sich die genannten CAs manuell zu entfernen!</p>
 <p>Unter Einstellungen, Erweitert, Verschl&uuml;sselung klickt man auf &ldquo;Zertifikate anzeigen&rdquo;. Jetzt bekommt man eine Liste der Zertifizierungsstellen und kann das Vertrauen entziehen.</p>
 <p>Weitere Infos im <a href="http://blog.mozilla.com/security/2011/08/29/fraudulent-google-com-certificate/" target="_blank">Mozilla Security Blog.</a></p>
-<p>&nbsp;<a href="/assets/image_340.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" src="/assets/image_thumb_338.png" alt="image" width="244" height="227" border="0" /></a><a href="/assets/image_341.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" src="/assets/image_thumb_339.png" alt="image" width="244" height="130" border="0" /></a></p>
+<p>&nbsp;<a href="/assets/archive/image_340.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" src="/assets/archive/image_thumb_338.png" alt="image" width="244" height="227" border="0" /></a><a href="/assets/archive/image_341.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image" src="/assets/archive/image_thumb_339.png" alt="image" width="244" height="130" border="0" /></a></p>
 <h4>&nbsp;</h4>
 <h1>Apple</h1>
 <p>Apple hat wohl zur Zeit andere Priorit&auml;ten, MAC Benutzer sollten auf jeden Fall manuell die oben genannten Zertifikate entfernen. Chester Wisniewski von <a href="http://nakedsecurity.sophos.com" target="_blank">Sophos</a> beschreibt das Ganze so:</p>
@@ -75,4 +72,5 @@ author: thomas torggler
 <p>My advice if you run a Mac? Use BootCamp and Windows 7 until Apple decides to provide a patch. Or I guess you could use Firefox (not Chome, it also uses Apple's KeyChain)...</code></p>
 <p>Ein erster Bericht der Security Consultants Fox-IT zum Thema ist verf&uuml;gbar:</p>
 <p><a title="http://www.rijksoverheid.nl/ministeries/bzk/documenten-en-publicaties/rapporten/2011/09/05/diginotar-public-report-version-1.html" href="http://www.rijksoverheid.nl/ministeries/bzk/documenten-en-publicaties/rapporten/2011/09/05/diginotar-public-report-version-1.html">http://www.rijksoverheid.nl/ministeries/bzk/documenten-en-publicaties/rapporten/2011/09/05/diginotar-public-report-version-1.html</a></p>
-<p>stay secure <img class="wlEmoticon wlEmoticon-winkingsmile" src="/assets/wlEmoticon-winkingsmile.png" alt="Zwinkerndes Smiley" /> <br />tom</p>
+<p>stay secure <img class="wlEmoticon wlEmoticon-winkingsmile" src="/assets/archive/wlEmoticon-winkingsmile.png" alt="Zwinkerndes Smiley" /> <br />tom</p>
+{% include imported_disclaimer.html %}

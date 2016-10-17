@@ -3,15 +3,12 @@ layout: post
 title: "Hyper-Convergence with Nano Server: Part 1"
 date: 2016-02-19 20:13:00 +0100
 comments: true
-published: true
-excerpt_separator: <!-- more -->
-categories: Archive
+category: Archive
 tags: ["en", "Server"]
 redirect_from: ["/post/Hyper-Convergence-with-Nano-Server-Part-1", "/post/hyper-convergence-with-nano-server-part-1"]
 author: thomas torggler
 ---
 <!-- more -->
-{% include imported_disclaimer.html %}
 <p>In this post I’m walking through the steps creating the images for my Nano Servers and then deploying them. Like in <a href="/post/Installing-Nano-Server-using-WDS-and-PxE.aspx">this post</a>, I’ll use WDS for the deployment, so some steps might already be familiar.&nbsp; </p>
  <h1>Create Nano Server Images </h1>
  <p>I installed a Windows 2016 TP4 Server with full desktop experience that serves as DHCP, WDS and management machine. I’ll run all of the scripts from there, you might as well use Windows 10 for it. So the first step is to create a new image, which is really quite similar as described in the post mentioned above.  </p>
@@ -43,3 +40,4 @@ author: thomas torggler
  <h1>Verify VMs</h1>
  <p>Once the VMs are installed, I create a CIM session and test connectivity by getting the system uptime like this. As all commands above, these are issued on my management machine (tp4):  </p>
 <script src="https://gist.github.com/tomtorggler/c4c2312fa1dbcef5b674.js"></script>
+{% include imported_disclaimer.html %}
