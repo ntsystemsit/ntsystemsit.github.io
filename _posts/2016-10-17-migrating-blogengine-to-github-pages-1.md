@@ -3,8 +3,8 @@ layout: post
 title: "Migrating from BlogEngine to GitHub Pages: BlogML to Markdown"
 date: 2016-10-17 21:49:06 +0200
 comments: true
-category: Archive
-tags: ntsystems
+category: ntSystems
+tags: migrate jekyll
 
 author: thomas torggler
 ---
@@ -27,6 +27,10 @@ $ ruby -r './blogml.rb' -e 'Jekyll::BlogML.process("BlogML.xml")'
 Note that in my case the BlogML.xml file is located in the same directory as the script and a new directory named "_posts" is created in the same path. Any existing directory with the same name will be deleted.
 
 The modified version of the script is available [here](https://ntsystems.it/assets/2016/blogml.rb).
+
+# Writing
+Once the posts (and the rest) was migrated, one has to start writing new stuff. Posts are written in plain text with markdown formatting so no super fancy editor is required and I'm getting along well with [VS Code](https://code.visualstudio.com). I'm using the "Spelling and Grammar Checker" extension hoping it catches to most obvious typos ;) 
+
 
 Stay tuned for more.
 Tom

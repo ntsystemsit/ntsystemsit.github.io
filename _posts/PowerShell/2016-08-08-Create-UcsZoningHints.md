@@ -13,7 +13,7 @@ This script uses the CiscoUcs PowerTool to get information about one or more ser
 <!-- more -->
 
 # Syntax
-```
+```powershell
 .\Create-UcsZoningHints.ps1 -Name <String> [-UcsCentral] [-TargetAlias <String[]>] [-TargetPwwn <String[]>] [-vsan <Int32>] [-ZoneSet <String>] [-Fabric <String>] [-OutFile <FileInfo>] [<CommonParameters>]
 
 .\Create-UcsZoningHints.ps1 -InputObject <Object> [-UcsCentral] [-TargetAlias <String[]>] [-TargetPwwn <String[]>] [-vsan <Int32>] [-ZoneSet <String>] [-Fabric <String>] [-OutFile <FileInfo>] [<CommonParameters>]
@@ -31,10 +31,10 @@ You can pipe objects of the above types to this script.
 - System.Management.Automation.PSObject
 - System.String
 
-Depending on the parameters used, this script writes a custom PSObject or a System.String to the pipeline. The default behavior is to output a custom PSObject. If the ```–OutFile``` parameter is used, a string will be output instead.
+Depending on the parameters used, this script writes a custom PSObject or a System.String to the pipeline. The default behavior is to output a custom PSObject. If the `–OutFile` parameter is used, a string will be output instead.
 
 # Example 1
-```
+```powershell
 PS Scripts:\> Connect-Ucs 192.168.1.100
 PS Scripts:\> Get-UcsServiceProfile -Name HVSV02 | .\Create-UcsZoningHints.ps1 -TargetAlias vnx-a
 
@@ -61,7 +61,7 @@ Lines 9 and 10 add the newly created zone to an existing zoneset configuration.
 Line 11 can be uncommented to activate the updated zoneset.
 
 # Example 2
-```
+```powershell
 PS Scripts:\> Connect-UcsCentral 192.168.1.102
 PS Scripts:\> Get-UcsCentralServiceProfile -Name HVSV02 | .\Create-UcsZoningHints.ps1 -TargetAlias vnx-a -UcsCentral
 
@@ -84,7 +84,7 @@ In this example, we use Connect-UcsCentral to connect to an instance of UCS Cent
 
 
 # Example 3
-```
+```powershell
 PS Scripts:\> Get-UcsServiceProfile -AssignState assigned | .\Create-UcsZoningHints.ps1 –TargetAlias vnx-b -Fabric B -ZoneSet cfg-prod
 
 Id CommandLine
@@ -117,7 +117,7 @@ The -Fabric parameter specifies which Cisco UCS SwitchId is used to query vHBA i
 The -ZoneSet parameter specifies the name of the zoneset to use in the configuration snippet.
 
 # Example 4
-```
+```powershell
 PS Scripts:\> Get-UcsServiceProfile | .\Create-UcsZoningHints.ps1 -Fabric B -Vsan 200 -OutFile c:\temp\zoneset.txt
 ! Fabric A
 device-alias database
@@ -130,9 +130,9 @@ Note: Using the -OutFile parameter does not output an object but a simple string
 The -Vsan parameter specifies the Id of the vsan to use in the NX-OS configuration.
 
 # Example 5
-````
+```powershell
 PS Scripts:\> Get-UcsServiceProfile | .\Create-UcsZoningHints.ps1 -TargetAlias vnx-1-a,vnx-2-a
-````
+```
 This example creates zoning configuration for all configured Service Profiles to all specified Targets.
 
 {% include psgallery.html packagename="Create-UcsZoningHints" type="Script" reponame="CiscoUCS" %}

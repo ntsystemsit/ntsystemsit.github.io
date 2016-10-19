@@ -20,6 +20,7 @@ gems:
   - jekyll-redirect-from
   - jekyll-paginate
 
+# Default Values for "Front Matter"
 defaults:
   -
     scope:

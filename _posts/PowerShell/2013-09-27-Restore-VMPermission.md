@@ -12,7 +12,7 @@ redirect_from: ["/page/PS-Restore-VMPermissionps1", "/page/ps-restore-vmpermissi
 Adds permissions for the VMId to all assigned disks.
 <!-- more -->
 # SYNTAX
-```
+```powershell
 .\Restore-VMPermission.ps1 [-VM] <String[]> [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
@@ -60,13 +60,13 @@ This script uses the Hyper-V Module to update permissions for all assigned disks
 
 
 # EXAMPLE 1
-```
+```powershell
 PS C:\>Restore-VMPermission.ps1 -VM dc01
 ```
 This example adds permission for dc01 VMId to the ACL of all assigned disks for dc01.
 
 # EXAMPLE 2
-```
+```powershell
 PS C:\>Get-VM | Restore-VMPermission.ps1
 ``` 
 This example uses Get-VM to get all VMs on the local machine. It gets all disks for all VMs and adds the required premissions for VMId to the ACL.
