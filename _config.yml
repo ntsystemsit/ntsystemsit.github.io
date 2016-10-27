@@ -1,8 +1,8 @@
 title: ntSystems | info.tech
 email: blog@ntsystems.it
 description: "by Daniel Nitz and Thomas Torggler."
-baseurl: "" 
-url: "https://ntsystems.it" 
+baseurl: ""
+url: "https://ntsystems.it"
 disqus_username: ntsystems
 twitter_username: ntsystemsit
 github_username:  tomtorggler
@@ -21,6 +21,7 @@ gems:
   - jekyll-paginate
 
 # Default Values for "Front Matter"
+# hidden: true filters out articles from pagination on the front page
 defaults:
   -
     scope:
@@ -33,3 +34,11 @@ defaults:
     values:
       permalink: "/PowerShell/:title/"
       excerpt_separator: <!-- more -->
+      hidden: true
+  -
+    scope:
+      path: "_posts/PowerShell/TAK"
+    values:
+      permalink: "/PowerShell/TAK/:title/"
+      excerpt_separator: <!-- more -->
+      hidden: true

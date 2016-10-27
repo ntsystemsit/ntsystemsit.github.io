@@ -179,11 +179,25 @@
     margin-left: 0;
     list-style: none;
 
+
     > li {
         margin-bottom: $spacing-unit;
     }
     h2 {
         margin-bottom: $spacing-unit / 8;
+    }
+    a {
+        color: $brand-color;
+        text-decoration: none;
+
+        &:visited {
+            color: darken($brand-color, 15%);
+        }
+
+        &:hover {
+            color: $brand-color;
+            text-decoration: underline;
+        }
     }
 }
 
@@ -192,7 +206,7 @@
     color: $grey-color;
     a {
         color: $grey-color;
-    } 
+    }
 
 }
 
@@ -201,6 +215,17 @@
     font-size: 24px;
 }
 
+.script-list {
+    margin-left: 0;
+    list-style: disc inside;
+
+    > li {
+        margin-bottom: $spacing-unit / 2 ;
+    }
+    h2 {
+        margin-bottom: $spacing-unit / 8;
+    }
+}
 
 
 /**
