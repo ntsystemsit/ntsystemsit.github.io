@@ -8,8 +8,13 @@ menubar: true
 On this page we are linking to the online-help articles that are available for our various PowerShell scripts and modules.
 
 # Modules
-
-* ## [TAK](https://ntsystems.it/PowerShell/TAK/)
+<div class="home">
+  <ul class="script-list">
+    <li>
+      <a class="post-link" href="{{ '/PowerShell/TAK/' | prepend: site.baseurl }}">TAK</a>
+    </li>
+  </ul>
+</div>
 
 # Scripts
 <div class="home">
