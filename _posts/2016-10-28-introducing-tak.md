@@ -54,7 +54,7 @@ deploy_script:
 More information about the PowerShell Gallery can be found in the [FAQ](https://msdn.microsoft.com/en-us/powershell/gallery/psgallery/psgallery_faqs)
 
 
-Give it a try, and, ~if~ when you spot a bug or have an idea for improvement, just create in a pull request.
+Give it a try, and, if you spot a bug or have an idea for improvement, just create in a pull request.
 
 So long,
 Tom
