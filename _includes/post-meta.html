@@ -1,12 +1,12 @@
 <p class="post-meta">
-    <img src="{{ site.baseurl }}/public/glyphicons-46-calendar.png">
     {% if post.date %}
+        <i class="fa fa-calendar" aria-hidden="true"></i><span itemprop="datePublished" intemscope itemtype="http://schema.org/BlogPosting"</span>
         <time datetime="{{ post.date | date: "%b %-d, %Y" }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }} &thinsp; </time>
     {% else %}
+        <i class="fa fa-calendar" aria-hidden="true"></i><span itemprop="datePublished" intemscope itemtype="http://schema.org/BlogPosting"</span>
         <time datetime="{{ page.date | date: "%b %-d, %Y" }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }} &thinsp; </time>
     {% endif %}
-        <img src="{{ site.baseurl }}/public/glyphicons-4-user.png">
-        <span itemprop="author" itemscope itemtype="http://schema.org/BlogPosting">
+        <i class="fa fa-user" aria-hidden="true"></i><span itemprop="author" itemscope itemtype="http://schema.org/BlogPosting">
             {% if post.author %}
                 <span itemprop="author">{{ post.author }}</span>
             {% else %}
@@ -14,14 +14,12 @@
             {% endif %}
         </span>&thinsp;
     {% if page.category %}
-        <img src="{{ site.baseurl }}/public/glyphicons-441-folder-closed.png">
-        <span itemprop="category" itemscope itemtype="http://schema.org/BlogPosting">
+        <i class="fa fa-folder"></i><span itemprop="category" itemscope itemtype="http://schema.org/BlogPosting">
             <span itemprop="keywords">{{ page.category }}</span> &thinsp;
         </span>
     {% endif %}
     {% if page.tags %}
-        <img src="{{ site.baseurl }}/public/glyphicons-67-tags.png">
-        <span itemprop="category" itemscope itemtype="http://schema.org/BlogPosting">
+        <i class="fa fa-tag"></i><span itemprop="category" itemscope itemtype="http://schema.org/BlogPosting">
             <span itemprop="keywords">
                 {% for tag in page.tags %}
                     {{ tag }} {% unless forloop.last %}-{% endunless %}

@@ -272,3 +272,22 @@
         }
     }
 }
+
+.improve {
+    padding-top: 20px;
+
+    > a {
+        color: $grey-color;
+        &:hover {
+            color: $link-color;
+            text-decoration: none;
+        }
+    }
+    
+    @include media-query($on-palm) {
+        display: none;
+    }
+}
+
+
+.right { float: right; }

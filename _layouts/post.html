@@ -4,6 +4,7 @@ layout: default
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
+    {% include edit.html %}
     <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
     {% include post-meta.html %}
   </header>
@@ -11,8 +12,10 @@ layout: default
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
+  {% include revision.html %}
   {% include shariff.html %}
   {% if page.comments %}
     {% include disqus_comments.html %}
   {% endif %}
 </article>
+
