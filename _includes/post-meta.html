@@ -1,12 +1,15 @@
 <p class="post-meta">
     {% if post.date %}
-        <i class="fa fa-calendar" aria-hidden="true"></i><span itemprop="datePublished" intemscope itemtype="http://schema.org/BlogPosting"</span>
+        <i class="fa fa-calendar" aria-hidden="true"></i>
+        <span itemprop="datePublished" intemscope itemtype="http://schema.org/BlogPosting"</span>
         <time datetime="{{ post.date | date: "%b %-d, %Y" }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }} &thinsp; </time>
     {% else %}
-        <i class="fa fa-calendar" aria-hidden="true"></i><span itemprop="datePublished" intemscope itemtype="http://schema.org/BlogPosting"</span>
+        <i class="fa fa-calendar" aria-hidden="true"></i>
+        <span itemprop="datePublished" intemscope itemtype="http://schema.org/BlogPosting"</span>
         <time datetime="{{ page.date | date: "%b %-d, %Y" }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }} &thinsp; </time>
     {% endif %}
-        <i class="fa fa-user" aria-hidden="true"></i><span itemprop="author" itemscope itemtype="http://schema.org/BlogPosting">
+        <i class="fa fa-user" aria-hidden="true"></i>
+        <span itemprop="author" itemscope itemtype="http://schema.org/BlogPosting">
             {% if post.author %}
                 <span itemprop="author">{{ post.author }}</span>
             {% else %}
@@ -14,12 +17,14 @@
             {% endif %}
         </span>&thinsp;
     {% if page.category %}
-        <i class="fa fa-folder"></i><span itemprop="category" itemscope itemtype="http://schema.org/BlogPosting">
+        <i class="fa fa-folder" aria-hidden="true"></i>
+        <span itemprop="category" itemscope itemtype="http://schema.org/BlogPosting">
             <span itemprop="keywords">{{ page.category }}</span> &thinsp;
         </span>
     {% endif %}
     {% if page.tags %}
-        <i class="fa fa-tag"></i><span itemprop="category" itemscope itemtype="http://schema.org/BlogPosting">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        <span itemprop="category" itemscope itemtype="http://schema.org/BlogPosting">
             <span itemprop="keywords">
                 {% for tag in page.tags %}
                     {{ tag }} {% unless forloop.last %}-{% endunless %}
