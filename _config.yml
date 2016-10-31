@@ -28,6 +28,7 @@ defaults:
       path: ""
     values:
       excerpt_separator: <!-- more -->
+      hidden: false
   -
     scope:
       path: "_posts/PowerShell"
