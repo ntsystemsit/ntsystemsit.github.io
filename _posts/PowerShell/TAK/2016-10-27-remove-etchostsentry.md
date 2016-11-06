@@ -7,10 +7,11 @@ author: thomas torggler
 category: TAK
 tags: OnlineHelp Lync PowerShell
 ---
-# Remove-EtcHostsEntry
 
 ## SYNOPSIS 
+
 Remove an entry from local hosts file by it's IP address.
+
 <!-- more -->
 
 ## SYNTAX 
@@ -20,4 +21,5 @@ Remove-EtcHostsEntry [[-IPAddress] <String>] [-WhatIf] [-Confirm] [<CommonParame
 ```
 
 ## DESCRIPTION
+
 Find an IP address and remove all lines where it appears from the \etc\hosts file of the local computer.

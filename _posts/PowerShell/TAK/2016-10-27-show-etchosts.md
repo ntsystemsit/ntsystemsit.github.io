@@ -7,15 +7,19 @@ author: thomas torggler
 category: TAK
 tags: OnlineHelp Lync PowerShell
 ---
-# Show-EtcHosts
 
 ## SYNOPSIS 
+
 Display \etc\hosts file content.
+
 <!-- more -->
 
 ## SYNTAX 
+
 ```powershell
 Show-EtcHosts [<CommonParameters>]
 ```
+
 ## DESCRIPTION 
+
 This funtion gets the content of the hosts file, parses the lines and outputs a custom object with HostName and IPAddress properties.

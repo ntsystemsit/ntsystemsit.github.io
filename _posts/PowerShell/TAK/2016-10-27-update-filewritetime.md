@@ -7,24 +7,23 @@ author: thomas torggler
 category: TAK
 tags: OnlineHelp PowerShell
 ---
-# Update-FileWriteTime
-
 
 ## SYNOPSIS
+
 Touch a file.
 
-
 ## SYNTAX
+
 ```powershell
 Update-FileWriteTime [-Name] <String[]> [-Date <DateTime>] [<CommonParameters>]
 ```
 
-
 ## DESCRIPTION
+
 This function checks whether a given file exists, and if so, updates the LastWriteTime property of the given file. Should the file not exist, a new, empty file is created. This function works on Linux/macOS
 
-
 ## PARAMETERS
+
 ```powershell
 -Name <String[]>
     One or more filenames to be touched
@@ -51,12 +50,11 @@ This function checks whether a given file exists, and if so, updates the LastWri
     about_CommonParameters (https://go.microsoft.com/fwlink/?LinkID=113216).
 ```
 
-
 ## EXAMPLE 1
+
 ```powershell
 PS C:\>touch myfile
 ```
-
 
 This example creates myfile if it does not exist in the current directory.
 If the file does exist, the LastWriteTime property will be updated.

@@ -7,22 +7,25 @@ author: thomas torggler
 category: TAK
 tags: OnlineHelp Lync PowerShell
 ---
-# Test-LyncDNS
 
 ## SYNOPSIS
-Test DNS entries for Lync deployments.
+
+Test common DNS entries for Lync deployments.
+
 <!-- more -->
 
 ## SYNTAX
+
 ```powershell
 Test-LyncDNS [-SipDomain] <String> [[-NameServer] <IPAddress>] [-OpenDNS] [-internal] [-testConnection] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-This function uses Resolve-DnsName to query well-known DNS records for Lync deployments.
-The NameSever parameter can be used to specify a nameserver.
+
+This function uses `Resolve-DnsName` to query well-known DNS records for Lync deployments. The `-NameSever` parameter can be used to specify a nameserver.
 
 ## PARAMETERS
+
 ```powershell
 -SipDomain <String>
 Specifies the DNS domain name to test
@@ -69,7 +72,6 @@ Default value                False
 Accept pipeline input?       false
 Accept wildcard characters?  false
 ```
-
 
 ## EXAMPLE 1
 

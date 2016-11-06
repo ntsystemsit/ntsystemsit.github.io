@@ -7,15 +7,19 @@ author: thomas torggler
 category: TAK
 tags: OnlineHelp Lync PowerShell
 ---
-# Add-EtcHostsEntry
 
 ## SYNOPSIS 
+
 Add an entry to local hosts file.
+
 <!-- more -->
 
 ## SYNTAX 
+
 ```powershell
 Add-EtcHostsEntry [-IPAddress] <String> [-Fqdn] <String> [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
+
 ## DESCRIPTION 
+
 Adds a lines to the \etc\hosts file of the local computer.

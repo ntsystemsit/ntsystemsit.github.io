@@ -10,7 +10,9 @@ redirect_from: ["/page/PS-Start-LyncBackupps1", "/page/ps-start-lyncbackupps1"]
 ---
 This script exports Lync Core Data and Settings according to the documentation availabe on [TechNet](http://technet.microsoft.com/en-us/library/hh202170.aspx)
 It is intended to be run as scheduled task, the Retention parameter can be used to indicate how long to keep existing backup files in the target directory.
+
 <!-- more -->
+
 # Inputs
 None. This script does not take any pipeline input.
 
@@ -24,10 +26,12 @@ The Account used to run this script needs to be member of the RTCUniversalServer
 ```powershell
 .\Start-LyncBackup.ps1 -PoolFqdn lyncpool01.example.com -Path \\SERVER\Share\CSBackup
 ```
+
 This example exports Lync config and saves it into a subfolder at `\\SERVER\Share\CSBackup`
 
 # Example 2
 ```powershell 
 .\Start-LyncBackup.ps1 -PoolFqdn lyncpool01.example.com -Path \\SERVER\Share\CSBackup -Retention 10
 ```
+
 This example exports Lync config and saves it into a subfolder at `\\SERVER\Share\CSBackup`. It deletes existing backups in the destination directory if they are older than 10 days.
