@@ -23,49 +23,46 @@ This function uses Resolve-DnsName to query well-known DNS records for Lync depl
 The NameSever parameter can be used to specify a nameserver.
 
 ## PARAMETERS
-### -SipDomain &lt;String&gt;
+```powershell
+-SipDomain <String>
 Specifies the DNS domain name to test
-```
+
 Required?                    true
 Position?                    1
 Default value
 Accept pipeline input?       false
 Accept wildcard characters?  false
-```
- 
-### -NameServer &lt;IPAddress&gt;
+
+-NameServer <IPAddress>
 Specifies the nameserver which is used by Resolve-DnsName
-```
+
 Required?                    false
 Position?                    2
 Default value
 Accept pipeline input?       false
 Accept wildcard characters?  false
-```
  
-### -OpenDNS &lt;SwitchParameter&gt;
+-OpenDNS <SwitchParameter>
 A quick way to use OpenDns servers instead of using NameServer
-```
+
 Required?                    false
 Position?                    named
 Default value                False
 Accept pipeline input?       false
 Accept wildcard characters?  false
-```
- 
-### -internal &lt;SwitchParameter&gt;
+
+-internal <SwitchParameter>
 Do also query for internal records, they should only resolve when testing from the internal network
-```
+
 Required?                    false
 Position?                    named
 Default value                False
 Accept pipeline input?       false
 Accept wildcard characters?  false
-```
- 
-### -testConnection &lt;SwitchParameter&gt;
+
+-testConnection <SwitchParameter>
 Do also test a TLS connection to the servers received from the query
-```
+
 Required?                    false
 Position?                    named
 Default value                False
@@ -73,19 +70,11 @@ Accept pipeline input?       false
 Accept wildcard characters?  false
 ```
 
-## INPUTS
 
+## EXAMPLE 1
 
-## OUTPUTS
-
-
-## NOTES
-
-
-## EXAMPLES
-### EXAMPLE 1
 ```powershell
 PS C:\>Test-LyncDNS -SipDomain uclab.eu
+```
 
 This example queries DNS records for the domain uclab.eu
-```
