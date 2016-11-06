@@ -47,6 +47,15 @@ deploy_script:
 
 ```
 
+# Help
+Most functions include comment-based help and a HelpUri that links to the online version of the help article. Just add the `-Online` parameter when getting help, like in the following example:
+
+```powershell
+Get-Help Test-TCPConnection -Online
+```
+
+A full list of available help files can be found here: [TAK](https://ntsystems.it/PowerShell/TAK/)
+
 
 {% include psgallery.html packagename="TAK" type="Module" reponame="TAK" %}
 
