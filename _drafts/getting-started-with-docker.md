@@ -1,17 +1,18 @@
 ---
 layout: post
 title: "Getting started with Docker"
-date: 2016-10-02 09:25:06 +0200
+date: 2016-11-04 09:25:06 +0200
 comments: true
 category: DevOps
 tags: docker container macOS
 author: thomas torggler
 ---
-Docker gets a lot of attention these days, I finally managed to have a shot at it the other day and see what it could do for me. 
+Docker gets a lot of attention these days, I finally managed to have a look at it the other day and see what it could do for me. 
 
 <!-- more -->
 
 # Docker?
+Is a container orchestration tool.
 
 # Docker Client
 My primary work machine [these days](https://ntsystems.it/post/getting-started-with-osx) is a MacBook Pro running macOS Sierra. I thought it would be best to run the docker client on my Mac and use a remote host to run the docker engine. This remote host is just a CentOS VM on my MacBook. 
