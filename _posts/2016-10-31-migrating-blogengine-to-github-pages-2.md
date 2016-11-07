@@ -31,7 +31,7 @@ But what about existing links from social media, other blog posts, or where ever
 ## Cloudflare
 We have been using [Cloudflare](https://www.cloudflare.com) for a while to easily enable IPv6 and and https even for our old blog. Now another feature, Page Rules, comes in very handy indeed. In fact a single rule is enough to get rid of the `.aspx` extensions:
 
-![cloudflare](https://ntsystems.it/assets/2016/20161031-cloudflare.png)
+![cloudflare]({{ site.url }}/assets/2016/20161031-cloudflare.png)
 
 If the URL matches `*ntsystems.it/*.aspx` forward the request to `https://ntsystems.it/$2` where `$2` is the stuff that was matched by the second asterisk `*` in the matching pattern. Easy enough!
 
@@ -44,7 +44,7 @@ The following setting in our `_config.yml` file tells Jekyll to build all posts 
 permalink: /post/:title
 ```
 
-The title property was copied into the front matter by the [script](https://ntsystems.it/post/migrating-blogengine-to-github-pages-1) we used to migrate the posts. Quite ready, but not yet.
+The title property was copied into the front matter by the [script]({{ site.url }}/post/migrating-blogengine-to-github-pages-1) we used to migrate the posts. Quite ready, but not yet.
 
 We still have to deal with the uppercase/lowercase filenames in the URLs. We ended up using [JekyllRedirectFrom](https://github.com/jekyll/jekyll-redirect-from) to work around that. We just added the `'jekyll-redirect-from'` gem to our `Gemfile` and used the migration script to add an uppercase version of the filename to the front matter like this:
 
