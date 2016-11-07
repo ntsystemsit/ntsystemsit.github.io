@@ -41,5 +41,6 @@ defaults:
       path: "_posts/PowerShell/TAK"
     values:
       permalink: "/PowerShell/TAK/:title/"
+      comments: true
       excerpt_separator: <!-- more -->
       hidden: true

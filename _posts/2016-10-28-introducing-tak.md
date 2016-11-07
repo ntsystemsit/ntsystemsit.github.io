@@ -13,7 +13,7 @@ I try to credit the sources for the stuff that I just copied off of the interweb
 <!-- more -->
 
 # Pester
-As [written before](https://ntsystems.it/post/lost-found-nano-server-github-psgallery-pester), Pester is  a unit testing framework for PowerShell code. So one can write simple tests to verify the code actually does, what it is supposed to do. Not all functions are covered by tests, yet, but I try to be better at that. The existing tests can be found in the [GitHub repo for the module](https://github.com/tomtorggler/TAK/blob/master/tak.tests.ps1).
+As [written before]({{ site.url }}/post/lost-found-nano-server-github-psgallery-pester), Pester is  a unit testing framework for PowerShell code. So one can write simple tests to verify the code actually does, what it is supposed to do. Not all functions are covered by tests, yet, but I try to be better at that. The existing tests can be found in the [GitHub repo for the module](https://github.com/tomtorggler/TAK/blob/master/tak.tests.ps1).
 
 # CI&D: GitHub and AppVeyor
 [![Build status](https://ci.appveyor.com/api/projects/status/22d1idxb0f5akute?svg=true)](https://ci.appveyor.com/project/tomtorggler/tak)
@@ -54,7 +54,7 @@ Most functions include comment-based help and a HelpUri that links to the online
 Get-Help Test-TCPConnection -Online
 ```
 
-A full list of available help files can be found here: [TAK](https://ntsystems.it/PowerShell/TAK/)
+A full list of available help files can be found here: [TAK]({{ site.url }}/PowerShell/TAK/)
 
 
 {% include psgallery.html packagename="TAK" type="Module" reponame="TAK" %}

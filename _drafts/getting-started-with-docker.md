@@ -15,7 +15,7 @@ Docker gets a lot of attention these days, I finally managed to have a look at i
 Is a container orchestration tool.
 
 # Docker Client
-My primary work machine [these days](https://ntsystems.it/post/getting-started-with-osx) is a MacBook Pro running macOS Sierra. I thought it would be best to run the docker client on my Mac and use a remote host to run the docker engine. This remote host is just a CentOS VM on my MacBook. 
+My primary work machine [these days]({{ site.url }}/post/getting-started-with-osx) is a MacBook Pro running macOS Sierra. I thought it would be best to run the docker client on my Mac and use a remote host to run the docker engine. This remote host is just a CentOS VM on my MacBook. 
 
 To install the docker client on my Mac, all I had to do, was:
 
