@@ -12,7 +12,8 @@ The main goal of creating the module and writing the scripts it contains, was le
 # Functions
 <div class="home">
   <ul class="script-list">
-    {% for post in site.tags.OnlineHelp %}
+    {% assign sorted_posts = site.tags.OnlineHelp | sort:"title" %}
+    {% for post in sorted_posts %}
     {% if post.category == "TAK" %}
       <li>
         <h2>

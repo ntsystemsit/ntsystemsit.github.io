@@ -19,7 +19,8 @@ On this page we are linking to the online-help articles that are available for o
 # Scripts
 <div class="home">
   <ul class="script-list">
-    {% for post in site.tags.OnlineHelp %}
+    {% assign sorted_posts = site.tags.OnlineHelp | sort:"title" %}
+    {% for post in sorted_posts %}
     {% if post.category == "PowerShell" %}
       <li>
         <h2>
