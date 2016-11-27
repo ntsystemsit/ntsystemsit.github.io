@@ -1,12 +1,12 @@
 <p class="post-meta">
     {% if post.date %}
         <i class="fa fa-calendar" aria-hidden="true"></i>
-        <span itemprop="datePublished" intemscope itemtype="http://schema.org/BlogPosting"</span>
-        <time datetime="{{ post.date | date: "%b %-d, %Y" }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }} &thinsp; </time>
+        <span itemprop="datePublished" intemscope itemtype="http://schema.org/BlogPosting">
+        <time datetime="{{ post.date | date: "%b %-d, %Y" }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }} &thinsp; </time></span>
     {% else %}
         <i class="fa fa-calendar" aria-hidden="true"></i>
-        <span itemprop="datePublished" intemscope itemtype="http://schema.org/BlogPosting"</span>
-        <time datetime="{{ page.date | date: "%b %-d, %Y" }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }} &thinsp; </time>
+        <span itemprop="datePublished" intemscope itemtype="http://schema.org/BlogPosting">
+        <time datetime="{{ page.date | date: "%b %-d, %Y" }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }} &thinsp; </time></span>
     {% endif %}
         <i class="fa fa-user" aria-hidden="true"></i>
         <span itemprop="author" itemscope itemtype="http://schema.org/BlogPosting">
@@ -29,5 +29,9 @@
                 {{ page.tags | array_to_sentence_string }}
             </span>
         </span>
+    {% endif %}
+    {% if post.updated %}
+        <span class="post-updated" itemprop="dateModified" intemscope itemtype="http://schema.org/BlogPosting">
+        <time datetime="{{ post.updated | date: "%b %-d, %Y" }}" itemprop="dateModified">Updated {{ post.updated | date: "%b %-d, %Y" }} </time></span>    
     {% endif %}
 </p>
