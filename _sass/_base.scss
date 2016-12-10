@@ -21,6 +21,7 @@ body {
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
     -o-font-feature-settings: "kern" 1;
+    text-rendering: optimizeLegibility;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
 }
@@ -110,11 +111,11 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: $grey-color;
+    color: $grey-color-dark;
     border-left: 4px solid $grey-color-light;
     padding-left: $spacing-unit / 2;
-    font-size: 18px;
-    letter-spacing: -1px;
+    margin-left: $spacing-unit;
+    font-size: $base-font-size + 2px;
     font-style: italic;
 
     > :last-child {
