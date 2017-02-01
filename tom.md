@@ -16,7 +16,7 @@ I'm an experienced IT Professional focusing on data center technologies. Nowaday
 # What else?
 - Cycling
 - Travelling
-- Languages 
+- Languages: German (native), English, Italian, Spanish
 
 # Social
 - [Twitter](https://twitter.com/torggler)
@@ -24,6 +24,5 @@ I'm an experienced IT Professional focusing on data center technologies. Nowaday
 - [Keybase](https://keybase.io/tomt)
 - [Linkedin](https://it.linkedin.com/in/thomastorggler)
 - [Xing](https://www.xing.com/profile/Thomas_Torggler)
-- [Reddit](https://www.reddit.com/user/tomtorggler)
 
 [Contact]({{ site.baseurl }}/contact)
