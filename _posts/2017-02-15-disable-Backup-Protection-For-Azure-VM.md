@@ -12,7 +12,7 @@ My Azure credits burn faster than expected :) So I decided to remove some VM’s
 
 <!-- more -->
 
-# Delete Azure VM
+# Disable and delete VM Backup
 
 ```powershell
 Login-AzureRmAccount
