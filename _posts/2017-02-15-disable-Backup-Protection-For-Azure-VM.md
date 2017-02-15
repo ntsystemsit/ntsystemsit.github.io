@@ -14,8 +14,6 @@ My Azure credits burn faster than expected :) So I decided to remove some VM’s
 
 # Delete Azure VM
 
-The first step is to get a list of all registered Virtual Machines
-
 ```powershell
 Login-AzureRmAccount
 # Select Azure RM Subscription
