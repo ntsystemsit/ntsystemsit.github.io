@@ -8,8 +8,7 @@ tags: PowerShell Azure RM
 author: daniel nitz
 ---
 
-My Azure credits burn faster than expected :) So I decied to remove some VM's and Backup that I used for a customers demonstration. Since I don't use the Azure Portal for configuration anymore, I fired up Powershell and did the Job.
-With the following commands I show you how to stop the Backup for a Virtual Machine and delete the assosiated Recovery Points.
+My Azure credits burn faster than expected :) So I decided to remove some VM’s and Backup that I used for a customer’s demonstration. Since I don’t use the Azure Portal for configuration anymore, I fired up Powershell and did the Job. With the following commands, I show you how to stop the Backup for a Virtual Machine and delete the associated Recovery Points.
 
 <!-- more -->
 
