@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Disable Azure Backup Protection for a VM with Azure PowerSgell"
+title: "Disable Azure Backup Protection for a VM with Azure PowerShell"
 date: 2017-02-15 19:25:06 +0200
 comments: true
 category: PowerShell
