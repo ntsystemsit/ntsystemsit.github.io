@@ -10,6 +10,8 @@ author: daniel nitz
 
 To start with the deployment using Azure ARM Templates is quite easy. A first step can be to deploy an Azure SQL Database. But let’s start with a bit of background information:
 
+<!-- more -->
+
 # Templates
 
 We can create a template (in JSON format) that defines and configures the Azure solution. When we create a solution from the portal, the solution automatically includes a deployment template. So, we don’t have to create our template from scratch but we can download the templates for the existing deployments. 
@@ -25,7 +27,7 @@ What we can see now is the Template and Parameter file. When we start a new depl
 
 ![ARM]({{ site.url }}/assets/2017/2017-02-22 09_30_14-Template - Microsoft Azure.png)
 
-You can find other ARM templates on the following [Website](https://azure.microsoft.com/en-us/resources/templates/)
+You can find other ARM templates on the following Microsoft [Website](https://azure.microsoft.com/en-us/resources/templates/)
 
 # Deployment
 
@@ -129,9 +131,10 @@ Let's focus on the parameter file that specifies the deployment. It should look 
 }
 ```
 
-I modified that Database Name because I want my new Database called "Database3". Lets save both files to the local machine (or GitHub if you want). Name the template file NewSQLDatabase.json and the parameter file Parameter-NewSQLDatabase.json.
+I modified that Database Name because I want my new Database to be called "Database3". Lets save both files to the local machine (or GitHub if you want). Name the template file NewSQLDatabase.json and the parameter file Parameter-NewSQLDatabase.json.
 
-The deployment is now ready for deploying. Lets fire up Powershell and push the change to Azure. First we have to connect to the Azure Account and select our subscription
+The Template and Parameter files are now ready for deployment. Lets fire up Powershell and push the change to Azure. 
+First, we have to connect to the Azure Account and select our subscription
 
 ```powershell
 # Connect to Azure RM Account
@@ -141,7 +144,7 @@ Login-AzureRmAccount
 Select-AzureRmSubscription -SubscriptionId c2a12a42-0179-*************
 ```
 
-With the "New-AzureRmResourceGroupDeployment" cmdlet we start the deployment process using our template and parameter file. 
+With the "New-AzureRmResourceGroupDeployment" cmdlet we start the deployment process using our template and parameter file as attributes.
 
 ```powershell
 # ARM Template SQL Database
@@ -151,9 +154,6 @@ New-AzureRmResourceGroupDeployment -Name SQLDatabase -ResourceGroupName rg_Z2010
 After we executed the command we should see similar output and the Database is running on Azure :)
 
 ![ARM]({{ site.url }}/assets/2017/2017-02-22 10_45_54-Azure_ ARM Template erstellen - OneNote.png)
-
-
-<!-- more -->
 
 Stay tuned for further posts
 Daniel
