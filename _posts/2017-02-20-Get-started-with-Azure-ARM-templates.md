@@ -156,5 +156,6 @@ After we executed the command we should see similar output and the Database is r
 ![ARM]({{ site.url }}/assets/2017/2017-02-22 10_45_54-Azure_ ARM Template erstellen - OneNote.png)
 
 Stay tuned for further posts
+
 Daniel
 
