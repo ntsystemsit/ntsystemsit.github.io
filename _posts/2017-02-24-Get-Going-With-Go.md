@@ -15,7 +15,8 @@ Everyone is talking about Go these days so I decided to have a look at it and se
 
 # Basics
 
-So what is Go? Well according to [golang.org](https://golang.org) > Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
+So what is Go? Well according to [golang.org](https://golang.org) 
+> Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
 
 Ok, so another programing language, why do I care you ask? Well that's a story for another day, for now, let's say that I'm just generally interested in awesome technology.
 
