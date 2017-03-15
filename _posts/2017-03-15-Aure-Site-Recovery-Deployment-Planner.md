@@ -8,7 +8,7 @@ tags: Azure ASR
 author: daniel nitz
 ---
 
-Today I was super excited about the first tests with the Azure Site Recovery Deployment Planner. Sometimes calculating the Bandwidth, Storage, local infrastructure needed for Site Recovery could be very tricky. Therefore, I’m happy that Microsoft released a helpful tool to get the right information needed. 
+Today I was super excited about the first tests with the Azure Site Recovery Deployment Planner. Sometimes calculating the Bandwidth, Storage, local infrastructure needed for Site Recovery can be very tricky. Therefore, I’m happy that Microsoft released a helpful tool to get the right information needed. 
 
 <!-- more -->
 
@@ -30,7 +30,7 @@ The planner needs following components:
 
 # Profiling
 
-First of all, we have to start profiling for the VM’s that we want to protect with Azure ASR. The tool tool connects to the vCenter server to collect performance data. There is no performance impact on the VM’s because the performance data of the vCenter is taken not from inside the VM. The tool basically queries every 15 minutes the vCenter to get the performance data.
+First of all, we have to start profiling the VM’s that we want to protect with Azure ASR. The tool connects to the vCenter server (or ESX) to collect performance data. There is no performance impact on the VM’s because the performance data of the vCenter is taken and no data from inside the VM. The tool basically queries every 15 minutes the vCenter to get the performance data.
 
 As first step we create a VM list with VM’s we want to profile. Connect to the vCenter with the VMWare CLI:
 
@@ -55,6 +55,7 @@ Now we are ready to start profiling. Microsoft recommends to profile at least 15
 ```
 
 A complete list of all switches can be seen [here](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-deployment-planner).
+
 If you see following output in powershell you are all right. In my case, there are some VM’s not running and therefore a warning is displayed because the tool can obviously not collect performance data.
 
 ![PowerShellOutput]({{ site.url }}/assets/2017/2017-03-15 20_44_10-Azure DR_ Depoloyment Planner - OneNote.png)
@@ -63,7 +64,7 @@ If you see following output in powershell you are all right. In my case, there a
 
 After profiling is completed we can see that the tool created some performance CSV Files:
 
-![Explorer]({{ site.url }}/assets/2017/22017-03-15 20_46_15-Azure DR_ Depoloyment Planner - OneNote.png)
+![Explorer]({{ site.url }}/assets/2017/2017-03-15 20_46_15-Azure DR_ Depoloyment Planner - OneNote.png)
 
 Now we can run the tool in report-generation mode to get the report
 
@@ -72,11 +73,12 @@ Now we can run the tool in report-generation mode to get the report
 ```
 
 A complete list of all switches can be seen [here](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-deployment-planner).
-The report is saved as DeploymentPlannerReport file and can be opened with Excel.
+
+The report is named as "DeploymentPlannerReport" and can be opened with Excel.
 
 ![Report]({{ site.url }}/assets/2017/2017-03-15 20_49_42-DeploymentPlannerReport_63625173741434777714.xlsm - Excel.png)
 
-What we can see from the Excel Report is basically the number of profiles VM’s, the compatible and incompatible VM’s. If we click on details, we can get the name of the not compatible VM. In my case a VM’s has a Disk with 10TB VMDK attached. (Azure has a limit of 1TB per disk).
+What we can see from the Excel Report is basically the number of profiled, compatible and incompatible VM’s. If we click on details, we can get the name of the not compatible VM. In my case a VM’s has a Disk with 10TB VMDK attached. (Azure has a limit of 1TB per disk).
 
 ![Report]({{ site.url }}/assets/2017/2017-03-15 21_26_43-DeploymentPlannerReport_63625173741434777714.xlsm - Excel.png)
 
@@ -86,8 +88,8 @@ In the Required Network Bandwidth section there are 3 graphs:
 
 ![Report]({{ site.url }}/assets/2017/2017-03-15 21_28_11-DeploymentPlannerReport_63625173741434777714.xlsm - Excel.png)
 
--   To meet RPO 100 percent of the time: The recommended bandwidth in Mbps to be allocated to meet your desired RPO 100 percent of the time. 
--   To meet RPO 90 percent of the time: If we cannot set the bandwidth needed to meet your desired RPO 100 percent of the time, we can choose to go with a lower bandwidth setting that can meet your desired RPO 90 percent of the time. 
+-   To meet RPO 100 percent of the time: The recommended bandwidth in Mbps to be allocated to meet the desired RPO 100 percent of the time. 
+-   To meet RPO 90 percent of the time: If we cannot set the bandwidth needed to meet your desired RPO 100 percent of the time, we can choose to go with a lower bandwidth setting that can meet a desired RPO 90 percent of the time. 
 (In my case 100 and 90 RPO are both 2 Mbit.. maybe there is still a bug with the calculation. Because the tool is in preview I guess this will be fixed before GA)
 -   Achieved Throughput: This is the real Throughput that can be measured with the following command: 
 
@@ -95,9 +97,9 @@ In the Required Network Bandwidth section there are 3 graphs:
 ASRDeploymentPlanner.exe -Operation GetThroughput
 ```
 
-In my case this is $Null because I have to change the QoS rules and didn’t the test acutally.
+In my case this is $Null because I have to change the QoS rules and didn’t execute the test acutally.
 
-Based on the storage activity the planner recommends the storage accounts needed. I have one VM with heavy storage operations that need Premium disks (SSD).
+Based on the storage activity the planner recommends the storage accounts needed. I have one VM with heavy storage operations that needs Premium disks (SSD).
 
 ![Report]({{ site.url }}/assets/2017/2017-03-15 21_28_02-DeploymentPlannerReport_63625173741434777714.xlsm - Excel.png)
 
@@ -109,11 +111,11 @@ The WhatIf Graph shows what would happen if we decide to use a throughput to mee
 
 ![Report]({{ site.url }}/assets/2017/2017-03-15 21_30_24-DeploymentPlannerReport_63625173741434777714.xlsm - Excel.png)
 
-In the Recommended VM batch size for initial replication section, Microsoft show the recommendation of number of VMs that can be protected in parallel to complete the initial replication within 72 hours with the suggested bandwidth to meet desired RPO 100 percent of the time being set. The value can be changed using the GoalToCompleteIR parameter during report generation.
+In the Recommended VM batch size for initial replication section, Microsoft shows the recommendation of number of VMs that can be protected in parallel to complete the initial replication within 72 hours with the suggested bandwidth to meet desired RPO 100 percent of the time being set. The value can be changed using the GoalToCompleteIR parameter during report generation.
 
 ![Report]({{ site.url }}/assets/2017/2017-03-15 21_33_38-DeploymentPlannerReport_63625173741434777714.xlsm - Excel.png)
 
-Let’s switch to the “Input” Tab in Excel. Here we can see some interesting values. The most interesting values for me is: Total Data to be replicated for initial replication
+Let’s switch to the “Input” Tab in Excel. Here we can see some very interesting values. The most interesting values for me is: Total Data to be replicated for initial replication
 
 ![Report]({{ site.url }}/assets/2017/2017-03-15 21_41_57-DeploymentPlannerReport_63625173741434777714.xlsm - Excel.png)
 
