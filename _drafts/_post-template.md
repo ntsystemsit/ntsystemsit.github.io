@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "PowerShell on macOS"
-date: 2016-10-02 09:25:06 +0200
+date: 2017-10-02 09:25:06 +0200
 comments: true
 category: DevOps
 tags: PowerShell Cloud
