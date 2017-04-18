@@ -12,7 +12,7 @@ title: Connect-Lync
 # Connect-Lync
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+A quick function to connect to Lync Servers. 
 
 ## SYNTAX
 
@@ -21,21 +21,21 @@ Connect-Lync [-Server] <Object> [-Credential <PSCredential>]
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+A wrapper function for New- and Import-PSSession to make connecting to remote Lync Servers easier.
 
 ## EXAMPLES
 
 ### Example 1
 ```
-PS C:\> {{ Add example code here }}
+PS C:\> Connect-Exchange s4bfe01.ntsystems.it -Credential (Get-Credential)
 ```
 
-{{ Add example description here }}
+This example prompts the user for credentials and connects to the server at s4bfe01.ntsystems.it using the specified credentials.
 
 ## PARAMETERS
 
 ### -Credential
-{{Fill Credential Description}}
+Specify the account used to connect to the Server.
 
 ```yaml
 Type: PSCredential
@@ -50,7 +50,7 @@ Accept wildcard characters: False
 ```
 
 ### -Server
-{{Fill Server Description}}
+Specify the name of the Lync Server to connect to.
 
 ```yaml
 Type: Object

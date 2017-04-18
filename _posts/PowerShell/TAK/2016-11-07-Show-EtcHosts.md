@@ -28,10 +28,16 @@ a custom object with HostName and IPAddress properties.
 
 ### Example 1
 ```
-PS C:\> {{ Add example code here }}
+PS C:\> Show-EtcHosts
+
+HostName                 IPAddress
+--------                 ---------
+localhost                127.0.0.1
+broadcasthost            255.255.255.255
+...
 ```
 
-{{ Add example description here }}
+This example parses content from the local \etc\hosts file and outputs a custom object.
 
 ## PARAMETERS
 

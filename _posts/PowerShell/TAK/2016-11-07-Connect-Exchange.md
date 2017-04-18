@@ -12,7 +12,7 @@ title: Connect-Exchange
 # Connect-Exchange
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+A quick function to connect to Exchange Servers. 
 
 ## SYNTAX
 
@@ -21,21 +21,21 @@ Connect-Exchange [-Server] <Object> [-Credential <PSCredential>]
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+A wrapper function for New- and Import-PSSession to make connecting to remote Exchange Servers easier.
 
 ## EXAMPLES
 
 ### Example 1
 ```
-PS C:\> {{ Add example code here }}
+PS C:\> Connect-Exchange mail.ntsystems.it -Credential (Get-Credential)
 ```
 
-{{ Add example description here }}
+This example prompts the user for credentials and connects to the server at mail.ntsystems.it using the specified credentials.
 
 ## PARAMETERS
 
 ### -Credential
-{{Fill Credential Description}}
+Specify the account used to connect to the Server.
 
 ```yaml
 Type: PSCredential
@@ -50,7 +50,7 @@ Accept wildcard characters: False
 ```
 
 ### -Server
-{{Fill Server Description}}
+Specify the name of the Exchange Server to connect to.
 
 ```yaml
 Type: Object

@@ -29,10 +29,10 @@ run notepad as administrator and open the hosts file for editing
 
 ### Example 1
 ```
-PS C:\> {{ Add example code here }}
+PS C:\> Edit-EtcHosts
 ```
 
-{{ Add example description here }}
+This example opens the local \etc\hosts file in an administrative notepad for editing.
 
 ## PARAMETERS
 
