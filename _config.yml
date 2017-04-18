@@ -15,7 +15,12 @@ theme: minima
 paginate: 10
 permalink: /post/:title
 
+kramdown: 
+ input: GFM # GitHub Flavored Markdown
+ auto_ids: true # Auto-generate ID's 
+
 jquery: 2.2.2
+anchorjs: 3.2.0
 
 gems:
   - jekyll-redirect-from

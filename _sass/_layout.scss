@@ -300,3 +300,14 @@
 
 
 .right { float: right; }
+
+.anchorjs-link {
+    transition: all .25s linear;
+    @include media-query($on-palm) {
+        display: none;
+    }
+}
+*:hover > .anchorjs-link {
+    margin-left: -1.125em !important;
+    text-decoration: none;
+}
