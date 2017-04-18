@@ -4,7 +4,7 @@
 {
   "title": {{site.title | jsonify}},
   "description": {{ site.description | jsonify }},
-  "url": {{ prepend: site.baseurl | prepend: site.url | jsonify }},
+  "url": {{ site.baseurl | prepend: site.url | jsonify }},
   "icon": {{ "/public/apple-touch-icon.png" | prepend: site.baseurl | prepend: site.url | jsonify }},
   "feed": {{ "/feed.xml" | prepend: site.baseurl | prepend: site.url | jsonify }},
   "twitter": {{ site.twitter_username | prepend: "https://twitter.com/" | jsonify }},
