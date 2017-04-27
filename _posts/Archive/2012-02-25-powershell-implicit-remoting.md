@@ -7,6 +7,7 @@ category: Archive
 tags: ["PowerShell"]
 redirect_from: ["/post/PowerShell-Implicit-Remoting", "/post/powershell-implicit-remoting"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <p>Eine der wichtigsten Funktionen der PowerShell ist die M&ouml;glichkeit cmdlet&rsquo;s (ScriptBlocks) auf remoten System auszuf&uuml;hren. Dazu wird eine PowerShell Sesion mit dem Remote Computer erstellt, die Befehle werden remote ausgef&uuml;hrt und das Ergebnis lokal angezeigt.</p>

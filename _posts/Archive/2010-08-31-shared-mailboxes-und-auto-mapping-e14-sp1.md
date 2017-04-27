@@ -7,6 +7,7 @@ category: Archive
 tags: ["Exchange"]
 redirect_from: ["/post/Shared-Mailboxes-und-Auto-Mapping-E14-Sp1", "/post/shared-mailboxes-und-auto-mapping-e14-sp1"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <p>Shared und Ressourcen Postf&auml;cher gibt es schon l&auml;nger. Mit Exchange 2010 SP1 kommt aber ein neues Feature das den Admins das leben um einiges erleichtert. Wie das Kind hei&szlig;t ist noch nicht zu erfahren, es wird in div. Blogs und Foren &ldquo;Auto Mapping&rdquo; genannt.</p>

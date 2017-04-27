@@ -7,6 +7,7 @@ category: Archive
 tags: ["Client"]
 redirect_from: ["/post/Windows-7-e28093-Installation-mit-USB-Stick", "/post/windows-7-e28093-installation-mit-usb-stick"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <p>Windows 7 kann von einem USB Wechseldatentr&auml;ger aus installiert werden. So kann es problemlos auf Netbooks und anderen Ger&auml;ten ohne ein optisches Laufwerk installiert werden. Ich verwende eigentlich immer diese Variante da USB Sticks in der Regel schneller sind als DVD Laufwerke.</p>

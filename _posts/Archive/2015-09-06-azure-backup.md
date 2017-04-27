@@ -7,6 +7,7 @@ category: Archive
 tags: ["Cloud", "de"]
 redirect_from: ["/post/Azure-Backup", "/post/azure-backup"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <p><span style="color:black">Seit einiger Zeit bieten die Recovery Services in Microsoft Azure die Möglichkeit, virtuelle Maschinen oder ganze Rechenzentren zu sichern. Das ist vor allem für Unternehmen interessant, die sich kein DR Rechenzentrum leisten können/wollen.

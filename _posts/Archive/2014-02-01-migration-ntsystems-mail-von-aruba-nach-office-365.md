@@ -7,6 +7,7 @@ category: Archive
 tags: ["de", "Office 365"]
 redirect_from: ["/post/Migration-ntSystems-Mail-von-Aruba-nach-Office-365", "/post/migration-ntsystems-mail-von-aruba-nach-office-365"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <p>Nachdem einigem &uuml;berlegen haben wir uns entschieden Mail f&uuml;r die Domain ntsystems.it nach Office 365 zu migrieren. Wir verwenden einen E1 Plan, dieser bietet f&uuml;r 6,5&euro; pro User und Monat eine Exchange Mailbox, Lync, SharePoint und SkyDrive sowie Yammer.</p>

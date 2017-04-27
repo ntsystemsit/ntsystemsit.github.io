@@ -7,6 +7,7 @@ category: Archive
 tags: []
 redirect_from: ["/post/ntSystems-Update", "/post/ntsystems-update"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <p>Heute habe ich die Blog Platform von ntSystems aktualisiert. Wir verwenden nun die aktuellste Version von <a href="http://www.dotnetblogengine.net"><span style="color: #5c80b1;">BlogEngine.NET</span></a>.</p>

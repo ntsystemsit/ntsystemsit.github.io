@@ -7,6 +7,7 @@ category: Archive
 tags: ["Client", "Server", "Server 2008"]
 redirect_from: ["/post/RemoteApp-mit-Zertifikat", "/post/remoteapp-mit-zertifikat"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <p>Die Sicherheit von RemoteApp Programmen kann erh&ouml;ht werden indem die Echtheit des Servers mit einem Zertifikat best&auml;tigt wird. Daf&uuml;r habe ich ein Computerzertifikat f&uuml;r den Terminal Server ausgestellt der die RemoteApp Programme hosted. Das ausgestellte Zertifikat muss nat&uuml;rlich g&uuml;ltig sein, d.h. Datum und Namen m&uuml;ssen stimmen und die ausstellende CA (Enterprise CA in meinem Fall) muss vertrauensw&uuml;rdig sein.&nbsp;</p>

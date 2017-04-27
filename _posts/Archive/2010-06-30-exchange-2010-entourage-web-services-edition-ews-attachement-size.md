@@ -7,6 +7,7 @@ category: Archive
 tags: ["Exchange", "Server"]
 redirect_from: ["/post/Exchange-2010-Entourage-Web-Services-Edition-EWS-Attachement-Size", "/post/exchange-2010-entourage-web-services-edition-ews-attachement-size"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <p>&nbsp;</p>

@@ -7,6 +7,7 @@ category: Archive
 tags: ["Client", "de", "Server 2012"]
 redirect_from: ["/post/Wireshark-und-Windows-8", "/post/wireshark-und-windows-8"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <p>Eines der ersten Tools das auf meinen Ger&auml;ten installiert wird ist das Analysetool Wireshark.</p>

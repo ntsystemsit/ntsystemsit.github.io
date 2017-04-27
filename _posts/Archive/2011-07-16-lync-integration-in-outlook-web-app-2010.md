@@ -7,6 +7,7 @@ category: Archive
 tags: ["Server"]
 redirect_from: ["/post/Lync-Integration-in-Outlook-Web-App-2010", "/post/lync-integration-in-outlook-web-app-2010"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <p>Seit einiger Zeit ist der Nachfolger des Office Communication Servers verf&uuml;gbar, Lync 2010 vereint Enterprise Voice, Instant Messaging, Presence sowie Live Meeting, weitere Details gibts hier: <a href="http://lync.microsoft.com/en-us/Pages/default.aspx">http://lync.microsoft.com/en-us/Pages/default.aspx</a></p>

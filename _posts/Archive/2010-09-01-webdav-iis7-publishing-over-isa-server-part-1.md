@@ -7,6 +7,7 @@ category: Archive
 tags: ["Client", "Server"]
 redirect_from: ["/post/WebDav-IIS7-publishing-over-ISA-Server-Part-1", "/post/webdav-iis7-publishing-over-isa-server-part-1"]
 author: daniel nitz
+language: de
 ---
 <!-- more -->
 <p><code>Dies ist der erste aus 2 Teilen zum Thema WebDav. WebDav (Web-based Distributed Authoring and Versioning) ist ein offizieller Standard, Dateien im Internet bereitzustellen.</p>

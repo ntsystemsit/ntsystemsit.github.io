@@ -7,6 +7,7 @@ category: Archive
 tags: ["Client", "de"]
 redirect_from: ["/post/Windows-8-to-Go", "/post/windows-8-to-go"]
 author: daniel nitz
+language: de
 ---
 <!-- more -->
 <p>Mit Windows 8 kommt ein neues Feature "Windows 8 to Go", welches bereits in der CP verf&uuml;gbar ist. Damit ist es m&ouml;glich die Windows Umgebung per USB-Stick oder anderen Datentr&auml;ger mitzunehmen.</p>

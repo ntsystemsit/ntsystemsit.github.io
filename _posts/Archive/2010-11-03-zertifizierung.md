@@ -7,6 +7,7 @@ category: Archive
 tags: []
 redirect_from: ["/post/Zertifizierung", "/post/zertifizierung"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <html xmlns="">

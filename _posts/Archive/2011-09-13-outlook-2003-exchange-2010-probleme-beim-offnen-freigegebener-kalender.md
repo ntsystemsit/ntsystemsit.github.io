@@ -7,6 +7,7 @@ category: Archive
 tags: ["Exchange"]
 redirect_from: ["/post/Outlook-2003-Exchange-2010-Probleme-beim-Offnen-freigegebener-Kalender", "/post/outlook-2003-exchange-2010-probleme-beim-offnen-freigegebener-kalender"]
 author: daniel nitz
+language: de
 ---
 <!-- more -->
 <p>In einer Umgebung mit Exchange 2010 und Outlook 2003 als Mail Client kann es beim &Ouml;ffnen freigegebener Kalender zu Problemen kommen. Dabei erscheint folgende Fehlermeldung:</p>

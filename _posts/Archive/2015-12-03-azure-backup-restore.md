@@ -7,6 +7,7 @@ category: Archive
 tags: ["Cloud", "de"]
 redirect_from: ["/post/Azure-Backup-Restore", "/post/azure-backup-restore"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <p>In <a href="/post/Azure-Backup.aspx">diesem Post</a> habe ich beschrieben, wie man Daten mit Azure Backup sichert, nun wollen wir diese wiederherstellen.

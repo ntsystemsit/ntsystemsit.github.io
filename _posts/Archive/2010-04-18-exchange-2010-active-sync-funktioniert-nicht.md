@@ -7,6 +7,7 @@ category: Archive
 tags: ["Events", "Exchange"]
 redirect_from: ["/post/Exchange-2010-Active-Sync-funktioniert-nicht", "/post/exchange-2010-active-sync-funktioniert-nicht"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <p>Ja es ist ruhig zur Zeit auf ntSystems&hellip; das liegt daran dass die beiden Autoren zur Zeit ihre MCSA/MCSE Zertifizierungen auf MCITP-EA aktualisieren. Wir sind auch ganz gut im Rennen, aber einige Pr&uuml;fungen fehlen noch. Naja, bald gibt&rsquo;s hoffentlich wieder mehr zum Lesen.</p>

@@ -7,6 +7,7 @@ category: Archive
 tags: ["Sharepoint"]
 redirect_from: ["/post/Sharepoint-Foundation-2010", "/post/sharepoint-foundation-2010"]
 author: daniel nitz
+language: de
 ---
 <!-- more -->
 <p>Wer im Eventlog des Sharepoint-Foundation-Servers auf folgende Fehlermeldung st&ouml;&szlig;t:</p>

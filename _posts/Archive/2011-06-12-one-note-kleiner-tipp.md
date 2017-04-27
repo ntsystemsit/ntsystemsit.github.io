@@ -7,6 +7,7 @@ category: Archive
 tags: ["de", "Client"]
 redirect_from: ["/post/One-Note-Kleiner-Tipp", "/post/one-note-kleiner-tipp"]
 author: daniel nitz
+language: de
 ---
 <!-- more -->
 <p>Ich werde von Tag zu Tag ein gr&ouml;&szlig;erer Fan von Microsoft OneNote. Dokumentationen und Notizen lassen sich perfekt mit diesen starken Tool verwalten und pflegen. (Ich liebe die eingebaute Funktion &ldquo;Bildschirmausschnitt&rdquo;)</p>

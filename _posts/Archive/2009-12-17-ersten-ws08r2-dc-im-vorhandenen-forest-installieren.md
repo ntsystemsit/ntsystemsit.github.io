@@ -7,6 +7,7 @@ category: Archive
 tags: ["Server", "Server 2008 R2"]
 redirect_from: ["/post/Ersten-WS08R2-DC-im-vorhandenen-Forest-installieren", "/post/ersten-ws08r2-dc-im-vorhandenen-forest-installieren"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <p>Neue Features wie das AD Administrative Center (hat Daniel <a href="/post/Active-Directory-Verwaltungscenter.aspx">hier</a>&nbsp;schon&nbsp;vorgestellt)&nbsp;oder der AD Recycle Bin erfordern Windows Server 2008 R2 Domain Controller. Das Administrative Center braucht nur einen neuen DC, f&uuml;r den Recycle Bin muss das Forest Functional Level auf WS08R2 gestuft werden, mehr dazu in einem n&auml;chsten Beitrag.</p>

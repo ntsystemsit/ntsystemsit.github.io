@@ -7,6 +7,7 @@ category: Archive
 tags: ["Exchange"]
 redirect_from: ["/post/E14-SP1-ImportExport-Update", "/post/e14-sp1-importexport-update"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <p>Vor kurzem habe ich in <a href="/post/ImportExport-Mailbox.aspx">diesem Post</a> &uuml;ber die Import/Export-Mailbox cmdlets geschrieben.</p>

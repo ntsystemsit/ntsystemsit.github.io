@@ -7,6 +7,7 @@ category: Archive
 tags: ["Exchange", "Server"]
 redirect_from: ["/post/Exchange-2010-e28093-SafeList-Aggregation", "/post/exchange-2010-e28093-safelist-aggregation"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <p>In Exchange 2010 gibt es viele M&ouml;glichkeiten sich vor Spam zu sch&uuml;tzen, unter anderem kann jeder User seine pers&ouml;nliche Black- und White List in den Outlook Junk-E-Mail Optionen pflegen.</p>

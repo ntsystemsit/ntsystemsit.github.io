@@ -7,6 +7,7 @@ category: Archive
 tags: ["Server", "Exchange"]
 redirect_from: ["/post/Exchange-2010-e28093-Edge-Subscription", "/post/exchange-2010-e28093-edge-subscription"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <p>Exchange 2010 bringt wie sein Vorg&auml;nger die Edge Transport Rolle mit. In Exchange 2007 wurde bei jeder Synchronisation die gesamte Konfiguration repliziert, dieser Prozess wurde mit Exchange 2010 verbessert, jetzt ist die erste Replikation vollst&auml;ndig, bei allen weiteren werden nur noch die &Auml;nderungen repliziert (incremental updates).<br />Diese Serverrolle kann als einzige nicht mit anderen Rollen auf einem Server installiert werden, der Grund daf&uuml;r ist auch einfach erkl&auml;rt: der Edge Transport Server wird als Mail Relay in der DMZ eingesetzt und ist kein Dom&auml;nenmitglied bzw. hat nur sehr eingeschr&auml;nkten Zugriff auf das LAN.</p>

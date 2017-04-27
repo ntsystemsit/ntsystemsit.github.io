@@ -7,6 +7,7 @@ category: Archive
 tags: ["Client", "de", "Security"]
 redirect_from: ["/post/Forefront-TMG-Console-Error", "/post/forefront-tmg-console-error"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <p>Seit der Installation von Internet Explorer 9 bekomme ich auf meinem Windows 7 Client folgende Fehlermeldungen beim &Ouml;ffnen der Forefront TMG Management Console:</p>

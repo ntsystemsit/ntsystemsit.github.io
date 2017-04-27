@@ -7,6 +7,7 @@ category: Archive
 tags: ["Server"]
 redirect_from: ["/post/Zertifizierungsstelle-verschieben-(BackupRestore)", "/post/zertifizierungsstelle-verschieben-(backuprestore)"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <p>Eine Zertifizierungsstelle geh&ouml;rt zu den Serverrollen die &uuml;ber viele Jahre gleich bleiben und einige Hardware- bzw. Betriebsystem- Lifecycles &uuml;berdauern. Aus diesem Grund kann es vorkommen dass man eine CA von einem Server auf einen anderen migrieren muss.</p>

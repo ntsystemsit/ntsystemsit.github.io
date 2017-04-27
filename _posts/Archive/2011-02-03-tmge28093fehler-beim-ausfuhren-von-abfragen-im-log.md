@@ -7,6 +7,7 @@ category: Archive
 tags: ["de", "Security", "SQL"]
 redirect_from: ["/post/TMGe28093Fehler-beim-Ausfuhren-von-Abfragen-im-Log", "/post/tmge28093fehler-beim-ausfuhren-von-abfragen-im-log"]
 author: daniel nitz
+language: de
 ---
 <!-- more -->
 <p>Letztens hatte ich ein seltsames Problem auf meinen TMG 2010 Server. Ich logge auf die lokale SQL Express Datenbank und konnte keine Abfragen im Log aus der TMG Konsole mehr machen. Nach dem Start einer Abfrage erscheint der folgende Fehler:</p>

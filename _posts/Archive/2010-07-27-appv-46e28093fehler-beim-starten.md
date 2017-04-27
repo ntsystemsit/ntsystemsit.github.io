@@ -7,6 +7,7 @@ category: Archive
 tags: ["Client", "Server"]
 redirect_from: ["/post/AppV-46e28093Fehler-beim-starten", "/post/appv-46e28093fehler-beim-starten"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <p>Heute mal ein neues Thema auf ntSystems, Applikations Virtualisierung. Viele Hersteller setzen auf diese Technologie, unter anderem Microsoft mit SoftGrid bzw. AppV.</p>

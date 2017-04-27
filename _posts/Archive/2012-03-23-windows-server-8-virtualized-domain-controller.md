@@ -7,6 +7,7 @@ category: Archive
 tags: ["Server 2012"]
 redirect_from: ["/post/Windows-Server-8-Virtualized-Domain-Controller", "/post/windows-server-8-virtualized-domain-controller"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <p>In bisherigen Version von Windows Server und Active Directory hatte das Betreiben von virtuellen DCs einige Nachteile im Vergleich zu anderen virtuellen Servern. So konnten Domain Controller z.B. nicht von der Snapshot F&auml;higkeit des Hypervisors profitieren, das zur&uuml;cksetzen eines DCs auf einen Snapshot hatte fatale Auswirkungen auf die Gesamtstruktur.</p>

@@ -7,6 +7,7 @@ category: Archive
 tags: ["de", "Server", "Security"]
 redirect_from: ["/post/Forefront-TMG-2010-SP2-NLB-Kerberos", "/post/forefront-tmg-2010-sp2-nlb-kerberos"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <p>Seit kurzem ist das Service Pack 2 f&uuml;r den Nachfolger von ISA 2006 verf&uuml;gbar. Neben Bugfixes und verbesserten Fehlerseiten ist vor allem die M&ouml;glichkeit den Firewall Service als Domain User zu starten interessant. Dadurch erh&auml;lt man die M&ouml;glichkeit den SPN f&uuml;r die virtuelle IP Adresse des NLB Custer auf eine Benutzerkonto zu binden, wenn der Firewall Service dann mit diesem Konto gestartet wird, funktioniert Kerberos Authentifizierung auch im NLB.</p>

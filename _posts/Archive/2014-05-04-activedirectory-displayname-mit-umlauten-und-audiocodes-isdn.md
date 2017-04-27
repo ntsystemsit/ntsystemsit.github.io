@@ -7,6 +7,7 @@ category: Archive
 tags: ["de", "Lync"]
 redirect_from: ["/post/ActiveDirectory-DisplayName-mit-Umlauten-und-AudioCodes-ISDN", "/post/activedirectory-displayname-mit-umlauten-und-audiocodes-isdn"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <p>Vor einigen Tagen bin ich in einem Lync Projekt auf das Problem gesto&szlig;en, dass bestimmte Benutzer keine Anrufe in das PSTN (ISDN E1) t&auml;tigen konnten. Der Kunde setzt ein AudioCodes Gateway ein, die Syslogs des Gatways sind zur Fehlersuche sehr gut geeignet. Das Gateway bekommt die SIP Signalisierung von Lync sowie die Q.931 Signalisierung aus dem ISDN mit.</p>

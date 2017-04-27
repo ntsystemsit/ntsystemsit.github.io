@@ -7,6 +7,7 @@ category: Archive
 tags: ["Server"]
 redirect_from: ["/post/Exchange-2010-e28093-Dynamic-Signature", "/post/exchange-2010-e28093-dynamic-signature"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <p>Ein leidiges Thema mit den bisherigen Exchange und Outlook Versionen war die zentrale Verwaltung von Signaturen. Die meisten Administratoren verwendeten Skripts oder dritthersteller Tools um das Problem einigerma&szlig;en in den Griff zu bekommen.</p>

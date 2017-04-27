@@ -7,6 +7,7 @@ category: Archive
 tags: ["Client"]
 redirect_from: ["/post/Doch-kein-Windows-7-E", "/post/doch-kein-windows-7-e"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <p>Nachdem man schon ein paar Tage etwas dar&uuml;ber lesen konnte scheint es nun fix zu sein: Windows 7 kommt <strong>mit Internet Explorer f&uuml;r alle</strong>, also kein "E" Version f&uuml;r den europ&auml;ischen Markt.</p>

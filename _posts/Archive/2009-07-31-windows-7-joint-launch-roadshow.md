@@ -7,6 +7,7 @@ category: Archive
 tags: ["Events"]
 redirect_from: ["/post/Windows-7-Joint-Launch-Roadshow", "/post/windows-7-joint-launch-roadshow"]
 author: daniel nitz
+language: de
 ---
 <!-- more -->
 <p>Microsoft startet Roadshow zu <strong>Windows 7</strong>, <strong>Windows Server 2008 R2</strong>, <strong>Exchange Server 2010</strong> in f&uuml;nf deutsche St&auml;dte.</p>

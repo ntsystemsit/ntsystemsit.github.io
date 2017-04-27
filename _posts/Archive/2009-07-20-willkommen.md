@@ -7,6 +7,7 @@ category: Archive
 tags: []
 redirect_from: ["/post/Willkommen", "/post/willkommen"]
 author: daniel nitz
+language: de
 ---
 <!-- more -->
 <p>Willkommen im Blog von ntSystems – info.tech</p>

@@ -7,6 +7,7 @@ category: Archive
 tags: ["Client", "de"]
 redirect_from: ["/post/SoftAP-Windows-7-Wireless-Access-Point", "/post/softap-windows-7-wireless-access-point"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <p>Hinter dem Namen SoftAp oder Virtual WIFI verbirgt sich ein tolles Feature von Windows 7, es erm&ouml;glicht durch das Erstellen eines virtuellen Netzwerkadapters das Betreiben eines Access Point mit Windows 7. Damit man einen virtuellen Wlan Adapter erstellen kann muss nat&uuml;rlich ein Wlan Adapter installiert und aktiviert sein.</p>

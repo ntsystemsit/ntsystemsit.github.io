@@ -7,6 +7,7 @@ category: Archive
 tags: ["Client", "de", "Server", "Server 2008", "Server 2008 R2"]
 redirect_from: ["/post/TPM-BitLocker-Schlussel-in-AD-DS-speichern", "/post/tpm-bitlocker-schlussel-in-ad-ds-speichern"]
 author: daniel nitz
+language: de
 ---
 <!-- more -->
 <p>Wenn BitLocker im Unternehmen aktiviert wird, empfiehlt es sich die Wiederherstellungsinformationen in Active Directory zu sichern. Diese Anleitung richtet sich an Windows Server 2008 / 2008 R2 und Windows 7 als Client-Betriebssystem. Die Anleitung beschreibt, welche Schritte erforderlich sind um TPM- und BitLocker Schl&uuml;ssel in AD DS zu speichern, als <strong>Beispiel </strong>wird<strong> jenes Volume verschl&uuml;sselt, welches das Betriebssystem enth&auml;lt</strong>. <br /> <br />Wir unterscheiden hier zwischen <strong>2 diverse Schl&uuml;ssel</strong>:</p>

@@ -7,6 +7,7 @@ category: Archive
 tags: []
 redirect_from: ["/page/PowerShell-Scripts", "/page/powershell-scripts"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <p>Achtung: Diese Scripts sind Beispiele, sie sind <strong>nicht</strong> f&uuml;r die Verwendung in Produktivsystemen gedacht! Die Autoren von ntSystems.it k&ouml;nnen keine Haftung f&uuml;r eventuelle Sch&auml;den durch diese Scripts &uuml;bernehmen.</p>

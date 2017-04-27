@@ -7,6 +7,7 @@ category: Archive
 tags: ["de", "Lync"]
 redirect_from: ["/post/Lync-Conf-2014-Keynote", "/post/lync-conf-2014-keynote"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <p>Gestern wurde die zweite Lync Conference in Las Vegas er&ouml;ffnet. In der Keynote gab es einige interessante Ank&uuml;ndigungen:</p>

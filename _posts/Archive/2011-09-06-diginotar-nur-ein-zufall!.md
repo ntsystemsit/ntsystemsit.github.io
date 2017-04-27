@@ -7,6 +7,7 @@ category: Archive
 tags: ["de", "Client", "Server"]
 redirect_from: ["/post/DigiNotar-nur-ein-Zufall!", "/post/diginotar-nur-ein-zufall!"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <p>Vor einigen Tagen wurde bekannt das bereits Anfang Juni(!!) bei einem Hack der niederl&auml;ndischen Zertifizierungsstelle &ldquo;DigiNotar&rdquo; mehr als 500 &ldquo;gef&auml;lschte&rdquo; Zertifikate ausgestellt wurden.</p>

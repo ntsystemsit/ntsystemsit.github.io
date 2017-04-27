@@ -7,6 +7,7 @@ category: Archive
 tags: ["de", "Server", "Security"]
 redirect_from: ["/post/TMG-2010-unable-to-authenticate-users", "/post/tmg-2010-unable-to-authenticate-users"]
 author: daniel nitz
+language: de
 ---
 <!-- more -->
 <p>Nach dem Upgrade von ISA Server 2006 auf TMG 2010 musste ich eine Reihe von Probleme bez&uuml;glich der Authentifizierung feststellen. Nach jedem Neustart des Servers dauerte es zwischen einer halben und 2 Stunden bis der TMG Clients gegen AD erfolgreich authentifizierte. In der Zwischenzeit wurden die Verbindung aufgrund fehlender Authentifizierung abgelehnt.</p>

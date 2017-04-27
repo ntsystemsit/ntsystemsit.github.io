@@ -7,6 +7,7 @@ category: Archive
 tags: ["Server"]
 redirect_from: ["/post/WSUS-auf-neuen-Server-verschieben", "/post/wsus-auf-neuen-server-verschieben"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <p style="text-align: justify;">Daniel hat in <a href="/post/WSUS-verschieben.aspx">diesem Artikel</a> bereits dar&uuml;ber geschrieben.</p>

@@ -35,6 +35,7 @@ defaults:
     values:
       excerpt_separator: <!-- more -->
       hidden: false
+      language: en
   -
     scope:
       path: "_posts/PowerShell"

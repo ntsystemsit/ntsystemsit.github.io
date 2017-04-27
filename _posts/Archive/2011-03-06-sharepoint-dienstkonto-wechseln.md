@@ -7,6 +7,7 @@ category: Archive
 tags: ["Sharepoint"]
 redirect_from: ["/post/SharePoint-Dienstkonto-wechseln", "/post/sharepoint-dienstkonto-wechseln"]
 author: daniel nitz
+language: de
 ---
 <!-- more -->
 <p>Wird das Dienstkonto f&uuml;r die SharePoint-Webseite vom Netzwerk-Konto auf ein Dom&auml;nen-Konto ge&auml;ndert, und Kerberos in Kombination mit Windows-Authentifizierung verwendet wird, k&ouml;nnen sich die Clients nicht mehr an der Webseite authentifizieren.</p>

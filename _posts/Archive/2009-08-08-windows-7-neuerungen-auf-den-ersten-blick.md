@@ -7,6 +7,7 @@ category: Archive
 tags: ["Client"]
 redirect_from: ["/post/Windows-7-Neuerungen-auf-den-ersten-Blick", "/post/windows-7-neuerungen-auf-den-ersten-blick"]
 author: daniel nitz
+language: de
 ---
 <!-- more -->
 <p><br /><strong>Benutzeroberfl&auml;che</strong> <br />Was einem sofort ins Auge sticht ist die v&ouml;llig &uuml;berarbeitete Oberfl&auml;che. Ge&ouml;ffnete Programme scheinen als Icons in der Taskleiste auf und genehmigen Einblicke auf die ge&ouml;ffneten Fenster.</p>

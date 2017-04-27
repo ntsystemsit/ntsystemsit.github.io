@@ -7,6 +7,7 @@ category: Archive
 tags: []
 redirect_from: ["/post/Apple-IPad", "/post/apple-ipad"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <p>Gerade eben hatte ich zum ersten Mal das Vergn&uuml;gen ein IPad zu testen. Es waren zwar nur wenige Minuten aber einen ersten Eindruck habe ich von dem Ding:</p>

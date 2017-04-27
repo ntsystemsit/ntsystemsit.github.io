@@ -7,6 +7,7 @@ category: Archive
 tags: ["de", "Client", "Server"]
 redirect_from: ["/post/Subdomain-Certificate-Enrollment", "/post/subdomain-certificate-enrollment"]
 author: daniel nitz
+language: de
 ---
 <!-- more -->
 <p>Wenn man f&uuml;r einen Server aus einer Subdomain ein Zertifikat aus der Zertifizierungsstelle in der Root-Domain ausstellen m&ouml;chte, wird das aufgrund fehlender Berechtigungen nicht funktionieren. Um das Zertifikat erfolgreich ausstellen zu k&ouml;nnen muss der Computer bzw. die Dom&auml;nencomputer Mitglieder der Gruppe <strong>CERTSVC_DCOM_ACCESS</strong> der Root-Domain sein:</p>

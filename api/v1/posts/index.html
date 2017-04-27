@@ -8,5 +8,6 @@
   "category": {{ post.category | jsonify }},
   "tags": {{ post.tags | jsonify }},
   "author": {{ post.author | jsonify }},
+  "language": {{ post.language | jsonify }},
   "content": {{ post.content | strip_html | strip_newlines | jsonify }}
 }{% unless forloop.last %},{% endunless %}{% endfor %}]}

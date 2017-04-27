@@ -7,6 +7,7 @@ category: Archive
 tags: ["Client"]
 redirect_from: ["/post/Windows-7-e28093-Nativer-VHD-Support", "/post/windows-7-e28093-nativer-vhd-support"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <p>Das neue Windows kann von Haus aus VHDs als Festplatten einbinden. So kann man sich z.B. ein Testsystem installieren ohne die Festplatt partitionieren zu m&uuml;ssen.</p>

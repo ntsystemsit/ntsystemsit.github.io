@@ -7,6 +7,7 @@ category: Archive
 tags: ["PowerShell"]
 redirect_from: ["/post/PowerShell-Rekursiv-nach-Anderungsdatum-sortieren", "/post/powershell-rekursiv-nach-anderungsdatum-sortieren"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <p>Ganze Ordnerstrukturen oder Laufwerke nach Dateien zu durchsuchen die zuletzt ge&auml;ndert worden sind kann ganz sch&ouml;n m&uuml;hsam sein. Mit der PowerShell geht das in einem Oneliner.</p>

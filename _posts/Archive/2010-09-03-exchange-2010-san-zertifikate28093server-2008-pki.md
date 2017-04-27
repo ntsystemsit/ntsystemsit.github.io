@@ -7,6 +7,7 @@ category: Archive
 tags: ["Exchange"]
 redirect_from: ["/post/Exchange-2010-SAN-Zertifikate28093Server-2008-PKI", "/post/exchange-2010-san-zertifikate28093server-2008-pki"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <p>Zertifikate f&uuml;r den Exchange 2010 Client Zugriff beinhalteten mehrere Subject Names. Standardm&auml;&szlig;ig werden sogenannte SAN Zertifikate von Server 2008 Certificate Authorities nicht unterst&uuml;tzt.</p>

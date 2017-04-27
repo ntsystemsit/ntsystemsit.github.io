@@ -7,6 +7,7 @@ category: Archive
 tags: ["Client", "de", "Server", "Security"]
 redirect_from: ["/post/Migration-ISA-Server-2k4-2k6-zu-TMG-WPAD", "/post/migration-isa-server-2k4-2k6-zu-tmg-wpad"]
 author: daniel nitz
+language: de
 ---
 <!-- more -->
 <p>Wenn der ISA Server zu TMG oder einem anderen physischen Server migriert wird und sich dadurch der Servername &auml;ndert, funktioniert unter Umst&auml;nden die automatische Browserkonfiguration &uuml;ber WPAD bei DHCP Clients nicht mehr.</p>

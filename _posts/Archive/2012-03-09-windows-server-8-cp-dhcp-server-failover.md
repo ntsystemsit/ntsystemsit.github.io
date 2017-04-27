@@ -7,6 +7,7 @@ category: Archive
 tags: ["Server", "Server 2012"]
 redirect_from: ["/post/Windows-Server-8-CP-DHCP-Server-Failover", "/post/windows-server-8-cp-dhcp-server-failover"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <p>In Windows Server Versionen bis 2008R2 gab es f&uuml;r eine ausfallsichere DHCP Umgebung zwei M&ouml;glichkeiten, ein sogenanntes Split Scope Deployment oder ein Windows Failover Cluster. Beide Varianten haben Nachteile, im Split Scope Deployment teilen sich mehrere DHCP Server einen Bereich. F&auml;llt ein Server aus, gibt es auf den verbleibenden Servern unter Umst&auml;nden nicht genug freie Adressen, auch Leases bzw. Reservierungen sind nicht konsistent. Ein Failover Cluster hat einen gewissen administrativen Aufwand (Shared Storage) und erfordert Windows Server Enterprise Lizenzen f&uuml;r alle Knoten im Cluster.</p>

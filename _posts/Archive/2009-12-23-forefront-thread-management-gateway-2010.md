@@ -7,6 +7,7 @@ category: Archive
 tags: ["de", "Security"]
 redirect_from: ["/post/Forefront-Thread-Management-Gateway-2010", "/post/forefront-thread-management-gateway-2010"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <p>Der Nachfolger des beliebten MS Internet Security and Acceleration Servers (ISA) ist seit Mitte November verf&uuml;gbar. Nat&uuml;rlich wurde der Name ge&auml;ndert&nbsp;sowas ist&nbsp;nach einigen Versionen&nbsp;immer n&ouml;tig ;) Das Ding wurde in die Forefront Produktlinie aufgenommen und hei&szlig;t jetzt Forefront Threat Management Gateway 2010. TMG gibt es wie ISA als Standard und Enterprise Edition, die <strong>Unterschiede</strong> findet man <a href="http://technet.microsoft.com/en-us/library/ee207137.aspx" target="_blank">hier</a>.</p>

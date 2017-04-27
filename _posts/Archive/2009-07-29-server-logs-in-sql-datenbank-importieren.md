@@ -7,6 +7,7 @@ category: Archive
 tags: ["Security", "SQL"]
 redirect_from: ["/post/Server-Logs-in-SQL-Datenbank-importieren", "/post/server-logs-in-sql-datenbank-importieren"]
 author: daniel nitz
+language: de
 ---
 <!-- more -->
 <p>Als ich letztens die &Uuml;berwachungsrichtlinien der Dom&auml;ne &uuml;berarbeitet habe, sind mir mehrfach fehlgeschlagene &ldquo;Objektzugriffe&rdquo; von Clients aufgefallen, die versuchten in Bereiche einzudringen, f&uuml;r die sie keine Berechtigung haben. Da das EventLog am Server jedoch kein dauerhafter Speicher f&uuml;r Log Files und f&uuml;r Auswertungen relativ umst&auml;ndlich ist, schreibe ich die Logs in eine SQL Datenbank. Anschlie&szlig;end werden die Daten so bereinigt, dass nur noch Ereignisse des Typs &ldquo;Objektzugriff&rdquo; enthalten sind.</p>

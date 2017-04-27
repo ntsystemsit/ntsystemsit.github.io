@@ -7,6 +7,7 @@ category: Archive
 tags: ["de", "Server", "Security"]
 redirect_from: ["/post/Forefront-TMG-2010e28093RSA-Authentication-Manager-71", "/post/forefront-tmg-2010e28093rsa-authentication-manager-71"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <p>&nbsp;</p>

@@ -7,6 +7,7 @@ category: Archive
 tags: ["Server", "VMware"]
 redirect_from: ["/post/Installing-vSphere-PowerCLI", "/post/installing-vsphere-powercli"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <p>Mit vSphere PowerCLI bietet VMware ein PowerShell Snapin das mit &uuml;ber 250 cmdlets die Verwaltung der vSphere Umgebung vereinfacht bzw. Automatisierung&nbsp; erm&ouml;glicht.</p>

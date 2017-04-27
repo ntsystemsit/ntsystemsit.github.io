@@ -7,6 +7,7 @@ category: Archive
 tags: ["Exchange"]
 redirect_from: ["/post/ImportExport-Mailbox", "/post/importexport-mailbox"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <p>Mit den cmdlets import-Mailbox und export-Mailbox kann Inhalt von einer Mailbox exportiert oder in eine Mailbox importiert werden. Soviel sagt eigentlich der Name auch ;)</p>

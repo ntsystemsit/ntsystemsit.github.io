@@ -7,6 +7,7 @@ category: Archive
 tags: ["Server", "VMware"]
 redirect_from: ["/post/Create-VMWare-ESXi-Flash-Drive", "/post/create-vmware-esxi-flash-drive"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <p>Der Hypervisor von VMWare kann auf einem USB Stick installiert werden, so kann man die vorhandenen Festplatten des Servers als Datastore f&uuml;r Virtuelle Maschinen verwenden oder Server ohne interne Festplatten als ESXi Hosts verwenden.</p>

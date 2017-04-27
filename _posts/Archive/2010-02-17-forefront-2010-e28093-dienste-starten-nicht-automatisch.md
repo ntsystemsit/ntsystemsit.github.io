@@ -7,6 +7,7 @@ category: Archive
 tags: ["de", "Server", "Security"]
 redirect_from: ["/post/Forefront-2010-e28093-Dienste-starten-nicht-automatisch", "/post/forefront-2010-e28093-dienste-starten-nicht-automatisch"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <p>Wer Forefront 2010 installiert und das Logging nicht separat konfiguriert wird sich wom&ouml;glich wundern warum bei einem Neustart folgende Dienste nicht starten:</p>

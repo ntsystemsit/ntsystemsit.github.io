@@ -7,6 +7,7 @@ category: Archive
 tags: ["Exchange"]
 redirect_from: ["/post/Buchen-einer-Ressource-in-Outlook-2010-mit-Exchange-2k3", "/post/buchen-einer-ressource-in-outlook-2010-mit-exchange-2k3"]
 author: daniel nitz
+language: de
 ---
 <!-- more -->
 <p>Wenn man mit Outlook 2010 &uuml;ber einen Exchange Server in der Version 2003 eine Ressource buchen m&ouml;chte (z.B. Konferenzraum f&uuml;r eine Besprechung) wird das unter Umst&auml;nden nicht funktionieren. <br />Die Besprechungsanfrage wird zwar allen Teilnehmern gesendet und auch im eigenen Kalender eingetragen, die Ressource jedoch nicht gebucht, sprich im Ressourcenkalender nicht eingetragen. <br /> <br />Dieses Problem tretet nur in der Konstellation von Outlook 2010 auf einem Exchange Server 2003 SP* auf.</p>

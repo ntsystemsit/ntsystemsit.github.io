@@ -7,6 +7,7 @@ category: Archive
 tags: ["de", "Client"]
 redirect_from: ["/post/Windows-8-Installation-in-VHD", "/post/windows-8-installation-in-vhd"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <p>In diesem Post (<a title="Windows 7 - Nativer VHD Support" href="/post.aspx?id=6b426c87-4f8a-4911-a884-8ccfdeeb5ba4">Windows 7 - Nativer VHD Support</a>) habe ich vor einiger Zeit beschrieben wie man Windows 7 in eine VHD installieren kann.</p>

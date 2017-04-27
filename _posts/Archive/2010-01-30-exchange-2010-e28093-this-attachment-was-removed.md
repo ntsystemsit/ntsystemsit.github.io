@@ -7,6 +7,7 @@ category: Archive
 tags: ["Exchange"]
 redirect_from: ["/post/Exchange-2010-e28093-This-Attachment-was-removed", "/post/exchange-2010-e28093-this-attachment-was-removed"]
 author: thomas torggler
+language: de
 ---
 <!-- more -->
 <p>Ich betreibe seit einiger Zeit eine Exchange 2010 Umgebung bestehend aus einem Edge Transport Server und einem Multi-Role Exchange Server im Lan.</p>

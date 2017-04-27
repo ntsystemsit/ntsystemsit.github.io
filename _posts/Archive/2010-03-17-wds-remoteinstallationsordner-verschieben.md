@@ -7,6 +7,7 @@ category: Archive
 tags: ["Server"]
 redirect_from: ["/post/WDS-Remoteinstallationsordner-verschieben", "/post/wds-remoteinstallationsordner-verschieben"]
 author: daniel nitz
+language: de
 ---
 <!-- more -->
 <p>Um in den Deployment Services den Installationsorder zu verschieben müssen folgende Befehle ausgeführt werden:</p>  <p><strong>wdsutil /uninitialize-server</strong></p>  <p>Dann den Ordner an seinen neuen Platz verschieben</p>  <p><strong>wdsutil /initialize-server /reminst:<em>Laufwerksbuchstabe\Ordner</em></strong></p>  <p>Grüße   <br />dn</p>
