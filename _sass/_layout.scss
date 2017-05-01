@@ -23,75 +23,6 @@
     }
 }
 
-.site-nav {
-    float: right;
-    line-height: 56px;
-
-    .menu-icon {
-        display: none;
-    }
-
-    .page-link {
-        color: $text-color;
-        line-height: $base-line-height;
-
-        // Gaps between nav items, but not on the last one
-        &:not(:last-child) {
-            margin-right: 20px;
-        }
-    }
-
-    @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
-        right: $spacing-unit / 2;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
-        text-align: right;
-
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $grey-color-dark;
-                }
-            }
-        }
-
-        .trigger {
-            clear: both;
-            display: none;
-        }
-
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-
-            &:not(:last-child) {
-                margin-right: 0;
-            }
-            margin-left: 20px;
-        }
-    }
-}
-
-
 
 /**
  * Site footer
@@ -310,4 +241,49 @@
 *:hover > .anchorjs-link {
     margin-left: -1.125em !important;
     text-decoration: none;
+}
+
+/*
+* Toggle Button
+* ========================================================================== */
+.nav-main {
+    float: right;
+    text-align: right;
+    line-height: 56px;
+
+    .page-link {
+        color: $text-color;
+    }
+
+    a:not(.site-title) {
+        display: none;
+    }
+}
+
+.toggle-button {
+  position: relative;
+  color: $text-color;
+  font-size: 1.6rem;
+}
+
+#menu-checkbox {
+    display: none;
+}
+
+#menu-checkbox:checked + .nav-main a:not(.site-title) {
+  display: block;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: right;
+}
+
+.toggle-button:after {
+  content: attr(data-open);
+  cursor: pointer;
+  font-size: 1.6rem;
+}
+
+#menu-checkbox:checked + .nav-main .toggle-button:after {
+  content: attr(data-close);
 }
