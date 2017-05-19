@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "PowerShell and Variable References"
-date: 2017-05-17 09:25:06 -0500
+date: 2017-05-18 19:25:06 +0200
 comments: true
 category: PowerShell
 tags: PowerShell
