@@ -72,3 +72,10 @@ In my script I just decided to change the function so that it does no longer out
 Thanks to anyone who cares to comment and offer an explanation!
 
 Tom
+
+
+# Update
+
+After posting this to [/r/PowerShell](https://www.reddit.com/r/PowerShell/comments/6c3e7n/i_found_this_behavior_strange_anyone_care_to/) someone referred me to [this thread](https://www.reddit.com/r/PowerShell/comments/6bqn63/why_does_readonly_variable_update_with_new_data/) which explains the behavior quite well. 
+
+The variable `$InputObject` in my case does not contain the object but is just a pointer to `$obj`, which is therefore updated directly.
