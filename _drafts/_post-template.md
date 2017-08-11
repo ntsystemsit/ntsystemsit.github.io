@@ -41,6 +41,6 @@ Get-Service
 
 Images or links:
 [text to link](https://ntsystems.it)
-![alternative text](http://ntsystems.it/assets/2016/123123.png)
+![alternative text]({{ site.url }}/assets/2016/123123.png)
 
 Note: Put images into the `assets` directory.
