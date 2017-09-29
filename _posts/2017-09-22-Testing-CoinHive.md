@@ -5,10 +5,10 @@ comments: true
 category: ntSystems
 tags: ntSystems
 author: thomas torggler
-updated: false
+updated: 2017-09-29 17:50:19
 ---
 
-I've recently stumbled upon [coinhive](https://coin-hive.com) and with all the recent fuzz about crypto currencies, I decided to have a look at it. So what's that all about? 
+I've recently stumbled upon [coinhive](https://coinhive.com) and with all the recent fuzz about crypto currencies, I decided to have a look at it. So what's that all about? 
 
 <!-- more -->
 
@@ -39,6 +39,16 @@ The following code has been added to the site's footer in order to start the min
     miner.start(CoinHive.IF_EXCLUSIVE_TAB);
   </script>
 ```
+
+# Update 
+
+After one week of testing here are the results of this little experiment. This site has between 300 and 600 active users on a given day, not a lot but it's something. So with the above code, we are using up to 90% of the visitors CPU cycles to generate Monero using coinhive's JavaScript miner.
+
+This resulted to be about **468 hashes per second** totalling about 173.82 million hashes in a week. According to [monerobenchmarks.info](http://monerobenchmarks.info/), these figures can be compared to what a not-very-modern GPU with 4GB of memory would produce. 
+
+The final balance after the weeks test is 0.02582 xmr, worth about 2€ at the time of this writing. 
+
+![Stats]({{ site.url }}/assets/2017/2017-09-29-coinhive-stats.png)
 
 
 Thanks!
