@@ -6,7 +6,7 @@ comments: true
 category: ntSystems
 tags: Blog Jekyll
 author: thomas torggler
-updated: false
+updated: 2018-01-16
 ---
 
 Today we are looking at running Jekyll on WSL or _Bash on Ubuntu on Windows_. 
@@ -34,7 +34,7 @@ After setting up _Bash on Ubuntu on Windows_ we can now install the required pac
 ```
 sudo apt-add-repository ppa:brightbox/ruby-ng
 sudo apt-get -y update
-sudo apt-get install git build-essential libcurl4-openssl-dev
+sudo apt-get install git build-essential libcurl4-openssl-dev zlib1g-dev
 sudo apt-get install ruby2.4 ruby2.4-dev
 ```
 

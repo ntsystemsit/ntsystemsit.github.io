@@ -5,17 +5,19 @@ permalink: /tom/
 menubar: false
 ---
 
-I'm an experienced IT Professional focusing on data center technologies. Nowadays with an interest in DevOps and all things automation. Never stop learning! 
+I'm an experienced IT professional and consultant with a strong background in networking technologies. In my current role, I empower customers to get the most out of their unified communications investments. I try to automate all the things and I try to learn something new every day.
 
 # 10 years in IT
 - 2007 - 2009: Support; Italy
 - 2009 - 2013: Systems Administrator; Italy
 - 2013 - 2015: Senior Consultant (Unified Communications); Germany
-- 2015 - current: Systems Engineer; Italy/Austria
+- 2015 - 2016: Systems Engineer; Italy/Austria
+- 2017 - current: Senior Consultant (Unified Communications); Germany
 
 # What else?
 - Cycling
 - Travelling
+- Crypto Currency Mining and Consulting
 - Languages: German (native), English, Italian, Spanish
 
 # Social

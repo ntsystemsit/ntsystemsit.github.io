@@ -1,0 +1,312 @@
+
+Which of the following describes when a network readiness assessment should be performed? Select two answers.
+- Before enabling Skype for Business capability for users
+- After a change in the network or Skype for Business Setup
+
+Which of the following lists the proper order of operations in the Deliver phase? Select one answer.
+- Deploy, Enable, Adopt, Enhance.
+
+Which of the following statements lists the infrastructure prerequisite(s) to deploy Cloud PBX with on-premises PSTN connectivity via an existing deployment? Select one answer.
+- Skype for Business Server 2015, with the latest cumulative update and Enterprise Voice deployed.
+
+Which of the following topologies are supported for Microsoft Skype Room Systems v2? Select three answers.
+- Skype for Business Server 2015 on-premises – Exchange Server 2013 on-premises
+- Skype for Business Online – Exchange Online
+- Skype for Business Server 2015 on-premises – Exchange Online
+
+Which of the following are key roles to contact when planning Cloud PBX site architecture? Select three answers. 
+- Project Lead 
+- Network Lead 
+- Telephony Lead 
+
+Which of the following commands will update a client to a specific version of Office 365 ProPlus? Select one answer.
+- OfficeC2RClient.exe /update user updatetoversion=16.0.6741.2071
+
+Which of the following are ways that Office 365 ProPlus can be deployed and activated? Select three answers.
+- Via the Office Deployment Tool.
+- Via System Center Configuration Manager.
+- Self-service by the user, via https://portal.office.com.
+
+Which of the following are prerequisites for running the Business Use Case workshop? Select three answers. 
+- Be familiar with the materials and process. 
+- Identify the sponsor and key stakeholders. 
+- Understand the high-level business goals from engagement in the envisioning process. 
+
+Which of the following site architectures are covered in the Cloud PBX Architecture workshop? Select three answers. 
+- Cloud PBX with local on-premises PSTN connectivity. 
+- Cloud PBX with centralized On-Premises PSTN connectivity. 
+- Cloud PBX with Microsoft PSTN calling. 
+
+To determine adoption rate, how often should you run the “measure usage” activity in the first phase of the deployment? Select one answer.
+- Every 1–2 weeks.
+
+Which of the following is the recommended approach for successfully migrating boss/admin delegations to Skype for Business Online? Select one answer. 
+- Use the Site Implementation Playbook to schedule the migration of boss/admin to be migrated at the same time.
+
+Which of the following is a trigger for performing an advanced assessment? Select one answer.
+- Deeper analysis of issues found with Essentials is required.
+
+Contoso has Skype for Business Server CQD deployed. They are focused on managed streams. Which of the following is the correct process for reviewing managed streams? Select one answer.
+- Server-Server, Server-Wired-Inside, Wired-Wired-Inside.
+
+Contoso has Skype for Business deployed in a hybrid mode. They suspect there are problems with call quality, which needs to be assessed. Which of the following stream types should they start analyzing? Select one answer.
+- Managed
+
+Which of the following describes the structured approach for reviewing Call Quality Dashboard (CQD) data? Select one answer.
+- Analyze, hypothesize, and validate.
+
+Which of the following are benefits that the project team would gain by preparing for and delivering the Business Use Case workshop? Select three answers. 
+- Unlock budget. 
+- Create adoption messaging based on how users will benefit from the solution. 
+- Gain additional sponsorship for the project. 
+
+Which of the following statements describes the outcome of the Operational Role Mapping process? Select one answer.
+- Identifies the teams needed to operate the environment, provide and agree on tasks and responsibilities for each team.
+
+What does the acronym KSI stand for? Select one answer.
+- Key Success Indicators
+
+Which of the following statements is true when performing hybrid migration? Select one answer.
+- User contact lists, groups, and access control lists (ACLs) are migrated.
+
+Which of the following steps should you perform after assigning all teams to operational roles? Select one answer.
+- Confirm with each team that they are able to commit to tasks and responsibilities.
+
+Which of the following outline the importance of testing? Select three answers. 
+- Understand the impact of the customer environment. 
+- Get familiar, learn, set expectations. 
+- Test within a customer-specific usage scenario. 
+
+In the SOF materials, what is the recommended order for migrating to Skype for Business Online? Select one answer. 
+- Update the client endpoint to the minimum supported configuration to access Skype for Business Online; migrate the user object to Skype for Business Online; upgrade to Skype for Business 2016 C2R. 
+
+Which of the following factors contribute to successful adoption of SOF? Select four answers.
+- Training
+- People
+- Awareness
+- Scenarios
+
+Which of the following describes how you would normally use CQD to troubleshoot a call quality problem? Select three answers.
+- Investigate “hot spots”.
+- Look for “signals”.
+- Create and execute a remediation plan.
+
+Which of the following Skype Operation Framework (SOF) activities provides details for choosing Skype Room Systems? Select one answer.
+- Device Rationalization Workshop
+
+Which of the following Office 365 ProPlus update channels are enabled by default within an Office 365 tenant? Select one answer.
+- Deferred Channel
+
+Which of the following statements are true when migrating to Cloud PBX via an existing deployment? Select two answers.
+- On-Premises Voice Routing Policy will be applied to Cloud PBX users.
+- On-premises dial plan can be applied to Cloud PBX users.
+
+What is the next step you should take after the Call Quality Dashboard is up and running? Select one answer.
+- Import your building and subnet information.
+
+Which of the following is the first step in the network readiness life cycle? Select one answer.
+- Perform a Network Readiness Essentials Assessment.
+
+Ken is using the Key Health Indicators (KHI) to determine the health of Contoso’s Skype for Business 2015 Server deployment. He discovers that the queue latency average values are consistently beyond the healthy threshold. Which KHI ring do queuing related issues belong to? Select one answer.
+- Ring 1
+
+What are the four stages of the Plan phase? Select one answer.
+- Envision, Assess, Design, Prepare.
+
+Which of the following must be defined before you can assign voice numbers to users in the Skype Admin Console? Select one answer.
+- Emergency locations
+
+What is the recommended client and install delivery mechanism that SOF suggests organizations should adopt? Select one answer.
+- Skype for Business 2016 via Click-to-Run.
+
+Which of the following Skype for Business workloads can be prioritized using Quality of Service? Select four answers.
+- Application sharing
+- Voice
+- File transfer
+- Video
+
+Which of the following describes the computing unit used in Skype Room Systems v2 devices? Select one answer.
+- Microsoft Surface Pro 4
+
+Which of the following describes the goal of the Envisioning workshop? Select four answers.
+- Agree on scope and approach.
+- Document key result and success indicators.
+- Set objectives.
+- Confirm customer business goals.
+
+When should you start to use CQD to monitor call quality? Select one answer.
+- Immediately after enabling the first users in the pilot.
+
+Contoso uses Skype for Business Server and has CQD deployed. Three actions need to occur before importing building and subnet data. Which of the following lists the actions required in the correct order? 
+- Define Building types, Define Building Ownership types, Define Network types.
+
+Which of the following is the first configuration step to take when using Call Quality Dashboard (CQD) Online? Select one answer.
+- Collect building information and upload into CQD Online.
+
+Which of the following are levels of the network readiness assessment? Select two answers.
+- Essentials
+- Advanced
+
+Which of the following stages are not part of the SOF Operate phase? Select one answer.
+- Enhance
+
+Which of the following are the expected outcomes of the Discovery workshop? Select three answers.
+- Understand how the current environment will impact envisioning activities.
+- Collect information that can be leveraged in the Skype for Business Readiness Assessment.
+- Gain detailed knowledge of the existing environment.
+
+Which of the following best describes the Skype Operations Framework? Select one answer.
+- A comprehensive guide and toolset for implementing and managing a reliable, cost-effective communications service, based on Skype for Business.
+
+Which of the following tools should you use to stay up to date with service health and planned changes in Office 365? Select three answers.
+- Office 365 portal
+- Office 365 admin app
+- System Center Operation Manager
+
+Alice is experiencing issues when joining a Skype for Business conference from her Skype for Business 2016 client. The help desk has verified that logging is enabled on her machine and has requested debugging logs from Alice’s computer. Where are the logs located? Select one answer.
+- %localappdata%\Microsoft\Office\16.0\Lync\Tracing
+
+How many PCs can Office 365 ProPlus be deployed on before being activated? Select one answer.
+- (5) PCs
+
+Which of the following state the key information that should be captured when completing the Business Use Case template? Select four answers. 
+- Definition of the challenges presented by this process. 
+- Description of the current business process. 
+- An understanding of how this technology can help overcome these challenges. 
+- An understanding of what is the expected business result if these challenges are overcome. 
+
+Which of the following is not a SOF phase? Select one answer.
+- Deploy
+
+How many VMs are deployed for each Cloud Connector Edition? Select one answer. 
+- 4 
+
+Which of the following describes how you can create a new CQD online report? Select two answers.
+- Clone an existing report.
+- Import a previously exported report.
+
+After assessing the overall call quality of Contoso’s North America locations, you discover the Seattle location has an Audio Poor Call Streams value of 10%. Which of the following conclusions can you draw? Select one answer.
+- Seattle becomes the point of investigation and requires deeper CQD analysis.
+
+Which of the following processes allow you to identify networks inside your corporate network, in CQD online? Select one answer.
+- Upload subnet mapping data.
+
+Which of the following licenses cannot be assigned to a user at the same time? Select two answers.
+- Skype for Business PSTN local and international calling.
+- Skype for Business PSTN local calling.
+
+Which of the following are indications that regionally-hosted meetings might be beneficial to the organization? Select two answers.
+- Users are distributed across multiple sites in multiple continents or regions.
+- Internet egress point is available in each site or region.
+
+In which phase and stage of the Skype Operation Framework (SOF) should you perform Operational Role Mapping? Select one answer.
+- Plan/Design
+
+Which of the following items—representing part of the entire solution—must be provided using the Windows PowerShell user enablement script provided with SOF to assign a PSTN Calling phone number to a user? Select three answers.
+- Phone number city code.
+- Emergency address location.
+- Phone number to assign (for example, +14255551234).
+
+Which of the following describes the correct sequence of steps to take to implement regionally-hosted meetings? Select one answer.
+- Enable multi-national company support, define the available data location, define the preferred data location.
+
+What Office 365 delegated administrative permission is required to enable Skype for Business online users? Select one answer.
+- User administrator
+
+Which of the following surveys within the Skype Operation Framework (SOF) execution model can be used to capture information about the meeting rooms? Select two answers.
+- Discovery Questionnaire
+- Site Rollout and Migration Planning, Site Questionnaire
+
+Which of the following is a usage profile, with regards to determining a persona? Select one answer.
+- A summary of the communications patterns and technology requirements for a group of users who work in similar b
+
+Which of the following is not required for a network readiness assessment? Select one answer.
+- A representative from the Adoption Team.
+
+Which of the following is the typical timeframe needed to deliver a network readiness assessment? Select one answer.
+- Four weeks
+
+Which of the following scenarios will trigger the Meeting Migration Service (MMS)? Select three answers.
+- Microsoft Conferencing user enablement.
+- Regionally Hosted Meeting user migration.
+- On-premises to Online user migration.
+
+Which associated activity is considered to provide a beneficial input of the Persona Analysis workshop? Select one answer.
+- Business Use Case workshop
+
+Which document is used to capture all the information from the Envisioning workshops? Select one answer.
+- Envision: Vision and Scope document.
+
+Which of the following activities are not in scope for site rollout and migration planning? Select two answers.
+- Monitoring call quality with CQD
+- Cloud PBX design
+
+After completing the Discovery workshop kickoff, which of the following steps do you need to take to finish the Discovery workshop? Select three answers.
+- Complete call quality and reliability data collection.
+- Complete the Discovery questionnaire.
+- Schedule a technical interview and Discovery workshop wrap-up.
+
+Which of the following processes allow you to identify networks inside your corporate network, in CQD online? Select one answer.
+- Upload subnet mapping data.
+
+Which of the following statements lists the prerequisites for a Skype for Business hybrid? Select one answer.
+- Edge servers must be able to resolve federation SRV records (_sipfederationtls._tcp.domain.tld) of the SIP domain(s) used in the hybrid relationship.
+
+Which of the can increase media quality experience for remote users who are connected to the corporate environment using client VPN solutions? Select one answer.
+- Configure VPN split tunneling.
+
+Which of the following are key steps when planning for Cloud PBX with on-premises PSTN Connectivity via Lync 2013 or Skype for Business 2015 pool? Select four answers. 
+- Plan licensing. 
+- Plan network (specific to this scenario). 
+- Review prerequisites. 
+- Plan PSTN connectivity and emergency calling services. 
+
+After uploading building information to CQD, you discover that several buildings were omitted. Which of the following describe how you can resolve this problem? Select three answers.
+- Filter on Second Tenant Id.
+- Use an ad-hoc filter of ^\s*$ on the second Building field.
+- Create a report with Second Subnet and second Building.
+
+Which of the following describe the end-to-end process for uploading building information to Call Quality Dashboard (CQD) online? Select three answers.
+- Upload building information
+- Validate building information
+- Prepare building information
+
+Which of the following factors can influence real-time media quality? Select three answers.
+- Environment
+- Network
+- Device
+
+Which of the following remote PowerShell cmdlets are used to block caller ID when using Cloud PBX with PSTN Calling? Select three answers.
+- New-CsCallerIdPolicy
+- Grant-CSCallerIDPolicy
+- Set-CsCallerIDPolicy
+
+Which of the following are evaluated as part of the readiness assessment activity? Select three answers.
+- IT and infrastructure readiness
+- Operational readiness
+- Adoption strategy
+
+When using the Windows PowerShell user enablement script, provided by SOF, what software is required to enable and configure Skype for Business Online users? Select three answers.
+- Windows Azure Active Directory Module for Windows PowerShell.
+- Skype for Business Online, Windows PowerShell Module.
+- Microsoft Online Services Sign-In Assistant for IT Professionals RTW.
+
+Alice is experiencing issues when joining a Skype for Business conference from her Skype for Business 2016 client. The help desk has verified that logging is enabled on her machine and has requested debugging logs from Alice’s computer. Where are the logs located? Select one answer.
+- %localappdata%\Microsoft\Office\16.0\Lync\Tracing
+
+Which of the following update channels are available to support Office 365 ProPlus? Select four answers.
+- Deferred Channel
+- First Release Deferred Channel
+- Current Channel
+- First Release Current Channel
+
+Which of the following is a benefit of going through the exercise to map user personas? Select two answers.
+- Determine which users PBX can support based on user.
+- Identify the users who can be migrated to Skype for Business with the greatest benefit for the least amount of risk
+
+Which of the following are prerequisites for running the Deployment Guidance workshop? Select four answers. 
+- Vision and scope of the project defined. 
+- Network readiness assessment completed. 
+- Detailed Cloud PBX design completed. 
+- Execution plan established. 
+ 
