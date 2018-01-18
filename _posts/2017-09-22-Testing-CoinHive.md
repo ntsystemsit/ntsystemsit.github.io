@@ -53,7 +53,7 @@ The final balance after the weeks test is 0.02582 xmr, worth about 2€ at the t
 
 # Another Update
 
-Understandably, ad-blockers started blocking this the loading of the 
+Soon after the last update, ad-blockers started blocking the download of the javascript and the hashrate dropped quite a bit. I've since decided to remove the code and stop (ab)using our visitors CPUs. 
 
 
 Thanks!
