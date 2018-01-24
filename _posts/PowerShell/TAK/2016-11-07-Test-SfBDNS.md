@@ -7,7 +7,7 @@ online version:
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Test-SfBDNS
-redirect_from: "/PowerShell/TAK/Test-LyncDNS/"
+redirect_from: ["/PowerShell/TAK/Test-LyncDNS/", "/PowerShell/TAK/test-lyncdns/"]
 ---
 
 # Test-SfBDNS

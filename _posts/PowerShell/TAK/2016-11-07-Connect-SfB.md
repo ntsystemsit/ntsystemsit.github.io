@@ -7,7 +7,7 @@ online version:
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Connect-SfB
-redirect_from: "/PowerShell/TAK/Connect-Lync/"
+redirect_from: ["/PowerShell/TAK/Connect-Lync/", "/PowerShell/TAK/connect-lync/"]
 ---
 
 # Connect-SfB
