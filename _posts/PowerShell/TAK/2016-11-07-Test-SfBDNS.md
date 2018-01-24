@@ -6,29 +6,30 @@ layout: post
 online version: 
 schema: 2.0.0
 tags: OnlineHelp PowerShell
-title: Test-LyncDNS
+title: Test-SfBDNS
+redirect_from: "/PowerShell/TAK/Test-LyncDNS/"
 ---
 
-# Test-LyncDNS
+# Test-SfBDNS
 
 ## SYNOPSIS
-Test DNS entries for Lync deployments.
+Test DNS entries for Skype for Business / Lync deployments.
 
 ## SYNTAX
 
 ```
-Test-LyncDNS [-SipDomain] <String> [[-NameServer] <IPAddress>] [-OpenDNS] [-internal] [-testConnection]
+Test-SfBDNS [-SipDomain] <String> [[-NameServer] <IPAddress>] [-OpenDNS] [-internal] [-testConnection]
 ```
 
 ## DESCRIPTION
-This function uses Resolve-DnsName to query well-known DNS records for Lync deployments.
+This function uses Resolve-DnsName to query well-known DNS records for Skype for Business / Lync deployments.
 The NameSever parameter can be used to specify a nameserver.
 
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
 ```
-Test-LyncDNS -SipDomain uclab.eu
+Test-SfBDNS -SipDomain uclab.eu
 ```
 
 This example queries DNS records for the domain uclab.eu

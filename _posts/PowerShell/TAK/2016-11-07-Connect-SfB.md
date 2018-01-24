@@ -6,10 +6,11 @@ layout: post
 online version: 
 schema: 2.0.0
 tags: OnlineHelp PowerShell
-title: Connect-Lync
+title: Connect-SfB
+redirect_from: "/PowerShell/TAK/Connect-Lync/"
 ---
 
-# Connect-Lync
+# Connect-SfB
 
 ## SYNOPSIS
 A quick function to connect to Lync Servers. 
@@ -17,7 +18,7 @@ A quick function to connect to Lync Servers.
 ## SYNTAX
 
 ```
-Connect-Lync [-Server] <Object> [-Credential <PSCredential>]
+Connect-SfB [-Server] <Object> [-Credential <PSCredential>]
 ```
 
 ## DESCRIPTION
@@ -27,7 +28,7 @@ A wrapper function for New- and Import-PSSession to make connecting to remote Ly
 
 ### Example 1
 ```
-PS C:\> Connect-Exchange s4bfe01.ntsystems.it -Credential (Get-Credential)
+PS C:\> Connect-SfB s4bfe01.ntsystems.it -Credential (Get-Credential)
 ```
 
 This example prompts the user for credentials and connects to the server at s4bfe01.ntsystems.it using the specified credentials.
@@ -50,7 +51,7 @@ Accept wildcard characters: False
 ```
 
 ### -Server
-Specify the name of the Lync Server to connect to.
+Specify the name of the Skype for Business / Lync Server to connect to.
 
 ```yaml
 Type: Object
