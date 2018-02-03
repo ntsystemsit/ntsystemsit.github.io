@@ -23,9 +23,13 @@ kramdown:
 jquery: 2.2.2
 anchorjs: 3.2.0
 
-gems:
+plugins:
   - jekyll-redirect-from
   - jekyll-paginate
+
+# Inlcude _pages
+include: 
+ - _pages 
 
 # Default Values for "Front Matter"
 # hidden: true filters out articles from pagination on the front page
