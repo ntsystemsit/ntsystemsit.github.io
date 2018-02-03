@@ -7,7 +7,7 @@ menubar: true
 
 <div class="home">
   <ul class="post-list">
-    {% assign sorted_posts = site.posts | where:"language","de" %}
+    {% assign sorted_posts = site.posts | where: 'language', 'de' %}
     {% for post in sorted_posts %}
       <li>
         <h2>

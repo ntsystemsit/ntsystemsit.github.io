@@ -93,9 +93,7 @@ function FindProxyForURL(url, host) {
 }
 ```
 
-
-Save the above function to a text file with `.pac` extension and configure the system's proxy configuration to use the file. 
-Note: Use the `file:///C:\path\to\pac.pac` format.
+Save the function above to a text file called _proxy_ (without extension) and put it in `C:\Windows\system32\drivers\etc\` and set the systems AutoConfigUrl to: `file://C:/Windows/system32/drivers/etc/proxy`
 
 
 Enjoy
