@@ -7,6 +7,7 @@ online version:
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Add-EtcHostsEntry
+excerpt: "Add an entry to local hosts file."
 ---
 
 # Add-EtcHostsEntry

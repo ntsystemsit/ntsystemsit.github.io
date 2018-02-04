@@ -8,12 +8,13 @@ schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Connect-SfB
 redirect_from: ["/PowerShell/TAK/Connect-Lync/", "/PowerShell/TAK/connect-lync/"]
+excerpt: "A quick function to connect to Skype for Business / Lync Servers."
 ---
 
 # Connect-SfB
 
 ## SYNOPSIS
-A quick function to connect to Lync Servers. 
+A quick function to connect to Skype for Business / Lync Servers. 
 
 ## SYNTAX
 

@@ -7,12 +7,13 @@ online version:
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: ConvertTo-SID
+excerpt: "Get the SID for an account name."
 ---
 
 # ConvertTo-SID
 
 ## SYNOPSIS
-Get the SID for an account name
+Get the SID for an account name.
 
 ## SYNTAX
 

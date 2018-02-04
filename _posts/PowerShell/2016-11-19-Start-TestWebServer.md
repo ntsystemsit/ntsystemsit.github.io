@@ -5,6 +5,7 @@ comments: true
 author: thomas torggler
 category: PowerShell
 tags: ["PowerShell", "OnlineHelp"]
+excerpt: "Webserver for load balancer testing."
 ---
 
 # Start-TestWebServer

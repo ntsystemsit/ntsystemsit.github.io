@@ -7,6 +7,7 @@ online version:
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Connect-Exchange
+excerpt: "A quick function to connect to Exchange Servers."
 ---
 
 # Connect-Exchange

@@ -7,6 +7,7 @@ online version:
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Test-TCPConnection
+excerpt: "Test if a TCP Connection can be established."
 ---
 
 # Test-TCPConnection

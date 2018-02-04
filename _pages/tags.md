@@ -13,7 +13,8 @@ title: "Tags"
         {% for post in posts %}
             <li>
                 <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-                {{ post.content | strip_html | truncatewords: 50 }}
+                {% include post-meta.html %}
+                {{ post.excerpt }}
             </li>
         {% endfor %}
         </ul>

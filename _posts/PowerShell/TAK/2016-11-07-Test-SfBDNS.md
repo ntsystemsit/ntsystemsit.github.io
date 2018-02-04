@@ -8,6 +8,7 @@ schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Test-SfBDNS
 redirect_from: ["/PowerShell/TAK/Test-LyncDNS/", "/PowerShell/TAK/test-lyncdns/"]
+excerpt: "Test DNS entries for Skype for Business / Lync deployments."
 ---
 
 # Test-SfBDNS

@@ -7,6 +7,7 @@ online version:
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Show-EtcHosts
+excerpt: "Display hosts file content."
 ---
 
 # Show-EtcHosts

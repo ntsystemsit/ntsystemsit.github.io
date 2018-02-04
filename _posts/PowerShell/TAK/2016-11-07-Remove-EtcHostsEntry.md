@@ -7,6 +7,7 @@ online version:
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Remove-EtcHostsEntry
+excerpt: "Remove an entry from local hosts file by it's IP address."
 ---
 
 # Remove-EtcHostsEntry

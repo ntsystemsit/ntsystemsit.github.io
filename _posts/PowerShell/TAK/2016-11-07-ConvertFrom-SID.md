@@ -7,6 +7,7 @@ online version:
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: ConvertFrom-SID
+excerpt: "Get the account name for a SID."
 ---
 
 # ConvertFrom-SID

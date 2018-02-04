@@ -7,12 +7,13 @@ online version:
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: ConvertFrom-Base64
+excerpt: "Convert Base64 to ClearText String."
 ---
 
 # ConvertFrom-Base64
 
 ## SYNOPSIS
-Convert Base64 to ClearText String
+Convert Base64 to ClearText String.
 
 ## SYNTAX
 
@@ -21,7 +22,7 @@ ConvertFrom-Base64 [-String] <String[]>
 ```
 
 ## DESCRIPTION
-This Function uses \[System.Convert\] to convert Base64 encoded String to ClearText
+This Function uses \[System.Convert\] to convert Base64 encoded String to ClearText.
 
 ## EXAMPLES
 

@@ -8,12 +8,13 @@ schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Test-SfBDiscover
 redirect_from: ["/PowerShell/TAK/Test-LyncDiscover/", "/PowerShell/TAK/test-lyncdiscover/"]
+excerpt: "Test the Lyncdiscover service for Skype for Business/Lync deployments."
 ---
 
 # Test-SfBDiscover
 
 ## SYNOPSIS
-Test the Lyncdiscover service for Skype for Business/Lync deployments
+Test the Lyncdiscover service for Skype for Business/Lync deployments.
 
 ## SYNTAX
 

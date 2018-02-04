@@ -7,12 +7,13 @@ online version:
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: ConvertTo-Base64
+excerpt: "Convert a String to Base64."
 ---
 
 # ConvertTo-Base64
 
 ## SYNOPSIS
-Convert a String to Base64
+Convert a String to Base64.
 
 ## SYNTAX
 

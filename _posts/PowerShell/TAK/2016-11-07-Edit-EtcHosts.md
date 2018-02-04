@@ -7,6 +7,7 @@ online version:
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Edit-EtcHosts
+excerpt: "Edit hosts file with notepad."
 ---
 
 # Edit-EtcHosts
