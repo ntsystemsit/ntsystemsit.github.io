@@ -3,7 +3,7 @@ layout: post
 title: "Testing CoinHive"
 comments: true
 category: ntSystems
-tags: ntSystems
+tags: ntSystems Crypto
 author: thomas torggler
 updated: 2018-01-12 21:35:19
 ---

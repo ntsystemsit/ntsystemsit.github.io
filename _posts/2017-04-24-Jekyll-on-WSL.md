@@ -4,7 +4,7 @@ title: "Jekyll on WSL"
 date: 2017-04-24 09:25:06 +0200
 comments: true
 category: ntSystems
-tags: Blog Jekyll
+tags: Jekyll WSL ntSystems
 author: thomas torggler
 updated: 2018-01-16
 ---

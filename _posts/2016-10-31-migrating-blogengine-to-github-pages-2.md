@@ -4,7 +4,7 @@ title: "Migrating from BlogEngine to GitHub Pages: Fixing the links"
 date: 2016-10-31 21:49:06 +0200
 comments: true
 category: ntSystems
-tags: migrate jekyll
+tags: Jekyll ntSystems
 
 author: thomas torggler
 ---
