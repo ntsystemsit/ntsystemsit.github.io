@@ -138,9 +138,6 @@
     background-color: azure;
     padding-left: 0.3em;
     padding-right: 0.3em;
-    @include media-query($on-palm){
-        width: 100%;
-    }
 }
 
 .tag-list {
