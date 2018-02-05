@@ -43,3 +43,5 @@ permalink: /tags/
 {% endfor %}
 {% endfor %}
 </div>
+
+{% include scrolltop.html %}

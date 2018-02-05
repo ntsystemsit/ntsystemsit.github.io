@@ -43,3 +43,5 @@ permalink: /categories/
 {% endfor %}
 {% endfor %}
 </div>
+
+{% include scrolltop.html %}
