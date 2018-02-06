@@ -13,7 +13,7 @@
             {% if post.author %}
                 <span itemprop="author">{{ post.author }}</span>
             {% else %}
-                <a href="{{ site.baseurl }}/contact"><span itemprop="author">{{ page.author }}</span></a>
+                <a href="{{ site.baseurl }}/{{ page.author | url_escape }}/"><span itemprop="author">{{ page.author }}</span></a>
             {% endif %}
         </span>&thinsp;
     {% if page.category %}
