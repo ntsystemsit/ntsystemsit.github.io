@@ -3,7 +3,7 @@ layout: post
 title: "Azure Site Recovery Deployment Planner"
 date: 2017-03-15 20:25:06 +0200
 comments: true
-category: Azure
+category: Cloud
 tags: Azure ASR
 author: daniel nitz
 ---

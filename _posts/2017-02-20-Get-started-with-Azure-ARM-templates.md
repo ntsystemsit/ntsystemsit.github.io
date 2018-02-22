@@ -3,7 +3,7 @@ layout: post
 title: "Get started with Azure ARM Templates"
 date: 2017-02-20 19:25:06 +0200
 comments: true
-category: Azure
+category: Cloud
 tags: Azure RM
 author: daniel nitz
 ---
