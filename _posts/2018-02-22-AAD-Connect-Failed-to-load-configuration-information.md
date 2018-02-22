@@ -20,7 +20,10 @@ The fils is located at: _C:\ProgramData\AADConnect\PersistedState.xml_
 
 The ADFS servername is stored in the _IAdfsContext.TargetAdfsServers_ property, oh and it's Base64 encoded. PowerShell can be used to easily read the file:
 
-`([xml](Get-Content "C:\ProgramData\AADConnect\PersistedState.xml")).PersistedStateContainer.Elements.PersistedStateElement`
+```powershell
+[xml]$xml = Get-Content "C:\ProgramData\AADConnect\PersistedState.xml"
+$xml.PersistedStateContainer.Elements.PersistedStateElement
+```
 
 # Solution
 
