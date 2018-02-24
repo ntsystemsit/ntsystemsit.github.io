@@ -1,0 +1,4 @@
+This is a Brave Payments publisher verification file.
+
+Domain: ntsystems.it
+Token: 0613ed6bb1bc19894e171205ad151dbd164b4374cfb9c8cd232ca78eb53012fb

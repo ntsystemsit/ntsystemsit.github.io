@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/tomt
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ntsystems.it
+  * I am tomt (https://keybase.io/tomt) on keybase.
+  * I have a public key ASDkspxaIxbg8tpKYocXMOINXISsNHKy95ujOT-fqEAtXwo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101813b50926861c388b1b2059166444da0cc4e353485e94e1b3f27c6e61649b7260a",
+            "host": "keybase.io",
+            "kid": "0120e4b29c5a2316e0f2da4a62871730e20d5c84ac3472b2f79ba3393f9fa8402d5f0a",
+            "uid": "16ca73ddde47331722507fca5c847400",
+            "username": "tomt"
+        },
+        "service": {
+            "hostname": "ntsystems.it",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.17"
+    },
+    "ctime": 1475504288,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1475504267,
+        "hash": "56e704ffc80172a75b7e4c192825aab77124b0327bac3d78162be5951ab732eccabbb54df61833903be91de5f0a568e9041bbc0b0e0fc458de24178609386bac",
+        "seqno": 662024
+    },
+    "prev": "39d9f23304a07a25a8110e37c5da387492d110ada8b03ee0143aa19380a7e55d",
+    "seqno": 16,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg5LKcWiMW4PLaSmKHFzDiDVyErDRysvebozk/n6hALV8Kp3BheWxvYWTFAvF7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxODEzYjUwOTI2ODYxYzM4OGIxYjIwNTkxNjY0NDRkYTBjYzRlMzUzNDg1ZTk0ZTFiM2YyN2M2ZTYxNjQ5YjcyNjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZTRiMjljNWEyMzE2ZTBmMmRhNGE2Mjg3MTczMGUyMGQ1Yzg0YWMzNDcyYjJmNzliYTMzOTNmOWZhODQwMmQ1ZjBhIiwidWlkIjoiMTZjYTczZGRkZTQ3MzMxNzIyNTA3ZmNhNWM4NDc0MDAiLCJ1c2VybmFtZSI6InRvbXQifSwic2VydmljZSI6eyJob3N0bmFtZSI6Im50c3lzdGVtcy5pdCIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE3In0sImN0aW1lIjoxNDc1NTA0Mjg4LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0NzU1MDQyNjcsImhhc2giOiI1NmU3MDRmZmM4MDE3MmE3NWI3ZTRjMTkyODI1YWFiNzcxMjRiMDMyN2JhYzNkNzgxNjJiZTU5NTFhYjczMmVjY2FiYmI1NGRmNjE4MzM5MDNiZTkxZGU1ZjBhNTY4ZTkwNDFiYmMwYjBlMGZjNDU4ZGUyNDE3ODYwOTM4NmJhYyIsInNlcW5vIjo2NjIwMjR9LCJwcmV2IjoiMzlkOWYyMzMwNGEwN2EyNWE4MTEwZTM3YzVkYTM4NzQ5MmQxMTBhZGE4YjAzZWUwMTQzYWExOTM4MGE3ZTU1ZCIsInNlcW5vIjoxNiwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEAxi3Vnpx7++9eQ3qrxoBZbP6FL34BAl04MPflxtUPvoAAUz67XSdbUtJgdf3pGjireqsMHiXd6Je3MGpKmJaEEqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgJ0s+JzFb267APicFDGJqOu9ySY1Zf2TYM3P9kBGAP9+jdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tomt
+
+==================================================================
