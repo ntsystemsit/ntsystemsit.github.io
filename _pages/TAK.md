@@ -5,6 +5,9 @@ permalink: /PowerShell/TAK/
 menubar: false
 ---
 
+[![Build status](https://ci.appveyor.com/api/projects/status/4ihjpqd6c8f9cceq?svg=true)](https://ci.appveyor.com/project/tomtorggler/tak)
+
+
 Tom's Admin Kit, or TAK, is a PowerShell script module that contains useful tools which I collected or created over the years. I tried to give credits where appropriate and where I could still remember the source :)
 
 The main goal of creating the module and writing the scripts it contains, was learning PowerShell and making my job a little bit easier. As I am currently looking into continuous integration, I used this module to build an example deployment pipeline. You can read more about that [here](http://ntsystems.it/post/introducing-tak).
@@ -12,7 +15,7 @@ The main goal of creating the module and writing the scripts it contains, was le
 # Functions
 <div class="home">
   <ul class="script-list">
-    {% assign sorted_posts = site.tags.OnlineHelp | sort:"title" %}
+    {% assign sorted_posts = site.tags.OnlineHelp | sort: 'title' %}
     {% for post in sorted_posts %}
     {% if post.category == "TAK" %}
       <li>

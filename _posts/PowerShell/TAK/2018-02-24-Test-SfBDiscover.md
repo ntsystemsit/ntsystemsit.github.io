@@ -3,29 +3,31 @@ author: thomas torggler
 category: TAK
 external help file: tak-help.xml
 layout: post
-online version: 
+Module Name: tak
+online version:
+redirect_from: ["/post/test-sfbdiscover", "/PowerShell/TAK/Test-LyncDiscover/", "/PowerShell/TAK/test-lyncdiscover/"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
-title: Test-LyncDiscover
+title: Test-SfBDiscover
 ---
 
-# Test-LyncDiscover
+# Test-SfBDiscover
 
 ## SYNOPSIS
-Test Lyncdiscover service
+Test the Lyncdiscover service for Skype for Business/Lync deployments
 
 ## SYNTAX
 
 ```
-Test-LyncDiscover [-SipDomain] <String> [-Http] [-internal]
+Test-SfBDiscover [-SipDomain] <String> [-Http] [-internal] [-Online] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-This function uses Invoke-WebRequest to test if the Lyncdiscover service is responding for a given domain.
+This function uses Invoke-RestMethod to test if the Lyncdiscover service is responding for a given domain.
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Test-LyncDiscover -SipDomain uclab.eu -Http
 ```
@@ -40,7 +42,7 @@ Specifies a DNS domain name to test
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -55,7 +57,7 @@ Use HTTP instead of HTTPS
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -70,7 +72,7 @@ Use internal name (lyncdiscoverinternl) instead of the external one (lyncdiscove
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -79,6 +81,25 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -Online
+Test against Office 365 endpoints
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases:
+
+Required: False
+Position: Named
+Default value: False
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.
+For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 ## INPUTS
 
 ## OUTPUTS
@@ -86,4 +107,3 @@ Accept wildcard characters: False
 ## NOTES
 
 ## RELATED LINKS
-

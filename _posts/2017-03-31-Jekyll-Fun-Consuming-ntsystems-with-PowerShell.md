@@ -4,7 +4,7 @@ title: "Jekyll Fun: Consuming ntSystems with PowerShell"
 date: 2017-03-31 18:45:06 +0200
 comments: true
 category: ntSystems
-tags: jekyll
+tags: Jekyll ntSystems
 author: thomas torggler
 updated: false
 ---

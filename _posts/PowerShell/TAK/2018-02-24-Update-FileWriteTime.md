@@ -3,7 +3,9 @@ author: thomas torggler
 category: TAK
 external help file: tak-help.xml
 layout: post
-online version: 
+Module Name: tak
+online version:
+redirect_from: ["/post/update-filewritetime"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Update-FileWriteTime
@@ -17,21 +19,22 @@ Touch a file.
 ## SYNTAX
 
 ```
-Update-FileWriteTime [-Name] <String[]> [-Date <DateTime>]
+Update-FileWriteTime [-Name] <String[]> [-Date <DateTime>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
 This function checks whether a given file exists, and if so, updates the LastWriteTime property of the given file.
 Should the file not exist, a new, empty file is created.
+This function works on Linux/macOS.
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 touch myfile
 ```
 
-This example creates myfile if it does not exist in the current directory. 
+This example creates myfile if it does not exist in the current directory.
 If the file does exist, the LastWriteTime property will be updated.
 
 ## PARAMETERS
@@ -42,7 +45,7 @@ One or more filenames to be touched
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -57,7 +60,7 @@ Specify a specific date for LastWriteTime
 ```yaml
 Type: DateTime
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -66,6 +69,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.
+For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 ## INPUTS
 
 ## OUTPUTS
@@ -73,4 +80,3 @@ Accept wildcard characters: False
 ## NOTES
 
 ## RELATED LINKS
-

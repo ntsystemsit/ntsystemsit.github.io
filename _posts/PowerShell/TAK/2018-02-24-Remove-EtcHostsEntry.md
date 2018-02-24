@@ -3,7 +3,9 @@ author: thomas torggler
 category: TAK
 external help file: tak-help.xml
 layout: post
-online version: 
+Module Name: tak
+online version:
+redirect_from: ["/post/remove-etchostsentry"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Remove-EtcHostsEntry
@@ -17,7 +19,7 @@ Remove an entry from local hosts file by it's IP address.
 ## SYNTAX
 
 ```
-Remove-EtcHostsEntry [[-IPAddress] <String>] [-WhatIf] [-Confirm]
+Remove-EtcHostsEntry [[-IPAddress] <String>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -25,13 +27,13 @@ Find an IP address and remove all lines where it appears from the \etc\hosts fil
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Remove-EtcHostsEntry -IPAddress 1.1.1.1
 ```
 
 This example removes following lines from the hosts file
-1.1.1.1 test.test 
+1.1.1.1 test.test
 1.1.1.1 another.test.com
 
 ## PARAMETERS
@@ -82,6 +84,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.
+For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 ## INPUTS
 
 ## OUTPUTS
@@ -89,4 +95,3 @@ Accept wildcard characters: False
 ## NOTES
 
 ## RELATED LINKS
-

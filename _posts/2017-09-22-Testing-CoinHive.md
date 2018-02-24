@@ -3,9 +3,9 @@ layout: post
 title: "Testing CoinHive"
 comments: true
 category: ntSystems
-tags: ntSystems
+tags: ntSystems Crypto
 author: thomas torggler
-updated: 2017-09-29 17:50:19
+updated: 2018-01-12 21:35:19
 ---
 
 I've recently stumbled upon [coinhive](https://coinhive.com) and with all the recent fuzz about crypto currencies, I decided to have a look at it. So what's that all about? 
@@ -49,6 +49,11 @@ This resulted to be about **468 hashes per second** totalling about 173.82 milli
 The final balance after the weeks test is 0.02582 xmr, worth about 2€ at the time of this writing. 
 
 ![Stats]({{ site.url }}/assets/2017/2017-09-29-coinhive-stats.png)
+
+
+# Another Update
+
+Soon after the last update, ad-blockers started blocking the download of the javascript and the hashrate dropped quite a bit. I've since decided to remove the code and stop (ab)using our visitors CPUs. 
 
 
 Thanks!

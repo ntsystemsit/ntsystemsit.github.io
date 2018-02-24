@@ -3,7 +3,9 @@ author: thomas torggler
 category: TAK
 external help file: tak-help.xml
 layout: post
-online version: 
+Module Name: tak
+online version:
+redirect_from: ["/post/add-etchostsentry"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Add-EtcHostsEntry
@@ -17,15 +19,16 @@ Add an entry to local hosts file.
 ## SYNTAX
 
 ```
-Add-EtcHostsEntry [-IPAddress] <String> [-Fqdn] <String> [-WhatIf] [-Confirm]
+Add-EtcHostsEntry [-IPAddress] <String> [-Fqdn] <String> [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-Adds a lines to the \etc\hosts file of the local computer.
+Adds a lines to the /etc/hosts file of the local computer.
+Requires write access to /etc/hosts - if running PowerShell Core on  Linux/macOS try "sudo powershell"
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Add-EtcHostsEntry -IPAddress 1.1.1.1 -Fqdn test.fqdn
 ```
@@ -56,7 +59,7 @@ FQDN of the hosts entry to be added
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 2
@@ -96,6 +99,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.
+For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 ## INPUTS
 
 ## OUTPUTS
@@ -103,4 +110,3 @@ Accept wildcard characters: False
 ## NOTES
 
 ## RELATED LINKS
-
