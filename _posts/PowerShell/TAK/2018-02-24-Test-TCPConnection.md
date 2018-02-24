@@ -3,11 +3,12 @@ author: thomas torggler
 category: TAK
 external help file: tak-help.xml
 layout: post
-online version: 
+Module Name: tak
+online version:
+redirect_from: ["/post/test-tcpconnection"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Test-TCPConnection
-excerpt: "Test if a TCP Connection can be established."
 ---
 
 # Test-TCPConnection
@@ -18,24 +19,24 @@ Test if a TCP Connection can be established.
 ## SYNTAX
 
 ```
-Test-TCPConnection [-ComputerName] <Object> [[-Port] <Object>] [-Count <Int32>]
+Test-TCPConnection [-ComputerName] <Object> [[-Port] <Object>] [-Count <Int32>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-This function uses System.Net.Sockets.Tcpclient to test if a TCP connection can be established with a 
+This function uses System.Net.Sockets.Tcpclient to test if a TCP connection can be established with a
 ComputerName on a given port.
 Much like "telnet" which is not installed by default.
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Test-TcpConnection -ComputerName www.ntsystems.it
 ```
 
 This example tests if port 80 can be reached on www.ntsystems.it
 
-### -------------------------- EXAMPLE 2 --------------------------
+### EXAMPLE 2
 ```
 Test-TcpConnection -ComputerName www.ntsystems.it -Port 25 -Count 4
 ```
@@ -80,7 +81,7 @@ Specifies the number of tests to run, this can be useful when testing load-balan
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -88,6 +89,10 @@ Default value: 1
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
+
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.
+For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -98,4 +103,3 @@ Accept wildcard characters: False
 ## NOTES
 
 ## RELATED LINKS
-

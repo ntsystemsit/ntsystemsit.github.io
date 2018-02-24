@@ -3,11 +3,12 @@ author: thomas torggler
 category: TAK
 external help file: tak-help.xml
 layout: post
-online version: 
+Module Name: tak
+online version:
+redirect_from: ["/post/get-macaddressvendor"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Get-MacAddressVendor
-excerpt: "Mac Address vendor lookup."
 ---
 
 # Get-MacAddressVendor
@@ -18,36 +19,37 @@ Mac Address vendor lookup.
 ## SYNTAX
 
 ```
-Get-MacAddressVendor [-MacAddress] <Object>
+Get-MacAddressVendor [-MacAddress] <Object> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
 This function uses Invoke-WebRequest to look up the vendor of a Mac Address' Organizationally Unique Identifier (OUI).
+Works on PowerShell Core for Linux/macOS.
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Get-MacAddressVendor -MacAddress '00-50-56-C0-00-01','00:0F:FE:E8:4F:27'
 ```
 
 This example looks up the vendor for the two specified Mac Addresses.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### EXAMPLE 2
 ```
 Get-NetAdapter | Get-MacAddressVendor
 ```
 
 This example looks up the vendor of all network adapters returned by Get-NetAdapter.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### EXAMPLE 3
 ```
 Get-NetAdapterConfig -ComputerName Server01.domain.local | Get-MacAddressVendor
 ```
 
 This example looks up the vendor of all network adapters returned by Get-NetAdapterConfig which supports remoting.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### EXAMPLE 4
 ```
 Get-DhcpServerv4Lease -ComputerName DhcpServer -ScopeId 192.168.1.0 | Get-MacAddressVendor
 ```
@@ -71,6 +73,10 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.
+For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 ## INPUTS
 
 ## OUTPUTS
@@ -80,4 +86,3 @@ Accept wildcard characters: False
 ## NOTES
 
 ## RELATED LINKS
-

@@ -3,22 +3,23 @@ author: thomas torggler
 category: TAK
 external help file: tak-help.xml
 layout: post
-online version: 
+Module Name: tak
+online version:
+redirect_from: ["/post/convertto-sid"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: ConvertTo-SID
-excerpt: "Get the SID for an account name."
 ---
 
 # ConvertTo-SID
 
 ## SYNOPSIS
-Get the SID for an account name.
+Get the SID for an account name
 
 ## SYNTAX
 
 ```
-ConvertTo-SID [-SamAccountName] <NTAccount>
+ConvertTo-SID [-SamAccountName] <NTAccount> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -26,12 +27,12 @@ Use \[System.Security.Principal.SecurityIdentifier\].Translate() to get the SID 
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 ConvertTo-SID -SamAccountName ttorggler
 ```
 
-### -------------------------- EXAMPLE 2 --------------------------
+### EXAMPLE 2
 ```
 "ntsystems\ttorggler" | ConvertTo-SID
 ```
@@ -53,6 +54,10 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.
+For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 ## INPUTS
 
 ### You can pipe input to this function.
@@ -64,4 +69,3 @@ Accept wildcard characters: False
 ## NOTES
 
 ## RELATED LINKS
-

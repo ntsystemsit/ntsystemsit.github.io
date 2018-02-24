@@ -3,12 +3,12 @@ author: thomas torggler
 category: TAK
 external help file: tak-help.xml
 layout: post
-online version: 
+Module Name: tak
+online version:
+redirect_from: ["/post/test-sfbdns", "/PowerShell/TAK/Test-LyncDNS/", "/PowerShell/TAK/test-lyncdns/"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Test-SfBDNS
-redirect_from: ["/PowerShell/TAK/Test-LyncDNS/", "/PowerShell/TAK/test-lyncdns/"]
-excerpt: "Test DNS entries for Skype for Business / Lync deployments."
 ---
 
 # Test-SfBDNS
@@ -20,6 +20,7 @@ Test DNS entries for Skype for Business / Lync deployments.
 
 ```
 Test-SfBDNS [-SipDomain] <String> [[-NameServer] <IPAddress>] [-OpenDNS] [-internal] [-testConnection]
+ [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -28,9 +29,9 @@ The NameSever parameter can be used to specify a nameserver.
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
-Test-SfBDNS -SipDomain uclab.eu
+Test-LyncDNS -SipDomain uclab.eu
 ```
 
 This example queries DNS records for the domain uclab.eu
@@ -43,7 +44,7 @@ Specifies the DNS domain name to test
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -73,7 +74,7 @@ A quick way to use OpenDns servers instead of using NameServer
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -88,7 +89,7 @@ Do also query for internal records, they should only resolve when testing from t
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -103,7 +104,7 @@ Do also test a TLS connection to the servers received from the query
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -112,6 +113,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.
+For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 ## INPUTS
 
 ## OUTPUTS
@@ -119,4 +124,3 @@ Accept wildcard characters: False
 ## NOTES
 
 ## RELATED LINKS
-

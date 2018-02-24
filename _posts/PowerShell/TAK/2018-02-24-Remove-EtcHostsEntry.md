@@ -3,36 +3,38 @@ author: thomas torggler
 category: TAK
 external help file: tak-help.xml
 layout: post
-online version: 
+Module Name: tak
+online version:
+redirect_from: ["/post/remove-etchostsentry"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
-title: Add-EtcHostsEntry
-excerpt: "Add an entry to local hosts file."
+title: Remove-EtcHostsEntry
 ---
 
-# Add-EtcHostsEntry
+# Remove-EtcHostsEntry
 
 ## SYNOPSIS
-Add an entry to local hosts file.
+Remove an entry from local hosts file by it's IP address.
 
 ## SYNTAX
 
 ```
-Add-EtcHostsEntry [-IPAddress] <String> [-Fqdn] <String> [-WhatIf] [-Confirm]
+Remove-EtcHostsEntry [[-IPAddress] <String>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-Adds a lines to the \etc\hosts file of the local computer.
+Find an IP address and remove all lines where it appears from the \etc\hosts file of the local computer.
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
-Add-EtcHostsEntry -IPAddress 1.1.1.1 -Fqdn test.fqdn
+Remove-EtcHostsEntry -IPAddress 1.1.1.1
 ```
 
-This example adds following line to the hosts file
+This example removes following lines from the hosts file
 1.1.1.1 test.test
+1.1.1.1 another.test.com
 
 ## PARAMETERS
 
@@ -44,23 +46,8 @@ Type: String
 Parameter Sets: (All)
 Aliases: ip
 
-Required: True
+Required: False
 Position: 1
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Fqdn
-FQDN of the hosts entry to be added
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: 2
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -97,6 +84,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.
+For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 ## INPUTS
 
 ## OUTPUTS
@@ -104,4 +95,3 @@ Accept wildcard characters: False
 ## NOTES
 
 ## RELATED LINKS
-

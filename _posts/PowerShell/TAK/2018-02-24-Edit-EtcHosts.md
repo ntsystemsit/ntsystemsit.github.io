@@ -3,11 +3,12 @@ author: thomas torggler
 category: TAK
 external help file: tak-help.xml
 layout: post
-online version: 
+Module Name: tak
+online version:
+redirect_from: ["/post/edit-etchosts"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Edit-EtcHosts
-excerpt: "Edit hosts file with notepad."
 ---
 
 # Edit-EtcHosts
@@ -23,17 +24,18 @@ Edit-EtcHosts
 
 ## DESCRIPTION
 This funtion starts notepad.exe as administrator and opens the hosts file for editing.
+If this function is running on PowerShell Core, it runs "sudo vi /etc/hosts"
 
 run notepad as administrator and open the hosts file for editing
 
 ## EXAMPLES
 
 ### Example 1
-```
-PS C:\> Edit-EtcHosts
+```powershell
+PS C:\> {{ Add example code here }}
 ```
 
-This example opens the local \etc\hosts file in an administrative notepad for editing.
+{{ Add example description here }}
 
 ## PARAMETERS
 
@@ -44,4 +46,3 @@ This example opens the local \etc\hosts file in an administrative notepad for ed
 ## NOTES
 
 ## RELATED LINKS
-
