@@ -30,6 +30,7 @@ plugins:
 # Inlcude _pages
 include: 
  - _pages 
+ - .well-known
 
 # Default Values for "Front Matter"
 # hidden: true filters out articles from pagination on the front page
