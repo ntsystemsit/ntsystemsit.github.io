@@ -4,7 +4,7 @@ title: "Lync Server Backup"
 date: 2013-08-28 21:37:00 +0200
 comments: true
 category: Archive
-tags: ["en", "Lync"]
+tags: ["en", "Lync", "Skype4B"]
 redirect_from: ["/post/Lync-Server-Backup", "/post/lync-server-backup"]
 author: thomas torggler
 ---

@@ -4,7 +4,7 @@ title: "Lync Client certificate warning Exchange Autodiscover"
 date: 2014-02-08 08:40:00 +0100
 comments: true
 category: Archive
-tags: ["en", "Lync"]
+tags: ["en", "Lync", "Skype4B"]
 redirect_from: ["/post/Lync-Client-certificate-warning-Exchange-Autodiscover", "/post/lync-client-certificate-warning-exchange-autodiscover"]
 author: thomas torggler
 ---

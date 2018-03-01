@@ -4,7 +4,7 @@ title: "Lync 2013 backend on SQL Cluster with mixed authentication mode"
 date: 2014-08-15 17:37:00 +0200
 comments: true
 category: Archive
-tags: ["Lync", "en"]
+tags: ["Lync", "en", "Skype4B"]
 redirect_from: ["/post/Lync-2013-backend-on-SQL-Cluster-with-mixed-authentication-mode", "/post/lync-2013-backend-on-sql-cluster-with-mixed-authentication-mode"]
 author: thomas torggler
 ---

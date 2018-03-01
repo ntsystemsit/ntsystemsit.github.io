@@ -4,7 +4,7 @@ title: "PAL: Performance Analyse"
 date: 2013-12-21 21:34:00 +0100
 comments: true
 category: Archive
-tags: ["de", "Exchange", "Lync"]
+tags: ["de", "Exchange", "Lync", "Skype4B"]
 redirect_from: ["/post/PAL-Performance-Analyse", "/post/pal-performance-analyse"]
 author: thomas torggler
 ---

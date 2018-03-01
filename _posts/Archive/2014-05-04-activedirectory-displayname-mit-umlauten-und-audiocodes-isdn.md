@@ -3,8 +3,8 @@ layout: post
 title: "ActiveDirectory DisplayName mit Umlauten und AudioCodes ISDN"
 date: 2014-05-04 12:39:00 +0200
 comments: true
-category: "Lync"
-tags: ["de", "Lync"]
+category: "Skype4B"
+tags: ["de", "Lync", "Skype4B"]
 redirect_from: ["/post/ActiveDirectory-DisplayName-mit-Umlauten-und-AudioCodes-ISDN", "/post/activedirectory-displayname-mit-umlauten-und-audiocodes-isdn"]
 author: thomas torggler
 language: de

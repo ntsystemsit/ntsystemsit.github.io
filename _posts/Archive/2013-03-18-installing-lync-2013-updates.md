@@ -4,7 +4,7 @@ title: "Installing Lync 2013 Updates"
 date: 2013-03-18 19:25:00 +0100
 comments: true
 category: Archive
-tags: ["Lync", "Server"]
+tags: ["Lync", "Server", "Skype4B"]
 redirect_from: ["/post/Installing-Lync-2013-Updates", "/post/installing-lync-2013-updates"]
 author: thomas torggler
 ---

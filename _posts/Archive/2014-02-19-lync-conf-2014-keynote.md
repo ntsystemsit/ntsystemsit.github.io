@@ -4,7 +4,7 @@ title: "Lync Conf 2014 Keynote"
 date: 2014-02-19 19:46:00 +0100
 comments: true
 category: Archive
-tags: ["de", "Lync"]
+tags: ["de", "Lync", "Skype4B"]
 redirect_from: ["/post/Lync-Conf-2014-Keynote", "/post/lync-conf-2014-keynote"]
 author: thomas torggler
 language: de

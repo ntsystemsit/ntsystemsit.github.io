@@ -3,8 +3,8 @@ layout: post
 title: "Lync SDN API and Cisco WLC"
 date: 2016-06-26 19:39:00 +0200
 comments: true
-category: Lync
-tags: ["Lync", "Cisco", "en"]
+category: "Skype4B"
+tags: ["Lync", "Cisco", "en", "Skype4B"]
 redirect_from: ["/post/Lync-SDN-API-and-Cisco-WLC", "/post/lync-sdn-api-and-cisco-wlc"]
 author: thomas torggler
 updated: 2017-04-18 10:01:00 +0200

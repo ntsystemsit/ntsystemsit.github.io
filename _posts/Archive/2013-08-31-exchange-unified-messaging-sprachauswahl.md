@@ -4,7 +4,7 @@ title: "Exchange Unified Messaging Sprachauswahl"
 date: 2013-08-31 21:37:00 +0200
 comments: true
 category: Archive
-tags: ["de", "Lync", "Exchange"]
+tags: ["de", "Lync", "Exchange", "Skype4B"]
 redirect_from: ["/post/Exchange-Unified-Messaging-Sprachauswahl", "/post/exchange-unified-messaging-sprachauswahl"]
 author: thomas torggler
 ---

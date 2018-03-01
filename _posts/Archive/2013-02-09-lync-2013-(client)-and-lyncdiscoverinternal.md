@@ -4,7 +4,7 @@ title: "Lync 2013 (Client) and LyncDiscoverInternal"
 date: 2013-02-09 09:04:00 +0100
 comments: true
 category: Archive
-tags: ["Lync", "Client"]
+tags: ["Lync", "Client", "Skype4B"]
 redirect_from: ["/post/Lync-2013-(Client)-and-LyncDiscoverInternal", "/post/lync-2013-(client)-and-lyncdiscoverinternal"]
 author: thomas torggler
 ---

@@ -4,7 +4,7 @@ title: "Prepare Windows Server 2012 for Lync 2013"
 date: 2013-03-18 21:26:00 +0100
 comments: true
 category: Archive
-tags: ["Lync"]
+tags: ["Lync", "Skype4B"]
 redirect_from: ["/post/Prepare-Windows-Server-2012-for-Lync-2013", "/post/prepare-windows-server-2012-for-lync-2013"]
 author: daniel nitz
 ---

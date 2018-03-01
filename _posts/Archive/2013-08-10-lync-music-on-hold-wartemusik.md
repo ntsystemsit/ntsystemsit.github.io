@@ -4,7 +4,7 @@ title: "Lync: Music on Hold / Wartemusik"
 date: 2013-08-10 23:01:00 +0200
 comments: true
 category: Archive
-tags: ["de", "Lync"]
+tags: ["de", "Lync", "Skype4B"]
 redirect_from: ["/post/Lync-Music-on-Hold-Wartemusik", "/post/lync-music-on-hold-wartemusik"]
 author: thomas torggler
 ---

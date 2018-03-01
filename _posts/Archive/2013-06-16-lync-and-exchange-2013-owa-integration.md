@@ -4,7 +4,7 @@ title: "Lync and Exchange 2013 OWA integration"
 date: 2013-06-16 09:27:00 +0200
 comments: true
 category: Archive
-tags: ["en", "Exchange", "Lync"]
+tags: ["en", "Exchange", "Lync", "Skype4B"]
 redirect_from: ["/post/Lync-and-Exchange-2013-OWA-integration", "/post/lync-and-exchange-2013-owa-integration"]
 author: thomas torggler
 ---
