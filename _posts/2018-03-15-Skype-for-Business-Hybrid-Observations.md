@@ -4,7 +4,7 @@ title: "Skype for Business Hybrid Observations"
 date: 2018-03-15
 comments: true
 category: Cloud
-tags: Office365, Lync, Skype4B, Hybrid, Exchange
+tags: Office365 Lync Skype4B Hybrid Exchange
 author: thomas torggler
 updated: false
 ---
@@ -27,7 +27,7 @@ Skype for Business Online
 New-CsHostingProvider -Identity "SkypeforBusinessOnline" –Enabled:1 -ProxyFQDN "sipfed.online.lync.com" – EnabledSharedAddressSpace:1 -VerificationLevel UseSourceVerification – HostsOCSUsers:1 -AutodiscoverUrl 'https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root'
 ```
 
-> Note: Make sure the **Edge Servers** can lookup the _sipfederationtls_ records for **your** domains. The targets must be the Edge Servers external interface. 
+> Note: Make sure the **Edge Servers** can lookup the \_sipfederationtls records for **your** domains. The targets must be the Edge Server's external interface. 
 
 # Push Notification
 
@@ -69,12 +69,31 @@ $MsolSP | Set-MsolServicePrincipal
 Once the configuration is complete, we can test Exchange Storage connectivity with the following command: 
 
 ```
-# Test
 Test-CsExStorageConnectivity -SipUri "sip:tom@uclab.eu" -Verbose
 ```
 
-> Note: The Front End Servers must be able to communicate with Exchange Online, otherwise the "Add Skype meeting" button will not be visible in Exchange Online OWA. This is also required for Modern Hybrid Authentication.
+> Note: The **Front End Servers** must be able to communicate with Exchange Online (directly or via proxy), otherwise the "Add Skype meeting" button will not be visible in Exchange Online OWA. This is also required for Modern Hybrid Authentication.
 
+To troubleshoot the Exchange Online Integration, run an UCWA (Web Infrastructure) trace on the Front End Servers. You should see incoming requests from Exchange Online and the corresponding responses from the Front End.
+
+```
+# Request: 
+Start-Line: POST /ucwa/oauth/v1/applications
+Start-Line: GET /ucwa/oauth/v1/applications/103925742291/onlineMeetings/defaultValues
+Start-Line: GET /ucwa/oauth/v1/applications/103925742291/onlineMeetings/customInvitation
+Start-Line: GET /ucwa/oauth/v1/applications/103925742291/onlineMeetings/phoneDialInInformation
+...
+User-Agent: Exchange/15.20.588.14/OnlineMeeting
+Content-Type: application/vnd.microsoft.com.ucwa+json
+Accept: application/vnd.microsoft.com.ucwa+json
+X-ExCompId: OnlineMeeting
+
+# Response:
+Start-Line: 200 OK
+Content-Type: application/vnd.microsoft.com.ucwa+json; charset=utf-8
+{"accessLevel": "Everyone","entryExitAnnouncement":"Enabled","attendees":[],"automaticLeaderAssignment":"SameEnterprise","description":"","leaders":[],"onlineMeetingId":"RMANN9FF","onlineMeetingUri":"sip:tom@uclab.eu;gruu;opaque=app:conf:focus:id:RMANN9FF","onlineMeetingRel":"myOnlineMeetings","organizerUri":"sip:tom@uclab.eu","conferenceId":"257150","phoneUserAdmission":"Enabled","lobbyBypassForPhoneUsers":"Disabled","subject":"","joinUrl":"https://meet.uclab.eu/tom/RMANN9FF","2c04865e-a621-4a4d-81e0-8047131f87d8":"please pass this in a PUT request","_links":{"self":{"href":"/ucwa/oauth/v1/applications/103925742291/onlineMeetings/myOnlineMeetings/RMANN9FF"},"onlineMeetingExtensions":{"href":"/ucwa/oauth/v1/applications/103925742291/onlineMeetings/myOnlineMeetings/RMANN9FF/extensions"}},"rel":"myOnlineMeeting","etag":"3055269905"}
+...
+```
 
 To be continued ;) 
 
