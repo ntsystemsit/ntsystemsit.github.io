@@ -1,14 +1,14 @@
 <p class="post-meta">
     {% if post.date %}
-        <i class="fa fa-calendar" aria-hidden="true"></i>
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
         <span itemprop="datePublished" intemscope itemtype="http://schema.org/BlogPosting">
         <time datetime="{{ post.date | date: "%b %-d, %Y" }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }} &thinsp; </time></span>
     {% else %}
-        <i class="fa fa-calendar" aria-hidden="true"></i>
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
         <span itemprop="datePublished" intemscope itemtype="http://schema.org/BlogPosting">
         <time datetime="{{ page.date | date: "%b %-d, %Y" }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }} &thinsp; </time></span>
     {% endif %}
-        <i class="fa fa-user" aria-hidden="true"></i>
+        <i class="fas fa-user" aria-hidden="true"></i>
         <span itemprop="author" itemscope itemtype="http://schema.org/BlogPosting">
             {% if post.author %}
                 <span itemprop="author">{{ post.author }}</span>
@@ -17,13 +17,13 @@
             {% endif %}
         </span>&thinsp;
     {% if page.category %}
-        <i class="fa fa-folder" aria-hidden="true"></i>
+        <i class="fas fa-folder" aria-hidden="true"></i>
         <span itemprop="category" itemscope itemtype="http://schema.org/BlogPosting">
             <a href="{{ site.baseurl }}/categories/#{{ page.category | downcase }}"><span itemprop="keywords">{{ page.category }}</span></a> &thinsp; 
         </span>
     {% endif %}
     {% if page.tags %}
-        <i class="fa fa-tag" aria-hidden="true"></i>
+        <i class="fas fa-tag" aria-hidden="true"></i>
         <span itemprop="category" itemscope itemtype="http://schema.org/BlogPosting">
             <span itemprop="keywords">
                 {% for tag in page.tags %}
