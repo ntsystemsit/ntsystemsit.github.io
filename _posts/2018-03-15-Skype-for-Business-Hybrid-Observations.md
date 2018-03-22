@@ -140,6 +140,18 @@ New-CsOAuthServer -Name evoSTS -IssuerIdentifier sts.windows.net -MetadataUrl "h
 Set-CsOAuthConfiguration -ClientAuthorizationOAuthServerIdentity evoSTS
 ```
 
+On the client, make sure to set [AllowAdalForNonLyncIndependentOfLync](https://support.microsoft.com/en-us/help/3082803/info-about-the-allowadalfornonlyncindependentoflync-setting-in-skype-f) and [Enable Modern Authentication](https://support.office.com/en-us/article/enable-modern-authentication-for-office-2013-on-windows-devices-7dc1c01a-090f-4971-9677-f1b192d6c910) if required.
+
+```powershell
+$a = New-CsClientPolicyEntry -name AllowAdalForNonLyncIndependentOfLync -value "True"
+Set-CsClientPolicy -Identity Global -PolicyEntry @{Add=$a} 
+```
+
+```
+HKEY_CURRENT_USER\Software\Policies\Microsoft\Office\1x.0\Lync
+"AllowAdalForNonLyncIndependentOfLync"=dword:00000001
+```
+
 To be continued ;) 
 
 Tom

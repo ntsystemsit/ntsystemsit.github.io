@@ -13,3 +13,10 @@ git clone https://github.com/ntsystemsit/ntsystemsit.github.io.git
 cd ntsystemsit.github.io/
 bundle install
 bundle exec jekyll serve
+
+/etc/nginx/enabled-sites/default
+errorpage 404 /404.html;
+index index.html;
+location / {
+    try_files $uri $uri.html $uri/;
+}
