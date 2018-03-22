@@ -62,7 +62,7 @@ $credentialsValue = [System.Convert]::ToBase64String($binaryValue)
 New-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -Type Asymmetric -Usage Verify -Value $credentialsValue
 # Add Service Principal Name (sfb pool web services)
 $MsolSP = Get-MsolServicePrincipal -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000
-$MsolSP.ServicePrincipalNames.Add("00000004-0000-0ff1-ce00-000000000000/lync.example.com")
+$MsolSP.ServicePrincipalNames.Add("00000004-0000-0ff1-ce00-000000000000/sfbwebext.uclab.eu")
 $MsolSP | Set-MsolServicePrincipal
 ```
 
@@ -93,6 +93,51 @@ Start-Line: 200 OK
 Content-Type: application/vnd.microsoft.com.ucwa+json; charset=utf-8
 {"accessLevel": "Everyone","entryExitAnnouncement":"Enabled","attendees":[],"automaticLeaderAssignment":"SameEnterprise","description":"","leaders":[],"onlineMeetingId":"RMANN9FF","onlineMeetingUri":"sip:tom@uclab.eu;gruu;opaque=app:conf:focus:id:RMANN9FF","onlineMeetingRel":"myOnlineMeetings","organizerUri":"sip:tom@uclab.eu","conferenceId":"257150","phoneUserAdmission":"Enabled","lobbyBypassForPhoneUsers":"Disabled","subject":"","joinUrl":"https://meet.uclab.eu/tom/RMANN9FF","2c04865e-a621-4a4d-81e0-8047131f87d8":"please pass this in a PUT request","_links":{"self":{"href":"/ucwa/oauth/v1/applications/103925742291/onlineMeetings/myOnlineMeetings/RMANN9FF"},"onlineMeetingExtensions":{"href":"/ucwa/oauth/v1/applications/103925742291/onlineMeetings/myOnlineMeetings/RMANN9FF/extensions"}},"rel":"myOnlineMeeting","etag":"3055269905"}
 ...
+```
+
+# Modern Authentication
+
+To use modern authentication with Skype for Business, the ADFS Server has to be prepared using the [sfbadalscripts](https://aka.ms/sfbadalscripts). More information about how to use the scripts can be found [here](https://technet.microsoft.com/en-us/library/mt710548.aspx?f=255&MSPPError=-2147217396). The script has to be run on the ADFS server, be sure to include all internal and external URLs of the Skype deployment in the _PoolIds_ parameter.
+
+```powershell
+.\Setup-Adfs2016OAuthTrustForSfB.ps1 -PoolIds 'https://sfbwebext.uclab.eu/','https://sfbwebint.uclab.eu/'
+```
+
+When the ADFS Server has been prepared, the following commands can be used to enable modern authentication.
+
+> Note: This can only be configured globally, double-check the prerequisites and, even though existing sessions will not be re-authenticated, schedule a maintenance window.
+
+```powershell
+# Create new OAuth Server
+New-CsOAuthServer -Identity uclabFS -Type ADFS -MetadataURL "https://fs.uclab.eu/FederationMetadata/2007-06/FederationMetadata.xml"
+# Require Authorization using ADFS
+Set-CsOAuthConfiguration -ClientAuthorizationOAuthServerIdentity uclabFS
+```
+
+After that just wait for the management store replication to publish the change and test it with a client or the _Test-CsRegistration_ cmdlet.
+
+> To roll back the change simply set the ClientAuthorizationOAuthServerIdentity parameter to $null.
+
+
+# Hybrid Modern Authentication
+
+For hybrid authentication to work, we need to add more SPNs to the MSOL Service Principal. Add all internal and external Web Services URLs of the Skype deployment to the list:
+
+```powershell
+# MSOnline PowerShell
+$MsolSP = Get-MsolServicePrincipal -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000
+$MsolSP.ServicePrincipalNames.Add("https://sfbwebext.uclab.eu")
+$MsolSP.ServicePrincipalNames.Add("https://sfbwebint.uclab.eu")
+$MsolSP | Set-MsolServicePrincipal
+```
+
+Then, add the evoSTS (Azure AD Federation Service) to the Skype for Business OAuth configuration and enable it using:
+
+```powershell
+# Create new OAuth Server
+New-CsOAuthServer -Name evoSTS -IssuerIdentifier sts.windows.net -MetadataUrl "https://login.windows.net/common/FederationMetadata/2007-06/FederationMetadata.xml" -Type AzureAd -AcceptSecurityIdentifierInformation $True
+# Require Authorization using Azure AD
+Set-CsOAuthConfiguration -ClientAuthorizationOAuthServerIdentity evoSTS
 ```
 
 To be continued ;) 
