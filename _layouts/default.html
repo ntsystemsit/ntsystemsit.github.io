@@ -13,7 +13,9 @@
       </div>
     </main>
 
-    <script src="{{ "/public/js/shariff.complete.js" | prepend: site.baseurl }}"></script>
+    {% if site.tor == false %}
+      <script src="{{ "/public/js/shariff.complete.js" | prepend: site.baseurl }}"></script>
+    {% endif %}
     {% include footer.html %}
 
   </body>

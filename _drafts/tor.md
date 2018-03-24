@@ -20,3 +20,10 @@ index index.html;
 location / {
     try_files $uri $uri.html $uri/;
 }
+
+
+
+sudo cp -r ./ntsystcpyyew477akekwcn2od3vdknlehwof7cyt2vryieocos2sz4id.onion/ /var/lib/tor/hidden_ntsys_v3_vanity
+sudo chown -h debian-tor /var/lib/tor/hidden_ntsys_v3_vanity/
+sudo chmod 700 /var/lib/tor/hidden_ntsys_v3_vanity/
+sudo chmod g+s /var/lib/tor/hidden_ntsys_v3_vanity/

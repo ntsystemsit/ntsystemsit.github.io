@@ -27,6 +27,8 @@
       <div class="footer-col footer-col-3">
         <ul class="social-media-list">
           <li>{% include icon-bitcoin.html addr=site.bitcoin_addr %}</li>
+          <li><span class="username"><a href="https://openalias.org/">OpenAlias:</a> {{ site.openalias_fqdn }}</span></li>
+          <li><span class="username"><a href="{{ site.onion_v3 | prepend: "http://" }}">.onion</a></span></li>
         </ul>  
       </div>
     </div>

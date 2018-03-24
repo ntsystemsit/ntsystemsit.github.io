@@ -12,8 +12,10 @@ layout: default
     {{ content }}
   </div>
   {% include revision.html %}
-  {% include shariff.html %}
-  {% if page.comments %}
+  {% if site.tor == false %}
+    {% include shariff.html %}
+  {% endif %}
+  {% if page.comments and site.tor == false %}
     {% include disqus_comments.html %}
   {% endif %}
 </article>

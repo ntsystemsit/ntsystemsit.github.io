@@ -9,6 +9,10 @@ github_username:  ntsystemsit
 bitcoin_addr: 13fXxMxH6rdALDMu7N9BDxYfKmomU5Mfze
 openalias_fqdn: donate.uclab.eu
 timezone: Europe/Rome
+onion_v3: ntsystcpyyew477akekwcn2od3vdknlehwof7cyt2vryieocos2sz4id.onion
+
+# set variable to true on tor host to disable disqus, shariff
+tor: false 
 
 # Build settings
 markdown: kramdown
