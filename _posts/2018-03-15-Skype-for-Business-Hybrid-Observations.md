@@ -66,6 +66,8 @@ $MsolSP.ServicePrincipalNames.Add("00000004-0000-0ff1-ce00-000000000000/sfbwebex
 $MsolSP | Set-MsolServicePrincipal
 ```
 
+The Service Principal Names can alternatively be set using the `*-AzureRmADServicePrincipal` cmdlets from the `AzureRM` module.
+
 Once the configuration is complete, we can test Exchange Storage connectivity with the following command: 
 
 ```
