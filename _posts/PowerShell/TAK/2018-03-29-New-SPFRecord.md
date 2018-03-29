@@ -37,12 +37,13 @@ More information: https://www.ietf.org/rfc/rfc4408.txt
 Get-AcceptedDomain | New-SPFRecord -mx -IncludeDomain spf.protection.outlook.com -IncludeIP 192.0.2.1,2001:DB8::1 -Action Fail
 ```
 
+\`\`\`  	
 DomainName                    Record
 ----------                    ------
 uclab.eu                      v=spf1 mx ip4:192.0.2.1 ip6:2001:DB8::1 include:spf.protection.outlook.com -all
 tomt.it                       v=spf1 mx ip4:192.0.2.1 ip6:2001:DB8::1 include:spf.protection.outlook.com -all
 ntsystems.it                  v=spf1 mx ip4:192.0.2.1 ip6:2001:DB8::1 include:spf.protection.outlook.com -all
-
+\`\`\`
 The above example creates SPF records for all accepted domains in Exchange (Online).
 
 ## PARAMETERS
