@@ -15,11 +15,11 @@ It's Friday and here's another edition of lost & found.
 
 # We're on tor
 
-Our few twitter followers may already know it, for the rest of you here's the news: Our little website is now also available as an Onion Service. Check it out at:[ntsystcpyyew477akekwcn2od3vdknlehwof7cyt2vryieocos2sz4id.onion](http://ntsystcpyyew477akekwcn2od3vdknlehwof7cyt2vryieocos2sz4id.onion)
+Our few twitter followers may already know it, for the rest of you here's the news: Our little website is now also available as an Onion Service. Check it out at: [ntsystcpyyew477akekwcn2od3vdknlehwof7cyt2vryieocos2sz4id.onion](http://ntsystcpyyew477akekwcn2od3vdknlehwof7cyt2vryieocos2sz4id.onion)
 
 I've made some changes to the site in order to improve our readers privacy. Basically trying to serve all content directly and, for the Onion version, there are no Disqus comments as that requires external content and automatically loads some tracking scripts.
 
-# Cloudflare launched 1.1.1.1
+# Cloudflare launches 1.1.1.1
 
 We have been using Cloudflare to enable TLS and IPv6 (and more) for quite some time now. They launched a consumer DNS service on the first day of April. No, it was no joke. The Service is available at [1.1.1.1](https://1.1.1.1) and 1.0.0.1 and, interestingly, supports [DNS over HTTPS](https://developers.cloudflare.com/1.1.1.1/dns-over-https/).
 
