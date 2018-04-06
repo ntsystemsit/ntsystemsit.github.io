@@ -3,6 +3,7 @@ layout: page
 title: TAK
 permalink: /PowerShell/TAK/
 menubar: false
+redirect_from: ["/tak"]
 ---
 
 [![Build status](https://ci.appveyor.com/api/projects/status/4ihjpqd6c8f9cceq?svg=true)](https://ci.appveyor.com/project/tomtorggler/tak)
