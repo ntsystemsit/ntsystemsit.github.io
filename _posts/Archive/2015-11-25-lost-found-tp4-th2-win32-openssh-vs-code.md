@@ -3,7 +3,7 @@ layout: post
 title: "lost & found: TP4, TH2, Win32-OpenSSH, VS Code"
 date: 2015-11-25 19:08:00 +0100
 comments: true
-category: Archive
+category: "lost & found"
 tags: ["Client", "en", "Server"]
 redirect_from: ["/post/lost-found-TP4-TH2-Win32-OpenSSH-VS-Code", "/post/lost-found-tp4-th2-win32-openssh-vs-code"]
 author: thomas torggler
