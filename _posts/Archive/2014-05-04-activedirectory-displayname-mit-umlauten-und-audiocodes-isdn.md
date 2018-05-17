@@ -33,7 +33,7 @@ Das Attribut `DisplayName` bei allen Benutzern zu ändern kam natürlich nicht i
 
 Eine Möglichkeit ist es, den `Calling Name` nicht ins ISDN zu signalisieren, dazu kann man den Parameter `Remove Calling Name` auf dem entsprechenden Trunk auf `Enable` setzen.
 
-![admin page](http://ntsystems.it/assets/archive/image_630.png)
+![admin page]({{ site.url }}/assets/archive/image_630.png)
 
 Alternativ kann über die AdminPage (oder die INI Datei) der Parameter `ISO8859CharacterSet` auf “0” gesetzt werden, dieser ändert die Umlaute in `Latin-Only` Zeichen, so wird “ä” zu “a”, “ö” zu “o” usw…
 

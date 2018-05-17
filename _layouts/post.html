@@ -15,8 +15,6 @@ layout: default
   {% if site.tor == false %}
     {% include shariff.html %}
   {% endif %}
-  {% if page.comments and site.tor == false %}
-    {% include disqus_comments.html %}
-  {% endif %}
+  {% include disqus_comments.html %}
 </article>
 
