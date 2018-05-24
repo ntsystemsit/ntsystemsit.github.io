@@ -71,7 +71,10 @@ For this basic example, it was enough to specify a name and account name:
 
 ![ntsystemsbot is born]({{ site.url }}/assets/2018/05-10-tg-2.png) 
 
-The _BotFather_ will guide you through the process and, at the end, give you access token for the http API. To edit the bot after the fact, just use the `/myBots` command. To test the access token and verify the bot has been created, we can call the following URL: `https://api.telegram.org/bot<AccessToken>/getMe`. 
+The _BotFather_ will guide you through the process and, at the end, give you access token for the http API. To edit the bot after the fact, just use the `/myBots` command. To test the access token and verify the bot has been created, we can call the following URL:
+```
+https://api.telegram.org/bot<AccessToken>/getMe
+```
 
 Replace `<AccessToken>` with the actual token, just like that:
 
