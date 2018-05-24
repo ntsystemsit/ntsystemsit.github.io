@@ -1,40 +1,56 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
 title: ntSystems | info.tech
 email: blog@ntsystems.it
 description: "by Daniel Nitz and Thomas Torggler."
 baseurl: ""
 url: "https://ntsystems.it"
-disqus_username: ntsystems
 twitter_username: ntsystemsit
 github_username:  ntsystemsit
+repository: ntsystemsit/ntsystems.github.io
 bitcoin_addr: 13fXxMxH6rdALDMu7N9BDxYfKmomU5Mfze
 openalias_fqdn: donate.uclab.eu
-timezone: Europe/Rome
 onion_v3: ntsystcpyyew477akekwcn2od3vdknlehwof7cyt2vryieocos2sz4id.onion
+disqus:
+  shortname: ntsystems
 
-# set variable to true on tor host to disable disqus, shariff
-tor: false 
+# Regional
+timezone: Europe/Rome
 
 # Build settings
 markdown: kramdown
 theme: minima
 paginate: 10
 permalink: /post/:title
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-paginate
+  - jekyll-seo-tag
 
 kramdown: 
  input: GFM # GitHub Flavored Markdown
  auto_ids: true # Auto-generate ID's 
 
-jquery: 2.2.2
-anchorjs: 3.2.0
-
-plugins:
-  - jekyll-redirect-from
-  - jekyll-paginate
-
 # Inlcude _pages
 include: 
  - _pages 
 
+ 
 # Default Values for "Front Matter"
 # hidden: true filters out articles from pagination on the front page
 defaults:
@@ -60,3 +76,24 @@ defaults:
       comments: true
       excerpt_separator: <!-- more -->
       hidden: true
+
+# menubar
+header_pages:
+ - _pages/powershell.md
+ - _pages/contact.md
+ - _pages/categories.md
+ - _pages/tags.md
+ - _pages/search.md
+
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

@@ -1,34 +1,25 @@
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Google/Bing Auth -->
-  <meta name="google-site-verification" content="G6qMC5ppuelWEdo9A6ea3IoC7r3rwTtffS1zswHqmo8" />
-  <meta name="msvalidate.01" content="1CF4351134DB461B447ADBB24603BEF5" />
-
-  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-
-  <!-- Stylesheets -->
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/public/css/shariff.complete.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
-
-  <!-- Scripts -->
-  <script src="{{ site.baseurl }}/public/js/anchor.min.js"></script>
-  
-  <!-- Icons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/public/apple-touch-icon.png?v=A0RedJGgeb">
-  <link rel="icon" type="image/png" href="{{ site.baseurl }}/public/favicon-32x32.png?v=A0RedJGgeb" sizes="32x32">
-  <link rel="icon" type="image/png" href="{{ site.baseurl }}/public/favicon-16x16.png?v=A0RedJGgeb" sizes="16x16">
-  <link rel="manifest" href="{{ site.baseurl }}/public/manifest.json?v=A0RedJGgeb">
-  <link rel="mask-icon" href="{{ site.baseurl }}/public/safari-pinned-tab.svg?v=A0RedJGgeb" color="#5bbad5">
-  <link rel="shortcut icon" href="{{ site.baseurl }}/public/favicon.ico?v=A0RedJGgeb">
-  <meta name="apple-mobile-web-app-title" content="ntSystems | info.tech">
-  <meta name="application-name" content="ntSystems | info.tech">
-  <meta name="theme-color" content="#ffffff">
-  <meta name="msapplication-config" content="{{ site.baseurl }}/public/browserconfig.xml?v=A0RedJGgeb">
-
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Google/Bing Auth -->
+    <meta name="google-site-verification" content="G6qMC5ppuelWEdo9A6ea3IoC7r3rwTtffS1zswHqmo8" />
+    <meta name="msvalidate.01" content="1CF4351134DB461B447ADBB24603BEF5" />
+    {%- seo -%}
+    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+    {%- feed_meta -%}
+    <!-- Scripts -->
+    <script src="{{ site.baseurl }}/public/js/anchor.min.js"></script>
+    <script defer src="{{ site.baseurl }}/public/js/fontawesome-all.js"></script>
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/public/apple-touch-icon.png?v=A0RedJGgeb">
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/public/favicon-32x32.png?v=A0RedJGgeb" sizes="32x32">
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/public/favicon-16x16.png?v=A0RedJGgeb" sizes="16x16">
+    <link rel="manifest" href="{{ site.baseurl }}/public/manifest.json?v=A0RedJGgeb">
+    <link rel="mask-icon" href="{{ site.baseurl }}/public/safari-pinned-tab.svg?v=A0RedJGgeb" color="#5bbad5">
+    <link rel="shortcut icon" href="{{ site.baseurl }}/public/favicon.ico?v=A0RedJGgeb">
+    <meta name="apple-mobile-web-app-title" content="ntSystems | info.tech">
+    <meta name="application-name" content="ntSystems | info.tech">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="msapplication-config" content="{{ site.baseurl }}/public/browserconfig.xml?v=A0RedJGgeb">
 </head>

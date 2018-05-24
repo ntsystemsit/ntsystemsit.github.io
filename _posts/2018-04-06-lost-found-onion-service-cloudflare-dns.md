@@ -3,7 +3,7 @@ layout: post
 title: "lost & found: ntSystems Onion Service, Cloudflare DNS"
 date: 2018-04-06
 comments: true
-category: "lost & found"
+category: "lost and found"
 tags: PowerShell
 author: thomas torggler
 updated: false

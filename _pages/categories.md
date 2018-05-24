@@ -14,7 +14,7 @@ permalink: /categories/
 {% for i in (1..tags_max) reversed %}
     {% for tag in site.categories %}
         {% if tag[1].size == i %}
-        <li><a href="#{{ tag[0] | downcase | replace:' ','-' }}"><i class="fas fa-folder" aria-hidden="true"></i> {{ tag[0] }} <span class="archive-title">{{ i }}</span> </a></li>
+        <li><a href="#{{ tag[0] | downcase | replace:' ','-' }}"><i class="fas fa-folder" aria-hidden="true"></i> {{ tag[0] }} <span class="tag-count">{{ i }}</span> </a></li>
         {% endif %}
     {% endfor %}
 {% endfor %}

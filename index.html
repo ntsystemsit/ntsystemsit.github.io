@@ -7,19 +7,18 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">Posts</h1>
   </header>
-
   <ul class="post-list">
-    {% for post in paginator.posts %}
+    {%- for post in paginator.posts -%}
       <li>
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
         </h2>
-        {% include post-meta.html %}
+        {%- include post-meta.html -%}
         {{ post.excerpt }}
       </li>
-    {% endfor %}
+    {%- endfor -%}
   </ul>
 
 </div>
 
-{% include paginator.html %}
+{%- include paginator.html -%}

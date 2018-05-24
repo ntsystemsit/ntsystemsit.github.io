@@ -1,19 +1,20 @@
 ---
 layout: page
-title: Deutsch
-permalink: /de/
+title: English
+permalink: /en/
 menubar: true
 ---
 
 <div class="home">
   <ul class="post-list">
-    {% assign sorted_posts = site.posts | where: 'language', 'de' %}
-    {% for post in sorted_posts %}
+    {%- for post in site.posts -%}
+      {%- if post.language == 'en' -%}
       <li>
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
         </h2>
       </li>
-    {% endfor %}
+      {%- endif -%}
+    {%- endfor -%}
   </ul>
 </div>

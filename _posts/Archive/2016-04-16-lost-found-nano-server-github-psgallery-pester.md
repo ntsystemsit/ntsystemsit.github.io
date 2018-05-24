@@ -3,7 +3,7 @@ layout: post
 title: "lost & found: Nano Server, GitHub, PSGallery, Pester"
 date: 2016-04-16 16:55:00 +0200
 comments: true
-category: "lost & found"
+category: "lost and found"
 tags: ["en", "PowerShell"]
 redirect_from: ["/post/lost-found-Nano-Server-GitHub-PSGallery-Pester", "/post/lost-found-nano-server-github-psgallery-pester"]
 author: thomas torggler

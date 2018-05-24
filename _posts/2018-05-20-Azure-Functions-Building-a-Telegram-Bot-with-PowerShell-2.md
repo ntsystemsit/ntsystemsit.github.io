@@ -156,7 +156,7 @@ $posts = Get-Content $inPosts -Raw | ConvertFrom-Json | Select-Object -Expand it
 Out-File -Encoding Ascii -FilePath $outputQueueItem -inputObject ($outObj | ConvertTo-Json)
 ```  
 
-Again, we simply read the input using `Get-Content` and write the output to the defined variable. I've omitted the actual code, to make this readable. You can find the code [here](https://github.com/ntsystemsit/ntsystemsbot/).
+Again, we simply read the input using `Get-Content` and write the output to the defined variable. I've omitted the actual code, to make this readable. You can find the code here: {% include icon-github.html username='ntsystemsit' reponame='ntsystemsbot' %}
 
 ## The Responder
 
