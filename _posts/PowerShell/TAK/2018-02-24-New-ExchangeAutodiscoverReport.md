@@ -14,7 +14,7 @@ title: New-ExchangeAutodiscoverReport
 # New-ExchangeAutodiscoverReport
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+
 
 ## SYNTAX
 
@@ -23,21 +23,21 @@ New-ExchangeAutodiscoverReport [[-InputObject] <PSObject>] [[-FileName] <FileInf
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+
 
 ## EXAMPLES
 
 ### Example 1
 ```powershell
-PS C:\> {{ Add example code here }}
+PS C:\> 
 ```
 
-{{ Add example description here }}
+
 
 ## PARAMETERS
 
 ### -FileName
-{{Fill FileName Description}}
+
 
 ```yaml
 Type: FileInfo
@@ -52,7 +52,7 @@ Accept wildcard characters: False
 ```
 
 ### -InputObject
-{{Fill InputObject Description}}
+
 
 ```yaml
 Type: PSObject

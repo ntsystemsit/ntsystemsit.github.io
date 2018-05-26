@@ -37,7 +37,7 @@ This example gets the MX record for the domain ntsystems.it.
 ## PARAMETERS
 
 ### -Domain
-{{Fill Domain Description}}
+
 
 ```yaml
 Type: String

@@ -32,10 +32,10 @@ run notepad as administrator and open the hosts file for editing
 
 ### Example 1
 ```powershell
-PS C:\> {{ Add example code here }}
+PS C:\> 
 ```
 
-{{ Add example description here }}
+
 
 ## PARAMETERS
 

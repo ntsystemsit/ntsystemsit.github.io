@@ -44,7 +44,7 @@ This example shows the keys for all known wlan profiles on the system.
 ## PARAMETERS
 
 ### -Name
-{{Fill Name Description}}
+
 
 ```yaml
 Type: Object

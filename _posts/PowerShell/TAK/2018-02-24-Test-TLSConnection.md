@@ -99,7 +99,7 @@ Accept wildcard characters: False
 ```
 
 ### -Protocol
-{{Fill Protocol Description}}
+
 
 ```yaml
 Type: SslProtocols[]

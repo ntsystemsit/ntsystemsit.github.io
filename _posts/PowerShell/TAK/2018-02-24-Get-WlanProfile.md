@@ -14,7 +14,7 @@ title: Get-WlanProfile
 # Get-WlanProfile
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+
 
 ## SYNTAX
 
@@ -23,16 +23,16 @@ Get-WlanProfile
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+
 
 ## EXAMPLES
 
 ### Example 1
 ```powershell
-PS C:\> {{ Add example code here }}
+PS C:\> 
 ```
 
-{{ Add example description here }}
+
 
 ## PARAMETERS
 

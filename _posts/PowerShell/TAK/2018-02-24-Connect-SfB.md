@@ -14,7 +14,7 @@ title: Connect-SfB
 # Connect-SfB
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+
 
 ## SYNTAX
 
@@ -29,21 +29,21 @@ Connect-SfB [-Online] [-AdminDomain <String>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+
 
 ## EXAMPLES
 
 ### Example 1
 ```powershell
-PS C:\> {{ Add example code here }}
+PS C:\> 
 ```
 
-{{ Add example description here }}
+
 
 ## PARAMETERS
 
 ### -AdminDomain
-{{Fill AdminDomain Description}}
+
 
 ```yaml
 Type: String
@@ -58,7 +58,7 @@ Accept wildcard characters: False
 ```
 
 ### -Credential
-{{Fill Credential Description}}
+
 
 ```yaml
 Type: PSCredential
@@ -73,7 +73,7 @@ Accept wildcard characters: False
 ```
 
 ### -Online
-{{Fill Online Description}}
+
 
 ```yaml
 Type: SwitchParameter
@@ -88,7 +88,7 @@ Accept wildcard characters: False
 ```
 
 ### -Server
-{{Fill Server Description}}
+
 
 ```yaml
 Type: Object

@@ -37,7 +37,7 @@ This example queries whois information for the domain ntsystems.it
 ## PARAMETERS
 
 ### -DomainName
-{{Fill DomainName Description}}
+
 
 ```yaml
 Type: String

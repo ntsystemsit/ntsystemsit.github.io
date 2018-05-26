@@ -44,7 +44,7 @@ It will then try to retrieve an Autodiscover payload from https://ntsystems.it, 
 ## PARAMETERS
 
 ### -EmailAddress
-{{Fill EmailAddress Description}}
+
 
 ```yaml
 Type: String
@@ -59,7 +59,7 @@ Accept wildcard characters: False
 ```
 
 ### -ComputerName
-{{Fill ComputerName Description}}
+
 
 ```yaml
 Type: String
@@ -74,7 +74,7 @@ Accept wildcard characters: False
 ```
 
 ### -Credential
-{{Fill Credential Description}}
+
 
 ```yaml
 Type: PSCredential
@@ -89,7 +89,7 @@ Accept wildcard characters: False
 ```
 
 ### -ExcludeExplicitO365Endpoint
-{{Fill ExcludeExplicitO365Endpoint Description}}
+
 
 ```yaml
 Type: SwitchParameter
@@ -104,7 +104,7 @@ Accept wildcard characters: False
 ```
 
 ### -Report
-{{Fill Report Description}}
+
 
 ```yaml
 Type: FileInfo

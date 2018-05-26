@@ -38,7 +38,7 @@ This example gets SPF records for all domains returned by Get-AcceptedDomain.
 ## PARAMETERS
 
 ### -DomainName
-{{Fill DomainName Description}}
+
 
 ```yaml
 Type: String
@@ -53,7 +53,7 @@ Accept wildcard characters: False
 ```
 
 ### -Server
-{{Fill Server Description}}
+
 
 ```yaml
 Type: String

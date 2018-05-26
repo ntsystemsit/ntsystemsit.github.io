@@ -45,7 +45,7 @@ The above example creates SPF records for all accepted domains in Exchange (Onli
 ## PARAMETERS
 
 ### -DomainName
-{{Fill DomainName Description}}
+
 
 ```yaml
 Type: String
@@ -60,7 +60,7 @@ Accept wildcard characters: False
 ```
 
 ### -mx
-{{Fill mx Description}}
+
 
 ```yaml
 Type: SwitchParameter
@@ -75,7 +75,7 @@ Accept wildcard characters: False
 ```
 
 ### -a
-{{Fill a Description}}
+
 
 ```yaml
 Type: SwitchParameter
@@ -90,7 +90,7 @@ Accept wildcard characters: False
 ```
 
 ### -ptr
-{{Fill ptr Description}}
+
 
 ```yaml
 Type: SwitchParameter
@@ -105,7 +105,7 @@ Accept wildcard characters: False
 ```
 
 ### -IncludeIP
-{{Fill IncludeIP Description}}
+
 
 ```yaml
 Type: IPAddress[]
@@ -120,7 +120,7 @@ Accept wildcard characters: False
 ```
 
 ### -IncludeDomain
-{{Fill IncludeDomain Description}}
+
 
 ```yaml
 Type: String
@@ -135,7 +135,7 @@ Accept wildcard characters: False
 ```
 
 ### -IncludeHost
-{{Fill IncludeHost Description}}
+
 
 ```yaml
 Type: String
@@ -150,7 +150,7 @@ Accept wildcard characters: False
 ```
 
 ### -Action
-{{Fill Action Description}}
+
 
 ```yaml
 Type: String
