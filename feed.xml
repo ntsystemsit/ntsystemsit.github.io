@@ -16,6 +16,7 @@
           <title>{{ post.title | xml_escape }}</title>
 					<description>{{ post.content | xml_escape }}</description>
           <author>{{ post.author | xml_escape }}</author>
+          <authorTwitter>{% if post.author == 'thomas torggler' %}{{ "@torggler" | xml_escape }}{% elsif post.author == 'daniel nitz' %}{{ "@nitz_d" | xml_escape }} {% endif %}</authorTwitter>
           <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
           <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
           <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
