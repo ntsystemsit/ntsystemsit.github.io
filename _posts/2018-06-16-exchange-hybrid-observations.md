@@ -6,7 +6,7 @@ comments: true
 category: Cloud
 tags: Office365 Hybrid Exchange
 author: thomas torggler
-updated: false
+updated: 2018-09-20
 ---
 
 Like I did [here]({{ site.url }}/post/Skype-for-Business-Hybrid-Observations) with Skype for Business, I'm collecting some observations and useful snippets about Exchange in hybrid environments.
@@ -45,6 +45,14 @@ Likewise, we can find all permissions by access right using the `-AccessRights` 
 ```powershell
 Get-RecipientPermission -AccessRights SendAs
 ```
+
+## Shared Mailboxes
+
+Starting with the June 2018 quarterly updates (2013 CU21 and 2016 CU10), the management of shared mailboxes in hybrid scenarios got easier. A _-Shared_ parameter got added to the _*RemoteMailbox_ cmdlets, instead creating a shared mailbox on-prem and then moving it to Exchange Online, we can now use `New-RemoteMailbox -Name Office -Shared`. 
+
+You have already updated to CU21/CU10 but the _Shared_ parameter is not available? Run `.\setup.exe /PrepareAD /IAcceptExchangeServerLicenseTerms`
+
+More Info: [KB4133605](https://support.microsoft.com/help/4133605/cmdlets-to-create-modify-remote-shared-mailbox-in-on-premises-exchange)
 
 
 Tom
