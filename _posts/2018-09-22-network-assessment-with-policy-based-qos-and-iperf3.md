@@ -43,7 +43,7 @@ We can also try to simulate RTP media (small UDP packets) by specifying the foll
  .\iperf3.exe -c 192.168.120.185 -u -b 200k -l 200
 ```
 
-Note that with UDP, the target bitrate defaults to 1 Mbit per second, this can be changed with the `-b` parameter. 
+Note that with UDP, the target bitrate defaults to 1 Mbit per second, this can be changed with the `-b` parameter. Also, when using UDP, jitter and packet loss are measured.
 
 More information: [NeoWin](https://www.neowin.net/forum/topic/1234695-iperf-36-windows-build/), [GitHub](https://github.com/esnet/iperf), [Documentation (outdated)](https://iperf.fr/iperf-doc.php)
 
