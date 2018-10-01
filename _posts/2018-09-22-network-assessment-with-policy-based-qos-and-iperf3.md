@@ -9,9 +9,11 @@ author: thomas torggler
 updated: false
 ---
 
-In Skype for Business and, more recently, Teams deployments, a solid network and a good knowledge of it are fundamentally important. We typically work very closely with the network/security departments and make sure to involve them from the beginning to have their support throughout the project. After deploying QoS, ideally before rolling out voice/video for the end-users, we run some tests to verify the QoS configuration, measure the reserved bandwidth and whether it remains stable over some amount of time. There are various tools available for this task, I mostly use _iperf3_ to generate traffic and measure basic parameters. 
+In Skype for Business and, more recently, Teams deployments, a solid network and a good knowledge of it are fundamentally important. 
 
 <!-- more -->
+
+We typically work very closely with the network/security departments and make sure to involve them from the beginning to have their support throughout the project. After deploying QoS, ideally before rolling out voice/video for the end-users, we run some tests to verify the QoS configuration, measure the reserved bandwidth and whether it remains stable over some amount of time. There are various tools available for this task, I mostly use _iperf3_ to generate traffic and measure basic parameters. 
 
 ## iperf3 basics
 
