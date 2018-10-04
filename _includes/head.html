@@ -22,5 +22,9 @@
     <meta name="application-name" content="ntSystems | info.tech">
     <meta name="theme-color" content="#ffffff">
     <meta name="msapplication-config" content="{{ site.baseurl }}/public/browserconfig.xml?v=A0RedJGgeb">
-    <meta name="twitter:image" content="{{ site.baseurl }}/public/twittercards.png" />
+    <!-- Twitter Cards -->
+    <meta name="twitter:card"  content="summary">
+    <meta name="twitter:image" content="{{ site.baseurl }}/public/android-chrome-192x192.png" />
+    <meta name="twitter:site" content="@{{ site.twitter_username }}">
+    <meta name="twitter:creator" content="{% if page.author == 'thomas torggler' %}{{ '@torggler' }}{% elsif page.author == 'daniel nitz' %}{{ '@nitz_d' }}{% endif %}">   
 </head>
