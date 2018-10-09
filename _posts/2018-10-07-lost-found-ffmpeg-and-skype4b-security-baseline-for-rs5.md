@@ -31,11 +31,15 @@ ffmpeg -i Downloads/ringtone.mp3 -acodec pcm_s16le -ac 1 -ar 16000 ringtone.wav
 
 ## Security Baseline 
 
-Microsoft recently released the draft of the security baseline configuration for RS5 builds, that's Windows 10 v1809 and Windows Server 2019. Find more information about that on the Security Guidance blog, I just wanted to share a quick note for the Office 365 Admins out there: 
+Microsoft recently released the draft of the security baseline configuration for RS5 builds, that's Windows 10 v1809 and Windows Server 2019. You can find more information about that on the Security Guidance blog, I just wanted to share a quick note for the Office 365 Admins out there: 
 
 The security baseline configuration contains a setting to disable _Basic Authentication_ for the WinRM client. After applying the baseline configuration, I was no longer able to connect to Exchange Online or Skype for Business Online remote PowerShell Sessions as they rely on basic authentication.
 
-Set the following configuration to _Not Configured_ on your admin machines: Administrative Templates, Windows Components, Windows Remote Management (WinRM), WinRM Client, Allow Basic authentication.
+Set the following configuration to _Not Configured_ on your admin machines: 
+
+```
+Administrative Templates\Windows Components\Windows Remote Management (WinRM)\WinRM Client\Allow Basic authentication
+```
 
 
 Links:
