@@ -6,7 +6,7 @@ comments: true
 category: Cloud
 tags: Office365 Lync Skype4B Hybrid Exchange
 author: thomas torggler
-updated: false
+updated: 2018-12-02
 ---
 
 A collection of information about Skype for Business in hybrid environments.
@@ -152,6 +152,23 @@ Set-CsClientPolicy -Identity Global -PolicyEntry @{Add=$a}
 ```
 HKEY_CURRENT_USER\Software\Policies\Microsoft\Office\1x.0\Lync
 "AllowAdalForNonLyncIndependentOfLync"=dword:00000001
+```
+
+
+# Hybrid Voice
+
+If we move enterprise voice users to the cloud they can still use our on-perm PSTN connectivity to make and receive calls. For that to happen, we need Skype for Business Edge Servers and the edge's next-hop pool must also be running Skype. Then we configure a PSTNUsage for the online users as well as an Online Voice Routing policy.
+
+The online users must be assigned an E5 license or have PSTN calling added to their E1/E3 plans.
+
+## CsOnlineSession
+
+In it's most basic form we need the following:
+
+```powershell
+Set-CsOnlinePstnUsage  -Identity Global -Usage @{Add="Unrestricted"}
+New-CsOnlineVoiceRoutingPolicy OnlineVRP -OnlinePstnUsages Unrestricted
+Grant-CsOnlineVoiceRoutingPolicy -Identity thomas.torggler -PolicyName OnlineVRP
 ```
 
 To be continued ;) 
