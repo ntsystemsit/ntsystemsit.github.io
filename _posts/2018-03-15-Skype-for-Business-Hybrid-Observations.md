@@ -157,19 +157,36 @@ HKEY_CURRENT_USER\Software\Policies\Microsoft\Office\1x.0\Lync
 
 # Hybrid Voice
 
-If we move enterprise voice users to the cloud they can still use our on-perm PSTN connectivity to make and receive calls. For that to happen, we need Skype for Business Edge Servers and the edge's next-hop pool must also be running Skype. Then we configure a PSTNUsage for the online users as well as an Online Voice Routing policy.
-
-The online users must be assigned an E5 license or have PSTN calling added to their E1/E3 plans.
-
-## CsOnlineSession
-
-In it's most basic form we need the following:
+If we move enterprise voice users to the cloud they can still use our on-perm PSTN connectivity to make and receive calls. For that to happen, we need Skype for Business Edge Servers and the edge's next-hop pool must also be running Skype. Then we configure a PSTN Usage for the online users as well as an Online Voice Routing policy. In it's most basic form we need the following:
 
 ```powershell
+# SFB Online PowerShell: Create the PSTN Usage
 Set-CsOnlinePstnUsage  -Identity Global -Usage @{Add="Unrestricted"}
+
+# Create and assign the Voice Routing policy
 New-CsOnlineVoiceRoutingPolicy OnlineVRP -OnlinePstnUsages Unrestricted
-Grant-CsOnlineVoiceRoutingPolicy -Identity thomas.torggler -PolicyName OnlineVRP
+Grant-CsOnlineVoiceRoutingPolicy -Identity tom@uclab.eu -PolicyName OnlineVRP
 ```
+
+To move a user from on-premises **to** Skype for Business Online, use the following:
+
+```powershell
+Move-CsUser -Identity tom@uclab.eu -Target sipfed.online.lync.com -Credential (Get-Credential)
+```
+
+To move a user **from** Skype for Business Online to on-premises, use the following:
+
+```powershell
+Move-CsUser -Identity tom@uclab.eu -Target sfb01.uclab.eu -Credential (Get-Credential) -HostedMigrationOverrideUrl https://admin1e.online.lync.com/HostedMigration/hostedmigrationService.svc
+```
+
+The host part of the _HostedMigrationOverrideUrl_ parameter can change based on where your tenant is hosted. To determine the host part, open the **legacy** Skype for Business admin center and copy the URL. It should look something like this: `https://webdir1e.online.lync.com/LSCP`
+
+Then replace _webdir_ with _admin_ and _LSCP_ with _HostedMigration/hostedmigrationService.svc_. You think I am making this up, right? Read more [here](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-skype-for-business-online-to-on-premises#move-online-users-who-were-originally-on-premises-to-on-premises).
+
+
+Skype for Business Online users must be assigned an E5 license or have PSTN calling added to their E1/E3 plans to be able to make and receive calls.
+
 
 To be continued ;) 
 
