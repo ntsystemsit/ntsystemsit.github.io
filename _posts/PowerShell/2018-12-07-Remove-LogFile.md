@@ -9,6 +9,7 @@ excerpt: "Remove log files."
 ---
 
 ## SYNOPSIS
+Deletes log files.
 
 ## SYNTAX
 
@@ -18,21 +19,21 @@ Remove-LogFile.ps1 -Path <Object> [-Age <Int32>] [-Filter <String>] [-LogFile <F
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+Deletes log files, parameters can be used to specify the root folder, whether or not to include subfolders, a file extension filter and the age. This is intended to be run as scheduled task to regularly clean-up log files. 
 
 ## EXAMPLES
 
 ### Example 1
 ```powershell
-PS C:\> {{ Add example code here }}
+.\Remove-LogFile.ps1 -Path C:\inetpub\logs -Age 7 -Recurse
 ```
 
-{{ Add example description here }}
+This example removes all *.log files older than 7 days from C:\inetpub\logs and any subfolders.
 
 ## PARAMETERS
 
 ### -Age
-{{Fill Age Description}}
+Specify a number of days. Files with a LastWriteTime older than this will be deleted.
 
 ```yaml
 Type: Int32
@@ -62,7 +63,7 @@ Accept wildcard characters: False
 ```
 
 ### -Filter
-{{Fill Filter Description}}
+Specify file extension filter. Defaults to '*.log'.
 
 ```yaml
 Type: String
@@ -77,7 +78,7 @@ Accept wildcard characters: False
 ```
 
 ### -LogFile
-{{Fill LogFile Description}}
+Specify a path to a log file. The script will log information and erros to the file.
 
 ```yaml
 Type: FileInfo
@@ -92,7 +93,7 @@ Accept wildcard characters: False
 ```
 
 ### -Path
-{{Fill Path Description}}
+Specify folder in which logs will be deleted.
 
 ```yaml
 Type: Object
@@ -107,7 +108,7 @@ Accept wildcard characters: False
 ```
 
 ### -Recurse
-{{Fill Recurse Description}}
+Include subfolders.
 
 ```yaml
 Type: SwitchParameter
