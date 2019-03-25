@@ -16,18 +16,16 @@ I'm an experienced IT professional and consultant with a strong background in ne
 - 2015 - 2017: Systems Engineer; Italy/Austria
 - 2018 - current: Senior Consultant (Unified Communications); Germany
 
-# I enjoy...
-- Cycling (road/mountain)
+# I enjoy
+- Cycling (road/mountain), backcountry skiing
 - Travelling
 - Reading
+- Photography
 - Blogging (sporadically) and messing with [Jekyll]({{ site.baseurl }}/post/Jekyll-Fun-Consuming-ntsystems-with-PowerShell)
 - Languages: German (native), English, Italian, Spanish, Dutch (getting started)
 
-# Social
+# Let's connect!
 - [Twitter](https://twitter.com/torggler)
 - [GitHub](https://github.com/tomtorggler)
 - [Linkedin](https://it.linkedin.com/in/thomastorggler)
 - [Keybase](https://keybase.io/tomt)
-
-
-[Contact]({{ site.baseurl }}/contact)
