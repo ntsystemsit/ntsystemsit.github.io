@@ -11,6 +11,8 @@ updated: false
 
 Some time ago I wrote a post about [Consuming ntSystems with PowerShell](https://link). It boils down to this: we have a json-based API that is available via https://ntsystems.it/api/v1/ and returns json elements for posts and pages on the blog. For more information check out the linked post. Then I wanted play around with the SHiPS module for some time and finally got around to doing it this past weekend. Now I'm happy to be sharing another method do consume ntSystems with PowerShell: It can be mounted as PSDrive.
 
+<!-- more -->
+
 ## PSProvider
 
 PowerShell has always had the concept of _providers_ which serve as a way of accessing and interacting with data that would otherwise not be easily available at the command-line. According to `about_Providers` they are Microsoft .NET Framework-based programs that make the data in a specialized data store available in PowerShell so that you can view and manage it.
