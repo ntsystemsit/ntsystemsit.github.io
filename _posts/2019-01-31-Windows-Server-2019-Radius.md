@@ -4,7 +4,7 @@ title: "Windows Server 2019 and RADIUS"
 date: 2019-01-31
 comments: true
 category: Server
-tags: "Server 2019" Security Firewall
+tags: Security Firewall
 author: thomas torggler
 updated: false
 ---
