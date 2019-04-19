@@ -21,7 +21,7 @@ Get-Content 'ntSystems:\Posts by Category\ntSystems\Jekyll Fun: Consuming ntSyst
 ```
 
 
-You can read more about it [here]({{ "/PowerShell/ntSystemsPSDrive/" | prepend: site.baseurl }}).
+You can read more about it [here]({{ "/post/ntsystemspsdrive-a-ships-drive-for-the-blog" | prepend: site.baseurl }}).
 
 
 # Functions
