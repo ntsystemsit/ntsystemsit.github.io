@@ -9,7 +9,7 @@ author: thomas torggler
 updated: false
 ---
 
-I've spent way too much time to figure this out, so here goes a quick note that hopefully saves someone a minute.
+I've spent way too much time trying to figure this out, so here goes a quick note that hopefully saves someone a minute.
 
 <!-- more -->
 
@@ -52,6 +52,23 @@ Please note: I could also create the storage context without specifying the `-St
 ```
 New-AzStorageAccountSASToken : Cannot create Shared Access Signature unless Account Key credentials are used.
 ```
+
+## Copying the data
+
+Actually copying files or directories to Azure Files is pretty straight-forward once we have the SAS-token, we just pass it along with the url.
+
+To copy a single file:
+
+```
+.\azcopy.exe cp D:\Data\file.txt "https://mystorageaccount.file.core.windows.net/myshare/file.txt?sv=2018-11-09&sig=<key>&se=2019-06-20T13%3A49%3A02Z&srt=sco&ss=f&sp=racupwdl"
+```
+
+To copy a directory:
+
+```
+.\azcopy.exe cp D:\Data "https://mystorageaccount.file.core.windows.net/myshare?sv=2018-11-09&sig=<key>&se=2019-06-20T13%3A49%3A02Z&srt=sco&ss=f&sp=racupwdl" --recursive
+```
+
 
 ## Links
  - https://github.com/Azure/azure-storage-azcopy
