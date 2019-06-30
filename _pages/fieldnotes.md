@@ -5,7 +5,7 @@ permalink: /FieldNotes/
 menubar: true
 ---
 
-Notes on this page are published automatically by our bot.
+Notes on this page are published automatically through our bot.
 
 <div class="home">
 {% assign mydata=site.data.fieldnotes %}
