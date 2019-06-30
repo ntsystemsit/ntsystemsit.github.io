@@ -81,10 +81,12 @@ defaults:
 # menubar
 header_pages:
  - _pages/powershell.md
+ - _pages/fieldnotes.md
  - _pages/contact.md
  - _pages/categories.md
  - _pages/tags.md
  - _pages/search.md
+
 
 
 # Exclude from processing.
