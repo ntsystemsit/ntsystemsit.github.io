@@ -3,8 +3,8 @@ layout: post
 title: "ActiveDirectory DisplayName mit Umlauten und AudioCodes ISDN"
 date: 2014-05-04 12:39:00 +0200
 comments: true
-category: "Lync"
-tags: ["de", "Lync"]
+category: "Skype4B"
+tags: ["de", "Lync", "Skype4B"]
 redirect_from: ["/post/ActiveDirectory-DisplayName-mit-Umlauten-und-AudioCodes-ISDN", "/post/activedirectory-displayname-mit-umlauten-und-audiocodes-isdn"]
 author: thomas torggler
 language: de
@@ -33,7 +33,7 @@ Das Attribut `DisplayName` bei allen Benutzern zu ändern kam natürlich nicht i
 
 Eine Möglichkeit ist es, den `Calling Name` nicht ins ISDN zu signalisieren, dazu kann man den Parameter `Remove Calling Name` auf dem entsprechenden Trunk auf `Enable` setzen.
 
-![admin page](http://ntsystems.it/assets/archive/image_630.png)
+![admin page]({{ site.url }}/assets/archive/image_630.png)
 
 Alternativ kann über die AdminPage (oder die INI Datei) der Parameter `ISO8859CharacterSet` auf “0” gesetzt werden, dieser ändert die Umlaute in `Latin-Only` Zeichen, so wird “ä” zu “a”, “ö” zu “o” usw…
 

@@ -4,7 +4,7 @@ title: "Lync: SIP inter-domain federation with Cisco Unified Presence - 1"
 date: 2014-03-03 19:29:59 +0100
 comments: true
 category: Archive
-tags: ["en", "Lync"]
+tags: ["en", "Lync", "Skype4B"]
 redirect_from: ["/post/Lync-SIP-inter-domain-federation-with-Cisco-Unified-Presence-1", "/post/lync-sip-inter-domain-federation-with-cisco-unified-presence-1"]
 author: thomas torggler
 ---

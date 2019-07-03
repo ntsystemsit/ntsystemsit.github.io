@@ -4,7 +4,7 @@ title: "NoOp and NAT Traversal"
 date: 2014-07-29 20:03:00 +0200
 comments: true
 category: Archive
-tags: ["en", "Lync"]
+tags: ["en", "Lync", "Skype4B"]
 redirect_from: ["/post/NoOp-and-NAT-Traversal", "/post/noop-and-nat-traversal"]
 author: thomas torggler
 ---

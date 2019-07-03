@@ -3,7 +3,7 @@ layout: post
 title: "lost & found: Onyx"
 date: 2016-01-04 22:40:27 +0100
 comments: true
-category: Archive
+category: "lost and found"
 tags: []
 redirect_from: ["/post/lost-found-Onyx", "/post/lost-found-onyx"]
 author: thomas torggler

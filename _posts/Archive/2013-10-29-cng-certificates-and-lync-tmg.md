@@ -4,7 +4,7 @@ title: "CNG Certificates and Lync/ TMG"
 date: 2013-10-29 20:30:51 +0100
 comments: true
 category: Archive
-tags: ["en", "Lync"]
+tags: ["en", "Lync", "Skype4B"]
 redirect_from: ["/post/CNG-Certificates-and-Lync-TMG", "/post/cng-certificates-and-lync-tmg"]
 author: thomas torggler
 ---

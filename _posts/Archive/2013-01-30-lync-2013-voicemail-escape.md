@@ -4,7 +4,7 @@ title: "Lync 2013 – Voicemail Escape"
 date: 2013-01-30 18:28:00 +0100
 comments: true
 category: Archive
-tags: ["Server", "Lync"]
+tags: ["Server", "Lync", "Skype4B"]
 redirect_from: ["/post/Lync-2013-Voicemail-Escape", "/post/lync-2013-voicemail-escape"]
 author: thomas torggler
 ---

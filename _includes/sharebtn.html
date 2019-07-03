@@ -1,0 +1,20 @@
+<p>
+    <a class="sharebutton twitter" target="_blank" href="https://twitter.com/intent/tweet?text={{ page.title | url_escape }}&url={{ page.url | prepend: site.baseurl | prepend: site.url }}&via={{ site.twitter_username }}">
+        <i class="fab fa-twitter fa-fw" aria-hidden="true"></i><span class="sharetext">tweet</span>
+    </a>
+    <a class="sharebutton linkedin" target="_blank" href="https://www.linkedin.com/shareArticle?summary={{ page.content | strip_html | truncatewords: 20 | url_escape }}&title={{ page.title | url_escape }}&url={{ page.url | prepend: site.baseurl | prepend: site.url }}">
+        <i class="fab fa-linkedin-in fa-fw" aria-hidden="true"></i><span class="sharetext">share</span>
+    </a>
+    <a class="sharebutton reddit" target="_blank" href="https://reddit.com/submit?url={{ page.url | prepend: site.baseurl | prepend: site.url }}&title={{ page.title | url_escape }}">
+        <i class="fab fa-reddit-alien fa-fw" aria-hidden="true"></i><span class="sharetext">share</span>
+    </a>
+    <a class="sharebutton telegram" href="https://telegram.me/share/url?url={{ page.url | prepend: site.baseurl | prepend: site.url }}&text={{ page.title | url_escape }}">
+        <i class="fab fa-telegram-plane fa-fw" aria-hidden="true"></i><span class="sharetext">share</span>
+    </a>
+    <a class="sharebutton whatsapp" href="https://api.whatsapp.com/send?text={{ page.title | url_escape }} {{ page.url | prepend: site.baseurl | prepend: site.url }}">
+        <i class="fab fa-whatsapp fa-fw" aria-hidden="true"></i><span class="sharetext">share</span>
+    </a>
+    <a class="sharebutton mail" href="mailto:?subject={{ page.title | url_escape }}&body=Read the post at: {{ page.url | prepend: site.baseurl | prepend: site.url }}">
+        <i class="fas fa-envelope fa-fw" aria-hidden="true"></i><span class="sharetext">mail</span>
+    </a>
+</p>

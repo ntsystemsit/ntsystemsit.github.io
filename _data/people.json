@@ -1,0 +1,10 @@
+{
+    "tom":{
+        "Name": "Thomas Torggler",
+        "Twitter": "@torggler"
+    },
+    "daniel":{
+        "Name": "Daniel Nitz",
+        "Twitter": "@nitz_d"
+    }
+}

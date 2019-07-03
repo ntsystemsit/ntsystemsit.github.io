@@ -7,16 +7,16 @@ menubar: false
 
 <div class="home">
   <ul class="post-list">
-    {% assign sorted_posts = site.posts | where: 'author', 'thomas torggler' %}
-    {% for post in sorted_posts %}
+    {%- for post in site.posts -%}
+    {%- if post.author == 'thomas torggler' -%}
       <li>
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
         </h2>
-        {% include post-meta.html %}
+        {%- include post-meta.html -%}
       </li>
-    {% endfor %}
+      {%- endif -%}
+    {%- endfor -%}
   </ul>
 </div>
-
-{% include scrolltop.html %}
+{%- include scrolltop.html -%}

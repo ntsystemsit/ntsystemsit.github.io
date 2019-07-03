@@ -4,7 +4,7 @@ title: "Lync 2013 – Prepare AD and build Topology"
 date: 2013-02-02 14:25:00 +0100
 comments: true
 category: Archive
-tags: ["Lync", "Server 2012"]
+tags: ["Lync", "Server 2012", "Skype4B"]
 redirect_from: ["/post/Lync-2013-Prepare-AD-and-build-Topology", "/post/lync-2013-prepare-ad-and-build-topology"]
 author: thomas torggler
 ---

@@ -4,7 +4,7 @@ title: "Lync 2013 Survivable Branch Server – Installation"
 date: 2013-10-04 20:37:52 +0200
 comments: true
 category: Archive
-tags: ["Lync", "de"]
+tags: ["Lync", "de", "Skype4B"]
 redirect_from: ["/post/Lync-2013-Survivable-Branch-Server-Installation", "/post/lync-2013-survivable-branch-server-installation"]
 author: thomas torggler
 ---

@@ -4,7 +4,7 @@ title: "Updated: Invoke-SEFAUtil"
 date: 2013-09-08 21:52:08 +0200
 comments: true
 category: Archive
-tags: ["en", "PowerShell", "Lync"]
+tags: ["en", "PowerShell", "Lync", "Skype4B"]
 redirect_from: ["/post/Updated-Invoke-SEFAUtil", "/post/updated-invoke-sefautil"]
 author: thomas torggler
 ---

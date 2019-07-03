@@ -4,7 +4,7 @@ title: "Lync 2013 Survivable Branch Server – Planung"
 date: 2013-09-21 22:03:02 +0200
 comments: true
 category: Archive
-tags: ["de", "Lync"]
+tags: ["de", "Lync", "Skype4B"]
 redirect_from: ["/post/Lync-2013-Survivable-Branch-Server-Planung", "/post/lync-2013-survivable-branch-server-planung"]
 author: thomas torggler
 ---

@@ -1,7 +1,9 @@
 # Download & Source for {{ include.packagename }}
 
-I've published the {{ include.type }} to the <a href="https://www.powershellgallery.com/packages/{{ include.packagename }}" target="_blank">PowerShell Gallery</a>, you can install it using the following command:
+The {{ include.type }} is available on the <a href="https://www.powershellgallery.com/packages/{{ include.packagename }}" target="_blank">PowerShell Gallery</a>, you can install or download it using the following commands:
 
-<div class="highlighter-rouge"><pre class="highlight"><code>Install-{{ include.type }} -Name {{ include.packagename }} -Path &lt;Path&gt;</code></pre></div>
+<div class="highlighter-rouge"><pre class="highlight"><code>Install-{{ include.type }} -Name {{ include.packagename }} -Scope CurrentUser</code></pre></div>
 
-And you can find the source in the following GitHub Repository: {% include icon-github.html username='tomtorggler' reponame=include.reponame %}
+<div class="highlighter-rouge"><pre class="highlight"><code>Save-{{ include.type }} -Name {{ include.packagename }} -Path &lt;Path&gt;</code></pre></div>
+
+And you can find the source on GitHub: {% include icon-github.html username='tomtorggler' reponame=include.reponame %}

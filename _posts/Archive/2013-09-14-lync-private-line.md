@@ -4,7 +4,7 @@ title: "Lync Private Line"
 date: 2013-09-14 21:08:41 +0200
 comments: true
 category: Archive
-tags: ["en", "Lync"]
+tags: ["en", "Lync", "Skype4B"]
 redirect_from: ["/post/Lync-Private-Line", "/post/lync-private-line"]
 author: thomas torggler
 ---
