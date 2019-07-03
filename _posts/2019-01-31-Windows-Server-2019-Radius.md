@@ -6,7 +6,7 @@ comments: true
 category: Server
 tags: Security Firewall
 author: thomas torggler
-updated: false
+updated: 2019-07-03
 ---
 
 First of all, happy new year :) Today we will have a quick look at Windows Server 2019, more specifically the _Network Policy Server_ role.
@@ -25,6 +25,9 @@ The RADIUS server was located behind a NAT device so my first guess was that I h
 
 After a quick google search for "Windows 2019 NPS" I found an entry in the TechNet Forums (link below) where someone explained the Windows Firewall had to be configured to allow RADIUS (udp/1812, udp/1813) traffic even though such a rule did already exist. Sure enough, after adding the firewall rule, authentication worked.
 
+# DHCP Relay (update)
+
+So today, half a year later, I had a very similar problem with DHCP relay. The Windows 2019 DHCP Server would receive DHCP requests from a relay agent but it would never respond to them. I configured the local firewall to allow traffic on UDP ports 67 and 69 and voilà, DHCP started working.
 
 ## Links
  - [TechNet Forums](https://social.technet.microsoft.com/Forums/en-US/cf047df5-ed4a-46b9-9564-c9db5a9bc8dc/windows-server-2019-default-nps-firewall-rules-port-1812-udp-not-working)
