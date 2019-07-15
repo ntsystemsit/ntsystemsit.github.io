@@ -93,10 +93,18 @@ According to the Sentinel documentation it can take a while before the first log
 Check if syslog services are listening:
 
 ```
-netstat -anup
+tom@azsentinel:~$ netstat -anu
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State
+udp        0      0 127.0.0.53:53           0.0.0.0:*
+udp        0      0 0.0.0.0:514             0.0.0.0:*
+udp        0      0 127.0.0.1:25224         0.0.0.0:*
+udp        0      0 127.0.0.1:25226         0.0.0.0:*
+udp        0      0 0.0.0.0:33569           0.0.0.0:*
+udp6       0      0 :::514                  :::*
 ```
 
-Note: rsyslog listens on 514 and the omsagent listens on 25226.
+Note: rsyslog listens on 514 and the omsagent listens on 25224 and 25226, the latter is of interest in this case.
 
 Check if logs are coming in from Check Point:
 
