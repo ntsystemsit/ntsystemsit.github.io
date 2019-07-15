@@ -33,7 +33,7 @@ Finally, download the security configuration file for OMS agent. This contains t
 sudo wget -O /etc/opt/microsoft/omsagent/<workspace-id>/conf/omsagent.d/security_events.conf "https://aka.ms/syslog-config-file-linux"
 ```
 
-## Syslog (rsyslog.d)a
+## Syslog (rsyslog.d)
 
 Now with the Log Analytics agent ready, we need to configure rsyslog to accept logs from the firewall and forward them to the agent.
 
@@ -57,7 +57,7 @@ At last it may be a good idea to change the default configuration in such a way 
 local.*;auth,authpriv.none      -/var/log/syslog
 ```
 
-When we're done with the configuration we use the following commands to restart the Log Analytics Agent and the rsyslog service:
+When we're done with the configuration we use the following commands to restart the Log Analytics agent and the rsyslog service:
 
 ```
 sudo /opt/microsoft/omsagent/bin/service_control restart <workspace-id>
@@ -69,10 +69,10 @@ Sudo service rsyslog restart
 Check Point publish information about how to configure log export in the article sk122323, see links below. On version R80.20 the required packages are already installed and we just add a log export target like this. Note that this is using export mode shell: 
 
 ```
-cp_log_export add name azsentinel target-server 10.1.1.1 target-port 514 protocol udp format cef
+cp_log_export add name azsentinel target-server 10.1.1.1 target-port 514 protocol udp format cef read-mode semi-unified
 ```
 
-Make sure to select CEF log format. The existing configuration can be verified with:
+Make sure to select _cef_ log format and set the read-mode to _semi-unified_. The existing configuration can be verified with:
 
 ```
 cp_log_export show
@@ -83,7 +83,7 @@ name: azsentinel
      target-port: 514
      protocol: udp
      format: cef
-     read-mode: raw
+     read-mode: semi-unified
 ```
 
 ## Troubleshoot
@@ -118,7 +118,7 @@ Check if logs are forwarded to omsagent:
 sudo tcpdump -A -ni any port 25226 -vv
 ```
 
-Log Analytics Agent log file:
+Log Analytics agent log file:
 
 ```
 sudo tail /var/opt/microsoft/omsagent/log/omsagent.log
