@@ -8,7 +8,7 @@ author: thomas torggler
 updated: 2018-01-12 21:35:19
 ---
 
-I've recently stumbled upon [coinhive](https://coinhive.com) and with all the recent fuzz about crypto currencies, I decided to have a look at it. So what's that all about? 
+I've recently stumbled upon coinhive and with all the recent fuzz about crypto currencies, I decided to have a look at it. So what's that all about? 
 
 <!-- more -->
 
@@ -32,12 +32,7 @@ The following code has been added to the site's footer in order to start the min
 
 
 ```
-  <script>
-    var miner=new CoinHive.Anonymous("eARtbar963CFJbSfU2MwlWF7D4u6YhZ3", {
-	  autoThreads: true,
-	  throttle: 0.1,});
-    miner.start(CoinHive.IF_EXCLUSIVE_TAB);
-  </script>
+/edit: removed code
 ```
 
 # Update 
