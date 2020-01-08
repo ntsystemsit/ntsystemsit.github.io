@@ -16,6 +16,9 @@ On this page we are linking to the online-help articles that are available for o
     <li>
       <a class="post-link" href="{{ '/PowerShell/ntSystemsPSDrive/' | prepend: site.baseurl }}">ntSystemsPSDrive</a>
     </li>
+    <li>
+      <a class="post-link" href="{{ '/PowerShell/PSSpeech/' | prepend: site.baseurl }}">PSSpeech</a>
+    </li>
   </ul>
 </div>
 
