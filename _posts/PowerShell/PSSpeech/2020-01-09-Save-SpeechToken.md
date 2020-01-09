@@ -28,8 +28,17 @@ This function takes a token as retreived from Get-SpeechToken and creates a vari
 ### EXAMPLE 1
 ```
 Get-SpeechToken -Key <yourkey> | Save-SpeechToken
-Explanation of what the example does
 ```
+
+This example first gets a token then saves it to a global variable in the current PowerShell session.
+
+### EXAMPLE 2
+```
+Get-SpeechToken -Key <yourkey> -OutVariable token
+PS C:\> Save-SpeechToken -Token $token
+```
+
+This example first gets a token then saves it to a global variable in the current PowerShell session.
 
 ## PARAMETERS
 

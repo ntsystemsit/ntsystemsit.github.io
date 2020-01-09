@@ -17,8 +17,8 @@ Convert a string to audio using Azure Cognitive Services.
 ## SYNTAX
 
 ```
-Convert-TextToSpeech [[-Region] <Object>] [[-Token] <Object>] [-Text] <String> [-Path] <FileInfo>
- [[-Voice] <Object>] [[-OutputFormat] <Object>] [<CommonParameters>]
+Convert-TextToSpeech [[-Region] <String>] [[-Token] <Object>] [-Text] <String> [-Path] <FileInfo>
+ [[-Voice] <String>] [[-OutputFormat] <String>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -29,8 +29,9 @@ This function uses Invoke-RestMethod to call the Azure Cognitive Service Speech 
 ### EXAMPLE 1
 ```
 Convert-TextToSpeech -Text "Hi, this is a test." -Path test.mp3
-This example converts the string "Hi, this is a test." to speech and saves the audio to the test.mp3 file.
 ```
+
+This example converts the string "Hi, this is a test." to speech and saves the audio to the test.mp3 file.
 
 ## PARAMETERS
 
@@ -38,7 +39,7 @@ This example converts the string "Hi, this is a test." to speech and saves the a
 {{ Fill Region Description }}
 
 ```yaml
-Type: Object
+Type: String
 Parameter Sets: (All)
 Aliases:
 
@@ -98,7 +99,7 @@ Accept wildcard characters: False
 {{ Fill Voice Description }}
 
 ```yaml
-Type: Object
+Type: String
 Parameter Sets: (All)
 Aliases:
 
@@ -113,7 +114,7 @@ Accept wildcard characters: False
 {{ Fill OutputFormat Description }}
 
 ```yaml
-Type: Object
+Type: String
 Parameter Sets: (All)
 Aliases:
 
@@ -134,6 +135,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ### None.
 ## NOTES
-General notes
+I've added only the neural voices to the ValidateSet attribute, more voices are available.
 
 ## RELATED LINKS

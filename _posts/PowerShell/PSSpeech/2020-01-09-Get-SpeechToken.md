@@ -17,7 +17,7 @@ Get OAuth token for authorization to Azure Cognitive Services.
 ## SYNTAX
 
 ```
-Get-SpeechToken [[-Region] <Object>] [-Key] <Object> [<CommonParameters>]
+Get-SpeechToken [[-Region] <String>] [-Key] <String> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -29,9 +29,11 @@ This requires access to an Azure subscription and API key for the speech service
 
 ### EXAMPLE 1
 ```
-Get-SpeechToken -Key <yourkey> 
-This example gets a token using the provided key. The default value for the Region parameter is set to westeurope, please specify the region where your Cognitive Services is deployed.
+Get-SpeechToken -Key <yourkey>
 ```
+
+This example gets a token using the provided key.
+The default value for the Region parameter is set to westeurope, please specify the region where your Cognitive Services is deployed.
 
 ## PARAMETERS
 
@@ -39,7 +41,7 @@ This example gets a token using the provided key. The default value for the Regi
 {{ Fill Region Description }}
 
 ```yaml
-Type: Object
+Type: String
 Parameter Sets: (All)
 Aliases:
 
@@ -54,7 +56,7 @@ Accept wildcard characters: False
 {{ Fill Key Description }}
 
 ```yaml
-Type: Object
+Type: String
 Parameter Sets: (All)
 Aliases:
 
@@ -75,5 +77,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ### [psobject]
 ## NOTES
+Key should probably be a secure string, update once secrets management module is released.
 
 ## RELATED LINKS

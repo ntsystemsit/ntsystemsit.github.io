@@ -17,7 +17,7 @@ Get a list of available voices from the speech service.
 ## SYNTAX
 
 ```
-Get-SpeechVoicesList [[-Region] <Object>] [[-Token] <Object>] [<CommonParameters>]
+Get-SpeechVoicesList [[-Region] <String>] [[-Token] <Object>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -31,8 +31,9 @@ If the Token parameter is not specified, the global variable created by Save-Spe
 ### EXAMPLE 1
 ```
 Get-SpeechVoicesList
-This example gets a list of available voices.
 ```
+
+This example gets a list of available voices.
 
 ## PARAMETERS
 
@@ -40,7 +41,7 @@ This example gets a list of available voices.
 {{ Fill Region Description }}
 
 ```yaml
-Type: Object
+Type: String
 Parameter Sets: (All)
 Aliases:
 
