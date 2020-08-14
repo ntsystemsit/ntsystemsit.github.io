@@ -43,6 +43,8 @@ Save the above commands to a file with ps1 extension and head over to [endpoint.
 
 ![intune-powershell-script]({{ site.url }}/assets/2020/08-14 223129.png)
 
+Once the script was applied you can use `Get-NetQosPolicy` to verify the policies were applied correctly.
+
 
 ## Teams Meeting Settings
 
