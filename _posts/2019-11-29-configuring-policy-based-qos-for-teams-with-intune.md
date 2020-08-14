@@ -6,7 +6,7 @@ comments: true
 category: Cloud
 tags: Workplace Intune Teams 
 author: thomas torggler
-updated: false
+updated: 2020-08-14
 ---
 
 Traditional Active Directory with group policy has no place in the big-picture of the modern workplace, so we need a novel solution to apply policy-based QoS to our Teams clients. One could argue that QoS has no place in the modern workplace either, but that's a discussion for another day.
@@ -32,9 +32,9 @@ So here we are trying to configure QoS settings on our Windows 10 clients but CS
 To configure Windows 10 to tag packets sent by the Teams.exe and on the configured source ports for each modality, we could use three simple commands like in the example below:
 
 ```powershell
-New-NetQosPolicy -NetworkProfile All -AppPathNameMatchCondition Teams.exe -IPSrcPortStartMatchCondition 50020 -IPSrcPortEndMatchCondition 50039 -DSCPValue 46 -Name "Teams Audio"
-New-NetQosPolicy -NetworkProfile All -AppPathNameMatchCondition Teams.exe -IPSrcPortStartMatchCondition 50400 -IPSrcPortEndMatchCondition 50059 -DSCPValue 34 -Name "Teams Video" 
-New-NetQosPolicy -NetworkProfile All -AppPathNameMatchCondition Teams.exe -IPSrcPortStartMatchCondition 50069 -IPSrcPortEndMatchCondition 50070 -DSCPValue 28 -Name "Teams AppSharing"
+New-NetQosPolicy -NetworkProfile All -AppPathNameMatchCondition Teams.exe -IPSrcPortStartMatchCondition 50020 -IPSrcPortEndMatchCondition 50039 -DSCPValue 46 -Name "Teams Audio"
+New-NetQosPolicy -NetworkProfile All -AppPathNameMatchCondition Teams.exe -IPSrcPortStartMatchCondition 50400 -IPSrcPortEndMatchCondition 50059 -DSCPValue 34 -Name "Teams Video" 
+New-NetQosPolicy -NetworkProfile All -AppPathNameMatchCondition Teams.exe -IPSrcPortStartMatchCondition 50069 -IPSrcPortEndMatchCondition 50070 -DSCPValue 28 -Name "Teams AppSharing"
 ```
 
 You can find a link to the cmdlet reference for `New-NetQosPolicy` below.
