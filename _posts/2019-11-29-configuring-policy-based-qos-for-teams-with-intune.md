@@ -39,6 +39,11 @@ New-NetQosPolicy -NetworkProfile All -AppPathNameMatchCondition Teams.exe -
 
 You can find a link to the cmdlet reference for `New-NetQosPolicy` below.
 
+Save the above commands to a file with ps1 extension and head over to [endpoint.microsoft.com](https://endpoint.microsoft.com/#blade/Microsoft_Intune_DeviceSettings/DevicesMenu/powershell). Create a new script for Windows 10, upload the the ps1 file and set it to run in system context and using the 64 bit PowerShell host. Now assign the script to a group that contains your devices.
+
+![intune-powershell-script]({{ site.url }}/assets/2020/08-14 223129.png)
+
+
 ## Teams Meeting Settings
 
 For the above configuration to make any sense, we first have to specify a port range for each modality in the Microsoft Teams admin center.
