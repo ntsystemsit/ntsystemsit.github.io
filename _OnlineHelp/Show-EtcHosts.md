@@ -1,12 +1,13 @@
 ---
 author: tto
 category: TAK
-date: 2020-12-22
+date: 2021-01-02
 excerpt: 'Display /etc/hosts file content on Windows or Linux/macOS.'
 external help file: tak-help.xml
 layout: post
 Module Name: TAK
 online version:
+redirect_from: ["https://onprem.wtf/PowerShell/TAK/Show-EtcHosts", "https://onprem.wtf/PowerShell/TAK/show-etchosts"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Show-EtcHosts

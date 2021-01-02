@@ -1,12 +1,13 @@
 ---
 author: tto
 category: TAK
-date: 2020-12-22
-excerpt: 'Edit /etc/hosts file with notepad.'
+date: 2021-01-02
+excerpt: 'Edit \etc\hosts file with notepad.'
 external help file: tak-help.xml
 layout: post
 Module Name: TAK
 online version:
+redirect_from: ["https://onprem.wtf/PowerShell/TAK/Edit-EtcHosts", "https://onprem.wtf/PowerShell/TAK/edit-etchosts"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Edit-EtcHosts
@@ -15,7 +16,7 @@ title: Edit-EtcHosts
 # Edit-EtcHosts
 
 ## SYNOPSIS
-Edit /etc/hosts file with notepad.
+Edit \etc\hosts file with notepad.
 
 ## SYNTAX
 

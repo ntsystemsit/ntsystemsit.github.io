@@ -1,12 +1,13 @@
 ---
 author: tto
 category: TAK
-date: 2020-12-22
+date: 2021-01-02
 excerpt: 'Test if a TLS Connection can be established.'
 external help file: tak-help.xml
 layout: post
 Module Name: TAK
 online version:
+redirect_from: ["https://onprem.wtf/PowerShell/TAK/Test-TLSConnection", "https://onprem.wtf/PowerShell/TAK/test-tlsconnection"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Test-TLSConnection
@@ -19,17 +20,10 @@ Test if a TLS Connection can be established.
 
 ## SYNTAX
 
-### ComputerName
 ```
 Test-TLSConnection [-ComputerName] <Object> [-IPAddress <IPAddress>] [[-Port] <Object>]
  [[-Protocol] <SslProtocols[]>] [[-FilePath] <FileInfo>] [-CheckCertRevocationStatus <Boolean>] [-SaveCert]
  [-Quiet] [<CommonParameters>]
-```
-
-### Uri
-```
-Test-TLSConnection -Uri <Uri> [-IPAddress <IPAddress>] [[-Port] <Object>] [[-Protocol] <SslProtocols[]>]
- [[-FilePath] <FileInfo>] [-CheckCertRevocationStatus <Boolean>] [-SaveCert] [-Quiet] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -82,28 +76,13 @@ Specifies the DNS name of the computer to test
 
 ```yaml
 Type: Object
-Parameter Sets: ComputerName
+Parameter Sets: (All)
 Aliases: Server, Name, HostName
 
 Required: True
 Position: 1
 Default value: None
 Accept pipeline input: True (ByValue)
-Accept wildcard characters: False
-```
-
-### -Uri
-{{ Fill Uri Description }}
-
-```yaml
-Type: Uri
-Parameter Sets: Uri
-Aliases: ExternalUrl
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
@@ -164,7 +143,7 @@ Aliases:
 
 Required: False
 Position: 4
-Default value: Temp.cer
+Default value: "$computername.cer"
 Accept pipeline input: False
 Accept wildcard characters: False
 ```

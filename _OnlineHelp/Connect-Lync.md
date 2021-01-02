@@ -1,12 +1,13 @@
 ---
 author: tto
 category: TAK
-date: 2020-12-22
+date: 2021-01-02
 excerpt: 'Connect to Skype for Business Server or Online.'
 external help file: tak-help.xml
 layout: post
 Module Name: TAK
 online version:
+redirect_from: ["https://onprem.wtf/PowerShell/TAK/Connect-Lync", "https://onprem.wtf/PowerShell/TAK/connect-lync"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Connect-Lync
@@ -24,8 +25,6 @@ This function uses New-PSSession or New-CsOnlineSession to connect to Skype for 
 or Skype for Business Online.
 The resulting PS Session is then imported and makes cmdlets available in the current session.
 The Timeout and ProxyType parameters are used to configure the PSSessionOption with respective values.
-
-This function requires the MicrosoftTeams Module: https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.6
 
 ## EXAMPLES
 

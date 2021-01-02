@@ -1,12 +1,13 @@
 ---
 author: tto
 category: PSSpeech
-date: 2020-12-22
+date: 2021-01-02
 excerpt: 'Convert a string to audio using Azure Cognitive Services.'
 external help file: psspeech-help.xml
 layout: post
 Module Name: PSSpeech
 online version:
+redirect_from: ["https://onprem.wtf/PowerShell/PSSpeech/Convert-TextToSpeech", "https://onprem.wtf/PowerShell/PSSpeech/convert-texttospeech"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Convert-TextToSpeech
@@ -20,8 +21,8 @@ Convert a string to audio using Azure Cognitive Services.
 ## SYNTAX
 
 ```
-Convert-TextToSpeech [-Text] <String> [-Path] <FileInfo> [[-Voice] <String>] [[-OutputFormat] <String>]
- [<CommonParameters>]
+Convert-TextToSpeech [[-Region] <String>] [[-Token] <Object>] [-Text] <String> [-Path] <FileInfo>
+ [[-Voice] <String>] [[-OutputFormat] <String>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -38,6 +39,36 @@ This example converts the string "Hi, this is a test." to speech and saves the a
 
 ## PARAMETERS
 
+### -Region
+{{ Fill Region Description }}
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases:
+
+Required: False
+Position: 1
+Default value: Westeurope
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Token
+{{ Fill Token Description }}
+
+```yaml
+Type: Object
+Parameter Sets: (All)
+Aliases:
+
+Required: False
+Position: 2
+Default value: $Global:PSSpeechToken
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -Text
 {{ Fill Text Description }}
 
@@ -47,7 +78,7 @@ Parameter Sets: (All)
 Aliases:
 
 Required: True
-Position: 1
+Position: 3
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -62,7 +93,7 @@ Parameter Sets: (All)
 Aliases:
 
 Required: True
-Position: 2
+Position: 4
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -77,8 +108,8 @@ Parameter Sets: (All)
 Aliases:
 
 Required: False
-Position: 3
-Default value: En-GB-LibbyNeural
+Position: 5
+Default value: En-GB-HarryNeural
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -92,7 +123,7 @@ Parameter Sets: (All)
 Aliases:
 
 Required: False
-Position: 4
+Position: 6
 Default value: Audio-16khz-32kbitrate-mono-mp3
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -108,5 +139,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ### None.
 ## NOTES
+I've added only the neural voices to the ValidateSet attribute, more voices are available.
 
 ## RELATED LINKS

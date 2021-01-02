@@ -1,12 +1,13 @@
 ---
 author: tto
 category: TAK
-date: 2020-12-22
+date: 2021-01-02
 excerpt: 'Create SPF record for a given mail domain.'
 external help file: tak.exchange-help.xml
 layout: post
 Module Name: TAK
 online version:
+redirect_from: ["https://onprem.wtf/PowerShell/TAK/New-SPFRecord", "https://onprem.wtf/PowerShell/TAK/new-spfrecord"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: New-SPFRecord

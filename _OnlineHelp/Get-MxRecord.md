@@ -1,12 +1,13 @@
 ---
 author: tto
 category: TAK
-date: 2020-12-22
+date: 2021-01-02
 excerpt: 'Get MX Records for a domain.'
 external help file: tak-help.xml
 layout: post
 Module Name: TAK
 online version:
+redirect_from: ["https://onprem.wtf/PowerShell/TAK/Get-MxRecord", "https://onprem.wtf/PowerShell/TAK/get-mxrecord"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Get-MxRecord
@@ -39,11 +40,12 @@ This example gets the MX record for the domain ntsystems.it.
 
 ### -Domain
 Specify the Domain name for the query.
+Specify the DNS server to query.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: DomainName
+Aliases:
 
 Required: True
 Position: 1
@@ -53,7 +55,7 @@ Accept wildcard characters: False
 ```
 
 ### -Server
-Specify the DNS server to query.
+{{ Fill Server Description }}
 
 ```yaml
 Type: IPAddress
@@ -68,7 +70,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResolvePTR
-Also resolve PTR
+{{ Fill ResolvePTR Description }}
 
 ```yaml
 Type: SwitchParameter

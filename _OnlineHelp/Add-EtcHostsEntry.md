@@ -1,12 +1,13 @@
 ---
 author: tto
 category: TAK
-date: 2020-12-22
+date: 2021-01-02
 excerpt: 'Add an entry to local hosts file.'
 external help file: tak-help.xml
 layout: post
 Module Name: TAK
 online version:
+redirect_from: ["https://onprem.wtf/PowerShell/TAK/Add-EtcHostsEntry", "https://onprem.wtf/PowerShell/TAK/add-etchostsentry"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Add-EtcHostsEntry

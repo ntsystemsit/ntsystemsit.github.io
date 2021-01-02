@@ -1,12 +1,13 @@
 ---
 author: tto
 category: TAK
-date: 2020-12-22
+date: 2021-01-02
 excerpt: 'Get DKIM Record for a domain.'
 external help file: tak-help.xml
 layout: post
 Module Name: TAK
 online version:
+redirect_from: ["https://onprem.wtf/PowerShell/TAK/Get-DKIMRecord", "https://onprem.wtf/PowerShell/TAK/get-dkimrecord"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Get-DKIMRecord
@@ -66,7 +67,7 @@ Aliases:
 
 Required: False
 Position: 2
-Default value: @("selector1","selector2")
+Default value: Selector1
 Accept pipeline input: False
 Accept wildcard characters: False
 ```

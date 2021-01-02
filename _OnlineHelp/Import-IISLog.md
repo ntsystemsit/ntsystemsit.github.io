@@ -1,12 +1,13 @@
 ---
 author: tto
 category: TAK
-date: 2020-12-22
+date: 2021-01-02
 excerpt: 'Import IIS log files with default header.'
 external help file: tak-help.xml
 layout: post
 Module Name: TAK
 online version:
+redirect_from: ["https://onprem.wtf/PowerShell/TAK/Import-IISLog", "https://onprem.wtf/PowerShell/TAK/import-iislog"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Import-IISLog
@@ -20,8 +21,7 @@ Import IIS log files with default header.
 ## SYNTAX
 
 ```
-Import-IISLog [[-Path] <String>] [[-Filter] <String>] [[-Line] <Object>] [[-Tail] <Int32>] [[-Count] <Int32>]
- [-Wait] [<CommonParameters>]
+Import-IISLog [[-Path] <String>] [[-Filter] <String>] [[-Tail] <Int32>] [-Wait] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -73,21 +73,6 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Line
-{{ Fill Line Description }}
-
-```yaml
-Type: Object
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: 3
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
 ### -Tail
 {{ Fill Tail Description }}
 
@@ -97,23 +82,8 @@ Parameter Sets: (All)
 Aliases:
 
 Required: False
-Position: 4
+Position: 3
 Default value: -1
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Count
-{{ Fill Count Description }}
-
-```yaml
-Type: Int32
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: 5
-Default value: 1
 Accept pipeline input: False
 Accept wildcard characters: False
 ```

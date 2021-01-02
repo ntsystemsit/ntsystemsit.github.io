@@ -1,12 +1,13 @@
 ---
 author: tto
 category: PSSpeech
-date: 2020-12-22
+date: 2021-01-02
 excerpt: 'Get a list of available voices from the speech service.'
 external help file: psspeech-help.xml
 layout: post
 Module Name: PSSpeech
 online version:
+redirect_from: ["https://onprem.wtf/PowerShell/PSSpeech/Get-SpeechVoicesList", "https://onprem.wtf/PowerShell/PSSpeech/get-speechvoiceslist"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Get-SpeechVoicesList
@@ -20,7 +21,7 @@ Get a list of available voices from the speech service.
 ## SYNTAX
 
 ```
-Get-SpeechVoicesList [[-token] <Object>] [<CommonParameters>]
+Get-SpeechVoicesList [[-Region] <String>] [[-Token] <Object>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -40,8 +41,23 @@ This example gets a list of available voices.
 
 ## PARAMETERS
 
-### -token
-{{ Fill token Description }}
+### -Region
+{{ Fill Region Description }}
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases:
+
+Required: False
+Position: 1
+Default value: Westeurope
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Token
+{{ Fill Token Description }}
 
 ```yaml
 Type: Object
@@ -49,8 +65,8 @@ Parameter Sets: (All)
 Aliases:
 
 Required: False
-Position: 1
-Default value: $script:SpeechToken.Token
+Position: 2
+Default value: $Global:PSSpeechToken
 Accept pipeline input: False
 Accept wildcard characters: False
 ```

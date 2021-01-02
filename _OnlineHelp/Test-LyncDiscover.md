@@ -1,12 +1,13 @@
 ---
 author: tto
 category: TAK
-date: 2020-12-22
+date: 2021-01-02
 excerpt: 'Test the Lyncdiscover service for Skype for Business/Lync deployments'
 external help file: tak-help.xml
 layout: post
 Module Name: TAK
 online version:
+redirect_from: ["https://onprem.wtf/PowerShell/TAK/Test-LyncDiscover", "https://onprem.wtf/PowerShell/TAK/test-lyncdiscover"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Test-LyncDiscover

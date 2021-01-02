@@ -1,12 +1,13 @@
 ---
 author: tto
 category: TAK
-date: 2020-12-22
+date: 2021-01-02
 excerpt: 'Mac Address vendor lookup.'
 external help file: tak-help.xml
 layout: post
 Module Name: TAK
 online version:
+redirect_from: ["https://onprem.wtf/PowerShell/TAK/Get-MacAddressVendor", "https://onprem.wtf/PowerShell/TAK/get-macaddressvendor"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Get-MacAddressVendor

@@ -1,12 +1,13 @@
 ---
 author: tto
 category: TAK
-date: 2020-12-22
+date: 2021-01-02
 excerpt: 'Get internal and external URLs for PowerPoint sharing.'
 external help file: tak-help.xml
 layout: post
 Module Name: TAK
 online version:
+redirect_from: ["https://onprem.wtf/PowerShell/TAK/Test-OOSFarm", "https://onprem.wtf/PowerShell/TAK/test-oosfarm"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Test-OOSFarm

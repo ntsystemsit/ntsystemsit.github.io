@@ -1,12 +1,13 @@
 ---
 author: tto
 category: TAK
-date: 2020-12-22
+date: 2021-01-02
 excerpt: 'Create a new Windows Firewall Rule.'
 external help file: tak-help.xml
 layout: post
 Module Name: TAK
 online version:
+redirect_from: ["https://onprem.wtf/PowerShell/TAK/New-FirewallRule", "https://onprem.wtf/PowerShell/TAK/new-firewallrule"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: New-FirewallRule

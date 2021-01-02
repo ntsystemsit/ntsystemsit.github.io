@@ -1,12 +1,13 @@
 ---
 author: tto
 category: TAK
-date: 2020-12-22
-excerpt: 'Get the SID for an account name.'
+date: 2021-01-02
+excerpt: 'Get the SID for an account name'
 external help file: tak-help.xml
 layout: post
 Module Name: TAK
 online version:
+redirect_from: ["https://onprem.wtf/PowerShell/TAK/ConvertTo-SID", "https://onprem.wtf/PowerShell/TAK/convertto-sid"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: ConvertTo-SID
@@ -15,7 +16,7 @@ title: ConvertTo-SID
 # ConvertTo-SID
 
 ## SYNOPSIS
-Get the SID for an account name.
+Get the SID for an account name
 
 ## SYNTAX
 

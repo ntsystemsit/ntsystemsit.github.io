@@ -1,12 +1,13 @@
 ---
 author: tto
 category: TAK
-date: 2020-12-22
+date: 2021-01-02
 excerpt: 'Convert a SubnetMask to PrefixLength or vice-versa.'
 external help file: tak-help.xml
 layout: post
 Module Name: TAK
 online version:
+redirect_from: ["https://onprem.wtf/PowerShell/TAK/Convert-SubnetMask", "https://onprem.wtf/PowerShell/TAK/convert-subnetmask"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Convert-SubnetMask

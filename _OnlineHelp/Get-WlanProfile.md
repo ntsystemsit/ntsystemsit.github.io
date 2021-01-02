@@ -1,7 +1,7 @@
 ---
 author: tto
 category: TAK
-date: 2020-12-22
+date: 2021-01-02
 excerpt: '
 Get-WlanProfile 
 '
@@ -9,6 +9,7 @@ external help file: tak-help.xml
 layout: post
 Module Name: TAK
 online version:
+redirect_from: ["https://onprem.wtf/PowerShell/TAK/Get-WlanProfile", "https://onprem.wtf/PowerShell/TAK/get-wlanprofile"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Get-WlanProfile

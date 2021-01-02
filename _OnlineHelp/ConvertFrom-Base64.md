@@ -1,12 +1,13 @@
 ---
 author: tto
 category: TAK
-date: 2020-12-22
-excerpt: 'Convert Base64 to ClearText String.'
+date: 2021-01-02
+excerpt: 'Convert Base64 to ClearText String'
 external help file: tak-help.xml
 layout: post
 Module Name: TAK
 online version:
+redirect_from: ["https://onprem.wtf/PowerShell/TAK/ConvertFrom-Base64", "https://onprem.wtf/PowerShell/TAK/convertfrom-base64"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: ConvertFrom-Base64
@@ -15,7 +16,7 @@ title: ConvertFrom-Base64
 # ConvertFrom-Base64
 
 ## SYNOPSIS
-Convert Base64 to ClearText String.
+Convert Base64 to ClearText String
 
 ## SYNTAX
 

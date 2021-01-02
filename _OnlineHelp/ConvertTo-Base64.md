@@ -1,12 +1,13 @@
 ---
 author: tto
 category: TAK
-date: 2020-12-22
-excerpt: 'Convert a String to Base64.'
+date: 2021-01-02
+excerpt: 'Convert a String to Base64'
 external help file: tak-help.xml
 layout: post
 Module Name: TAK
 online version:
+redirect_from: ["https://onprem.wtf/PowerShell/TAK/ConvertTo-Base64", "https://onprem.wtf/PowerShell/TAK/convertto-base64"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: ConvertTo-Base64
@@ -15,7 +16,7 @@ title: ConvertTo-Base64
 # ConvertTo-Base64
 
 ## SYNOPSIS
-Convert a String to Base64.
+Convert a String to Base64
 
 ## SYNTAX
 

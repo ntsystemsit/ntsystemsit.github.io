@@ -1,12 +1,13 @@
 ---
 author: tto
 category: TAK
-date: 2020-12-22
+date: 2021-01-02
 excerpt: 'Test Exchange Autodiscover Web Service.'
 external help file: tak.exchange-help.xml
 layout: post
 Module Name: TAK
 online version:
+redirect_from: ["https://onprem.wtf/PowerShell/TAK/Test-ExchangeAutodiscover", "https://onprem.wtf/PowerShell/TAK/test-exchangeautodiscover"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Test-ExchangeAutodiscover

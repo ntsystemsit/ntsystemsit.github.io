@@ -1,12 +1,13 @@
 ---
 author: tto
 category: TAK
-date: 2020-12-22
-excerpt: 'Remove an entry from local hosts file by its IP address.'
+date: 2021-01-02
+excerpt: 'Remove an entry from local hosts file by it's IP address.'
 external help file: tak-help.xml
 layout: post
 Module Name: TAK
 online version:
+redirect_from: ["https://onprem.wtf/PowerShell/TAK/Remove-EtcHostsEntry", "https://onprem.wtf/PowerShell/TAK/remove-etchostsentry"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Remove-EtcHostsEntry
@@ -15,7 +16,7 @@ title: Remove-EtcHostsEntry
 # Remove-EtcHostsEntry
 
 ## SYNOPSIS
-Remove an entry from local hosts file by its IP address.
+Remove an entry from local hosts file by it's IP address.
 
 ## SYNTAX
 
