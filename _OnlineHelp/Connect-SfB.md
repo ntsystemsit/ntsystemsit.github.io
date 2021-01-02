@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: pshelp
 Module Name: TAK
 online version:
-redirect_from: ["/PowerShell/TAK/Connect-SfB", "/PowerShell/TAK/connect-sfb", "/PowerShell/connect-sfb"]
+redirect_from: ["/PowerShell/TAK/Connect-SfB/", "/PowerShell/TAK/connect-sfb/", "/PowerShell/connect-sfb/"]
 schema: 2.0.0
 title: Connect-SfB
 ---

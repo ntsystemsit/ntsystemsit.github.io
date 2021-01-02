@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: pshelp
 Module Name: TAK
 online version:
-redirect_from: ["/PowerShell/TAK/Edit-EtcHosts", "/PowerShell/TAK/edit-etchosts", "/PowerShell/edit-etchosts"]
+redirect_from: ["/PowerShell/TAK/Edit-EtcHosts/", "/PowerShell/TAK/edit-etchosts/", "/PowerShell/edit-etchosts/"]
 schema: 2.0.0
 title: Edit-EtcHosts
 ---

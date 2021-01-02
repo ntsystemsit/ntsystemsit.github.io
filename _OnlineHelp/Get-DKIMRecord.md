@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: pshelp
 Module Name: TAK
 online version:
-redirect_from: ["/PowerShell/TAK/Get-DKIMRecord", "/PowerShell/TAK/get-dkimrecord", "/PowerShell/get-dkimrecord"]
+redirect_from: ["/PowerShell/TAK/Get-DKIMRecord/", "/PowerShell/TAK/get-dkimrecord/", "/PowerShell/get-dkimrecord/"]
 schema: 2.0.0
 title: Get-DKIMRecord
 ---

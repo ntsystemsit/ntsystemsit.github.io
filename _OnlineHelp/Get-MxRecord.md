@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: pshelp
 Module Name: TAK
 online version:
-redirect_from: ["/PowerShell/TAK/Get-MxRecord", "/PowerShell/TAK/get-mxrecord", "/PowerShell/get-mxrecord"]
+redirect_from: ["/PowerShell/TAK/Get-MxRecord/", "/PowerShell/TAK/get-mxrecord/", "/PowerShell/get-mxrecord/"]
 schema: 2.0.0
 title: Get-MxRecord
 ---

@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: pshelp
 Module Name: TAK
 online version:
-redirect_from: ["/PowerShell/TAK/Connect-Lync", "/PowerShell/TAK/connect-lync", "/PowerShell/connect-lync"]
+redirect_from: ["/PowerShell/TAK/Connect-Lync/", "/PowerShell/TAK/connect-lync/", "/PowerShell/connect-lync/"]
 schema: 2.0.0
 title: Connect-Lync
 ---

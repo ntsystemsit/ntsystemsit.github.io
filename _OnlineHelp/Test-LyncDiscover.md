@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: pshelp
 Module Name: TAK
 online version:
-redirect_from: ["/PowerShell/TAK/Test-LyncDiscover", "/PowerShell/TAK/test-lyncdiscover", "/PowerShell/test-lyncdiscover"]
+redirect_from: ["/PowerShell/TAK/Test-LyncDiscover/", "/PowerShell/TAK/test-lyncdiscover/", "/PowerShell/test-lyncdiscover/"]
 schema: 2.0.0
 title: Test-LyncDiscover
 ---

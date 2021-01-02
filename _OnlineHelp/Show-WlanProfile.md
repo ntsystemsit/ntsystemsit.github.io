@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: pshelp
 Module Name: TAK
 online version:
-redirect_from: ["/PowerShell/TAK/Show-WlanProfile", "/PowerShell/TAK/show-wlanprofile", "/PowerShell/show-wlanprofile"]
+redirect_from: ["/PowerShell/TAK/Show-WlanProfile/", "/PowerShell/TAK/show-wlanprofile/", "/PowerShell/show-wlanprofile/"]
 schema: 2.0.0
 title: Show-WlanProfile
 ---

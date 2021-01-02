@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: pshelp
 Module Name: TAK
 online version:
-redirect_from: ["/PowerShell/TAK/Test-OOSFarm", "/PowerShell/TAK/test-oosfarm", "/PowerShell/test-oosfarm"]
+redirect_from: ["/PowerShell/TAK/Test-OOSFarm/", "/PowerShell/TAK/test-oosfarm/", "/PowerShell/test-oosfarm/"]
 schema: 2.0.0
 title: Test-OOSFarm
 ---

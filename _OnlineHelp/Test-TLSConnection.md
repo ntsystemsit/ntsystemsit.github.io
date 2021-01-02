@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: pshelp
 Module Name: TAK
 online version:
-redirect_from: ["/PowerShell/TAK/Test-TLSConnection", "/PowerShell/TAK/test-tlsconnection", "/PowerShell/test-tlsconnection"]
+redirect_from: ["/PowerShell/TAK/Test-TLSConnection/", "/PowerShell/TAK/test-tlsconnection/", "/PowerShell/test-tlsconnection/"]
 schema: 2.0.0
 title: Test-TLSConnection
 ---

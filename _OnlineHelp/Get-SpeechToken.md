@@ -7,7 +7,7 @@ external help file: psspeech-help.xml
 layout: pshelp
 Module Name: PSSpeech
 online version:
-redirect_from: ["/PowerShell/PSSpeech/Get-SpeechToken", "/PowerShell/PSSpeech/get-speechtoken", "/PowerShell/get-speechtoken"]
+redirect_from: ["/PowerShell/PSSpeech/Get-SpeechToken/", "/PowerShell/PSSpeech/get-speechtoken/", "/PowerShell/get-speechtoken/"]
 schema: 2.0.0
 title: Get-SpeechToken
 ---
@@ -20,7 +20,7 @@ Get OAuth token for authorization to Azure Cognitive Services.
 ## SYNTAX
 
 ```
-Get-SpeechToken [[-Region] <String>] [-Key] <String> [<CommonParameters>]
+Get-SpeechToken [-Region] <String> [-Key] <String> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -32,11 +32,10 @@ This requires access to an Azure subscription and API key for the speech service
 
 ### EXAMPLE 1
 ```
-Get-SpeechToken -Key <yourkey>
+Get-SpeechToken -Region <region> -Key <apikey>
 ```
 
-This example gets a token using the provided key.
-The default value for the Region parameter is set to westeurope, please specify the region where your Cognitive Services is deployed.
+This example gets a token using the provided key and region.
 
 ## PARAMETERS
 
@@ -48,9 +47,9 @@ Type: String
 Parameter Sets: (All)
 Aliases:
 
-Required: False
+Required: True
 Position: 1
-Default value: Westeurope
+Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -81,5 +80,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ### [psobject]
 ## NOTES
 Key should probably be a secure string, update once secrets management module is released.
+The token is stored in $script:SpeechToken and can be retrieved with Get-SpeechTokenResult
 
 ## RELATED LINKS

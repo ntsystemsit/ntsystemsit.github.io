@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: pshelp
 Module Name: TAK
 online version:
-redirect_from: ["/PowerShell/TAK/Add-EtcHostsEntry", "/PowerShell/TAK/add-etchostsentry", "/PowerShell/add-etchostsentry"]
+redirect_from: ["/PowerShell/TAK/Add-EtcHostsEntry/", "/PowerShell/TAK/add-etchostsentry/", "/PowerShell/add-etchostsentry/"]
 schema: 2.0.0
 title: Add-EtcHostsEntry
 ---

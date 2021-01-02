@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: pshelp
 Module Name: TAK
 online version:
-redirect_from: ["/PowerShell/TAK/New-FirewallRule", "/PowerShell/TAK/new-firewallrule", "/PowerShell/new-firewallrule"]
+redirect_from: ["/PowerShell/TAK/New-FirewallRule/", "/PowerShell/TAK/new-firewallrule/", "/PowerShell/new-firewallrule/"]
 schema: 2.0.0
 title: New-FirewallRule
 ---

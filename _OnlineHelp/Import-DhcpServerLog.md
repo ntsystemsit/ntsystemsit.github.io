@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: pshelp
 Module Name: TAK
 online version:
-redirect_from: ["/PowerShell/TAK/Import-DhcpServerLog", "/PowerShell/TAK/import-dhcpserverlog", "/PowerShell/import-dhcpserverlog"]
+redirect_from: ["/PowerShell/TAK/Import-DhcpServerLog/", "/PowerShell/TAK/import-dhcpserverlog/", "/PowerShell/import-dhcpserverlog/"]
 schema: 2.0.0
 title: Import-DhcpServerLog
 ---

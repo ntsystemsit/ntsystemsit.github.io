@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: pshelp
 Module Name: TAK
 online version:
-redirect_from: ["/PowerShell/TAK/Test-SfBDiscover", "/PowerShell/TAK/test-sfbdiscover", "/PowerShell/test-sfbdiscover"]
+redirect_from: ["/PowerShell/TAK/Test-SfBDiscover/", "/PowerShell/TAK/test-sfbdiscover/", "/PowerShell/test-sfbdiscover/"]
 schema: 2.0.0
 title: Test-SfBDiscover
 ---

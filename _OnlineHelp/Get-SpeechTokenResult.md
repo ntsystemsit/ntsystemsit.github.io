@@ -1,20 +1,20 @@
 ---
 author: tto
-category: tak
+category: psspeech
 date: 2021-01-02
 excerpt: "
-Get-WlanProfile 
+Get-SpeechTokenResult 
 "
-external help file: tak-help.xml
+external help file: psspeech-help.xml
 layout: pshelp
-Module Name: TAK
+Module Name: PSSpeech
 online version:
-redirect_from: ["/PowerShell/TAK/Get-WlanProfile/", "/PowerShell/TAK/get-wlanprofile/", "/PowerShell/get-wlanprofile/"]
+redirect_from: ["/PowerShell/PSSpeech/Get-SpeechTokenResult/", "/PowerShell/PSSpeech/get-speechtokenresult/", "/PowerShell/get-speechtokenresult/"]
 schema: 2.0.0
-title: Get-WlanProfile
+title: Get-SpeechTokenResult
 ---
 
-# Get-WlanProfile
+# Get-SpeechTokenResult
 
 ## SYNOPSIS
 {{ Fill in the Synopsis }}
@@ -22,7 +22,7 @@ title: Get-WlanProfile
 ## SYNTAX
 
 ```
-Get-WlanProfile
+Get-SpeechTokenResult
 ```
 
 ## DESCRIPTION

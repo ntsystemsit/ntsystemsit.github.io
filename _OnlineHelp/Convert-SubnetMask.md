@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: pshelp
 Module Name: TAK
 online version:
-redirect_from: ["/PowerShell/TAK/Convert-SubnetMask", "/PowerShell/TAK/convert-subnetmask", "/PowerShell/convert-subnetmask"]
+redirect_from: ["/PowerShell/TAK/Convert-SubnetMask/", "/PowerShell/TAK/convert-subnetmask/", "/PowerShell/convert-subnetmask/"]
 schema: 2.0.0
 title: Convert-SubnetMask
 ---

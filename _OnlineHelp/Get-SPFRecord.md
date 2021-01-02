@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: pshelp
 Module Name: TAK
 online version:
-redirect_from: ["/PowerShell/TAK/Get-SPFRecord", "/PowerShell/TAK/get-spfrecord", "/PowerShell/get-spfrecord"]
+redirect_from: ["/PowerShell/TAK/Get-SPFRecord/", "/PowerShell/TAK/get-spfrecord/", "/PowerShell/get-spfrecord/"]
 schema: 2.0.0
 title: Get-SPFRecord
 ---

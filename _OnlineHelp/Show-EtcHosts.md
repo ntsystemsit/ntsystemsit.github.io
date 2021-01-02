@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: pshelp
 Module Name: TAK
 online version:
-redirect_from: ["/PowerShell/TAK/Show-EtcHosts", "/PowerShell/TAK/show-etchosts", "/PowerShell/show-etchosts"]
+redirect_from: ["/PowerShell/TAK/Show-EtcHosts/", "/PowerShell/TAK/show-etchosts/", "/PowerShell/show-etchosts/"]
 schema: 2.0.0
 title: Show-EtcHosts
 ---

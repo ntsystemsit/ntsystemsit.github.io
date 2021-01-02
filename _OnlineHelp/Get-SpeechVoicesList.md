@@ -7,7 +7,7 @@ external help file: psspeech-help.xml
 layout: pshelp
 Module Name: PSSpeech
 online version:
-redirect_from: ["/PowerShell/PSSpeech/Get-SpeechVoicesList", "/PowerShell/PSSpeech/get-speechvoiceslist", "/PowerShell/get-speechvoiceslist"]
+redirect_from: ["/PowerShell/PSSpeech/Get-SpeechVoicesList/", "/PowerShell/PSSpeech/get-speechvoiceslist/", "/PowerShell/get-speechvoiceslist/"]
 schema: 2.0.0
 title: Get-SpeechVoicesList
 ---
@@ -20,7 +20,7 @@ Get a list of available voices from the speech service.
 ## SYNTAX
 
 ```
-Get-SpeechVoicesList [[-Region] <String>] [[-Token] <Object>] [<CommonParameters>]
+Get-SpeechVoicesList [[-token] <Object>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -40,23 +40,8 @@ This example gets a list of available voices.
 
 ## PARAMETERS
 
-### -Region
-{{ Fill Region Description }}
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: 1
-Default value: Westeurope
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Token
-{{ Fill Token Description }}
+### -token
+{{ Fill token Description }}
 
 ```yaml
 Type: Object
@@ -64,8 +49,8 @@ Parameter Sets: (All)
 Aliases:
 
 Required: False
-Position: 2
-Default value: $Global:PSSpeechToken
+Position: 1
+Default value: $script:SpeechToken.Token
 Accept pipeline input: False
 Accept wildcard characters: False
 ```

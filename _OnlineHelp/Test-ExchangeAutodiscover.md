@@ -7,7 +7,7 @@ external help file: tak.exchange-help.xml
 layout: pshelp
 Module Name: TAK
 online version:
-redirect_from: ["/PowerShell/TAK/Test-ExchangeAutodiscover", "/PowerShell/TAK/test-exchangeautodiscover", "/PowerShell/test-exchangeautodiscover"]
+redirect_from: ["/PowerShell/TAK/Test-ExchangeAutodiscover/", "/PowerShell/TAK/test-exchangeautodiscover/", "/PowerShell/test-exchangeautodiscover/"]
 schema: 2.0.0
 title: Test-ExchangeAutodiscover
 ---

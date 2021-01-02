@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: pshelp
 Module Name: TAK
 online version:
-redirect_from: ["/PowerShell/TAK/Test-TCPConnection", "/PowerShell/TAK/test-tcpconnection", "/PowerShell/test-tcpconnection"]
+redirect_from: ["/PowerShell/TAK/Test-TCPConnection/", "/PowerShell/TAK/test-tcpconnection/", "/PowerShell/test-tcpconnection/"]
 schema: 2.0.0
 title: Test-TCPConnection
 ---

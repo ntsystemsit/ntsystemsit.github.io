@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: pshelp
 Module Name: TAK
 online version:
-redirect_from: ["/PowerShell/TAK/Remove-EtcHostsEntry", "/PowerShell/TAK/remove-etchostsentry", "/PowerShell/remove-etchostsentry"]
+redirect_from: ["/PowerShell/TAK/Remove-EtcHostsEntry/", "/PowerShell/TAK/remove-etchostsentry/", "/PowerShell/remove-etchostsentry/"]
 schema: 2.0.0
 title: Remove-EtcHostsEntry
 ---

@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: pshelp
 Module Name: TAK
 online version:
-redirect_from: ["/PowerShell/TAK/Get-TakHash", "/PowerShell/TAK/get-takhash", "/PowerShell/get-takhash"]
+redirect_from: ["/PowerShell/TAK/Get-TakHash/", "/PowerShell/TAK/get-takhash/", "/PowerShell/get-takhash/"]
 schema: 2.0.0
 title: Get-TakHash
 ---

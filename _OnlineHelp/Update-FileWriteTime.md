@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: pshelp
 Module Name: TAK
 online version:
-redirect_from: ["/PowerShell/TAK/Update-FileWriteTime", "/PowerShell/TAK/update-filewritetime", "/PowerShell/update-filewritetime"]
+redirect_from: ["/PowerShell/TAK/Update-FileWriteTime/", "/PowerShell/TAK/update-filewritetime/", "/PowerShell/update-filewritetime/"]
 schema: 2.0.0
 title: Update-FileWriteTime
 ---
