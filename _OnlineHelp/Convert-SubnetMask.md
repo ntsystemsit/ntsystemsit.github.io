@@ -1,6 +1,6 @@
 ---
 author: tto
-category: tak
+category: TAK
 date: 2021-01-02
 excerpt: "Convert a SubnetMask to PrefixLength or vice-versa."
 external help file: tak-help.xml

@@ -1,6 +1,6 @@
 ---
 author: tto
-category: tak
+category: TAK
 date: 2021-01-02
 excerpt: "Test DNS entries for Skype for Business / Lync deployments."
 external help file: tak-help.xml

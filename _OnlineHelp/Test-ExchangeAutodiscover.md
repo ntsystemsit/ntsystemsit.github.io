@@ -1,6 +1,6 @@
 ---
 author: tto
-category: tak
+category: TAK
 date: 2021-01-02
 excerpt: "Test Exchange Autodiscover Web Service."
 external help file: tak.exchange-help.xml

@@ -2,7 +2,8 @@
 
 <div class="functionlist">
     {%- for post in site.OnlineHelp -%}
-    {% if post.category == page.title %}
+    {% assign downtitle = page.title | downcase %}
+    {% if post.category == downtitle %}
         <h2 class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
         {{ post.excerpt }}
     {%- endif -%}

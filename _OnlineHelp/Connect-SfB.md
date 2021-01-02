@@ -1,6 +1,6 @@
 ---
 author: tto
-category: tak
+category: TAK
 date: 2021-01-02
 excerpt: "Connect to Skype for Business Server or Online."
 external help file: tak-help.xml

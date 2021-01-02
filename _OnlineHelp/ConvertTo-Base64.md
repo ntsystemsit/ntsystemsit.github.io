@@ -1,6 +1,6 @@
 ---
 author: tto
-category: tak
+category: TAK
 date: 2021-01-02
 excerpt: "Convert a String to Base64"
 external help file: tak-help.xml

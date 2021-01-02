@@ -1,6 +1,6 @@
 ---
 author: tto
-category: tak
+category: TAK
 date: 2021-01-02
 excerpt: "Get internal and external URLs for PowerPoint sharing."
 external help file: tak-help.xml

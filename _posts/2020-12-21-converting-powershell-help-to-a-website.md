@@ -21,13 +21,13 @@ The first step is to install platyPS (available on the PS Gallery) and create th
 Install-Module platyPS
 Import-Module platyPS, TAK, PSSpeech
 
-foreach ($cmdlet in (Get-Command -Module TAK)) { 
+foreach ($cmdlet in (Get-Command -Module PSSpeech)) { 
     $h = Get-Help $($cmdlet.Name)
     $meta = @{
         'layout' = 'pshelp';
         'author' = 'tto';
         'title' = $($cmdlet.Name);
-        'category' = $($cmdlet.ModuleName);
+        'category' = $($cmdlet.ModuleName.ToLower());
         'excerpt' = "`"$($h.Synopsis)`"";
         'date' = $(Get-Date -Format yyyy-MM-dd);
         'redirect_from' = "[`"/PowerShell/$($cmdlet.ModuleName)/$($cmdlet.Name)`", `"/PowerShell/$($cmdlet.ModuleName)/$($cmdlet.Name.ToLower())`", `"/PowerShell/$($cmdlet.Name.ToLower())`"]"
