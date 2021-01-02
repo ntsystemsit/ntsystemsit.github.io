@@ -4,7 +4,7 @@ title: "Servergespeicherte TS-Profile, Fehler 1543"
 date: 2009-09-29 23:11:00 +0200
 comments: true
 category: Archive
-tags: ["Server", "Client", "Server 2008", "Server 2003"]
+tags: ["Server", "Client", "Server-2008", "Server-2003"]
 redirect_from: ["/post/Servergespeicherte-TS-Profile-Fehler-1543", "/post/servergespeicherte-ts-profile-fehler-1543"]
 author: daniel nitz
 language: de

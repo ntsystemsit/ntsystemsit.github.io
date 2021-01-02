@@ -4,7 +4,7 @@ title: "Wireshark und Windows 8"
 date: 2012-03-09 22:27:00 +0100
 comments: true
 category: Archive
-tags: ["Client", "de", "Server 2012"]
+tags: ["Client", "de", "Server-2012"]
 redirect_from: ["/post/Wireshark-und-Windows-8", "/post/wireshark-und-windows-8"]
 author: thomas torggler
 language: de

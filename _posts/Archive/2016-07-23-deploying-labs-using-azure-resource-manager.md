@@ -4,7 +4,7 @@ title: "Deploying Labs using Azure Resource Manager"
 date: 2016-07-23 17:25:06 +0200
 comments: true
 category: Archive
-tags: ["en", "Azure"]
+tags: ["en", "Azure", "Cisco"]
 redirect_from: ["/post/Deploying-Labs-using-Azure-Resource-Manager", "/post/deploying-labs-using-azure-resource-manager"]
 author: thomas torggler
 ---

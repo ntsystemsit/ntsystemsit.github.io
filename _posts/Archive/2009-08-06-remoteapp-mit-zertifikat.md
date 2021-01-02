@@ -4,7 +4,7 @@ title: "RemoteApp mit Zertifikat"
 date: 2009-08-06 21:22:00 +0200
 comments: true
 category: Archive
-tags: ["Client", "Server", "Server 2008"]
+tags: ["Client", "Server", "Server-2008"]
 redirect_from: ["/post/RemoteApp-mit-Zertifikat", "/post/remoteapp-mit-zertifikat"]
 author: thomas torggler
 language: de

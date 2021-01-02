@@ -4,7 +4,7 @@ title: "WDS TFTP TimeOut"
 date: 2010-02-12 16:31:00 +0100
 comments: true
 category: Archive
-tags: ["Server", "Server 2008 R2", "Server 2008", "Server 2003"]
+tags: ["Server", "Server-2008-R2", "Server-2008", "Server-2003"]
 redirect_from: ["/post/WDS-TFTP-TimeOut", "/post/wds-tftp-timeout"]
 author: daniel nitz
 language: de

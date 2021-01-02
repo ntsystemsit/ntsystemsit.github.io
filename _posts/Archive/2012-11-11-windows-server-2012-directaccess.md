@@ -4,7 +4,7 @@ title: "Windows Server 2012 – DirectAccess"
 date: 2012-11-11 16:50:16 +0100
 comments: true
 category: Archive
-tags: ["Server 2012", "Server"]
+tags: ["Server-2012", "Server"]
 redirect_from: ["/post/Windows-Server-2012-DirectAccess", "/post/windows-server-2012-directaccess"]
 author: thomas torggler
 ---

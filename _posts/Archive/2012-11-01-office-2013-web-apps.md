@@ -4,7 +4,7 @@ title: "Office 2013 Web Apps"
 date: 2012-11-01 11:12:00 +0100
 comments: true
 category: Archive
-tags: ["Server 2012", "Sharepoint"]
+tags: ["Server-2012", "Sharepoint"]
 redirect_from: ["/post/Office-2013-Web-Apps", "/post/office-2013-web-apps"]
 author: thomas torggler
 ---

@@ -12,7 +12,7 @@
     {% for page in site.pages %}
     {% if page.layout != nil %}
     {% if page.layout != 'feed' %}
-    {% if page.title != 'Search' %}
+    {% if page.title != 'Find.' %}
     <url>
         <loc>{{ page.url | remove: 'index.html' | prepend: site.baseurl | prepend: site.url }}</loc>
         <lastmod>{{ page.date | date: "%F" }}</lastmod>

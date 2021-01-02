@@ -1,0 +1,41 @@
+---
+layout: none
+---
+
+{
+  "short_name": "onprem",
+  "name": "onprem.wtf",
+  "description": "My playground",
+  "icons": [
+    {
+      "src": "/assets/icons/android-chrome-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/assets/icons/android-chrome-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/index.html",
+  "background_color": "#0f0f0f",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#171717",
+  "shortcuts": [
+    {
+      "name": "PowerShell",
+      "short_name": "PS",
+      "description": "View PowerShell help content",
+      "url": "/PowerShell",
+      "icons": [
+        {
+          "src": "/assets/icons/android-chrome-192x192.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}

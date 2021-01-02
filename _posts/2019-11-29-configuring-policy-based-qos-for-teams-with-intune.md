@@ -23,7 +23,7 @@ You can find a link to the CSP reference below.
 
 Now it turns out there is a CSP for policy-based QoS but it just applies to Surface Hub devices. If you're lucky enough to configure QoS on such a device, here is a screenshot of the settings you will most likely use. Note: the port numbers may be different in your environment.
 
-![intune-custom-oma-NetworkQoSPolicy]({{ site.url }}/assets/2019/11-29-01.png)
+{% include img.html img="/assets/2019/11-29-01.png" %}
 
 ## MSFT_NetQosPolicySettingData
 
@@ -41,7 +41,7 @@ You can find a link to the cmdlet reference for `New-NetQosPolicy` below.
 
 Save the above commands to a file with ps1 extension and head over to [endpoint.microsoft.com](https://endpoint.microsoft.com/#blade/Microsoft_Intune_DeviceSettings/DevicesMenu/powershell). Create a new script for Windows 10, upload the the ps1 file and set it to run in system context and using the 64 bit PowerShell host. Now assign the script to a group that contains your devices.
 
-![intune-powershell-script]({{ site.url }}/assets/2020/08-14 223129.png)
+{% include img.html img="/assets/2020/08-14 223129.png" %}
 
 Once the script was applied you can use `Get-NetQosPolicy` to verify the policies were applied correctly.
 
@@ -54,12 +54,12 @@ You can find a link to the Teams admin center below.
 
 The following screenshot shows an example configuration where a distinct port range is used for each type of traffic, this allows us to distinguish the traffic types and apply different DSCP tags using policy-based QoS.
 
-![microsoft-teams-admin-center-meeting-settings]({{ site.url }}/assets/2019/11-29-02.png)
+{% include img.html img="/assets/2019/11-29-02.png" %}
 
-
-Special thanks to Mr. Workplace Expert [Dave Wenger](https://twitter.com/WengerDave)! Check out his blog: https://blog.contoso-bern.ch/
+Special thanks to Mr. Workplace Expert [Dave Wenger](https://twitter.com/WengerDave)! Check out his blog in the links below.
 
 ## Links
  - [Configuration service provider reference](https://docs.microsoft.com/en-us/windows/client-management/mdm/configuration-service-provider-reference)
  - [New-NetQosPolicy](https://docs.microsoft.com/en-us/powershell/module/netqos/new-netqospolicy)
  - [Microsoft Teams admin center](https://admin.teams.microsoft.com/meetings/settings)
+ - <https://blog.contoso-bern.ch/>
