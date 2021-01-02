@@ -1,13 +1,13 @@
 ---
 author: tto
-category: TAK
+category: tak
 date: 2021-01-02
 excerpt: "Create a new Windows Firewall Rule."
 external help file: tak-help.xml
 layout: pshelp
-Module Name: tak
+Module Name: Tak
 online version:
-redirect_from: ["/PowerShell/tak/New-FirewallRule", "/PowerShell/tak/new-firewallrule", "/PowerShell/new-firewallrule"]
+redirect_from: ["/PowerShell/Tak/New-FirewallRule", "/PowerShell/Tak/new-firewallrule", "/PowerShell/new-firewallrule"]
 schema: 2.0.0
 title: New-FirewallRule
 ---
@@ -31,8 +31,9 @@ This function is wrapper for New-NetFirewallRule with the goal of making it easi
 ### EXAMPLE 1
 ```
 New-FirewallRule -Port 6060
-This example creats a new firewall rule to allow connections on tcp/6060.
 ```
+
+This example creats a new firewall rule to allow connections on tcp/6060.
 
 ## PARAMETERS
 

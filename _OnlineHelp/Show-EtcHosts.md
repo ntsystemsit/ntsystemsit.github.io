@@ -1,6 +1,6 @@
 ---
 author: tto
-category: TAK
+category: tak
 date: 2021-01-02
 excerpt: "Display /etc/hosts file content on Windows or Linux/macOS."
 external help file: tak-help.xml

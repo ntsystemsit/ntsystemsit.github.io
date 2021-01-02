@@ -1,13 +1,13 @@
 ---
 author: tto
-category: TAK
+category: tak
 date: 2021-01-02
 excerpt: "Import IIS log files with default header."
 external help file: tak-help.xml
 layout: pshelp
-Module Name: tak
+Module Name: Tak
 online version:
-redirect_from: ["/PowerShell/tak/Import-IISLog", "/PowerShell/tak/import-iislog", "/PowerShell/import-iislog"]
+redirect_from: ["/PowerShell/Tak/Import-IISLog", "/PowerShell/Tak/import-iislog", "/PowerShell/import-iislog"]
 schema: 2.0.0
 title: Import-IISLog
 ---
@@ -32,14 +32,16 @@ This function imports IIS log files from CSV format.
 ### EXAMPLE 1
 ```
 Import-IISLog
-Import the latest log found in the default log folder.
 ```
+
+Import the latest log found in the default log folder.
 
 ### EXAMPLE 2
 ```
 Import-IISLog -Tail 10 -Wait
-Import the latest 10 lines of the latest log found in the default log folder and wait for new lines until stopped with ctrl-c.
 ```
+
+Import the latest 10 lines of the latest log found in the default log folder and wait for new lines until stopped with ctrl-c.
 
 ## PARAMETERS
 

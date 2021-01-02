@@ -1,13 +1,13 @@
 ---
 author: tto
-category: TAK
+category: tak
 date: 2021-01-02
 excerpt: "Import DHCP Server Log files."
 external help file: tak-help.xml
 layout: pshelp
-Module Name: tak
+Module Name: Tak
 online version:
-redirect_from: ["/PowerShell/tak/Import-DhcpServerLog", "/PowerShell/tak/import-dhcpserverlog", "/PowerShell/import-dhcpserverlog"]
+redirect_from: ["/PowerShell/Tak/Import-DhcpServerLog", "/PowerShell/Tak/import-dhcpserverlog", "/PowerShell/import-dhcpserverlog"]
 schema: 2.0.0
 title: Import-DhcpServerLog
 ---
@@ -32,8 +32,9 @@ This function imports DHCP Server Log files from CSV format.
 ### EXAMPLE 1
 ```
 Import-DhcpServerLog
-Import all logs found in the default log folder.
 ```
+
+Import all logs found in the default log folder.
 
 ## PARAMETERS
 

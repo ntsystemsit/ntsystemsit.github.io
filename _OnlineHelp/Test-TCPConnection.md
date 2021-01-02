@@ -1,13 +1,13 @@
 ---
 author: tto
-category: TAK
+category: tak
 date: 2021-01-02
 excerpt: "Test if a TCP Connection can be established."
 external help file: tak-help.xml
 layout: pshelp
-Module Name: tak
+Module Name: Tak
 online version:
-redirect_from: ["/PowerShell/tak/Test-TCPConnection", "/PowerShell/tak/test-tcpconnection", "/PowerShell/test-tcpconnection"]
+redirect_from: ["/PowerShell/Tak/Test-TCPConnection", "/PowerShell/Tak/test-tcpconnection", "/PowerShell/test-tcpconnection"]
 schema: 2.0.0
 title: Test-TCPConnection
 ---
@@ -33,14 +33,16 @@ Much like "telnet" which is not installed by default.
 ### EXAMPLE 1
 ```
 Test-TcpConnection -ComputerName www.ntsystems.it
-This example tests if port 80 can be reached on www.ntsystems.it
 ```
+
+This example tests if port 80 can be reached on www.ntsystems.it
 
 ### EXAMPLE 2
 ```
 Test-TcpConnection -ComputerName www.ntsystems.it -Port 25 -Count 4
-This example tests for 4 times if port 25 can be reached on www.ntsystems.it
 ```
+
+This example tests for 4 times if port 25 can be reached on www.ntsystems.it
 
 ## PARAMETERS
 

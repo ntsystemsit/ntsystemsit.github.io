@@ -1,13 +1,13 @@
 ---
 author: tto
-category: TAK
+category: tak
 date: 2021-01-02
 excerpt: "Convert a SubnetMask to PrefixLength or vice-versa."
 external help file: tak-help.xml
 layout: pshelp
-Module Name: tak
+Module Name: Tak
 online version:
-redirect_from: ["/PowerShell/tak/Convert-SubnetMask", "/PowerShell/tak/convert-subnetmask", "/PowerShell/convert-subnetmask"]
+redirect_from: ["/PowerShell/Tak/Convert-SubnetMask", "/PowerShell/Tak/convert-subnetmask", "/PowerShell/convert-subnetmask"]
 schema: 2.0.0
 title: Convert-SubnetMask
 ---
@@ -31,16 +31,18 @@ Long description
 ### EXAMPLE 1
 ```
 Convert-SubnetMask 24
-255.255.255.0
 ```
+
+255.255.255.0
 
 This example converts the PrefixLength 24 to a dotted SubnetMask.
 
 ### EXAMPLE 2
 ```
 Convert-SubnetMask 255.255.0.0
-16
 ```
+
+16
 
 This example counts the relevant network bits of the dotted SubnetMask 255.255.0.0.
 

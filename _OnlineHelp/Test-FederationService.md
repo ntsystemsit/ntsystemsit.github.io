@@ -1,13 +1,13 @@
 ---
 author: tto
-category: TAK
+category: tak
 date: 2021-01-02
 excerpt: "Test the ADFS web service"
 external help file: tak-help.xml
 layout: pshelp
-Module Name: tak
+Module Name: Tak
 online version:
-redirect_from: ["/PowerShell/tak/Test-FederationService", "/PowerShell/tak/test-federationservice", "/PowerShell/test-federationservice"]
+redirect_from: ["/PowerShell/Tak/Test-FederationService", "/PowerShell/Tak/test-federationservice", "/PowerShell/test-federationservice"]
 schema: 2.0.0
 title: Test-FederationService
 ---
@@ -30,9 +30,10 @@ This function uses Invoke-RestMethod to test if the federation service metadata 
 
 ### EXAMPLE 1
 ```
-Test-FederationService -ComputerName fs.uclab.eu 
-This example gets federation service xml information over the server fs.uclab.eu
+Test-FederationService -ComputerName fs.uclab.eu
 ```
+
+This example gets federation service xml information over the server fs.uclab.eu
 
 ## PARAMETERS
 

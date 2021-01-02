@@ -1,13 +1,13 @@
 ---
 author: tto
-category: TAK
+category: tak
 date: 2021-01-02
 excerpt: "Wohis request."
 external help file: tak-help.xml
 layout: pshelp
-Module Name: tak
+Module Name: Tak
 online version:
-redirect_from: ["/PowerShell/tak/Invoke-WhoisRequest", "/PowerShell/tak/invoke-whoisrequest", "/PowerShell/invoke-whoisrequest"]
+redirect_from: ["/PowerShell/Tak/Invoke-WhoisRequest", "/PowerShell/Tak/invoke-whoisrequest", "/PowerShell/invoke-whoisrequest"]
 schema: 2.0.0
 title: Invoke-WhoisRequest
 ---
@@ -31,8 +31,9 @@ This function creats a New-WebServiceProxy and then uses the GetWhoIs method to 
 ### EXAMPLE 1
 ```
 Invoke-WhoisRequest -DomainName ntsystems.it
-This example queries whois information for the domain ntsystems.it
 ```
+
+This example queries whois information for the domain ntsystems.it
 
 ## PARAMETERS
 

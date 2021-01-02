@@ -1,13 +1,13 @@
 ---
 author: tto
-category: TAK
+category: tak
 date: 2021-01-02
 excerpt: "Test DNS entries for Skype for Business / Lync deployments."
 external help file: tak-help.xml
 layout: pshelp
-Module Name: tak
+Module Name: Tak
 online version:
-redirect_from: ["/PowerShell/tak/Test-SfBDNS", "/PowerShell/tak/test-sfbdns", "/PowerShell/test-sfbdns"]
+redirect_from: ["/PowerShell/Tak/Test-SfBDNS", "/PowerShell/Tak/test-sfbdns", "/PowerShell/test-sfbdns"]
 schema: 2.0.0
 title: Test-SfBDNS
 ---
@@ -33,8 +33,9 @@ The NameSever parameter can be used to specify a nameserver.
 ### EXAMPLE 1
 ```
 Test-LyncDNS -SipDomain uclab.eu
-This example queries DNS records for the domain uclab.eu
 ```
+
+This example queries DNS records for the domain uclab.eu
 
 ## PARAMETERS
 

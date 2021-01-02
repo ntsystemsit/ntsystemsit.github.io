@@ -1,6 +1,6 @@
 ---
 author: tto
-category: TAK
+category: tak
 date: 2021-01-02
 excerpt: "Remove an entry from local hosts file by it's IP address."
 external help file: tak-help.xml

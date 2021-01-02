@@ -1,6 +1,6 @@
 ---
 author: tto
-category: PSSpeech
+category: psspeech
 date: 2021-01-02
 excerpt: "Save a token for the current session."
 external help file: psspeech-help.xml

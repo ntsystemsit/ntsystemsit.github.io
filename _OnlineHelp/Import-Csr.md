@@ -1,6 +1,6 @@
 ---
 author: tto
-category: TAK
+category: tak
 date: 2021-01-02
 excerpt: "Import certificate signing request from base64 text."
 external help file: tak-help.xml

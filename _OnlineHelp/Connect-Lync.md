@@ -1,13 +1,13 @@
 ---
 author: tto
-category: TAK
+category: tak
 date: 2021-01-02
 excerpt: "Connect to Skype for Business Server or Online."
 external help file: tak-help.xml
 layout: pshelp
-Module Name: TAK
+Module Name: Tak
 online version:
-redirect_from: ["/PowerShell/TAK/Connect-Lync", "/PowerShell/TAK/connect-lync", "/PowerShell/connect-lync"]
+redirect_from: ["/PowerShell/Tak/Connect-Lync", "/PowerShell/Tak/connect-lync", "/PowerShell/connect-lync"]
 schema: 2.0.0
 title: Connect-Lync
 ---
@@ -32,8 +32,9 @@ This function requires the MicrosoftTeams Module: https://www.powershellgallery.
 ### EXAMPLE 1
 ```
 Connect-SfB -Online -AdminDomain uclab
-This example connects to Skype for Business Online setting the OverrideAdminDomain to uclab.onmicrosoft.com
 ```
+
+This example connects to Skype for Business Online setting the OverrideAdminDomain to uclab.onmicrosoft.com
 
 ## PARAMETERS
 

@@ -1,6 +1,6 @@
 ---
 author: tto
-category: PSSpeech
+category: psspeech
 date: 2021-01-02
 excerpt: "Convert a string to audio using Azure Cognitive Services."
 external help file: psspeech-help.xml

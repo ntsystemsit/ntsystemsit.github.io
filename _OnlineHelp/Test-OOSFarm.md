@@ -1,13 +1,13 @@
 ---
 author: tto
-category: TAK
+category: tak
 date: 2021-01-02
 excerpt: "Get internal and external URLs for PowerPoint sharing."
 external help file: tak-help.xml
 layout: pshelp
-Module Name: tak
+Module Name: Tak
 online version:
-redirect_from: ["/PowerShell/tak/Test-OOSFarm", "/PowerShell/tak/test-oosfarm", "/PowerShell/test-oosfarm"]
+redirect_from: ["/PowerShell/Tak/Test-OOSFarm", "/PowerShell/Tak/test-oosfarm", "/PowerShell/test-oosfarm"]
 schema: 2.0.0
 title: Test-OOSFarm
 ---
@@ -32,8 +32,9 @@ If successfull, it returns a custom object with the internal and external URL fo
 ### EXAMPLE 1
 ```
 Test-OOSFarm -Name oos.example.com
-This example tries to retrieve information from https://oos.example.com/hosting/discovery
 ```
+
+This example tries to retrieve information from https://oos.example.com/hosting/discovery
 
 ## PARAMETERS
 

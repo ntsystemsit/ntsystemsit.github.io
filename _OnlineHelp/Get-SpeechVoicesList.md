@@ -1,6 +1,6 @@
 ---
 author: tto
-category: PSSpeech
+category: psspeech
 date: 2021-01-02
 excerpt: "Get a list of available voices from the speech service."
 external help file: psspeech-help.xml

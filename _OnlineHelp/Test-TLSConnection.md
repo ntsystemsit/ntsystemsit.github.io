@@ -1,6 +1,6 @@
 ---
 author: tto
-category: TAK
+category: tak
 date: 2021-01-02
 excerpt: "Test if a TLS Connection can be established."
 external help file: tak-help.xml

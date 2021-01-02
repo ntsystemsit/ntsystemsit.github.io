@@ -1,6 +1,6 @@
 ---
 author: tto
-category: TAK
+category: tak
 date: 2021-01-02
 excerpt: "Create SPF record for a given mail domain."
 external help file: tak.exchange-help.xml

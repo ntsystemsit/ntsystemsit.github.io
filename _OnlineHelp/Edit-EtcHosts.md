@@ -1,6 +1,6 @@
 ---
 author: tto
-category: TAK
+category: tak
 date: 2021-01-02
 excerpt: "Edit etc hosts file with notepad."
 external help file: tak-help.xml

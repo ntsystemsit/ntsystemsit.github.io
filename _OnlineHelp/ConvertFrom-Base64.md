@@ -1,6 +1,6 @@
 ---
 author: tto
-category: TAK
+category: tak
 date: 2021-01-02
 excerpt: "Convert Base64 to ClearText String"
 external help file: tak-help.xml

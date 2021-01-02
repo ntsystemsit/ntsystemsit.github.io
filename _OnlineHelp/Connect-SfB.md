@@ -1,13 +1,13 @@
 ---
 author: tto
-category: TAK
+category: tak
 date: 2021-01-02
 excerpt: "Connect to Skype for Business Server or Online."
 external help file: tak-help.xml
 layout: pshelp
-Module Name: tak
+Module Name: Tak
 online version:
-redirect_from: ["/PowerShell/tak/Connect-SfB", "/PowerShell/tak/connect-sfb", "/PowerShell/connect-sfb"]
+redirect_from: ["/PowerShell/Tak/Connect-SfB", "/PowerShell/Tak/connect-sfb", "/PowerShell/connect-sfb"]
 schema: 2.0.0
 title: Connect-SfB
 ---
@@ -43,8 +43,9 @@ This function requires the MicrosoftTeams Module: https://www.powershellgallery.
 ### EXAMPLE 1
 ```
 Connect-SfB -Online -AdminDomain uclab
-This example connects to Skype for Business Online setting the OverrideAdminDomain to uclab.onmicrosoft.com
 ```
+
+This example connects to Skype for Business Online setting the OverrideAdminDomain to uclab.onmicrosoft.com
 
 ## PARAMETERS
 

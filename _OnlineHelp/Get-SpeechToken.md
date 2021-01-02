@@ -1,6 +1,6 @@
 ---
 author: tto
-category: PSSpeech
+category: psspeech
 date: 2021-01-02
 excerpt: "Get OAuth token for authorization to Azure Cognitive Services."
 external help file: psspeech-help.xml

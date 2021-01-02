@@ -1,13 +1,13 @@
 ---
 author: tto
-category: TAK
+category: tak
 date: 2021-01-02
 excerpt: "Test the Lyncdiscover service for Skype for Business/Lync deployments"
 external help file: tak-help.xml
 layout: pshelp
-Module Name: tak
+Module Name: Tak
 online version:
-redirect_from: ["/PowerShell/tak/Test-SfBDiscover", "/PowerShell/tak/test-sfbdiscover", "/PowerShell/test-sfbdiscover"]
+redirect_from: ["/PowerShell/Tak/Test-SfBDiscover", "/PowerShell/Tak/test-sfbdiscover", "/PowerShell/test-sfbdiscover"]
 schema: 2.0.0
 title: Test-SfBDiscover
 ---
@@ -31,8 +31,9 @@ This function uses Invoke-RestMethod to test if the Lyncdiscover service is resp
 ### EXAMPLE 1
 ```
 Test-LyncDiscover -SipDomain uclab.eu -Http
-This example gets Lyncdiscover information over http for the domain uclab.eu
 ```
+
+This example gets Lyncdiscover information over http for the domain uclab.eu
 
 ## PARAMETERS
 

@@ -223,6 +223,11 @@ img,figure {
     padding: 1em;
 }
 
+.border-top {
+    border-top: 1px solid var(--accent-color);
+    padding-top: 1em;
+}
+
 .tag-count {
     font-family: $code-font;
     float: right;
@@ -256,11 +261,7 @@ img,figure {
         margin-bottom: initial;
     }
 }
-  
-.improve {
-    border-top: 1px solid var(--accent-color);
-}
-  
+
 .footer {
     font-family: $body-font;
     font-size: $small-font-size;
