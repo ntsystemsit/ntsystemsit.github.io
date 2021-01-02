@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: post
 Module Name: TAK
 online version:
-redirect_from: ["https://onprem.wtf/PowerShell/TAK/Show-EtcHosts", "https://onprem.wtf/PowerShell/TAK/show-etchosts"]
+redirect_from: ["https://onprem.wtf/PowerShell/TAK/Show-EtcHosts", "https://onprem.wtf/PowerShell/TAK/show-etchosts", "https://onprem.wtf/PowerShell/show-etchosts"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Show-EtcHosts

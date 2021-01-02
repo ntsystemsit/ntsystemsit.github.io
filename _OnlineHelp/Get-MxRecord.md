@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: post
 Module Name: TAK
 online version:
-redirect_from: ["https://onprem.wtf/PowerShell/TAK/Get-MxRecord", "https://onprem.wtf/PowerShell/TAK/get-mxrecord"]
+redirect_from: ["https://onprem.wtf/PowerShell/TAK/Get-MxRecord", "https://onprem.wtf/PowerShell/TAK/get-mxrecord", "https://onprem.wtf/PowerShell/get-mxrecord"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Get-MxRecord

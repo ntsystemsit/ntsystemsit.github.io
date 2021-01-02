@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: post
 Module Name: TAK
 online version:
-redirect_from: ["https://onprem.wtf/PowerShell/TAK/New-RgsReport", "https://onprem.wtf/PowerShell/TAK/new-rgsreport"]
+redirect_from: ["https://onprem.wtf/PowerShell/TAK/New-RgsReport", "https://onprem.wtf/PowerShell/TAK/new-rgsreport", "https://onprem.wtf/PowerShell/new-rgsreport"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: New-RgsReport

@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: post
 Module Name: TAK
 online version:
-redirect_from: ["https://onprem.wtf/PowerShell/TAK/Convert-SubnetMask", "https://onprem.wtf/PowerShell/TAK/convert-subnetmask"]
+redirect_from: ["https://onprem.wtf/PowerShell/TAK/Convert-SubnetMask", "https://onprem.wtf/PowerShell/TAK/convert-subnetmask", "https://onprem.wtf/PowerShell/convert-subnetmask"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Convert-SubnetMask

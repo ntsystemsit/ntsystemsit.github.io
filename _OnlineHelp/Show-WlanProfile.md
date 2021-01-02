@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: post
 Module Name: TAK
 online version:
-redirect_from: ["https://onprem.wtf/PowerShell/TAK/Show-WlanProfile", "https://onprem.wtf/PowerShell/TAK/show-wlanprofile"]
+redirect_from: ["https://onprem.wtf/PowerShell/TAK/Show-WlanProfile", "https://onprem.wtf/PowerShell/TAK/show-wlanprofile", "https://onprem.wtf/PowerShell/show-wlanprofile"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Show-WlanProfile

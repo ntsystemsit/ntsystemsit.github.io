@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: post
 Module Name: TAK
 online version:
-redirect_from: ["https://onprem.wtf/PowerShell/TAK/Import-IISLog", "https://onprem.wtf/PowerShell/TAK/import-iislog"]
+redirect_from: ["https://onprem.wtf/PowerShell/TAK/Import-IISLog", "https://onprem.wtf/PowerShell/TAK/import-iislog", "https://onprem.wtf/PowerShell/import-iislog"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Import-IISLog

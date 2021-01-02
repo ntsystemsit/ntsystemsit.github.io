@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: post
 Module Name: TAK
 online version:
-redirect_from: ["https://onprem.wtf/PowerShell/TAK/Test-OOSFarm", "https://onprem.wtf/PowerShell/TAK/test-oosfarm"]
+redirect_from: ["https://onprem.wtf/PowerShell/TAK/Test-OOSFarm", "https://onprem.wtf/PowerShell/TAK/test-oosfarm", "https://onprem.wtf/PowerShell/test-oosfarm"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Test-OOSFarm

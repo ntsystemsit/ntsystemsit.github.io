@@ -7,7 +7,7 @@ external help file: tak.exchange-help.xml
 layout: post
 Module Name: TAK
 online version:
-redirect_from: ["https://onprem.wtf/PowerShell/TAK/Test-ExchangeAutodiscover", "https://onprem.wtf/PowerShell/TAK/test-exchangeautodiscover"]
+redirect_from: ["https://onprem.wtf/PowerShell/TAK/Test-ExchangeAutodiscover", "https://onprem.wtf/PowerShell/TAK/test-exchangeautodiscover", "https://onprem.wtf/PowerShell/test-exchangeautodiscover"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Test-ExchangeAutodiscover

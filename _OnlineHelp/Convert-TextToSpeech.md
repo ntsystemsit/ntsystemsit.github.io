@@ -7,7 +7,7 @@ external help file: psspeech-help.xml
 layout: post
 Module Name: PSSpeech
 online version:
-redirect_from: ["https://onprem.wtf/PowerShell/PSSpeech/Convert-TextToSpeech", "https://onprem.wtf/PowerShell/PSSpeech/convert-texttospeech"]
+redirect_from: ["https://onprem.wtf/PowerShell/PSSpeech/Convert-TextToSpeech", "https://onprem.wtf/PowerShell/PSSpeech/convert-texttospeech", "https://onprem.wtf/PowerShell/convert-texttospeech"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Convert-TextToSpeech

@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: post
 Module Name: TAK
 online version:
-redirect_from: ["https://onprem.wtf/PowerShell/TAK/Import-DhcpServerLog", "https://onprem.wtf/PowerShell/TAK/import-dhcpserverlog"]
+redirect_from: ["https://onprem.wtf/PowerShell/TAK/Import-DhcpServerLog", "https://onprem.wtf/PowerShell/TAK/import-dhcpserverlog", "https://onprem.wtf/PowerShell/import-dhcpserverlog"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Import-DhcpServerLog

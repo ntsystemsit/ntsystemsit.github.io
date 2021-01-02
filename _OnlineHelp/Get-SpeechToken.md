@@ -7,7 +7,7 @@ external help file: psspeech-help.xml
 layout: post
 Module Name: PSSpeech
 online version:
-redirect_from: ["https://onprem.wtf/PowerShell/PSSpeech/Get-SpeechToken", "https://onprem.wtf/PowerShell/PSSpeech/get-speechtoken"]
+redirect_from: ["https://onprem.wtf/PowerShell/PSSpeech/Get-SpeechToken", "https://onprem.wtf/PowerShell/PSSpeech/get-speechtoken", "https://onprem.wtf/PowerShell/get-speechtoken"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Get-SpeechToken

@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: post
 Module Name: TAK
 online version:
-redirect_from: ["https://onprem.wtf/PowerShell/TAK/Test-FederationService", "https://onprem.wtf/PowerShell/TAK/test-federationservice"]
+redirect_from: ["https://onprem.wtf/PowerShell/TAK/Test-FederationService", "https://onprem.wtf/PowerShell/TAK/test-federationservice", "https://onprem.wtf/PowerShell/test-federationservice"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Test-FederationService
