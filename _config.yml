@@ -39,7 +39,7 @@ collections:
     excerpt_separator: <!-- more -->
   OnlineHelp:
     output: true
-    permalink: "/PowerShell/:title/"
+    permalink: "/PowerShell/:category/:title/"
     excerpt_separator: <!-- more -->
   my_tags:
     output: true
@@ -62,4 +62,3 @@ defaults:
     values:
       permalink: "/Tags/:title"
       layout: "tags"
-
