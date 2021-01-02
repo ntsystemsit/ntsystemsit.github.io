@@ -223,9 +223,8 @@ img,figure {
     padding: 1em;
 }
 
-.border-top {
-    border-top: 1px solid var(--accent-color);
-    padding-top: 1em;
+.border-bottom {
+    border-bottom: 1px solid var(--accent-color);
 }
 
 .tag-count {

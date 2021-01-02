@@ -30,10 +30,10 @@ foreach ($cmdlet in (Get-Command -Module PSSpeech)) {
         'category' = $($cmdlet.ModuleName.ToLower());
         'excerpt' = "`"$($h.Synopsis)`"";
         'date' = $(Get-Date -Format yyyy-MM-dd);
-        'redirect_from' = "[`"/PowerShell/$($cmdlet.ModuleName)/$($cmdlet.Name)`", `"/PowerShell/$($cmdlet.ModuleName)/$($cmdlet.Name.ToLower())`", `"/PowerShell/$($cmdlet.Name.ToLower())`"]"
+        'redirect_from' = "[`"/PowerShell/$($cmdlet.ModuleName)/$($cmdlet.Name)/`", `"/PowerShell/$($cmdlet.ModuleName)/$($cmdlet.Name.ToLower())/`", `"/PowerShell/$($cmdlet.Name.ToLower())/`"]"
     }
     if($h.Synopsis -notmatch "\[|\]") {
-        New-MarkdownHelp -Command $cmdlet -OutputFolder .\_OnlineHelp -Metadata $meta -Force 
+        New-MarkdownHelp -Command $cmdlet -OutputFolder .\_OnlineHelp\a -Metadata $meta -Force 
     }
 }
 ```
