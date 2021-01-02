@@ -1,15 +1,14 @@
 ---
 author: tto
-category: TAK
+category: tak
 date: 2021-01-02
-excerpt: 'Get hash for a string.'
+excerpt: "Get hash for a string."
 external help file: tak-help.xml
-layout: post
-Module Name: TAK
+layout: pshelp
+Module Name: tak
 online version:
-redirect_from: ["/PowerShell/TAK/Get-TakHash", "/PowerShell/TAK/get-takhash", "/PowerShell/get-takhash"]
+redirect_from: ["/PowerShell/tak/Get-TakHash", "/PowerShell/tak/get-takhash", "/PowerShell/get-takhash"]
 schema: 2.0.0
-tags: OnlineHelp PowerShell
 title: Get-TakHash
 ---
 

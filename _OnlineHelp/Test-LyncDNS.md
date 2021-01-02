@@ -2,14 +2,13 @@
 author: tto
 category: TAK
 date: 2021-01-02
-excerpt: 'Test DNS entries for Skype for Business / Lync deployments.'
+excerpt: "Test DNS entries for Skype for Business / Lync deployments."
 external help file: tak-help.xml
-layout: post
+layout: pshelp
 Module Name: TAK
 online version:
 redirect_from: ["/PowerShell/TAK/Test-LyncDNS", "/PowerShell/TAK/test-lyncdns", "/PowerShell/test-lyncdns"]
 schema: 2.0.0
-tags: OnlineHelp PowerShell
 title: Test-LyncDNS
 ---
 

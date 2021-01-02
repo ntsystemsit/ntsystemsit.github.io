@@ -1,17 +1,16 @@
 ---
 author: tto
-category: TAK
+category: tak
 date: 2021-01-02
-excerpt: '
+excerpt: "
 Get-WlanProfile 
-'
+"
 external help file: tak-help.xml
-layout: post
-Module Name: TAK
+layout: pshelp
+Module Name: tak
 online version:
-redirect_from: ["/PowerShell/TAK/Get-WlanProfile", "/PowerShell/TAK/get-wlanprofile", "/PowerShell/get-wlanprofile"]
+redirect_from: ["/PowerShell/tak/Get-WlanProfile", "/PowerShell/tak/get-wlanprofile", "/PowerShell/get-wlanprofile"]
 schema: 2.0.0
-tags: OnlineHelp PowerShell
 title: Get-WlanProfile
 ---
 

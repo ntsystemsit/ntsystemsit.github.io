@@ -2,14 +2,13 @@
 author: tto
 category: PSSpeech
 date: 2021-01-02
-excerpt: 'Get a list of available voices from the speech service.'
+excerpt: "Get a list of available voices from the speech service."
 external help file: psspeech-help.xml
-layout: post
+layout: pshelp
 Module Name: PSSpeech
 online version:
 redirect_from: ["/PowerShell/PSSpeech/Get-SpeechVoicesList", "/PowerShell/PSSpeech/get-speechvoiceslist", "/PowerShell/get-speechvoiceslist"]
 schema: 2.0.0
-tags: OnlineHelp PowerShell
 title: Get-SpeechVoicesList
 ---
 

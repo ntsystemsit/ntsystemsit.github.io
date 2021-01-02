@@ -1,15 +1,14 @@
 ---
 author: tto
-category: TAK
+category: tak
 date: 2021-01-02
-excerpt: 'Get internal and external URLs for PowerPoint sharing.'
+excerpt: "Get internal and external URLs for PowerPoint sharing."
 external help file: tak-help.xml
-layout: post
-Module Name: TAK
+layout: pshelp
+Module Name: tak
 online version:
-redirect_from: ["/PowerShell/TAK/Test-OOSFarm", "/PowerShell/TAK/test-oosfarm", "/PowerShell/test-oosfarm"]
+redirect_from: ["/PowerShell/tak/Test-OOSFarm", "/PowerShell/tak/test-oosfarm", "/PowerShell/test-oosfarm"]
 schema: 2.0.0
-tags: OnlineHelp PowerShell
 title: Test-OOSFarm
 ---
 

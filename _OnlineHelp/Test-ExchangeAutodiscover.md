@@ -1,15 +1,14 @@
 ---
 author: tto
-category: TAK
+category: tak
 date: 2021-01-02
-excerpt: 'Test Exchange Autodiscover Web Service.'
+excerpt: "Test Exchange Autodiscover Web Service."
 external help file: tak.exchange-help.xml
-layout: post
-Module Name: TAK
+layout: pshelp
+Module Name: tak
 online version:
-redirect_from: ["/PowerShell/TAK/Test-ExchangeAutodiscover", "/PowerShell/TAK/test-exchangeautodiscover", "/PowerShell/test-exchangeautodiscover"]
+redirect_from: ["/PowerShell/tak/Test-ExchangeAutodiscover", "/PowerShell/tak/test-exchangeautodiscover", "/PowerShell/test-exchangeautodiscover"]
 schema: 2.0.0
-tags: OnlineHelp PowerShell
 title: Test-ExchangeAutodiscover
 ---
 

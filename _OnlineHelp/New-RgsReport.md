@@ -1,15 +1,14 @@
 ---
 author: tto
-category: TAK
+category: tak
 date: 2021-01-02
-excerpt: 'Gather information about Skype for Business Response Groups, Queues, Agent Groups.'
+excerpt: "Gather information about Skype for Business Response Groups, Queues, Agent Groups."
 external help file: tak-help.xml
-layout: post
-Module Name: TAK
+layout: pshelp
+Module Name: tak
 online version:
-redirect_from: ["/PowerShell/TAK/New-RgsReport", "/PowerShell/TAK/new-rgsreport", "/PowerShell/new-rgsreport"]
+redirect_from: ["/PowerShell/tak/New-RgsReport", "/PowerShell/tak/new-rgsreport", "/PowerShell/new-rgsreport"]
 schema: 2.0.0
-tags: OnlineHelp PowerShell
 title: New-RgsReport
 ---
 

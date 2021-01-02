@@ -2,14 +2,13 @@
 author: tto
 category: PSSpeech
 date: 2021-01-02
-excerpt: 'Convert a string to audio using Azure Cognitive Services.'
+excerpt: "Convert a string to audio using Azure Cognitive Services."
 external help file: psspeech-help.xml
-layout: post
+layout: pshelp
 Module Name: PSSpeech
 online version:
 redirect_from: ["/PowerShell/PSSpeech/Convert-TextToSpeech", "/PowerShell/PSSpeech/convert-texttospeech", "/PowerShell/convert-texttospeech"]
 schema: 2.0.0
-tags: OnlineHelp PowerShell
 title: Convert-TextToSpeech
 ---
 

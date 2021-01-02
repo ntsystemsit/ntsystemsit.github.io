@@ -3,7 +3,7 @@
 <div class="functionlist">
     {%- for post in site.OnlineHelp -%}
     {% if post.category == page.title %}
-        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <h2 class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
         {{ post.excerpt }}
     {%- endif -%}
     {%- endfor -%}

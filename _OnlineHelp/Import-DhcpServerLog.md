@@ -1,15 +1,14 @@
 ---
 author: tto
-category: TAK
+category: tak
 date: 2021-01-02
-excerpt: 'Import DHCP Server Log files.'
+excerpt: "Import DHCP Server Log files."
 external help file: tak-help.xml
-layout: post
-Module Name: TAK
+layout: pshelp
+Module Name: tak
 online version:
-redirect_from: ["/PowerShell/TAK/Import-DhcpServerLog", "/PowerShell/TAK/import-dhcpserverlog", "/PowerShell/import-dhcpserverlog"]
+redirect_from: ["/PowerShell/tak/Import-DhcpServerLog", "/PowerShell/tak/import-dhcpserverlog", "/PowerShell/import-dhcpserverlog"]
 schema: 2.0.0
-tags: OnlineHelp PowerShell
 title: Import-DhcpServerLog
 ---
 
@@ -21,7 +20,8 @@ Import DHCP Server Log files.
 ## SYNTAX
 
 ```
-Import-DhcpServerLog [[-Path] <Object>] [[-Filter] <Object>] [[-ComputerName] <Object>] [<CommonParameters>]
+Import-DhcpServerLog [[-Path] <Object>] [[-Filter] <Object>] [[-ComputerName] <Object>] [-Latest]
+ [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -78,6 +78,21 @@ Aliases:
 Required: False
 Position: 3
 Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Latest
+{{ Fill Latest Description }}
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases:
+
+Required: False
+Position: Named
+Default value: False
 Accept pipeline input: False
 Accept wildcard characters: False
 ```

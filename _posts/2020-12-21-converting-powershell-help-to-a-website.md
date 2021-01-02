@@ -19,21 +19,21 @@ The first step is to install platyPS (available on the PS Gallery) and create th
 
 ```powershell
 Install-Module platyPS
-Import-Module platyPS, TAK
+Import-Module platyPS, TAK, PSSpeech
 
 foreach ($cmdlet in (Get-Command -Module TAK)) { 
     $h = Get-Help $($cmdlet.Name)
     $meta = @{
-        'layout' = 'post';
+        'layout' = 'pshelp';
         'author' = 'tto';
         'title' = $($cmdlet.Name);
         'category' = $($cmdlet.ModuleName);
-        'tags' = 'OnlineHelp PowerShell';
-        'excerpt' = "'$($h.Synopsis)'";
+        'excerpt' = "`"$($h.Synopsis)`"";
         'date' = $(Get-Date -Format yyyy-MM-dd);
+        'redirect_from' = "[`"/PowerShell/$($cmdlet.ModuleName)/$($cmdlet.Name)`", `"/PowerShell/$($cmdlet.ModuleName)/$($cmdlet.Name.ToLower())`", `"/PowerShell/$($cmdlet.Name.ToLower())`"]"
     }
     if($h.Synopsis -notmatch "\[|\]") {
-        New-MarkdownHelp -Command $cmdlet -OutputFolder tak-md-help -Metadata $meta -Force 
+        New-MarkdownHelp -Command $cmdlet -OutputFolder .\_OnlineHelp -Metadata $meta -Force 
     }
 }
 ```

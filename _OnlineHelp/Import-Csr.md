@@ -1,15 +1,14 @@
 ---
 author: tto
-category: TAK
+category: tak
 date: 2021-01-02
-excerpt: 'Import certificate signing request from base64 text.'
+excerpt: "Import certificate signing request from base64 text."
 external help file: tak-help.xml
-layout: post
-Module Name: TAK
+layout: pshelp
+Module Name: tak
 online version:
-redirect_from: ["/PowerShell/TAK/Import-Csr", "/PowerShell/TAK/import-csr", "/PowerShell/import-csr"]
+redirect_from: ["/PowerShell/tak/Import-Csr", "/PowerShell/tak/import-csr", "/PowerShell/import-csr"]
 schema: 2.0.0
-tags: OnlineHelp PowerShell
 title: Import-Csr
 ---
 

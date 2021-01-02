@@ -1,15 +1,14 @@
 ---
 author: tto
-category: TAK
+category: tak
 date: 2021-01-02
-excerpt: 'Get DKIM Record for a domain.'
+excerpt: "Get DKIM Record for a domain."
 external help file: tak-help.xml
-layout: post
-Module Name: TAK
+layout: pshelp
+Module Name: tak
 online version:
-redirect_from: ["/PowerShell/TAK/Get-DKIMRecord", "/PowerShell/TAK/get-dkimrecord", "/PowerShell/get-dkimrecord"]
+redirect_from: ["/PowerShell/tak/Get-DKIMRecord", "/PowerShell/tak/get-dkimrecord", "/PowerShell/get-dkimrecord"]
 schema: 2.0.0
-tags: OnlineHelp PowerShell
 title: Get-DKIMRecord
 ---
 
@@ -67,7 +66,7 @@ Aliases:
 
 Required: False
 Position: 2
-Default value: Selector1
+Default value: @("selector1","selector2")
 Accept pipeline input: False
 Accept wildcard characters: False
 ```

@@ -1,15 +1,14 @@
 ---
 author: tto
-category: TAK
+category: tak
 date: 2021-01-02
-excerpt: 'Test DNS entries for Skype for Business / Lync deployments.'
+excerpt: "Test DNS entries for Skype for Business / Lync deployments."
 external help file: tak-help.xml
-layout: post
-Module Name: TAK
+layout: pshelp
+Module Name: tak
 online version:
-redirect_from: ["/PowerShell/TAK/Test-SfBDNS", "/PowerShell/TAK/test-sfbdns", "/PowerShell/test-sfbdns"]
+redirect_from: ["/PowerShell/tak/Test-SfBDNS", "/PowerShell/tak/test-sfbdns", "/PowerShell/test-sfbdns"]
 schema: 2.0.0
-tags: OnlineHelp PowerShell
 title: Test-SfBDNS
 ---
 

@@ -1,15 +1,14 @@
 ---
 author: tto
-category: TAK
+category: tak
 date: 2021-01-02
-excerpt: 'Get MX Records for a domain.'
+excerpt: "Get MX Records for a domain."
 external help file: tak-help.xml
-layout: post
-Module Name: TAK
+layout: pshelp
+Module Name: tak
 online version:
-redirect_from: ["/PowerShell/TAK/Get-MxRecord", "/PowerShell/TAK/get-mxrecord", "/PowerShell/get-mxrecord"]
+redirect_from: ["/PowerShell/tak/Get-MxRecord", "/PowerShell/tak/get-mxrecord", "/PowerShell/get-mxrecord"]
 schema: 2.0.0
-tags: OnlineHelp PowerShell
 title: Get-MxRecord
 ---
 
@@ -40,12 +39,11 @@ This example gets the MX record for the domain ntsystems.it.
 
 ### -Domain
 Specify the Domain name for the query.
-Specify the DNS server to query.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: DomainName
 
 Required: True
 Position: 1
@@ -55,7 +53,7 @@ Accept wildcard characters: False
 ```
 
 ### -Server
-{{ Fill Server Description }}
+Specify the DNS server to query.
 
 ```yaml
 Type: IPAddress
@@ -70,7 +68,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResolvePTR
-{{ Fill ResolvePTR Description }}
+Also resolve PTR
 
 ```yaml
 Type: SwitchParameter

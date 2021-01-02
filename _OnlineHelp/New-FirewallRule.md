@@ -1,15 +1,14 @@
 ---
 author: tto
-category: TAK
+category: tak
 date: 2021-01-02
-excerpt: 'Create a new Windows Firewall Rule.'
+excerpt: "Create a new Windows Firewall Rule."
 external help file: tak-help.xml
-layout: post
-Module Name: TAK
+layout: pshelp
+Module Name: tak
 online version:
-redirect_from: ["/PowerShell/TAK/New-FirewallRule", "/PowerShell/TAK/new-firewallrule", "/PowerShell/new-firewallrule"]
+redirect_from: ["/PowerShell/tak/New-FirewallRule", "/PowerShell/tak/new-firewallrule", "/PowerShell/new-firewallrule"]
 schema: 2.0.0
-tags: OnlineHelp PowerShell
 title: New-FirewallRule
 ---
 

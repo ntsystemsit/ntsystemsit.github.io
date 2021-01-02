@@ -2,14 +2,13 @@
 author: tto
 category: PSSpeech
 date: 2021-01-02
-excerpt: 'Save a token for the current session.'
+excerpt: "Save a token for the current session."
 external help file: psspeech-help.xml
-layout: post
+layout: pshelp
 Module Name: PSSpeech
 online version:
 redirect_from: ["/PowerShell/PSSpeech/Save-SpeechToken", "/PowerShell/PSSpeech/save-speechtoken", "/PowerShell/save-speechtoken"]
 schema: 2.0.0
-tags: OnlineHelp PowerShell
 title: Save-SpeechToken
 ---
 

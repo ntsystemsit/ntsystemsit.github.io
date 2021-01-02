@@ -1,15 +1,14 @@
 ---
 author: tto
-category: TAK
+category: tak
 date: 2021-01-02
-excerpt: 'Wohis request.'
+excerpt: "Wohis request."
 external help file: tak-help.xml
-layout: post
-Module Name: TAK
+layout: pshelp
+Module Name: tak
 online version:
-redirect_from: ["/PowerShell/TAK/Invoke-WhoisRequest", "/PowerShell/TAK/invoke-whoisrequest", "/PowerShell/invoke-whoisrequest"]
+redirect_from: ["/PowerShell/tak/Invoke-WhoisRequest", "/PowerShell/tak/invoke-whoisrequest", "/PowerShell/invoke-whoisrequest"]
 schema: 2.0.0
-tags: OnlineHelp PowerShell
 title: Invoke-WhoisRequest
 ---
 

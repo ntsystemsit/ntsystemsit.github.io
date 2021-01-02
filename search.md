@@ -20,6 +20,7 @@ layout: page
         "url": "{{ post.url | xml_escape }}"
       }
       {% unless forloop.last %},{% endunless %}
+    {% endfor %}
   };
 </script>
 

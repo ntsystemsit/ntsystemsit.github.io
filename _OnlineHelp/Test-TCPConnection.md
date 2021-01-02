@@ -1,15 +1,14 @@
 ---
 author: tto
-category: TAK
+category: tak
 date: 2021-01-02
-excerpt: 'Test if a TCP Connection can be established.'
+excerpt: "Test if a TCP Connection can be established."
 external help file: tak-help.xml
-layout: post
-Module Name: TAK
+layout: pshelp
+Module Name: tak
 online version:
-redirect_from: ["/PowerShell/TAK/Test-TCPConnection", "/PowerShell/TAK/test-tcpconnection", "/PowerShell/test-tcpconnection"]
+redirect_from: ["/PowerShell/tak/Test-TCPConnection", "/PowerShell/tak/test-tcpconnection", "/PowerShell/test-tcpconnection"]
 schema: 2.0.0
-tags: OnlineHelp PowerShell
 title: Test-TCPConnection
 ---
 

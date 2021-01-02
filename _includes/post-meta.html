@@ -26,4 +26,7 @@
         <span class="meta-tag post-updated" itemprop="dateModified" intemscope itemtype="http://schema.org/BlogPosting">
         <time datetime="{{ post.updated | date: "%b %-d, %Y" }}" itemprop="dateModified">{{ post.updated | date: "%-d %b %Y" }} </time></span> 
     {% endif %}
+    {% if page.author %}
+    <span class="meta-tag"> <a href="{{ site.github.repository_url }}/edit/master/{{ page.path }}" target="_blank">Edit</a> this page.</span>
+    {% endif %}
 </p>

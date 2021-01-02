@@ -1,15 +1,14 @@
 ---
 author: tto
-category: TAK
+category: tak
 date: 2021-01-02
-excerpt: 'Get DMARC Record for a domain.'
+excerpt: "Get DMARC Record for a domain."
 external help file: tak-help.xml
-layout: post
-Module Name: TAK
+layout: pshelp
+Module Name: tak
 online version:
-redirect_from: ["/PowerShell/TAK/Get-DMARCRecord", "/PowerShell/TAK/get-dmarcrecord", "/PowerShell/get-dmarcrecord"]
+redirect_from: ["/PowerShell/tak/Get-DMARCRecord", "/PowerShell/tak/get-dmarcrecord", "/PowerShell/get-dmarcrecord"]
 schema: 2.0.0
-tags: OnlineHelp PowerShell
 title: Get-DMARCRecord
 ---
 

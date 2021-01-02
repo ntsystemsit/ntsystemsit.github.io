@@ -2,14 +2,13 @@
 author: tto
 category: PSSpeech
 date: 2021-01-02
-excerpt: 'Get OAuth token for authorization to Azure Cognitive Services.'
+excerpt: "Get OAuth token for authorization to Azure Cognitive Services."
 external help file: psspeech-help.xml
-layout: post
+layout: pshelp
 Module Name: PSSpeech
 online version:
 redirect_from: ["/PowerShell/PSSpeech/Get-SpeechToken", "/PowerShell/PSSpeech/get-speechtoken", "/PowerShell/get-speechtoken"]
 schema: 2.0.0
-tags: OnlineHelp PowerShell
 title: Get-SpeechToken
 ---
 
