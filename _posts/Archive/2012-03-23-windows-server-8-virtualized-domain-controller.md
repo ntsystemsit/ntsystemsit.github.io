@@ -4,7 +4,7 @@ title: "Windows Server 8–Virtualized Domain Controller"
 date: 2012-03-23 23:15:00 +0100
 comments: true
 category: Archive
-tags: ["Server 2012"]
+tags: ["Server-2012"]
 redirect_from: ["/post/Windows-Server-8-Virtualized-Domain-Controller", "/post/windows-server-8-virtualized-domain-controller"]
 author: thomas torggler
 language: de

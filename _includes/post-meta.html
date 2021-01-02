@@ -1,39 +1,29 @@
 <p class="post-meta">
+    <span itemprop="author" itemscope itemtype="http://schema.org/BlogPosting">
+        {% if post.author %}
+            <span itemprop="author">{{ post.author }}</span>
+        {% else %}
+             <span itemprop="author">{{ page.author }}</span>
+        {% endif %}
+    </span>
     {% if post.date %}
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
-        <span itemprop="datePublished" intemscope itemtype="http://schema.org/BlogPosting">
-        <time datetime="{{ post.date | date: "%b %-d, %Y" }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }} &thinsp; </time></span>
+        <span class="meta-tag" itemprop="datePublished" intemscope itemtype="http://schema.org/BlogPosting">
+        <time datetime="{{ post.date | date: "%b %-d, %Y" }}" itemprop="datePublished">{{ post.date | date: "%-d %b %Y" }}</time></span>
     {% else %}
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
-        <span itemprop="datePublished" intemscope itemtype="http://schema.org/BlogPosting">
-        <time datetime="{{ page.date | date: "%b %-d, %Y" }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }} &thinsp; </time></span>
+        <span class="meta-tag" itemprop="datePublished" intemscope itemtype="http://schema.org/BlogPosting">
+        <time datetime="{{ page.date | date: "%b %-d, %Y" }}" itemprop="datePublished">{{ page.date | date: "%-d %b %Y" }}</time></span>
     {% endif %}
-        <i class="fas fa-user" aria-hidden="true"></i>
-        <span itemprop="author" itemscope itemtype="http://schema.org/BlogPosting">
-            {% if post.author %}
-                <span itemprop="author">{{ post.author }}</span>
-            {% else %}
-                <a href="{{ site.baseurl }}/{{ page.author | url_escape }}/"><span itemprop="author">{{ page.author }}</span></a>
-            {% endif %}
-        </span>&thinsp;
-    {% if page.category %}
-        <i class="fas fa-folder" aria-hidden="true"></i>
-        <span itemprop="category" itemscope itemtype="http://schema.org/BlogPosting">
-            <a href="{{ site.baseurl }}/categories/#{{ page.category | downcase }}"><span itemprop="keywords">{{ page.category }}</span></a> &thinsp; 
-        </span>
-    {% endif %}
-    {% if page.tags %}
-        <i class="fas fa-tag" aria-hidden="true"></i>
-        <span itemprop="category" itemscope itemtype="http://schema.org/BlogPosting">
+    {% if page.tags.size >= 1 %}
+        <span class="meta-tag" itemprop="category" itemscope itemtype="http://schema.org/BlogPosting">
             <span itemprop="keywords">
                 {% for tag in page.tags %}
-                <a href="{{ site.baseurl }}/tags/#{{ tag | downcase }}"><span itemprop="keywords">{{ tag }}</span></a>{% unless forloop.last %},{% endunless %} 
+                <a href="{{ site.baseurl }}/Tags/{{ tag }}"><span itemprop="keywords">#{{ tag }}</span></a>{% unless forloop.last %},{% endunless %} 
                 {% endfor %}
             </span>
         </span>
     {% endif %}
     {% if post.updated %}
-        <span class="post-updated" itemprop="dateModified" intemscope itemtype="http://schema.org/BlogPosting">
-        <time datetime="{{ post.updated | date: "%b %-d, %Y" }}" itemprop="dateModified">Updated {{ post.updated | date: "%b %-d, %Y" }} </time></span>    
+        <span class="meta-tag post-updated" itemprop="dateModified" intemscope itemtype="http://schema.org/BlogPosting">
+        <time datetime="{{ post.updated | date: "%b %-d, %Y" }}" itemprop="dateModified">{{ post.updated | date: "%-d %b %Y" }} </time></span> 
     {% endif %}
 </p>

@@ -4,7 +4,7 @@ title: "Windows Server 2012 – Virtualized Domain Controller"
 date: 2013-01-26 11:19:14 +0100
 comments: true
 category: Archive
-tags: ["Server", "Server 2012"]
+tags: ["Server", "Server-2012"]
 redirect_from: ["/post/Windows-Server-2012-Virtualized-Domain-Controller", "/post/windows-server-2012-virtualized-domain-controller"]
 author: thomas torggler
 ---

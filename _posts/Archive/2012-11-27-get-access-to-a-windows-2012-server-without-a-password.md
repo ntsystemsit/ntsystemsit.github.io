@@ -4,7 +4,7 @@ title: "Get access to a Windows 2012 Server without a password"
 date: 2012-11-27 17:20:51 +0100
 comments: true
 category: Archive
-tags: ["Server 2012"]
+tags: ["Server-2012"]
 redirect_from: ["/post/Get-access-to-a-Windows-2012-Server-without-a-password", "/post/get-access-to-a-windows-2012-server-without-a-password"]
 author: daniel nitz
 ---

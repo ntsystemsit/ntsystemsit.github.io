@@ -1,4 +1,4 @@
 User-agent: *
-Sitemap: https://ntsystems.it/sitemap.xml
+Sitemap: https://onprem.wtf/sitemap.xml
 Disallow: /search
 Disallow: /api

@@ -1,0 +1,279 @@
+@font-face{
+    font-family: 'Source Sans 3';
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('/assets/WOFF2/TTF/SourceSans3-Light.ttf.woff2') format('woff2'),
+         url('/assets/WOFF/OTF/SourceSans3-Light.otf.woff') format('woff');
+    font-display: fallback;
+}
+
+@font-face{
+    font-family: 'Source Sans 3';
+    font-weight: 300;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('/assets/WOFF2/TTF/SourceSans3-LightIt.ttf.woff2') format('woff2'),
+         url('/assets/WOFF/OTF/SourceSans3-LightIt.otf.woff') format('woff');
+    font-display: fallback;
+}
+
+@font-face{
+    font-family: 'Source Sans 3';
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('/assets/WOFF2/TTF/SourceSans3-Regular.ttf.woff2') format('woff2'),
+         url('/assets/WOFF/OTF/SourceSans3-Regular.otf.woff') format('woff');
+    font-display: fallback;
+}
+
+@font-face{
+    font-family: 'Source Sans 3';
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('/assets/WOFF2/TTF/SourceSans3-It.ttf.woff2') format('woff2'),
+         url('/assets/WOFF/OTF/SourceSans3-It.otf.woff') format('woff');
+    font-display: fallback;
+}
+
+@font-face{
+    font-family: 'Source Sans 3';
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('/assets/WOFF2/TTF/SourceSans3-Semibold.ttf.woff2') format('woff2'),
+         url('/assets/WOFF/OTF/SourceSans3-Semibold.otf.woff') format('woff');
+    font-display: fallback;
+}
+
+@font-face{
+    font-family: 'Source Sans 3';
+    font-weight: 600;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('/assets/WOFF2/TTF/SourceSans3-SemiboldIt.ttf.woff2') format('woff2'),
+         url('/assets/WOFF/OTF/SourceSans3-SemiboldIt.otf.woff') format('woff');
+    font-display: fallback;
+}
+
+@font-face{
+    font-family: 'Source Sans 3';
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('/assets/WOFF2/TTF/SourceSans3-Bold.ttf.woff2') format('woff2'),
+         url('/assets/WOFF/OTF/SourceSans3-Bold.otf.woff') format('woff');
+    font-display: fallback;
+}
+
+@font-face{
+    font-family: 'Source Serif Pro';
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('/assets/WOFF2/TTF/SourceSerifPro-Light.ttf.woff2') format('woff2'),
+         url('/assets/WOFF/OTF/SourceSerifPro-Light.otf.woff') format('woff');
+    font-display: fallback;
+}
+
+@font-face{
+    font-family: 'Source Serif Pro';
+    font-weight: 300;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('/assets/WOFF2/TTF/SourceSerifPro-LightIt.ttf.woff2') format('woff2'),
+         url('/assets/WOFF/OTF/SourceSerifPro-LightIt.otf.woff') format('woff');
+    font-display: fallback;
+}
+
+@font-face{
+    font-family: 'Source Serif Pro';
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('/assets/WOFF2/TTF/SourceSerifPro-Regular.ttf.woff2') format('woff2'),
+         url('/assets/WOFF/OTF/SourceSerifPro-Regular.otf.woff') format('woff');
+    font-display: fallback;
+}
+
+@font-face{
+    font-family: 'Source Serif Pro';
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('/assets/WOFF2/TTF/SourceSerifPro-It.ttf.woff2') format('woff2'),
+         url('/assets/WOFF/OTF/SourceSerifPro-It.otf.woff') format('woff');
+    font-display: fallback;
+}
+
+@font-face{
+    font-family: 'Source Serif Pro';
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('/assets/WOFF2/TTF/SourceSerifPro-Semibold.ttf.woff2') format('woff2'),
+         url('/assets/WOFF/OTF/SourceSerifPro-Semibold.otf.woff') format('woff');
+    font-display: fallback;
+}
+
+@font-face{
+    font-family: 'Source Serif Pro';
+    font-weight: 600;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('/assets/WOFF2/TTF/SourceSerifPro-SemiboldIt.ttf.woff2') format('woff2'),
+         url('/assets/WOFF/OTF/SourceSerifPro-SemiboldIt.otf.woff') format('woff');
+    font-display: fallback;
+}
+
+@font-face{
+    font-family: 'Source Serif Pro';
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('/assets/WOFF2/TTF/SourceSerifPro-Bold.ttf.woff2') format('woff2'),
+         url('/assets/WOFF/OTF/SourceSerifPro-Bold.otf.woff') format('woff');
+         font-display: fallback;
+}
+
+@font-face{
+    font-family: 'SourceCodePro';
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('/assets/WOFF2/OTF/SourceCodePro-Light.otf.woff2') format('woff2');
+    font-display: fallback;
+}
+
+@font-face{
+    font-family: 'SourceCodePro';
+    font-weight: 300;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('/assets/WOFF2/OTF/SourceCodePro-LightIt.otf.woff2') format('woff2');
+    font-display: fallback;
+}
+
+@font-face{
+    font-family: 'SourceCodePro';
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('/assets/WOFF2/OTF/SourceCodePro-Regular.otf.woff2') format('woff2');
+    font-display: fallback;
+}
+
+@font-face{
+    font-family: 'SourceCodePro';
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('/assets/WOFF2/OTF/SourceCodePro-It.otf.woff2') format('woff2');
+    font-display: fallback;
+}
+
+@font-face{
+    font-family: 'SourceCodePro';
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('/assets/WOFF2/OTF/SourceCodePro-Semibold.otf.woff2') format('woff2');
+    font-display: fallback;
+}
+
+@font-face{
+    font-family: 'SourceCodePro';
+    font-weight: 600;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('/assets/WOFF2/OTF/SourceCodePro-SemiboldIt.otf.woff2') format('woff2');
+    font-display: fallback;
+}
+
+@font-face{
+    font-family: 'SourceCodePro';
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('/assets/WOFF2/OTF/SourceCodePro-Bold.otf.woff2') format('woff2');
+    font-display: fallback;
+}
+
+@font-face{
+    font-family: 'SourceCodePro';
+    font-weight: 700;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('/assets/WOFF2/OTF/SourceCodePro-BoldIt.otf.woff2') format('woff2');
+    font-display: fallback;
+}
+
+/**
+* Reset some basic elements
+*/
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/**
+* Set `margin-bottom` to maintain vertical rhythm
+*/
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure {
+    margin-bottom: $spacing-unit / 2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: $spacing-unit;
+    line-height: 1.5;
+    font-family: $title-font;
+}
+
+h1 {
+    font-size: 1.3rem;
+}
+h2 {
+    font-size: 1.15rem;
+}
+h3 {
+    font-size: 1.05rem;
+}
+
+/**
+* Code formatting
+*/
+pre,
+code {
+    font-family: $code-font;
+    font-weight: 400;
+    font-size: $small-font-size;
+    //border: 1px solid #fff;
+    border-radius: 3px;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+code {
+    padding: 1px 5px;
+}
+    
+pre {
+    padding: 8px 12px;
+    overflow-x: auto;
+
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}

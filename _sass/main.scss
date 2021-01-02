@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+$spacing-unit: 2.4rem;
+$body-font: 'Source Sans 3', sans-serif;
+$title-font: 'Source Serif Pro', 'serif';
+$code-font: 'SourceCodePro', 'monospace';
+$base-font-size: 17px;
+$base-font-weight: 300;
+$small-font-size: $base-font-size * 0.85;
+$base-line-height: 1.8;
+
+@mixin relative-font-size($ratio) {
+    font-size: $base-font-size * $ratio;
+}
+
+@mixin display-grid {
+    display: grid;
+    grid-template-rows: auto;
+    grid-gap: 1.5em;
+}
+
+/**
+ * Clearfix
+ */
+ %clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}

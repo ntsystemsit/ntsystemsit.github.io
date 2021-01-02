@@ -4,7 +4,7 @@ title: "Server 2008 R2, Disk Management und DiskPart lässt sich nicht starten"
 date: 2012-08-06 20:00:30 +0200
 comments: true
 category: Archive
-tags: ["Server 2008 R2"]
+tags: ["Server-2008-R2"]
 redirect_from: ["/post/Server-2008-R2-Disk-Management-und-DiskPart-lasst-sich-nicht-starten", "/post/server-2008-r2-disk-management-und-diskpart-lasst-sich-nicht-starten"]
 author: daniel nitz
 language: de

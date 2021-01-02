@@ -4,7 +4,7 @@ title: "Hyper-V Server 2008 R2 Cluster"
 date: 2009-08-26 23:00:00 +0200
 comments: true
 category: Archive
-tags: ["Client", "Hyper-V", "Server", "Server 2008 R2"]
+tags: ["Client", "Hyper-V", "Server", "Server-2008-R2"]
 redirect_from: ["/post/Hyper-V-Server-2008-R2-Cluster", "/post/hyper-v-server-2008-r2-cluster"]
 author: daniel nitz
 language: de

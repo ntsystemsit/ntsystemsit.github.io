@@ -4,7 +4,7 @@ title: "Domain Controller umbenennen"
 date: 2009-12-24 17:25:00 +0100
 comments: true
 category: Archive
-tags: ["Server 2008 R2", "Server 2008", "Server"]
+tags: ["Server-2008-R2", "Server-2008", "Server"]
 redirect_from: ["/post/Domain-Controller-umbenennen", "/post/domain-controller-umbenennen"]
 author: thomas torggler
 language: de

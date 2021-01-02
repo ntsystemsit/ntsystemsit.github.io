@@ -1,44 +1,5 @@
-<footer class="site-footer">
-  <div class="wrapper">
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.description | escape }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-            <li>{% include icon-github.html username=site.github_username %}</li>
-          {% endif %}
-          {% if site.twitter_username %}
-            <li>{% include icon-twitter.html username=site.twitter_username %}</li>
-          {% endif %}
-          <li>
-            <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
-                <i class="fas fa-rss fa-fw" aria-hidden="true"></i>
-                <span class="username">Feed</span>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="footer-col footer-col-3">
-        <ul class="social-media-list">
-          <li>{% include icon-bitcoin.html addr=site.bitcoin_addr %}</li>
-          <li><span class="username"><a href="https://openalias.org/">OpenAlias:</a> {{ site.openalias_fqdn }}</span></li>
-          <li><span class="username"><a href="{{ site.onion_v3 | prepend: "http://" }}">.onion</a></span></li>
-        </ul>  
-      </div>
+<footer class="footer">
+    <div class="container">
+        <p>Drop me an <a href="mailto:{{site.email}}">email</a> or find me on <a href="https://twitter.com/{{site.twitter_username}}" target="_blank" rel="noopener">twitter</a> and <a href="https://github.com/{{site.github_username}}" target="_blank" rel="noopener">GitHub</a> &mdash;&nbsp;updated:&nbsp;{{ site.time | date: "%-d&nbsp;%b&nbsp;%Y" }}</p>
     </div>
-  </div>
-  <!-- adds anchor links to h1, h2, h3 -->
-  <script>
-    (function () {
-      'use strict';
-      anchors.options.placement = 'left';
-      anchors.add('.post-content > h1, .post-content > h2, .post-content > h3');
-    })();
-  </script>
 </footer>

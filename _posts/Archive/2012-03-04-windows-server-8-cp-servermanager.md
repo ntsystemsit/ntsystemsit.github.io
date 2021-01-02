@@ -4,7 +4,7 @@ title: "Windows Server 8 CP –ServerManager"
 date: 2012-03-04 12:49:58 +0100
 comments: true
 category: Archive
-tags: ["Server", "Server 2012"]
+tags: ["Server", "Server-2012"]
 redirect_from: ["/post/Windows-Server-8-CP-ServerManager", "/post/windows-server-8-cp-servermanager"]
 author: thomas torggler
 language: de

@@ -4,7 +4,7 @@ title: "Import Certificate to RD"
 date: 2014-01-05 13:36:39 +0100
 comments: true
 category: Archive
-tags: ["Server 2012", "en", "Server 2012 R2", "Remote Desktop"]
+tags: ["Server-2012", "en", "Server-2012-R2", "RDS"]
 redirect_from: ["/post/Import-Certificate-to-RD", "/post/import-certificate-to-rd"]
 author: daniel nitz
 ---

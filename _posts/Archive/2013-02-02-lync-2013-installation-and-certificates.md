@@ -4,7 +4,7 @@ title: "Lync 2013 – Installation and Certificates"
 date: 2013-02-02 15:35:00 +0100
 comments: true
 category: Archive
-tags: ["Lync", "Server 2012", "Skype4B"]
+tags: ["Lync", "Server-2012", "Skype4B"]
 redirect_from: ["/post/Lync-2013-Installation-and-Certificates", "/post/lync-2013-installation-and-certificates"]
 author: thomas torggler
 ---

@@ -4,7 +4,7 @@ title: "Exchange 2010 Update-HybridConfiguration"
 date: 2014-02-12 07:49:00 +0100
 comments: true
 category: Archive
-tags: ["Exchange", "Office 365", "de"]
+tags: ["Exchange", "Office365", "de"]
 redirect_from: ["/post/Exchange-2010-Update-HybridConfiguration", "/post/exchange-2010-update-hybridconfiguration"]
 author: thomas torggler
 language: de

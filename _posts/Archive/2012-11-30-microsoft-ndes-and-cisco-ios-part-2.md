@@ -4,7 +4,7 @@ title: "Microsoft NDES and Cisco IOS – part 2"
 date: 2012-11-30 20:08:52 +0100
 comments: true
 category: Archive
-tags: ["Server 2012", "Network"]
+tags: ["Server-2012", "Network"]
 redirect_from: ["/post/Microsoft-NDES-and-Cisco-IOS-part-2", "/post/microsoft-ndes-and-cisco-ios-part-2"]
 author: thomas torggler
 ---

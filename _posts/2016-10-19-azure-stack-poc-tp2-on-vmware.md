@@ -186,7 +186,7 @@ If you encounter problems during installation, make sure to check the `summary.l
 
 To actually log in to the Azure Stack Portal, open the MAS-Con01 VM's conole and find a link to the portal on the desktop:
 
-![azure stack portal](https://ntsystems.it/assets/2016/201610190001.png)
+![azure stack portal]({{ site.url }}/assets/2016/201610190001.png)
 
 Ok, so with that: Have fun with Azure Stack and happy hacking ;)
 

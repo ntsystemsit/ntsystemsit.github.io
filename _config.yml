@@ -1,41 +1,17 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
-title: ntSystems | info.tech
-email: blog@ntsystems.it
-description: "by Daniel Nitz and Thomas Torggler."
-baseurl: ""
-url: "https://ntsystems.it"
-twitter_username: ntsystemsit
-github_username:  ntsystemsit
-repository: ntsystemsit/ntsystems.github.io
-bitcoin_addr: 13fXxMxH6rdALDMu7N9BDxYfKmomU5Mfze
-bitcoincash_addr: qqp40wztc69ppv2v29397pkeun7l62xkj5jd693764
-openalias_fqdn: donate.uclab.eu
-onion_v3: ntsystcpyyew477akekwcn2od3vdknlehwof7cyt2vryieocos2sz4id.onion
-disqus:
-  shortname: ntsystems
+title: onprem.wtf
+email: tom@onprem.wtf
+description: "by Tom Torggler and Daniel Nitz"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://onprem.wtf" # the base hostname & protocol for your site, e.g. http://example.com
+language: en
+twitter_username: torggler
+github_username:  tomtorggler
 
 # Regional
-timezone: Europe/Rome
+timezone: Europe/Amsterdam
 
 # Build settings
-markdown: kramdown
-theme: minima
-paginate: 10
 permalink: /post/:title
 plugins:
   - jekyll-feed
@@ -43,13 +19,30 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
 
+sass:
+  style: compressed
+
+highlighter: rouge
+markdown: kramdown
 kramdown: 
  input: GFM # GitHub Flavored Markdown
  auto_ids: true # Auto-generate ID's 
 
-# Inlcude _pages
-include: 
- - _pages 
+collections:
+  Scripts:
+    output: true
+    permalink: "/PowerShell/:title/"
+    excerpt_separator: <!-- more -->
+  Modules:
+    output: true
+    permalink: "/PowerShell/:title/"
+    excerpt_separator: <!-- more -->
+  OnlineHelp:
+    output: true
+    permalink: "/PowerShell/:title/"
+    excerpt_separator: <!-- more -->
+  my_tags:
+    output: true
 
  
 # Default Values for "Front Matter"
@@ -64,39 +57,9 @@ defaults:
       language: en
   -
     scope:
-      path: "_posts/PowerShell"
+      path: ""
+      type: "my_tags"
     values:
-      permalink: "/PowerShell/:title/"
-      excerpt_separator: <!-- more -->
-      hidden: true
-  -
-    scope:
-      path: "_posts/PowerShell/TAK"
-    values:
-      permalink: "/PowerShell/TAK/:title/"
-      comments: true
-      excerpt_separator: <!-- more -->
-      hidden: true
+      permalink: "/Tags/:title"
+      layout: "tags"
 
-# menubar
-header_pages:
- - _pages/powershell.md
- - _pages/fieldnotes.md
- - _pages/contact.md
- - _pages/categories.md
- - _pages/tags.md
- - _pages/search.md
-
-
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/

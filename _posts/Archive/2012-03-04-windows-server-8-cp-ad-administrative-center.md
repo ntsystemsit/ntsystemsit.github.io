@@ -4,7 +4,7 @@ title: "Windows Server 8 CP–AD Administrative Center"
 date: 2012-03-04 19:41:57 +0100
 comments: true
 category: Archive
-tags: ["Server 2012", "Server"]
+tags: ["Server-2012", "Server"]
 redirect_from: ["/post/Windows-Server-8-CP-AD-Administrative-Center", "/post/windows-server-8-cp-ad-administrative-center"]
 author: thomas torggler
 language: de

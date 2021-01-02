@@ -4,7 +4,7 @@ title: "Connect to Office 365 with Powershell"
 date: 2014-01-05 15:14:00 +0100
 comments: true
 category: Archive
-tags: ["en", "Office 365"]
+tags: ["en", "Office365"]
 redirect_from: ["/post/Connect-to-Office-365-with-Powershell", "/post/connect-to-office-365-with-powershell"]
 author: daniel nitz
 ---
