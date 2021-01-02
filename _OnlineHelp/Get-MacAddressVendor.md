@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: post
 Module Name: TAK
 online version:
-redirect_from: ["https://onprem.wtf/PowerShell/TAK/Get-MacAddressVendor", "https://onprem.wtf/PowerShell/TAK/get-macaddressvendor", "https://onprem.wtf/PowerShell/get-macaddressvendor"]
+redirect_from: ["/PowerShell/TAK/Get-MacAddressVendor", "/PowerShell/TAK/get-macaddressvendor", "/PowerShell/get-macaddressvendor"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Get-MacAddressVendor

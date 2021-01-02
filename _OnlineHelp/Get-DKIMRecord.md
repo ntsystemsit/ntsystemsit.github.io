@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: post
 Module Name: TAK
 online version:
-redirect_from: ["https://onprem.wtf/PowerShell/TAK/Get-DKIMRecord", "https://onprem.wtf/PowerShell/TAK/get-dkimrecord", "https://onprem.wtf/PowerShell/get-dkimrecord"]
+redirect_from: ["/PowerShell/TAK/Get-DKIMRecord", "/PowerShell/TAK/get-dkimrecord", "/PowerShell/get-dkimrecord"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Get-DKIMRecord

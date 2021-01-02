@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: post
 Module Name: TAK
 online version:
-redirect_from: ["https://onprem.wtf/PowerShell/TAK/Connect-Lync", "https://onprem.wtf/PowerShell/TAK/connect-lync", "https://onprem.wtf/PowerShell/connect-lync"]
+redirect_from: ["/PowerShell/TAK/Connect-Lync", "/PowerShell/TAK/connect-lync", "/PowerShell/connect-lync"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Connect-Lync

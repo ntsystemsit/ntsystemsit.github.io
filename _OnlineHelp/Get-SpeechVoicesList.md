@@ -7,7 +7,7 @@ external help file: psspeech-help.xml
 layout: post
 Module Name: PSSpeech
 online version:
-redirect_from: ["https://onprem.wtf/PowerShell/PSSpeech/Get-SpeechVoicesList", "https://onprem.wtf/PowerShell/PSSpeech/get-speechvoiceslist", "https://onprem.wtf/PowerShell/get-speechvoiceslist"]
+redirect_from: ["/PowerShell/PSSpeech/Get-SpeechVoicesList", "/PowerShell/PSSpeech/get-speechvoiceslist", "/PowerShell/get-speechvoiceslist"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Get-SpeechVoicesList

@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: post
 Module Name: TAK
 online version:
-redirect_from: ["https://onprem.wtf/PowerShell/TAK/Invoke-WhoisRequest", "https://onprem.wtf/PowerShell/TAK/invoke-whoisrequest", "https://onprem.wtf/PowerShell/invoke-whoisrequest"]
+redirect_from: ["/PowerShell/TAK/Invoke-WhoisRequest", "/PowerShell/TAK/invoke-whoisrequest", "/PowerShell/invoke-whoisrequest"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Invoke-WhoisRequest

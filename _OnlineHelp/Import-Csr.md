@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: post
 Module Name: TAK
 online version:
-redirect_from: ["https://onprem.wtf/PowerShell/TAK/Import-Csr", "https://onprem.wtf/PowerShell/TAK/import-csr", "https://onprem.wtf/PowerShell/import-csr"]
+redirect_from: ["/PowerShell/TAK/Import-Csr", "/PowerShell/TAK/import-csr", "/PowerShell/import-csr"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Import-Csr

@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: post
 Module Name: TAK
 online version:
-redirect_from: ["https://onprem.wtf/PowerShell/TAK/Edit-EtcHosts", "https://onprem.wtf/PowerShell/TAK/edit-etchosts", "https://onprem.wtf/PowerShell/edit-etchosts"]
+redirect_from: ["/PowerShell/TAK/Edit-EtcHosts", "/PowerShell/TAK/edit-etchosts", "/PowerShell/edit-etchosts"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Edit-EtcHosts

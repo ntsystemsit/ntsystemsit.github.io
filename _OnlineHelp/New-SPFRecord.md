@@ -7,7 +7,7 @@ external help file: tak.exchange-help.xml
 layout: post
 Module Name: TAK
 online version:
-redirect_from: ["https://onprem.wtf/PowerShell/TAK/New-SPFRecord", "https://onprem.wtf/PowerShell/TAK/new-spfrecord", "https://onprem.wtf/PowerShell/new-spfrecord"]
+redirect_from: ["/PowerShell/TAK/New-SPFRecord", "/PowerShell/TAK/new-spfrecord", "/PowerShell/new-spfrecord"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: New-SPFRecord

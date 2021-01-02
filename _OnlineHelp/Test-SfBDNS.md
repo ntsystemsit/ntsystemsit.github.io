@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: post
 Module Name: TAK
 online version:
-redirect_from: ["https://onprem.wtf/PowerShell/TAK/Test-SfBDNS", "https://onprem.wtf/PowerShell/TAK/test-sfbdns", "https://onprem.wtf/PowerShell/test-sfbdns"]
+redirect_from: ["/PowerShell/TAK/Test-SfBDNS", "/PowerShell/TAK/test-sfbdns", "/PowerShell/test-sfbdns"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Test-SfBDNS

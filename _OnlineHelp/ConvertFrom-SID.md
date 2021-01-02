@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: post
 Module Name: TAK
 online version:
-redirect_from: ["https://onprem.wtf/PowerShell/TAK/ConvertFrom-SID", "https://onprem.wtf/PowerShell/TAK/convertfrom-sid", "https://onprem.wtf/PowerShell/convertfrom-sid"]
+redirect_from: ["/PowerShell/TAK/ConvertFrom-SID", "/PowerShell/TAK/convertfrom-sid", "/PowerShell/convertfrom-sid"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: ConvertFrom-SID

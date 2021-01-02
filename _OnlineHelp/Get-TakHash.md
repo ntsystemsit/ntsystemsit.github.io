@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: post
 Module Name: TAK
 online version:
-redirect_from: ["https://onprem.wtf/PowerShell/TAK/Get-TakHash", "https://onprem.wtf/PowerShell/TAK/get-takhash", "https://onprem.wtf/PowerShell/get-takhash"]
+redirect_from: ["/PowerShell/TAK/Get-TakHash", "/PowerShell/TAK/get-takhash", "/PowerShell/get-takhash"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Get-TakHash

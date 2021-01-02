@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: post
 Module Name: TAK
 online version:
-redirect_from: ["https://onprem.wtf/PowerShell/TAK/New-FirewallRule", "https://onprem.wtf/PowerShell/TAK/new-firewallrule", "https://onprem.wtf/PowerShell/new-firewallrule"]
+redirect_from: ["/PowerShell/TAK/New-FirewallRule", "/PowerShell/TAK/new-firewallrule", "/PowerShell/new-firewallrule"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: New-FirewallRule

@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: post
 Module Name: TAK
 online version:
-redirect_from: ["https://onprem.wtf/PowerShell/TAK/Test-TCPConnection", "https://onprem.wtf/PowerShell/TAK/test-tcpconnection", "https://onprem.wtf/PowerShell/test-tcpconnection"]
+redirect_from: ["/PowerShell/TAK/Test-TCPConnection", "/PowerShell/TAK/test-tcpconnection", "/PowerShell/test-tcpconnection"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Test-TCPConnection

@@ -7,7 +7,7 @@ external help file: psspeech-help.xml
 layout: post
 Module Name: PSSpeech
 online version:
-redirect_from: ["https://onprem.wtf/PowerShell/PSSpeech/Save-SpeechToken", "https://onprem.wtf/PowerShell/PSSpeech/save-speechtoken", "https://onprem.wtf/PowerShell/save-speechtoken"]
+redirect_from: ["/PowerShell/PSSpeech/Save-SpeechToken", "/PowerShell/PSSpeech/save-speechtoken", "/PowerShell/save-speechtoken"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Save-SpeechToken

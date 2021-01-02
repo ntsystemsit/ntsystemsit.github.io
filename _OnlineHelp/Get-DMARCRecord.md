@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: post
 Module Name: TAK
 online version:
-redirect_from: ["https://onprem.wtf/PowerShell/TAK/Get-DMARCRecord", "https://onprem.wtf/PowerShell/TAK/get-dmarcrecord", "https://onprem.wtf/PowerShell/get-dmarcrecord"]
+redirect_from: ["/PowerShell/TAK/Get-DMARCRecord", "/PowerShell/TAK/get-dmarcrecord", "/PowerShell/get-dmarcrecord"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Get-DMARCRecord

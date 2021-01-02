@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: post
 Module Name: TAK
 online version:
-redirect_from: ["https://onprem.wtf/PowerShell/TAK/Connect-SfB", "https://onprem.wtf/PowerShell/TAK/connect-sfb", "https://onprem.wtf/PowerShell/connect-sfb"]
+redirect_from: ["/PowerShell/TAK/Connect-SfB", "/PowerShell/TAK/connect-sfb", "/PowerShell/connect-sfb"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: Connect-SfB

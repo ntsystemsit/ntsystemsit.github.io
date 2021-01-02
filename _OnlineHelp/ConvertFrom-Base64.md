@@ -7,7 +7,7 @@ external help file: tak-help.xml
 layout: post
 Module Name: TAK
 online version:
-redirect_from: ["https://onprem.wtf/PowerShell/TAK/ConvertFrom-Base64", "https://onprem.wtf/PowerShell/TAK/convertfrom-base64", "https://onprem.wtf/PowerShell/convertfrom-base64"]
+redirect_from: ["/PowerShell/TAK/ConvertFrom-Base64", "/PowerShell/TAK/convertfrom-base64", "/PowerShell/convertfrom-base64"]
 schema: 2.0.0
 tags: OnlineHelp PowerShell
 title: ConvertFrom-Base64
