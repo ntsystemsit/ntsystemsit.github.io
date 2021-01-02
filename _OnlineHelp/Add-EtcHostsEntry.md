@@ -5,9 +5,9 @@ date: 2021-01-02
 excerpt: "Add an entry to local hosts file."
 external help file: tak-help.xml
 layout: pshelp
-Module Name: tak
+Module Name: TAK
 online version:
-redirect_from: ["/PowerShell/tak/Add-EtcHostsEntry", "/PowerShell/tak/add-etchostsentry", "/PowerShell/add-etchostsentry"]
+redirect_from: ["/PowerShell/TAK/Add-EtcHostsEntry", "/PowerShell/TAK/add-etchostsentry", "/PowerShell/add-etchostsentry"]
 schema: 2.0.0
 title: Add-EtcHostsEntry
 ---

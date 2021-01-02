@@ -5,9 +5,9 @@ date: 2021-01-02
 excerpt: "Test the Lyncdiscover service for Skype for Business/Lync deployments"
 external help file: tak-help.xml
 layout: pshelp
-Module Name: Tak
+Module Name: TAK
 online version:
-redirect_from: ["/PowerShell/Tak/Test-SfBDiscover", "/PowerShell/Tak/test-sfbdiscover", "/PowerShell/test-sfbdiscover"]
+redirect_from: ["/PowerShell/TAK/Test-SfBDiscover", "/PowerShell/TAK/test-sfbdiscover", "/PowerShell/test-sfbdiscover"]
 schema: 2.0.0
 title: Test-SfBDiscover
 ---

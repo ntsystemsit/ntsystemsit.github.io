@@ -5,9 +5,9 @@ date: 2021-01-02
 excerpt: "Get hash for a string."
 external help file: tak-help.xml
 layout: pshelp
-Module Name: tak
+Module Name: TAK
 online version:
-redirect_from: ["/PowerShell/tak/Get-TakHash", "/PowerShell/tak/get-takhash", "/PowerShell/get-takhash"]
+redirect_from: ["/PowerShell/TAK/Get-TakHash", "/PowerShell/TAK/get-takhash", "/PowerShell/get-takhash"]
 schema: 2.0.0
 title: Get-TakHash
 ---

@@ -5,9 +5,9 @@ date: 2021-01-02
 excerpt: "Get DKIM Record for a domain."
 external help file: tak-help.xml
 layout: pshelp
-Module Name: tak
+Module Name: TAK
 online version:
-redirect_from: ["/PowerShell/tak/Get-DKIMRecord", "/PowerShell/tak/get-dkimrecord", "/PowerShell/get-dkimrecord"]
+redirect_from: ["/PowerShell/TAK/Get-DKIMRecord", "/PowerShell/TAK/get-dkimrecord", "/PowerShell/get-dkimrecord"]
 schema: 2.0.0
 title: Get-DKIMRecord
 ---

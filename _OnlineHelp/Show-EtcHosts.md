@@ -5,9 +5,9 @@ date: 2021-01-02
 excerpt: "Display /etc/hosts file content on Windows or Linux/macOS."
 external help file: tak-help.xml
 layout: pshelp
-Module Name: tak
+Module Name: TAK
 online version:
-redirect_from: ["/PowerShell/tak/Show-EtcHosts", "/PowerShell/tak/show-etchosts", "/PowerShell/show-etchosts"]
+redirect_from: ["/PowerShell/TAK/Show-EtcHosts", "/PowerShell/TAK/show-etchosts", "/PowerShell/show-etchosts"]
 schema: 2.0.0
 title: Show-EtcHosts
 ---

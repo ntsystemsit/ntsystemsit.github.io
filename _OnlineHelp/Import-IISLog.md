@@ -5,9 +5,9 @@ date: 2021-01-02
 excerpt: "Import IIS log files with default header."
 external help file: tak-help.xml
 layout: pshelp
-Module Name: Tak
+Module Name: TAK
 online version:
-redirect_from: ["/PowerShell/Tak/Import-IISLog", "/PowerShell/Tak/import-iislog", "/PowerShell/import-iislog"]
+redirect_from: ["/PowerShell/TAK/Import-IISLog", "/PowerShell/TAK/import-iislog", "/PowerShell/import-iislog"]
 schema: 2.0.0
 title: Import-IISLog
 ---

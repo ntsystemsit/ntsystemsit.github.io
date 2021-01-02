@@ -5,9 +5,9 @@ date: 2021-01-02
 excerpt: "Get SPF Record for a domain. If the include tag is present, recursively get that SPF Record, too."
 external help file: tak-help.xml
 layout: pshelp
-Module Name: tak
+Module Name: TAK
 online version:
-redirect_from: ["/PowerShell/tak/Get-SPFRecord", "/PowerShell/tak/get-spfrecord", "/PowerShell/get-spfrecord"]
+redirect_from: ["/PowerShell/TAK/Get-SPFRecord", "/PowerShell/TAK/get-spfrecord", "/PowerShell/get-spfrecord"]
 schema: 2.0.0
 title: Get-SPFRecord
 ---

@@ -5,9 +5,9 @@ date: 2021-01-02
 excerpt: "Test the ADFS web service"
 external help file: tak-help.xml
 layout: pshelp
-Module Name: Tak
+Module Name: TAK
 online version:
-redirect_from: ["/PowerShell/Tak/Test-FederationService", "/PowerShell/Tak/test-federationservice", "/PowerShell/test-federationservice"]
+redirect_from: ["/PowerShell/TAK/Test-FederationService", "/PowerShell/TAK/test-federationservice", "/PowerShell/test-federationservice"]
 schema: 2.0.0
 title: Test-FederationService
 ---

@@ -5,9 +5,9 @@ date: 2021-01-02
 excerpt: "Test if a TLS Connection can be established."
 external help file: tak-help.xml
 layout: pshelp
-Module Name: tak
+Module Name: TAK
 online version:
-redirect_from: ["/PowerShell/tak/Test-TLSConnection", "/PowerShell/tak/test-tlsconnection", "/PowerShell/test-tlsconnection"]
+redirect_from: ["/PowerShell/TAK/Test-TLSConnection", "/PowerShell/TAK/test-tlsconnection", "/PowerShell/test-tlsconnection"]
 schema: 2.0.0
 title: Test-TLSConnection
 ---

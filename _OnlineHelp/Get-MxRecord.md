@@ -5,9 +5,9 @@ date: 2021-01-02
 excerpt: "Get MX Records for a domain."
 external help file: tak-help.xml
 layout: pshelp
-Module Name: tak
+Module Name: TAK
 online version:
-redirect_from: ["/PowerShell/tak/Get-MxRecord", "/PowerShell/tak/get-mxrecord", "/PowerShell/get-mxrecord"]
+redirect_from: ["/PowerShell/TAK/Get-MxRecord", "/PowerShell/TAK/get-mxrecord", "/PowerShell/get-mxrecord"]
 schema: 2.0.0
 title: Get-MxRecord
 ---

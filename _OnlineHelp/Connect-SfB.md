@@ -5,9 +5,9 @@ date: 2021-01-02
 excerpt: "Connect to Skype for Business Server or Online."
 external help file: tak-help.xml
 layout: pshelp
-Module Name: Tak
+Module Name: TAK
 online version:
-redirect_from: ["/PowerShell/Tak/Connect-SfB", "/PowerShell/Tak/connect-sfb", "/PowerShell/connect-sfb"]
+redirect_from: ["/PowerShell/TAK/Connect-SfB", "/PowerShell/TAK/connect-sfb", "/PowerShell/connect-sfb"]
 schema: 2.0.0
 title: Connect-SfB
 ---

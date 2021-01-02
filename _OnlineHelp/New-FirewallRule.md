@@ -5,9 +5,9 @@ date: 2021-01-02
 excerpt: "Create a new Windows Firewall Rule."
 external help file: tak-help.xml
 layout: pshelp
-Module Name: Tak
+Module Name: TAK
 online version:
-redirect_from: ["/PowerShell/Tak/New-FirewallRule", "/PowerShell/Tak/new-firewallrule", "/PowerShell/new-firewallrule"]
+redirect_from: ["/PowerShell/TAK/New-FirewallRule", "/PowerShell/TAK/new-firewallrule", "/PowerShell/new-firewallrule"]
 schema: 2.0.0
 title: New-FirewallRule
 ---

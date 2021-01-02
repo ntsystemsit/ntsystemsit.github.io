@@ -5,9 +5,9 @@ date: 2021-01-02
 excerpt: "Create SPF record for a given mail domain."
 external help file: tak.exchange-help.xml
 layout: pshelp
-Module Name: tak
+Module Name: TAK
 online version:
-redirect_from: ["/PowerShell/tak/New-SPFRecord", "/PowerShell/tak/new-spfrecord", "/PowerShell/new-spfrecord"]
+redirect_from: ["/PowerShell/TAK/New-SPFRecord", "/PowerShell/TAK/new-spfrecord", "/PowerShell/new-spfrecord"]
 schema: 2.0.0
 title: New-SPFRecord
 ---

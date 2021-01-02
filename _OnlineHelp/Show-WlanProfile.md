@@ -5,9 +5,9 @@ date: 2021-01-02
 excerpt: "Get wlan pre-shared key."
 external help file: tak-help.xml
 layout: pshelp
-Module Name: tak
+Module Name: TAK
 online version:
-redirect_from: ["/PowerShell/tak/Show-WlanProfile", "/PowerShell/tak/show-wlanprofile", "/PowerShell/show-wlanprofile"]
+redirect_from: ["/PowerShell/TAK/Show-WlanProfile", "/PowerShell/TAK/show-wlanprofile", "/PowerShell/show-wlanprofile"]
 schema: 2.0.0
 title: Show-WlanProfile
 ---

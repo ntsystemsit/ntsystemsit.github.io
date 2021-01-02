@@ -5,9 +5,9 @@ date: 2021-01-02
 excerpt: "Get the account name for a SID."
 external help file: tak-help.xml
 layout: pshelp
-Module Name: tak
+Module Name: TAK
 online version:
-redirect_from: ["/PowerShell/tak/ConvertFrom-SID", "/PowerShell/tak/convertfrom-sid", "/PowerShell/convertfrom-sid"]
+redirect_from: ["/PowerShell/TAK/ConvertFrom-SID", "/PowerShell/TAK/convertfrom-sid", "/PowerShell/convertfrom-sid"]
 schema: 2.0.0
 title: ConvertFrom-SID
 ---

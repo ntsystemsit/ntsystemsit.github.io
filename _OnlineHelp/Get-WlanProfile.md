@@ -7,9 +7,9 @@ Get-WlanProfile
 "
 external help file: tak-help.xml
 layout: pshelp
-Module Name: tak
+Module Name: TAK
 online version:
-redirect_from: ["/PowerShell/tak/Get-WlanProfile", "/PowerShell/tak/get-wlanprofile", "/PowerShell/get-wlanprofile"]
+redirect_from: ["/PowerShell/TAK/Get-WlanProfile", "/PowerShell/TAK/get-wlanprofile", "/PowerShell/get-wlanprofile"]
 schema: 2.0.0
 title: Get-WlanProfile
 ---

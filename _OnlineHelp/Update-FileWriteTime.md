@@ -5,9 +5,9 @@ date: 2021-01-02
 excerpt: "Touch a file."
 external help file: tak-help.xml
 layout: pshelp
-Module Name: tak
+Module Name: TAK
 online version:
-redirect_from: ["/PowerShell/tak/Update-FileWriteTime", "/PowerShell/tak/update-filewritetime", "/PowerShell/update-filewritetime"]
+redirect_from: ["/PowerShell/TAK/Update-FileWriteTime", "/PowerShell/TAK/update-filewritetime", "/PowerShell/update-filewritetime"]
 schema: 2.0.0
 title: Update-FileWriteTime
 ---

@@ -5,9 +5,9 @@ date: 2021-01-02
 excerpt: "Convert a String to Base64"
 external help file: tak-help.xml
 layout: pshelp
-Module Name: tak
+Module Name: TAK
 online version:
-redirect_from: ["/PowerShell/tak/ConvertTo-Base64", "/PowerShell/tak/convertto-base64", "/PowerShell/convertto-base64"]
+redirect_from: ["/PowerShell/TAK/ConvertTo-Base64", "/PowerShell/TAK/convertto-base64", "/PowerShell/convertto-base64"]
 schema: 2.0.0
 title: ConvertTo-Base64
 ---
