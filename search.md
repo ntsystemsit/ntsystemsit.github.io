@@ -21,6 +21,16 @@ layout: page
       }
       {% unless forloop.last %},{% endunless %}
     {% endfor %}
+        {% for post in site.OnlineHelp %}
+      "{{ post.url | slugify }}": {
+        "title": "{{ post.title | xml_escape }}",
+        "author": "{{ post.author | xml_escape }}",
+        "tags": "{{ post.tags | xml_escape }}",
+        "content": {{ post.content | strip_html | strip_newlines | jsonify }},
+        "url": "{{ post.url | xml_escape }}"
+      }
+      {% unless forloop.last %},{% endunless %}
+    {% endfor %}
   };
 </script>
 
