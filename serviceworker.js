@@ -13,7 +13,6 @@ self.addEventListener("install", function (event) {
           '/',
           '/index.html',
           '/offline',
-          '/assets/main.css',
           '/assets/js/theme.js',
           '/Tags',
           '/PowerShell',
