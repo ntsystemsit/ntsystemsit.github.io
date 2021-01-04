@@ -94,16 +94,10 @@ img,figure {
     max-width: 100%;
 }
 
-main {
+main, footer {
     margin-top: $spacing-unit * 2;
     padding-left: 10px;
     padding-right: 10px;
-    display: block;
-}
-
-footer {
-    font-family: $body-font;
-    font-size: $small-font-size;
 }
 
 @media screen and (min-width: 576px) {
