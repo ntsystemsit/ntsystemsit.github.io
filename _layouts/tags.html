@@ -1,14 +1,11 @@
 ---
 layout: default
 ---
-
-<main class="container">
-    <h1 class="pagetitle">All posts with tag #{{ page.title | escape }}</h1>
-    {% for post in site.tags[page.title] %}
-        <div class="post-list">
-            <h2 class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-            {%- include post-meta.html -%}
-            {{ post.excerpt }}
-        </div>
-    {% endfor %}
-</main>
+<h1 class="pagetitle">All posts with tag #{{ page.title | escape }}</h1>
+{% for post in site.tags[page.title] %}
+    <div class="post-list">
+        <h2 class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        {%- include post-meta.html -%}
+        {{ post.excerpt }}
+    </div>
+{% endfor %}

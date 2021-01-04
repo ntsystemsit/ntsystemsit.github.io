@@ -1,15 +1,12 @@
 ---
 layout: default
 ---
-
-<main class="container">
-  <article>
-  <header>
-    <h1 class="pagetitle" itemprop="name headline">{{ page.title | escape }}</h1>
-  </header>
-    {%- include post-meta.html -%}
-  <div itemprop="articleBody">
-    {{ content }}
-  </div>
-  </article>
-</main>
+<article>
+<header>
+  <h1 class="pagetitle" itemprop="name headline">{{ page.title | escape }}</h1>
+</header>
+  {%- include post-meta.html -%}
+<div itemprop="articleBody">
+  {{ content }}
+</div>
+</article>
