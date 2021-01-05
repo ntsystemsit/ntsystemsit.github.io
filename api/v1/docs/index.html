@@ -1,0 +1,12 @@
+---
+# Requires Front Matter
+---
+
+[{% for p in site.documents %}{
+  "id": {{ post.url | slugify }},
+  "title": {{p.title | jsonify}},
+  "author": {{ p.author | jsonify }},
+  "tags": {{ p.tags | jsonify }},
+  "content": {{ p.content | strip_html | strip_newlines | jsonify }},
+  "url": {{ p.url | prepend: site.baseurl | prepend: site.url | jsonify }}
+}{% unless forloop.last %},{% endunless %}{% endfor %}]
