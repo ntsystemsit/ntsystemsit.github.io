@@ -1,4 +1,5 @@
 (function() {
+
   function displaySearchResults(results, store) {
     var searchResults = document.getElementById('search-results');
 
@@ -34,24 +35,15 @@
 
   if (searchTerm) {
     document.getElementById('search-box').setAttribute("value", searchTerm);
-
-    var idx = lunr(function () {
-      this.field('id');
-      this.field('title', { boost: 10 });
-      this.field('author');
-      this.field('tags', { boost: 2 });
-      this.field('content');
-      for (var key in window.store) { // Add the data to lunr
-        this.add({
-          'id': key,
-          'title': window.store[key].title,
-          'author': window.store[key].author,
-          'tags': window.store[key].tags,
-          'content': window.store[key].content
-        });
-      }
-    });
-    var results = idx.search(searchTerm); // Get lunr to perform a search
-    displaySearchResults(results, window.store); // We'll write this in the next section
+    fetch('/assets/js/index.json')
+    .then(function(u){ return u.json();})
+    .then(function(json){data_function(json);})
+    function data_function(data){
+      console.log('index is: ' + data);
+      var idx = lunr.Index.load(data);
+      var results = idx.search(searchTerm); // Get lunr to perform a search
+      results.forEach(e => console.log(e));
+      displaySearchResults(results, window.store); // We'll write this in the next section
+    }
   }
 })();

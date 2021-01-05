@@ -16,7 +16,8 @@ self.addEventListener("install", function (event) {
           '/assets/js/theme.js',
           '/Tags',
           '/PowerShell',
-          '/archive'
+          '/archive',
+          '/assets/js/index.json'
         ]
       );
     })

@@ -2,7 +2,7 @@
 # Requires Front Matter
 ---
 [{% for p in site.documents %}{
-  "id": {{ forloop.index }} ,
+  "id": "{{ p.url | slugify }}",
   "title": {{p.title | jsonify}},
   "author": {{ p.author | jsonify }},
   "tags": {{ p.tags | jsonify }},

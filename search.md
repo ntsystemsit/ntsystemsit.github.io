@@ -3,6 +3,8 @@ title: Find.
 layout: page
 ---
 
+<link rel="prefetch" href="/assets/js/index.json" as="fetch" />
+
 <form action="{{ site.baseurl }}/search" method="get">
   <input placeholder="Type here&hellip;" type="search" id="search-box" name="query" class="search-input">
 </form>
