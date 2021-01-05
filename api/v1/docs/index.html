@@ -1,9 +1,8 @@
 ---
 # Requires Front Matter
 ---
-
 [{% for p in site.documents %}{
-  "id": {{ post.url | slugify }},
+  "id": {{ forloop.index }} ,
   "title": {{p.title | jsonify}},
   "author": {{ p.author | jsonify }},
   "tags": {{ p.tags | jsonify }},
