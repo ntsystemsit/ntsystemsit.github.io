@@ -1,68 +1,45 @@
 const CACHE = "onprem-wtf-offline";
 
-// Install stage sets up the index page (home page) in the cache and opens a new cache
-self.addEventListener("install", function (event) {
-  console.log("Install Event processing");
-
+self.addEventListener('install', function (event) {
   event.waitUntil(
     caches.open(CACHE).then(function (cache) {
-      console.log("Cached offline pages during install");
-      // cache the important stuff on install
-      return cache.addAll(
-        [
+      // non critical
+      cache.addAll([
+          '/assets/js/index.json',
+          '/assets/WOFF2/OTF/SourceCodePro-Bold.otf.woff2',
+          '/assets/WOFF2/OTF/SourceCodePro-It.otf.woff2',
+          '/assets/WOFF2/OTF/SourceCodePro-Light.otf.woff2',
+          '/assets/WOFF2/OTF/SourceCodePro-Regular.otf.woff2',
+          '/assets/WOFF2/TTF/SourceSans3-Light.ttf.woff2',
+          '/assets/WOFF2/TTF/SourceSans3-LightIt.ttf.woff2',
+          '/assets/WOFF2/TTF/SourceSans3-Regular.ttf.woff2',
+          '/assets/WOFF2/TTF/SourceSerifPro-Light.ttf.woff2'
+      ]);
+      // critical
+      return cache.addAll([
           '/',
           '/index.html',
           '/offline',
           '/assets/js/theme.js',
           '/Tags',
           '/PowerShell',
-          '/archive',
-          '/assets/js/index.json'
-        ]
-      );
-    })
+          '/post',
+          '/search'
+        ]);
+    }),
   );
 });
 
-// If any fetch fails, it will look for the request in the cache and serve it from there first
-self.addEventListener("fetch", function (event) {
-  if (event.request.method !== "GET") return;
-
+self.addEventListener('fetch', function (event) {
   event.respondWith(
-    fetch(event.request)
-      .then(function (response) {
-        console.log("Add page to offline cache: " + response.url);
-
-        // If request was success, add or update it in the cache
-        event.waitUntil(updateCache(event.request, response.clone()));
-
-        return response;
-      })
-      .catch(function (error) {
-        console.log("Network request Failed. Serving content from cache: " + error);
-        return fromCache(event.request);
-      })
+    caches.open(CACHE).then(function (cache) {
+      return cache.match(event.request).then(function (response) {
+        var fetchPromise = fetch(event.request).then(function (networkResponse) {
+          cache.put(event.request, networkResponse.clone());
+          return networkResponse;
+        });
+        return response || fetchPromise;
+      });
+    }),
   );
 });
-
-function fromCache(request) {
-  // Check to see if you have it in the cache
-  // Return response
-  // If not in the cache, return offline page
-  return caches.open(CACHE).then(function (cache) {
-    return cache.match(request).then(function (matching) {
-      if (!matching) {
-        // no match serve default doc
-        return caches.match('/offline');
-      }
-
-      return matching;
-    });
-  });
-}
-
-function updateCache(request, response) {
-  return caches.open(CACHE).then(function (cache) {
-    return cache.put(request, response);
-  });
-}

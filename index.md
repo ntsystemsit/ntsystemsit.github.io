@@ -40,4 +40,4 @@ Since 2009 we have written {{ site.posts.size }} posts. You can browse our more 
 
 # Archive.
 
-You can find an archive of all posts here: [Archive]({% link archive.md %})
+You can find an archive of all posts here: [Archive]({% link post.md %})
