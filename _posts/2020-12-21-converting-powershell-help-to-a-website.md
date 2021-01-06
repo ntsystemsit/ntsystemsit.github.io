@@ -13,7 +13,7 @@ With the migration of our blog I'm also trying move the help content for various
 
 Now you might have read that our blog is powered by Jekyll, which is just a static-site generator that turns markdown files into html. So, obviously, if I would be able to convert PowerShell help content to markdown files, I could simply put them into a folder an serve them via the blog.
 
-# Create markdown files
+## Create markdown files
 
 The first step is to install platyPS (available on the PS Gallery) and create the markdown files for every function.
 
@@ -41,7 +41,7 @@ The above example creates a `.md` help file for every function in the `TAK` modu
 
 > Note: I could be using `New-MarkdownHelp -Module TAK` but that way, I was not able to include the metadata automatically.
 
-# Rename files for Jekyll
+## Rename files for Jekyll
 
 The only thing that I have to do now, in order to have Jekyll pick up the files and create websites, is to rename them accordingly. 
 
@@ -57,7 +57,7 @@ The above example renames all `*.md` files in the `tak-md-help` folder to includ
 
 > Note: PlatyPS does currently not work on macOS/Linux editions of PowerShell.
 
-# Include HelpUri
+## Include HelpUri
 
 The `Get-Help` command has an `-Online` parameter, that can be used to easily open a related link when looking for help. To include this functionality in my scripts, I just have to put the URL of the online article in the `[CmdletBinding()]` statement, like so:
 

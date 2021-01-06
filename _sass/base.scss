@@ -25,15 +25,14 @@ html {
     background-color: var(--global-background);
     color: var(--global-foreground);
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $body-font;
+    -webkit-font-smoothing: subpixel-antialiased;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
        -moz-font-feature-settings: "kern" 1;
          -o-font-feature-settings: "kern" 1;
             font-feature-settings: "kern" 1;
     font-kerning: normal;
-    display: flex;
     min-height: 100vh;
-    flex-direction: column;
 }
 
 body {
@@ -43,7 +42,8 @@ body {
     max-width: 96%;
     min-height: 100%;
     position: relative; 
-    -webkit-font-smoothing: subpixel-antialiased; 
+    border-top: 4px solid var(--global-foreground);
+    border-bottom: 4px solid var(--global-foreground);
 }
 
 a {
@@ -137,13 +137,13 @@ main, footer {
     z-index: 1;
     a {
         text-decoration: none;
-        padding: 10px;
+        padding: 0.3rem 6px;
         display: block;
         float: left;
         color: var(--global-foreground);
         background-color: var(--global-background);
     }
-    a:hover {
+    a:hover, a.active {
         color: var(--global-background);
         background-color: var(--global-foreground);
     }
@@ -170,7 +170,7 @@ main, footer {
 .themewrapper {
     float: right;
     button {
-        padding: 0.8rem 6px;
+        padding: 0.7rem 6px;
     }
 }
 
