@@ -7,7 +7,8 @@ layout: page
 
 Just like the old site, this site is **free**. There are no trackers, no ads, no cookies. However, we do store the name of the theme you choose in your browser's local storage and we use a service worker to store static files and pages you visited in your browser's cache storage. That makes the site [installable](https://web.dev/discover-installable/), fast, and it will continue to work even if you're offline.
 
-## Popular Tags.
+## Popular Tags. 
+{: .bold-title}
 
 Since 2009 we have written {{ site.posts.size }} posts. You can browse our more popular topics below or find [all tags](/Tags) in the menu above.
 
@@ -28,7 +29,8 @@ Since 2009 we have written {{ site.posts.size }} posts. You can browse our more 
 {%- endfor -%}
 </ul>
 
-## Recent Posts.
+## Recent Posts. 
+{: .bold-title}
 
 <div class="post-list">
 {% for post in site.posts limit:3 %}
@@ -38,6 +40,7 @@ Since 2009 we have written {{ site.posts.size }} posts. You can browse our more 
 {% endfor %}
 </div>
 
-## Archive.
+## Archive. 
+{: .bold-title}
 
 You can find an archive of all posts here: [Archive]({% link post.md %})

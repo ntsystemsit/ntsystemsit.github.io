@@ -2,7 +2,7 @@
     --global-foreground: #ffffff;
     --global-background: #171717;
     --accent-color: #4db2ff;
-    --grey-color: #333333;
+    --grey-color: #444444;
 }
 
 @media (prefers-color-scheme: light) {
@@ -10,7 +10,7 @@
         --global-background: #ffffff;
         --global-foreground: #171717;
         --accent-color: #0065b3;
-        --grey-color: #333333;
+        --grey-color: #444444;
     }
 }
 
@@ -42,8 +42,6 @@ body {
     max-width: 96%;
     min-height: 100%;
     position: relative; 
-    border-top: 4px solid var(--global-foreground);
-    border-bottom: 4px solid var(--global-foreground);
 }
 
 a {
@@ -100,10 +98,18 @@ main, footer {
     padding-right: 10px;
 }
 
+footer {
+    border-bottom: 4px solid var(--grey-color);
+    margin-left: -1rem;
+    padding-left: calc(10px + 1rem);
+}
+
 .topnav {
     top: 0;
     left: 0;
+    margin-left: -1rem;
     background-color: var(--global-background);
+    border-top: 4px solid var(--grey-color);
     position: sticky;
     overflow: hidden;
     width: 100%;
@@ -115,10 +121,12 @@ main, footer {
         float: left;
         color: var(--global-foreground);
         background-color: var(--global-background);
+        & :first-child {
+            padding-left: calc(10px + 1rem);
+        }
     }
     a:hover, a.active {
-        color: var(--global-background);
-        background-color: var(--global-foreground);
+        background-color: var(--grey-color);
     }
     a.active {
         font-weight: bolder;
@@ -226,6 +234,16 @@ main, footer {
     p {
         margin-bottom: initial;
     }
+}
+
+.bold-title {
+    font-size: 1.3rem;
+    transform: rotate(-1deg);
+    margin-left: -1rem;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    max-width: fit-content;
+    background-color: var(--grey-color);
 }
 
 @media screen and (min-width: 576px) {

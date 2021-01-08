@@ -4,10 +4,12 @@ layout: pagewt
 ---
 
 # Search.
+{: .bold-title}
 
 {% include searchbar.html %}
 
 # Archive.
+{: .bold-title}
 
 <div id="search-results" class="post-list">
 {%- for post in site.posts -%}

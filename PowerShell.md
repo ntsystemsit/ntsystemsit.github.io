@@ -4,6 +4,7 @@ layout: pagewt
 ---
 
 # Modules.
+{: .bold-title}
 
 <div class="gridcontainer">
     {%- for post in site.Modules -%}
@@ -15,6 +16,7 @@ layout: pagewt
 </div>
 
 # Scripts.
+{: .bold-title}
 
 <div class="gridcontainer">
     {%- for post in site.Scripts -%}
