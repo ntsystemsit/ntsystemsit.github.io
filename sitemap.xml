@@ -2,20 +2,13 @@
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    {% for post in site.posts %}
+    {% for post in site.documents %}
+    {% if post.layout != nil %}
+    {% if post.layout != 'feed' %}
+    {% if post.title != 'Find' %}
     <url>
         <loc>{{ post.url | remove: 'index.html' | prepend: site.baseurl | prepend: site.url }}</loc>
-        <lastmod>{{ post.date | date: "%F" }}</lastmod>
-    </url>
-    {% endfor %}
-
-    {% for page in site.pages %}
-    {% if page.layout != nil %}
-    {% if page.layout != 'feed' %}
-    {% if page.title != 'Find.' %}
-    <url>
-        <loc>{{ page.url | remove: 'index.html' | prepend: site.baseurl | prepend: site.url }}</loc>
-        <lastmod>{{ page.date | date: "%F" }}</lastmod>
+        <lastmod>{{ post.date | site.time | date: "%F" }}</lastmod>
     </url>
     {% endif %}
     {% endif %}
