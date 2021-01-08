@@ -10,10 +10,7 @@ self.addEventListener('install', function (event) {
           '/assets/WOFF2/OTF/SourceCodePro-It.otf.woff2',
           '/assets/WOFF2/OTF/SourceCodePro-Light.otf.woff2',
           '/assets/WOFF2/OTF/SourceCodePro-Regular.otf.woff2',
-          '/assets/WOFF2/TTF/SourceSans3-Light.ttf.woff2',
-          '/assets/WOFF2/TTF/SourceSans3-LightIt.ttf.woff2',
-          '/assets/WOFF2/TTF/SourceSans3-Regular.ttf.woff2',
-          '/assets/WOFF2/TTF/SourceSerifPro-Light.ttf.woff2'
+          '/assets/WOFF2/TTF/SourceSans3-LightIt.ttf.woff2'
       ]);
       // critical
       return cache.addAll([
@@ -24,7 +21,10 @@ self.addEventListener('install', function (event) {
           '/Tags',
           '/PowerShell',
           '/post',
-          '/search'
+          '/search',
+          '/assets/WOFF2/TTF/SourceSerifPro-Light.ttf.woff2',
+          '/assets/WOFF2/TTF/SourceSans3-Light.ttf.woff2',
+          '/assets/WOFF2/TTF/SourceSans3-Regular.ttf.woff2'
         ]);
     }),
   );
@@ -34,9 +34,14 @@ self.addEventListener('fetch', function (event) {
   event.respondWith(
     caches.open(CACHE).then(function (cache) {
       return cache.match(event.request).then(function (response) {
-        var fetchPromise = fetch(event.request).then(function (networkResponse) {
+        var fetchPromise = fetch(event.request)
+        .then(function (networkResponse) {
           cache.put(event.request, networkResponse.clone());
           return networkResponse;
+        })
+        .catch( error => {
+          console.log("not found: " + error);
+          return caches.match('/offline');
         });
         return response || fetchPromise;
       });

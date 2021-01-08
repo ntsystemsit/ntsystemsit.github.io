@@ -100,33 +100,6 @@ main, footer {
     padding-right: 10px;
 }
 
-@media screen and (min-width: 576px) {
-    html {
-        font-size: 17px;
-    }
-    body {
-        max-width: 546px;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    html {
-        font-size: 21px;
-    }
-    body {
-        max-width: 664px;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    html {
-        font-size: 23px;
-    }
-    body {
-        max-width: 740px;
-    }
-}
-
 .topnav {
     top: 0;
     left: 0;
@@ -137,7 +110,7 @@ main, footer {
     z-index: 1;
     a {
         text-decoration: none;
-        padding: 0.3rem 6px;
+        padding: 0.3rem 5px;
         display: block;
         float: left;
         color: var(--global-foreground);
@@ -170,7 +143,7 @@ main, footer {
 .themewrapper {
     float: right;
     button {
-        padding: 0.7rem 6px;
+        padding: 0.5rem 4px;
     }
 }
 
@@ -257,5 +230,38 @@ main, footer {
     padding: .3rem .5rem;
     p {
         margin-bottom: initial;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    body {
+        max-width: 546px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    html {
+        font-size: 21px;
+    }
+    body {
+        max-width: 664px;
+    }
+    .themewrapper button {
+        padding: 0.6rem 4px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    html {
+        font-size: 23px;
+    }
+    body {
+        max-width: 740px;
+    }
+    .topnav a {
+        padding: 0.3rem 6px;
+    }
+    .themewrapper button {
+        padding: 0.7rem 5px;
     }
 }
