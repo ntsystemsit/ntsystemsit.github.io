@@ -140,7 +140,7 @@ main, footer {
     }
 }
 
-.themewrapper {
+.float-right {
     float: right;
     button {
         padding: 0.5rem 4px;
@@ -199,11 +199,6 @@ main, footer {
     border-bottom: 1px solid var(--accent-color);
 }
 
-.tag-count {
-    font-family: $code-font;
-    float: right;
-}
-
 .meta-tag:before {
     display: inline-block;
     content: "|";
@@ -246,7 +241,7 @@ main, footer {
     body {
         max-width: 664px;
     }
-    .themewrapper button {
+    .float-right button {
         padding: 0.6rem 4px;
     }
 }
@@ -261,7 +256,7 @@ main, footer {
     .topnav a {
         padding: 0.3rem 6px;
     }
-    .themewrapper button {
+    .float-right button {
         padding: 0.7rem 5px;
     }
 }

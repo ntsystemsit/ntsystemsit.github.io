@@ -14,7 +14,7 @@ layout: page
 {%- for i in (1..tags_max) reversed -%}
 {%- for tag in site.tags -%}
 {% if tag[1].size == i %}
-<li class="tag"><a href="{{ site.baseurl }}/Tags/{{ tag[0]}}">{{ tag[0] }}</a><span class="tag-count">{{ i }}</span></li>
+<li class="tag"><a href="{{ site.baseurl }}/Tags/{{ tag[0]}}">{{ tag[0] }}</a><span class="float-right">{{ i }}</span></li>
 {% endif %}
 {%- endfor -%}
 {%- endfor -%}

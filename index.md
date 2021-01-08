@@ -22,7 +22,7 @@ Since 2009 we have written {{ site.posts.size }} posts. You can browse our more 
 {%- for i in (1..tags_max) reversed -%}
 {%- for tag in site.tags -%}
 {% if tag[1].size == i and tag[1].size > 4 %}
-<li class="tag"><a href="{{ site.baseurl }}/Tags/{{ tag[0]}}">{{ tag[0] }}</a><span class="tag-count">{{ i }}</span></li>
+<li class="tag"><a href="{{ site.baseurl }}/Tags/{{ tag[0]}}">{{ tag[0] }}</a><span class="float-right">{{ i }}</span></li>
 {% endif %}
 {%- endfor -%}
 {%- endfor -%}
