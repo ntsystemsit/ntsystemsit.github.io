@@ -1,14 +1,14 @@
 ---
-title: Archive.
+title: Archive
 layout: pagewt
 ---
 
-# Search.
+# Search
 {: .bold-title}
 
 {% include searchbar.html %}
 
-# Archive.
+# Archive
 {: .bold-title}
 
 <div id="search-results" class="post-list">

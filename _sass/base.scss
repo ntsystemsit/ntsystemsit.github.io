@@ -1,24 +1,24 @@
 :root {
+    --global-foreground: #171717;
+    --global-background: #ffffff;
+    --accent-color: #0065b3;
+    --grey-color: #dddddd;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+        --global-foreground: #ffffff;
+        --global-background: #171717;
+        --accent-color: #4db2ff;
+        --grey-color: #444444;
+    }
+}
+
+:root[data-theme="dark"] {
     --global-foreground: #ffffff;
     --global-background: #171717;
     --accent-color: #4db2ff;
     --grey-color: #444444;
-}
-
-@media (prefers-color-scheme: light) {
-    :root:not([data-theme="dark"]) {
-        --global-background: #ffffff;
-        --global-foreground: #171717;
-        --accent-color: #0065b3;
-        --grey-color: #cccccc;
-    }
-}
-
-:root[data-theme="light"] {
-    --global-foreground: #171717;
-    --global-background: #ffffff;
-    --accent-color: #0065b3;
-    --grey-color: #cccccc;
 }
 
 html {
@@ -49,8 +49,8 @@ a {
     text-decoration: none;
 }
 
-a[href^="http://"]:not([href*="onprem.wtf"]):after,
-a[href^="https://"]:not([href*="onprem.wtf"]):after{
+a[href^="http://"]:not([href*="onprem.wtf"])::after,
+a[href^="https://"]:not([href*="onprem.wtf"])::after{
     content: "↗"; 
 }
 
@@ -62,7 +62,7 @@ li {
     list-style: none;
 }
 
-li:before {
+li::before {
     content: "#";
     width: 0.75em;
     font-family: $title-font;
@@ -94,25 +94,25 @@ img,figure {
 
 main, footer {
     margin-top: $spacing-unit * 2;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
 }
 
 footer {
     border-bottom: 4px solid var(--grey-color);
-    margin-left: -1rem;
-    padding-left: calc(10px + 1rem);
+}
+
+nav {
+    border-top: 4px solid var(--grey-color);
+    margin-left: 1rem;
 }
 
 .topnav {
     top: 0;
-    left: 0;
     margin-left: -1rem;
     background-color: var(--global-background);
-    border-top: 4px solid var(--grey-color);
     position: sticky;
     overflow: hidden;
-    width: 100%;
     z-index: 1;
     a {
         text-decoration: none;
@@ -207,7 +207,7 @@ footer {
     border-bottom: 1px solid var(--accent-color);
 }
 
-.meta-tag:before {
+.meta-tag::before {
     display: inline-block;
     content: "|";
 }
@@ -244,6 +244,10 @@ footer {
     padding-right: 2rem;
     max-width: fit-content;
     background-color: var(--grey-color);
+}
+
+.bold-title::after {
+    content: ".";
 }
 
 @media screen and (min-width: 576px) {

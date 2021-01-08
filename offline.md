@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Offline.
+title: Offline
 ---
 
 Oh snap, looks like you're not connected.

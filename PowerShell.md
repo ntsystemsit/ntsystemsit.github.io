@@ -1,9 +1,9 @@
 ---
-title: PowerShell.
+title: PowerShell
 layout: pagewt
 ---
 
-# Modules.
+# Modules
 {: .bold-title}
 
 <div class="gridcontainer">
@@ -15,7 +15,7 @@ layout: pagewt
     {%- endfor -%}
 </div>
 
-# Scripts.
+# Scripts
 {: .bold-title}
 
 <div class="gridcontainer">

@@ -1,5 +1,5 @@
 ---
-title: Find.
+title: Find
 layout: page
 ---
 
