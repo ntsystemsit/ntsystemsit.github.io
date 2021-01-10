@@ -5,9 +5,13 @@
         <span itemprop="author">{{ page.author | downcase }}</span>
     {% endif %}
     {% if post.date %}
-        <span class="meta-tag"><time datetime="{{ post.date | date: "%b %-d, %Y" }}" itemprop="datePublished">{{ post.date | date: "%-d %b %Y" | downcase }}</time></span>
+    <span class="meta-tag">
+        <time datetime="{{ post.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ post.date | date: "%-d %b %Y" | downcase }}</time>
+    </span>
     {% else %}
-        <span class="meta-tag"><time class="meta-tag" datetime="{{ page.date | date: "%b %-d, %Y" }}" itemprop="datePublished">{{ page.date | date: "%-d %b %Y" | downcase }}</time></span>
+    <span class="meta-tag">
+        <time datetime="{{ page.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ page.date | date: "%-d %b %Y" | downcase }}</time>
+    </span>
     {% endif %}
     {% if page.tags.size >= 1 %}
         <span class="meta-tag" itemprop="keywords">
@@ -17,9 +21,13 @@
         </span>
     {% endif %}
     {% if post.updated %}
-        <span class="meta-tag"><time class="meta-tag post-updated" datetime="{{ post.updated | date: "%b %-d, %Y" }}" itemprop="dateModified">{{ post.updated | date: "%-d %b %Y" | downcase}} </time></span>
+    <span class="meta-tag post-updated">
+        <time datetime="{{ post.updated | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ post.updated | date: "%-d %b %Y" | downcase}}</time>
+    </span>
     {% endif %}
     {% if page.author %}
-        <span class="meta-tag"><a href="{{ site.github.repository_url }}/edit/master/{{ page.path }}" target="_blank">edit</a> this page</span>
+    <span class="meta-tag">
+        <a href="{{ site.github.repository_url }}/edit/master/{{ page.path }}" target="_blank">edit</a> this page
+    </span>
     {% endif %}
 </p>
