@@ -1,32 +1,25 @@
 <p class="post-meta">
-    <span itemprop="author" itemscope itemtype="http://schema.org/BlogPosting">
-        {% if post.author %}
-            <span itemprop="author">{{ post.author | downcase }}</span>
-        {% else %}
-             <span itemprop="author">{{ page.author | downcase }}</span>
-        {% endif %}
-    </span>
-    {% if post.date %}
-        <span class="meta-tag" itemprop="datePublished" intemscope itemtype="http://schema.org/BlogPosting">
-        <time datetime="{{ post.date | date: "%b %-d, %Y" }}" itemprop="datePublished">{{ post.date | date: "%-d %b %Y" | downcase }}</time></span>
+    {% if post.author %}
+        <span itemprop="author">{{ post.author | downcase }}</span>
     {% else %}
-        <span class="meta-tag" itemprop="datePublished" intemscope itemtype="http://schema.org/BlogPosting">
-        <time datetime="{{ page.date | date: "%b %-d, %Y" }}" itemprop="datePublished">{{ page.date | date: "%-d %b %Y" | downcase }}</time></span>
+        <span itemprop="author">{{ page.author | downcase }}</span>
+    {% endif %}
+    {% if post.date %}
+        <span class="meta-tag"><time datetime="{{ post.date | date: "%b %-d, %Y" }}" itemprop="datePublished">{{ post.date | date: "%-d %b %Y" | downcase }}</time></span>
+    {% else %}
+        <span class="meta-tag"><time class="meta-tag" datetime="{{ page.date | date: "%b %-d, %Y" }}" itemprop="datePublished">{{ page.date | date: "%-d %b %Y" | downcase }}</time></span>
     {% endif %}
     {% if page.tags.size >= 1 %}
-        <span class="meta-tag" itemprop="category" itemscope itemtype="http://schema.org/BlogPosting">
-            <span itemprop="keywords">
-                {% for tag in page.tags %}
-                <a href="{{ site.baseurl }}/Tags/{{ tag }}"><span itemprop="keywords">#{{ tag | downcase }}</span></a>{% unless forloop.last %},{% endunless %} 
-                {% endfor %}
-            </span>
+        <span class="meta-tag" itemprop="keywords">
+        {% for tag in page.tags %}
+            <a href="{{ site.baseurl }}/Tags/{{ tag }}">#{{ tag | downcase }}</a>{% unless forloop.last %},{% endunless %} 
+        {% endfor %}
         </span>
     {% endif %}
     {% if post.updated %}
-        <span class="meta-tag post-updated" itemprop="dateModified" intemscope itemtype="http://schema.org/BlogPosting">
-        <time datetime="{{ post.updated | date: "%b %-d, %Y" }}" itemprop="dateModified">{{ post.updated | date: "%-d %b %Y" | downcase}} </time></span> 
+        <span class="meta-tag"><time class="meta-tag post-updated" datetime="{{ post.updated | date: "%b %-d, %Y" }}" itemprop="dateModified">{{ post.updated | date: "%-d %b %Y" | downcase}} </time></span>
     {% endif %}
     {% if page.author %}
-    <span class="meta-tag"> <a href="{{ site.github.repository_url }}/edit/master/{{ page.path }}" target="_blank">edit</a> this page</span>
+        <span class="meta-tag"><a href="{{ site.github.repository_url }}/edit/master/{{ page.path }}" target="_blank">edit</a> this page</span>
     {% endif %}
 </p>

@@ -32,13 +32,15 @@ Since 2009 we have written {{ site.posts.size }} posts. You can browse our more 
 ## Recent Posts
 {: .bold-title}
 
-<div class="post-list">
+<aside class="post-list">
 {% for post in site.posts limit:3 %}
-<h2 class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-{%- include post-meta.html -%}
-{{ post.excerpt }}
-{% endfor %}
+<div itemscope>
+    <h2 class="post-title" itemprop="headline"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    {%- include post-meta.html -%}
+    {{ post.excerpt }}
 </div>
+{% endfor %}
+</aside>
 
 ## Archive
 {: .bold-title}

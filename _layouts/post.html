@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-<article>
+<article intemscope itemtype="http://schema.org/BlogPosting">
 <header>
-  <h1 class="pagetitle bold-title" itemprop="name headline">{{ page.title | escape }}</h1>
+  <h1 class="pagetitle bold-title" itemprop="headline">{{ page.title | escape }}</h1>
 </header>
   {%- include post-meta.html -%}
 <div itemprop="articleBody">
