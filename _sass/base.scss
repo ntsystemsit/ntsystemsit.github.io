@@ -7,16 +7,16 @@
 
 @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
-        --global-foreground: #ffffff;
-        --global-background: #171717;
+        --global-foreground: #e0e0e0;
+        --global-background: #080808;
         --accent-color: #4db2ff;
         --grey-color: #444444;
     }
 }
 
 :root[data-theme="dark"] {
-    --global-foreground: #ffffff;
-    --global-background: #171717;
+    --global-foreground: #e0e0e0;
+    --global-background: #080808;
     --accent-color: #4db2ff;
     --grey-color: #444444;
 }
@@ -40,6 +40,7 @@ body {
     width: 100%;
     max-width: 96%;
     min-height: 100%;
+    border-top: 4px solid var(--grey-color);
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -124,7 +125,6 @@ img,figure {
 }
 
 nav {
-    border-top: 4px solid var(--grey-color);
     margin-left: 1rem;
 }
 
@@ -146,7 +146,7 @@ nav {
             background-color: var(--grey-color);
         }
         &:active {
-            font-weight: bolder;
+            border-bottom: 1px solid;
         }
     }
 }

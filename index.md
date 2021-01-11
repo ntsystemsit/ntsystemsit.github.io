@@ -1,6 +1,8 @@
 ---
 title: Welcome
 layout: page
+author: Tom Torggler
+date: 2021-01-11
 ---
 
 **{{ site.title }}** is the evolution of ntsystems.it. It contains a complete [archive]({% link post.md %}) of the old site as well as new content. 
