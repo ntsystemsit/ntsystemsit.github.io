@@ -2,8 +2,11 @@
 layout: default
 ---
 <article itemscope itemtype="http://schema.org/BlogPosting">
-<div class="border-bottom">
+<section class="border-bottom">
   {%- include post-meta.html -%}
-</div>
+</section>
+<section itemprop="articleBody">
 {{ content }}
+</section>
+{% include post-footer.html %}
 </article>

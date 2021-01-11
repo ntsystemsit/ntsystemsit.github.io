@@ -13,6 +13,12 @@
     <link rel="manifest" href="/assets/icons/site.webmanifest">
     <link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#5bbad5">
     <link rel="shortcut icon" href="/assets/icons/favicon.ico">
+    {% if page.next %}
+    <link rel="next" href="{{ page.next.url }}">
+    {% endif %}
+    {% if page.previous %}
+    <link rel="prev" href="{{ page.previous.url }}">
+    {% endif %}
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-config" content="/assets/icons/browserconfig.xml">
     <meta name="theme-color" content="#171717">

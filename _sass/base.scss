@@ -151,14 +151,17 @@ nav {
     }
 }
 
-main, footer {
+main {
     display: block; /* ie 11 */
     margin-top: $spacing-unit * 2;
     padding-left: 0.25rem;
     padding-right: 0.25rem;
 }
 
-footer {
+.site-footer {
+    margin-top: $spacing-unit * 2;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
     border-bottom: 4px solid var(--grey-color);
 }
 
@@ -184,7 +187,11 @@ footer {
     }
 }
 
-.post-meta {
+.float-left {
+    float: left;
+}
+
+.small-caps {
     font-size: $small-font-size;
     font-variant: small-caps;
     letter-spacing: 0.1rem;
@@ -255,7 +262,7 @@ footer {
     padding: .3rem;
     width: 100%;
 }
-  
+
 .alert-info {
     border-radius: .3rem;
     background: var(--grey-color);
@@ -275,6 +282,19 @@ footer {
     background-color: var(--grey-color);
     &:after {
         content: ".";
+    }
+}
+
+footer {
+    a.float-left, a.float-right {
+        background-color: var(--grey-color);
+        color: var(--global-foreground);
+    }
+    a.float-left {
+        padding: 0 1rem 0 2rem;
+    }
+    a.float-right {
+        padding: 0 2rem 0 1rem;
     }
 }
 

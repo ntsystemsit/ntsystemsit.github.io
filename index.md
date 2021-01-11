@@ -1,7 +1,6 @@
 ---
 title: Welcome
 layout: page
-author: Tom Torggler
 date: 2021-01-11
 ---
 

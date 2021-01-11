@@ -1,9 +1,9 @@
 {% if include.reponame %}
-    <a href="https://github.com/{{ include.username }}/{{ include.reponame }}" target="_blank">
+    <a href="https://github.com/{{ include.username }}/{{ include.reponame }}" target="_blank" rel="noopener">
         <span class="username">{{ include.username }}/{{ include.reponame }}</span>
     </a>
 {% else %}
-    <a href="https://github.com/{{ include.username }}" target="_blank">
+    <a href="https://github.com/{{ include.username }}" target="_blank" rel="noopener">
         <span class="username">{{ include.username }}</span>
     </a>
 {% endif %}

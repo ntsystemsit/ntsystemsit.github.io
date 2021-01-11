@@ -31,7 +31,7 @@ function data_function(data){
         // Loop through, match, and add results
         for (var item in result) {
         var ref = result[item].ref;
-        var searchitem = '<h2 class="post-title"><a href="'+window.store[ref].url +'" class="post-link">'+window.store[ref].title+'</a></h2><p class="post-meta">'+window.store[ref].author+' | '+window.store[ref].date+'</p>';
+        var searchitem = '<h2 class="post-title"><a href="'+window.store[ref].url +'" class="post-link">'+window.store[ref].title+'</a></h2><p class="small-caps">'+window.store[ref].author+' | '+window.store[ref].date+'</p>';
         resultdiv.append(searchitem);
         }
     });

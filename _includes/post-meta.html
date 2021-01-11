@@ -1,4 +1,4 @@
-<p class="post-meta">
+<p class="small-caps">
     {% if post.author %}
         <span itemprop="author">{{ post.author | downcase }}</span>
     {% else %}
@@ -27,7 +27,7 @@
     {% endif %}
     {% if page.author %}
     <span class="meta-tag">
-        <a href="{{ site.github.repository_url }}/edit/master/{{ page.path }}" target="_blank">edit</a> this page
+        <a href="{{ site.github.repository_url }}/edit/master/{{ page.path }}" target="_blank" rel="noopener">edit</a> this page
     </span>
     {% endif %}
 </p>

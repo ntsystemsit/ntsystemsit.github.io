@@ -6,7 +6,8 @@ layout: default
   <h1 class="pagetitle bold-title" itemprop="headline">{{ page.title | escape }}</h1>
 </header>
   {%- include post-meta.html -%}
-<div itemprop="articleBody">
+<section itemprop="articleBody">
   {{ content }}
-</div>
+</section>
+{% include post-footer.html %}
 </article>
