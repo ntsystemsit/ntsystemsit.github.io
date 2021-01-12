@@ -6,7 +6,7 @@ comments: true
 category: ntSystems
 tags: Jekyll ntSystems
 author: thomas torggler
-updated: false
+date_modified: false
 ---
 
 As you might have [read before](https://ntsystems.it/post/Welcome-to-the-all-new-ntSystems), our little blog is powered by Jekyll. Well I stumbled over the `jsonify` filter the other day, and so I built a little "kind-of" API :) Sound interesting? Read on.

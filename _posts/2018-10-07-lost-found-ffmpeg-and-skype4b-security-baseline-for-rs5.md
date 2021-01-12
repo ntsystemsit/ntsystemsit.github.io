@@ -6,7 +6,7 @@ comments: true
 category: lost and found
 tags: Skype4B WSL Client Server
 author: thomas torggler
-updated: false
+date_modified: false
 ---
 
 A quick edition of lost & found on how to use _FFmpeg_ on WSL to create audio files that can be used for Skype for Business announcements. And an observation about the recently published security baseline for Windows 10 1809 and Server 2019.

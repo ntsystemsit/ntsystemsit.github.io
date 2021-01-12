@@ -6,7 +6,7 @@ comments: true
 category: Server
 tags: Security Firewall
 author: thomas torggler
-updated: 2019-07-03
+date_modified: 2019-07-03
 ---
 
 First of all, happy new year :) Today we will have a quick look at Windows Server 2019, more specifically the _Network Policy Server_ role.

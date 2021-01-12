@@ -6,7 +6,7 @@ comments: true
 category: Dev
 tags: Go Basics
 author: thomas torggler
-updated: false
+date_modified: false
 ---
 
 Everyone is talking about Go these days so I decided to have a look at it and see what it could do for me. 

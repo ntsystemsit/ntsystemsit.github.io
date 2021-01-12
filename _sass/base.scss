@@ -263,12 +263,20 @@ main {
     width: 100%;
 }
 
-.alert-info {
-    border-radius: .3rem;
+blockquote {
+    border-radius: 3px;
     background: var(--grey-color);
     padding: .3rem .5rem;
     p {
         margin-bottom: initial;
+    }
+    &[title="Note"]::before {
+        font-weight: bolder;
+        content: "▷ " attr(title);
+    }
+    &[title="Warning"]::before {
+        font-weight: bolder;
+        content: "▲ " attr(title);
     }
 }
 

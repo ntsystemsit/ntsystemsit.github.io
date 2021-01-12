@@ -6,7 +6,7 @@ comments: true
 category: PowerShell
 tags: PowerShell
 author: thomas torggler
-updated: false
+date_modified: false
 ---
 
 Using _Invoke-RestMethod_ to send events to a Splunk instance.

@@ -6,7 +6,7 @@ comments: true
 category: lost and found
 tags: Jekyll ntSystems
 author: thomas torggler
-updated: false
+date_modified: false
 ---
 
 I've recently updated the sources of the blog and moved to the gem-based version of the minima theme. This should make the site easier to maintain in the future.

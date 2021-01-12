@@ -6,7 +6,7 @@ comments: true
 category: "lost and found"
 tags: PowerShell
 author: thomas torggler
-updated: false
+date_modified: false
 ---
 
 It's Friday and here's another edition of lost & found.

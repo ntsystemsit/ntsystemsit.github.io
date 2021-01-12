@@ -6,7 +6,7 @@ comments: true
 category: Azure
 tags: PowerShell Azure
 author: daniel nitz
-updated: false
+date_modified: false
 ---
 
 Currently I'm in an Exchange Migration project to migrate all mailboxes from Exchange onPremise to Exchange Online. Yeah.. of course.. killing Exchange onPrem... again :)

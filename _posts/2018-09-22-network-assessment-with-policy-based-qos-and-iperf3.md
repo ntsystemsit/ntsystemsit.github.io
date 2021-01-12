@@ -6,7 +6,7 @@ comments: true
 category: Skype4B
 tags: Network Skype4B PowerShell
 author: thomas torggler
-updated: false
+date_modified: false
 ---
 
 In Skype for Business and, more recently, Teams deployments, a solid network and a good knowledge of it are fundamentally important. 

@@ -6,7 +6,7 @@ comments: true
 category: Cloud
 tags: Cloud
 author: thomas torggler
-updated: false
+date_modified: false
 ---
 
 Daniel and I have attended the Microsoft Tech Summit in Milan earlier this week. Overall it was a pretty good event, especially taking into account that it was free. The keynote was quite interesting, so much so, that I thought I'd share my takeaways.

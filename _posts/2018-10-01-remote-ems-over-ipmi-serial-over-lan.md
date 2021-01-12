@@ -6,7 +6,7 @@ comments: true
 category: Skype4B
 tags: Network PowerShell Server AudioCodes
 author: thomas torggler
-updated: false
+date_modified: false
 ---
 
 Using standards-based IPMI to get some sort of out-of-band management for AudioCodes' embedded server modules.

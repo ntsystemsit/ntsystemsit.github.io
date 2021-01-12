@@ -20,9 +20,9 @@
         {% endfor %}
         </span>
     {% endif %}
-    {% if post.updated %}
+    {% if post.date_modified %}
     <span class="meta-tag post-updated">
-        <time datetime="{{ post.updated | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ post.updated | date: "%-d %b %Y" | downcase}}</time>
+        <time datetime="{{ post.date_modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ post.date_modified | date: "%-d %b %Y" | downcase}}</time>
     </span>
     {% endif %}
     {% if page.author %}

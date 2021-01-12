@@ -6,7 +6,7 @@ comments: true
 category: DevOps
 tags: PowerShell Cloud Azure
 author: thomas torggler
-updated: false
+date_modified: false
 ---
 
 I've spent way too much time trying to figure this out, so here goes a quick note that hopefully saves someone a minute.

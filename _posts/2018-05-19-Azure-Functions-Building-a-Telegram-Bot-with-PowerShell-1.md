@@ -6,7 +6,7 @@ comments: true
 category: Azure
 tags: PowerShell Cloud
 author: thomas torggler
-updated: false
+date_modified: false
 redirect_from: ["/bot"]
 ---
 

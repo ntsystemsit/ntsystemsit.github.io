@@ -6,12 +6,10 @@ comments: true
 category: Cloud
 tags: Workplace Intune Teams 
 author: thomas torggler
-updated: 2020-08-14
+date_modified: 2020-08-14
 ---
 
-Traditional Active Directory with group policy has no place in the big-picture of the modern workplace, so we need a novel solution to apply policy-based QoS to our Teams clients. One could argue that QoS has no place in the modern workplace either, but that's a discussion for another day.
-
-<!-- more -->
+Traditional Active Directory with group policy has no place in the big-picture of the modern workplace, so we need a novel solution to apply policy-based QoS to our Teams clients.<!-- more --> One could argue that QoS has no place in the modern workplace either, but that's a discussion for another day.
 
 ## Configuration Service Provider
 
@@ -21,7 +19,10 @@ You can find a link to the CSP reference below.
 
 ## NetworkQoSPolicy CSP 
 
-Now it turns out there is a CSP for policy-based QoS but it just applies to Surface Hub devices. If you're lucky enough to configure QoS on such a device, here is a screenshot of the settings you will most likely use. Note: the port numbers may be different in your environment.
+Now it turns out there is a CSP for policy-based QoS but it just applies to Surface Hub devices. If you're lucky enough to configure QoS on such a device, here is a screenshot of the settings you will most likely use. 
+
+> The port numbers may be different in your environment.
+{:title="Warning"}
 
 {% include img.html img="/assets/2019/11-29-01.png" %}
 

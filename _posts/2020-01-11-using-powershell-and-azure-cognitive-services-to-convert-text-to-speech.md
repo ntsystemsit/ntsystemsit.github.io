@@ -2,16 +2,13 @@
 layout: post
 title: "Using PowerShell and Azure Cognitive Services to convert text to speech"
 date: 2020-01-11 15:19 +0100
-comments: true
 category: Cloud
 tags: PowerShell Azure 
 author: thomas torggler
-updated: false
+date_modified: false
 ---
 
-The other day I needed some recorded voice prompts for a customer service call queue I was configuring in one of our Microsoft Teams projects. I figured it would be nice to have Azure's artificial-intelligence-powered speech service convert my text input to an audio file. Turns out it's easier than I thought it would be.
- 
-<!-- more -->
+In one of our recent Microsoft Teams projects I needed some voice prompts for a customer service call queue.<!-- more --> I figured it would be nice to have Azure's artificial-intelligence-powered speech service convert my text input to an audio file. Turns out it's easier than I thought it would be.
 
 ## Azure Cognitive Speech Service
 
@@ -53,9 +50,7 @@ Convert-TextToSpeech -Voice en-GB-HarryNeural -Text "Hi Tom, I'm Harry from Azur
 
 You can find a lot of information about the speech service in the links below, be sure to check out the SSML structure to see how you can customize the voices, introduce pauses to the audio file, and many other things.
 
-
 You can find the code for the module in my GitHub, please let me know if you find it useful and feel free to submit a pull request with your optimizations :)
-
 
 This is the first post in this new year, best wishes and thanks for reading!
 

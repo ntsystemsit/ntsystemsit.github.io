@@ -5,7 +5,7 @@ comments: true
 category: ntSystems
 tags: ntSystems Crypto
 author: thomas torggler
-updated: 2018-01-12 21:35:19
+date_modified: 2018-01-12 21:35:19
 ---
 
 I've recently stumbled upon coinhive and with all the recent fuzz about crypto currencies, I decided to have a look at it. So what's that all about? 

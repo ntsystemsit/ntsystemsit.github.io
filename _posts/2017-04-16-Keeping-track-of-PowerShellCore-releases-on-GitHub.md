@@ -6,7 +6,7 @@ comments: true
 category: PowerShell
 tags: PowerShell GitHub
 author: thomas torggler
-updated: false
+date_modified: false
 ---
 
 I've been using PowerShell Core on my [MacBook](/post/PowerShell-on-macOS) for a while now. As the code is still in its early stages, there's no way of managing/updating the software one is running, at least none that I would be aware of. I did miss some updates and, as a result, had problems with Visual Studio Code. So I've put together a quick function that checks the latest release on GitHub and can conveniently be put into my `$PROFILE`.

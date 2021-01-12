@@ -5,8 +5,6 @@ description: "by Tom Torggler and Daniel Nitz"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://onprem.wtf" # the base hostname & protocol for your site, e.g. http://example.com
 language: en
-twitter_username: torggler
-github_username:  tomtorggler
 
 # Regional
 timezone: Europe/Amsterdam
@@ -27,20 +25,38 @@ markdown: kramdown
 kramdown: 
  input: GFM # GitHub Flavored Markdown
  auto_ids: true # Auto-generate ID's 
+excerpt_separator: "<!-- more -->"
 
+# jekyll-seo-tag
+logo: assets/icons/android-chrome-192x192.png
+
+twitter:
+  username: torggler
+  card: summary
+
+social:
+  name: Tom Torggler
+  links:
+    - https://twitter.com/torggler
+    - https://www.linkedin.com/in/ThomasTorggler
+    - https://github.com/tomtorggler
+    - https://keybase.io/tomt
+
+github:
+  username: tomtorggler
+
+
+# collections
 collections:
   Scripts:
     output: true
     permalink: "/PowerShell/:title/"
-    excerpt_separator: <!-- more -->
   Modules:
     output: true
     permalink: "/PowerShell/:title/"
-    excerpt_separator: <!-- more -->
   OnlineHelp:
     output: true
     permalink: "/PowerShell/:title/"
-    excerpt_separator: <!-- more -->
   my_tags:
     output: true
 
@@ -52,7 +68,6 @@ defaults:
     scope:
       path: ""
     values:
-      excerpt_separator: <!-- more -->
       hidden: false
       language: en
   -
@@ -60,5 +75,5 @@ defaults:
       path: ""
       type: "my_tags"
     values:
-      permalink: "/Tags/:title"
+      permalink: "/tags/:title"
       layout: "tags"

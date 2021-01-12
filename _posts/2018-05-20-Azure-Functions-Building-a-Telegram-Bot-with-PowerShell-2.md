@@ -6,7 +6,7 @@ comments: true
 category: Azure
 tags: PowerShell Cloud
 author: thomas torggler
-updated: false
+date_modified: false
 ---
 
 Welcome back to the second part of our little fun experiment with Telegram and Azure Functions. In the [first part](/post/Azure-Functions-Building-a-Telegram-Bot-with-PowerShell-1) we created the function app and the bot, now let's hook them up.

@@ -6,7 +6,7 @@ comments: true
 category: Privacy
 tags: WSL Cloud
 author: thomas torggler
-updated: false
+date_modified: false
 ---
 
 I've been using [Onion Services](https://www.torproject.org/docs/onion-services) aka. _Hidden Services_ to connect to remote machines for some time now. Tor clients can connect to such services through the Tor network, there is no need to know the IP address of the destination machine, likewise there is no need to configure inbound port mappings or firewall rules. 

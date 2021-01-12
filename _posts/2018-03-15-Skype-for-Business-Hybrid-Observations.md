@@ -6,7 +6,7 @@ comments: true
 category: Cloud
 tags: Office365 Lync Skype4B Hybrid Exchange
 author: thomas torggler
-updated: 2018-12-02
+date_modified: 2018-12-02
 ---
 
 A collection of information about Skype for Business in hybrid environments.

@@ -6,7 +6,7 @@ comments: true
 category: Cloud
 tags: Office365 Hybrid Exchange
 author: thomas torggler
-updated: 2018-09-20
+date_modified: 2018-09-20
 ---
 
 Like I did [here]({{ site.url }}/post/Skype-for-Business-Hybrid-Observations) with Skype for Business, I'm collecting some observations and useful snippets about Exchange in hybrid environments.

@@ -7,7 +7,7 @@ category: "Skype4B"
 tags: ["Lync", "Cisco", "en", "Skype4B"]
 redirect_from: ["/post/Lync-SDN-API-and-Cisco-WLC", "/post/lync-sdn-api-and-cisco-wlc"]
 author: thomas torggler
-updated: 2017-04-18 10:01:00 +0200
+date_modified: 2017-04-18 10:01:00 +0200
 ---
 
 Some days ago I had the chance to test Cisco’s Wireless LAN Controllers with the Lync Software Defined Networking (SDN) API.

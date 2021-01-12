@@ -6,7 +6,7 @@ comments: true
 category: PowerShell
 tags: PowerShell
 author: thomas torggler
-updated: 2017-05-23 23:59:19 +0200
+date_modified: 2017-05-23 23:59:19 +0200
 ---
 
 I've come across an interesting behavior (or feature) of PowerShell the other day. As I don't really understand what's going on, I decided to write it up, maybe someone out there can help explaining this.

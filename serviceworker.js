@@ -1,4 +1,4 @@
-const version = "1"
+const version = "2"
 const CACHE = version + "-onprem-wtf-offline";
 
 self.addEventListener('install', function (event) {

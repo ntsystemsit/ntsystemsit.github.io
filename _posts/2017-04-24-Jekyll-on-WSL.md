@@ -6,7 +6,7 @@ comments: true
 category: ntSystems
 tags: Jekyll WSL ntSystems
 author: thomas torggler
-updated: 2018-01-16
+date_modified: 2018-01-16
 ---
 
 Today we are looking at running Jekyll on WSL or _Bash on Ubuntu on Windows_. 

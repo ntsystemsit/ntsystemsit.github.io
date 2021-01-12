@@ -7,7 +7,7 @@ category: PowerShell
 tags: ["en", "Lync", "PowerShell", "Skype4B"]
 redirect_from: ["/post/Invoke-SEFAUtil-a-PowerShell-wrapper-function", "/post/invoke-sefautil-a-powershell-wrapper-function"]
 author: thomas torggler
-updated: 2018-03-01
+date_modified: 2018-03-01
 ---
 
 I had to use SEFAUtil to get some tasks done the other day. As I prefer using PowerShell over just another command line tool, I decided to come up with a quick wrapper function that is intended to make my life a little easier.
