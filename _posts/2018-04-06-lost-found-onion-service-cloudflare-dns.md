@@ -5,7 +5,7 @@ date: 2018-04-06
 comments: true
 category: "lost and found"
 tags: PowerShell
-author: thomas torggler
+author: tto
 date_modified: false
 ---
 

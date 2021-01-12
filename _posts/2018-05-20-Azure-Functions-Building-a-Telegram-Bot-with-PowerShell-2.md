@@ -5,7 +5,7 @@ date: 2018-05-20 10:25:06 +0200
 comments: true
 category: Azure
 tags: PowerShell Cloud
-author: thomas torggler
+author: tto
 date_modified: false
 ---
 

@@ -5,7 +5,7 @@ date: 2016-10-28 09:25:06 +0200
 comments: true
 category: PowerShell
 tags: PowerShell Cloud
-author: thomas torggler
+author: tto
 ---
 Over the years I did create, find, copy, paste, quite a few lines of PowerShell code. Some of which I'm turning into re-usable functions and collecting in a module, creatively called "Tom's Admin Kit" or TAK. I hope you find it useful.
 I try to credit the sources for the stuff that I just copied off of the interwebs, even though I don't actually remember all of them.

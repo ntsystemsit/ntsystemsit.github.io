@@ -5,7 +5,7 @@ date: 2019-11-29 20:12:06 +0200
 comments: true
 category: Cloud
 tags: Workplace Intune Teams 
-author: thomas torggler
+author: tto
 date_modified: 2020-08-14
 ---
 

@@ -5,7 +5,7 @@ date: 2017-05-18 19:25:06 +0200
 comments: true
 category: PowerShell
 tags: PowerShell
-author: thomas torggler
+author: tto
 date_modified: 2017-05-23 23:59:19 +0200
 ---
 

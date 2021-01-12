@@ -5,7 +5,7 @@ date: 2018-02-22 19:25:06 +0200
 comments: true
 category: Cloud
 tags: Cloud Azure Office365
-author: thomas torggler
+author: tto
 ---
 
 When upgrading Azure AD Connect (ADSync), the wizard fails with the error: "Failed to load configuration information from primary ADFS server".

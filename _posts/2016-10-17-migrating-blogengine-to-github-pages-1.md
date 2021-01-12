@@ -6,7 +6,7 @@ comments: true
 category: ntSystems
 tags: Jekyll ntSystems
 
-author: thomas torggler
+author: tto
 ---
 As promised [here]({{ site.url }}/post/Welcome-to-the-all-new-ntSystems), I'm sharing the first part of our migration process from BlogEngine to GitHub Pages. A major part is, obviously, the migration of the content of the blog itself.
 

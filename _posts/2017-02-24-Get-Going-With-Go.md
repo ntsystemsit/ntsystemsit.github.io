@@ -5,7 +5,7 @@ date: 2017-02-24 21:05:06 +0200
 comments: true
 category: Dev
 tags: Go Basics
-author: thomas torggler
+author: tto
 date_modified: false
 ---
 

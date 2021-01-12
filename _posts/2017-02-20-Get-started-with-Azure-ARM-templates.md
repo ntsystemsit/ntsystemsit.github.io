@@ -5,7 +5,7 @@ date: 2017-02-20 19:25:06 +0200
 comments: true
 category: Cloud
 tags: Azure RM
-author: daniel nitz
+author: dni
 ---
 
 To start with the deployment using Azure ARM Templates is quite easy. A first step can be to deploy an Azure SQL Database. But let’s start with a bit of background information:

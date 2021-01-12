@@ -5,7 +5,7 @@ date: 2019-06-17 09:25:06 +0200
 comments: true
 category: DevOps
 tags: PowerShell Cloud Azure
-author: thomas torggler
+author: tto
 date_modified: false
 ---
 

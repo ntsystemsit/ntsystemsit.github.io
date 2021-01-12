@@ -5,7 +5,7 @@ date: 2018-10-01 21:25:16 +0200
 comments: true
 category: Skype4B
 tags: Network PowerShell Server AudioCodes
-author: thomas torggler
+author: tto
 date_modified: false
 ---
 

@@ -4,7 +4,7 @@ title: "Testing CoinHive"
 comments: true
 category: ntSystems
 tags: ntSystems Crypto
-author: thomas torggler
+author: tto
 date_modified: 2018-01-12 21:35:19
 ---
 

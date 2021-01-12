@@ -5,7 +5,7 @@ date: 2018-09-22 06:55:06 +0200
 comments: true
 category: Skype4B
 tags: Network Skype4B PowerShell
-author: thomas torggler
+author: tto
 date_modified: false
 ---
 

@@ -4,7 +4,7 @@ title: "AzureStack POC TP2 on VMware"
 comments: true
 category: Cloud
 tags: PowerShell Azure
-author: thomas torggler
+author: tto
 ---
 I've been trying to make the Azure Stack Proof-of-Concept (Preview 2) run on VMware and here is what I found.   
 <!-- more -->

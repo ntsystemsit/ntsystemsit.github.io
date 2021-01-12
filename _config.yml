@@ -70,6 +70,7 @@ defaults:
     values:
       hidden: false
       language: en
+      image: assets/icons/android-chrome-192x192.png
   -
     scope:
       path: ""

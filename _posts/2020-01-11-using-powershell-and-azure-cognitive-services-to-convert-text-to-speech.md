@@ -4,7 +4,7 @@ title: "Using PowerShell and Azure Cognitive Services to convert text to speech"
 date: 2020-01-11 15:19 +0100
 category: Cloud
 tags: PowerShell Azure 
-author: thomas torggler
+author: tto
 date_modified: false
 ---
 

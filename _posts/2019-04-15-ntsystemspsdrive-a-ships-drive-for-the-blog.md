@@ -5,7 +5,7 @@ date: 2019-04-19
 comments: true
 category: PowerShell
 tags: PowerShell Jekyll ntSystems
-author: thomas torggler
+author: tto
 date_modified: false
 ---
 

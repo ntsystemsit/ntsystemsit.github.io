@@ -5,7 +5,7 @@ date: 2017-12-24
 comments: true
 category: Privacy
 tags: WSL Cloud
-author: thomas torggler
+author: tto
 date_modified: false
 ---
 

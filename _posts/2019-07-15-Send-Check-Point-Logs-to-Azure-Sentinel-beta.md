@@ -5,7 +5,7 @@ date: 2019-07-15 09:25:06 +0200
 comments: true
 category: Security
 tags: Azure Cloud Security
-author: thomas torggler
+author: tto
 date_modified: false
 ---
 

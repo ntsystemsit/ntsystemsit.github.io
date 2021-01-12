@@ -5,7 +5,7 @@ date: 2017-03-25 15:25:06 +0200
 comments: true
 category: Cloud
 tags: Cloud
-author: thomas torggler
+author: tto
 date_modified: false
 ---
 

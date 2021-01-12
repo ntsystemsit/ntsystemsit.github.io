@@ -5,7 +5,7 @@ date: 2018-03-15
 comments: true
 category: Cloud
 tags: Office365 Lync Skype4B Hybrid Exchange
-author: thomas torggler
+author: tto
 date_modified: 2018-12-02
 ---
 

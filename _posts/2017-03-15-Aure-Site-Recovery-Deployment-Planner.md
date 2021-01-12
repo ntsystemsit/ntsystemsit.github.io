@@ -5,7 +5,7 @@ date: 2017-03-15 20:25:06 +0200
 comments: true
 category: Cloud
 tags: Azure ASR
-author: daniel nitz
+author: dni
 ---
 
 Today I was super excited about the first tests with the Azure Site Recovery Deployment Planner. Sometimes calculating the Bandwidth, Storage, local infrastructure needed for Site Recovery can be very tricky. Therefore, I’m happy that Microsoft released a helpful tool to get the right information needed. 

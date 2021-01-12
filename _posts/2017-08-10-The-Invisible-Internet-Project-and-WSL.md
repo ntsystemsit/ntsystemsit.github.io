@@ -4,7 +4,7 @@ title: "The Invisible Internet Project and WSL"
 comments: true
 category: Privacy
 tags: PowerShell WSL Cloud
-author: thomas torggler
+author: tto
 date_modified: 2018-01-22
 ---
 

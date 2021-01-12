@@ -6,7 +6,7 @@ comments: true
 category: ntSystems
 tags: Jekyll ntSystems
 
-author: thomas torggler
+author: tto
 ---
 
 In this episode of our little series on migration we are having a look at the URL structure of Jekyll and some of the less visible stuff that was associated with the old ntSystems.

@@ -1,12 +1,10 @@
 ---
 layout: post
 title: "Powershell Script to enable specific Office 365 Service"
-date: 2019-02-05 09:25:06 +0200
-comments: true
 category: Azure
 tags: PowerShell Azure
-author: daniel nitz
-date_modified: false
+author: dni
+date_modified: 2019-02-05 09:25:06 +0200
 ---
 
 Currently I'm in an Exchange Migration project to migrate all mailboxes from Exchange onPremise to Exchange Online. Yeah.. of course.. killing Exchange onPrem... again :)

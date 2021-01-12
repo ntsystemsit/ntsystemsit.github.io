@@ -5,7 +5,7 @@ date: 2018-06-16 11:29:06 +0200
 comments: true
 category: Cloud
 tags: Office365 Hybrid Exchange
-author: thomas torggler
+author: tto
 date_modified: 2018-09-20
 ---
 

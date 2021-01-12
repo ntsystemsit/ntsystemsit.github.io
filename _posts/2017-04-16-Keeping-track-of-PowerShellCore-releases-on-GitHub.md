@@ -5,7 +5,7 @@ date: 2017-04-16 18:25:06 +0200
 comments: true
 category: PowerShell
 tags: PowerShell GitHub
-author: thomas torggler
+author: tto
 date_modified: false
 ---
 
