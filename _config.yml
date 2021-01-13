@@ -76,5 +76,5 @@ defaults:
       path: ""
       type: "my_tags"
     values:
-      permalink: "/tags/:title"
+      permalink: "/Tags/:title"
       layout: "tags"
