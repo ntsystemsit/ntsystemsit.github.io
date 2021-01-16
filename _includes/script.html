@@ -1,10 +1,9 @@
 <script type="text/javascript" src="/assets/js/theme.js"></script>
 <script>
-if ("serviceWorker" in navigator) {
-  // Register the service worker
-  navigator.serviceWorker
-    .register("{{ site.baseurl }}/serviceworker.js").then(function (reg) {
-      console.log("Service worker registered:,", reg);
-    });
+if ('serviceWorker' in navigator && !(/localhost/.test(window.location.href))) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('{{ site.baseurl }}/serviceworker.js')
+    console.log('Servie worker registered.');
+  });
 }
 </script>

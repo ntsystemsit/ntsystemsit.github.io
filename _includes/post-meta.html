@@ -1,8 +1,8 @@
 <p class="small-caps">
     {% if post.author %}
-        <span itemprop="author">{{ post.author | downcase }}</span>
+        <span itemprop="author">{{ site.data.authors[post.author].name | downcase }}</span>
     {% else %}
-        <span itemprop="author">{{ page.author | downcase }}</span>
+        <span itemprop="author">{{ site.data.authors[page.author].name | downcase }}</span>
     {% endif %}
     {% if post.date %}
     <span class="meta-tag">
@@ -22,7 +22,7 @@
     {% endif %}
     {% if post.date_modified %}
     <span class="meta-tag post-updated">
-        <time datetime="{{ post.date_modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ post.date_modified | date: "%-d %b %Y" | downcase}}</time>
+        updated <time datetime="{{ post.date_modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ post.date_modified | date: "%-d %b %Y" | downcase}}</time>
     </span>
     {% endif %}
     {% if page.author %}

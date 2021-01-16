@@ -46,6 +46,4 @@ themeButtons.forEach((button) => {
 
 })
 
-
 checkForSavedTheme();
-

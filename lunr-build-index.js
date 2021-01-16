@@ -1,5 +1,5 @@
 
-var lunr = require('/usr/local/lib/node_modules/lunr'),
+var lunr = require('/home/tom/node_modules/lunr'),
     stdin = process.stdin,
     stdout = process.stdout,
     buffer = []

@@ -7,11 +7,6 @@ self.addEventListener('install', function (event) {
       // non critical
       cache.addAll([
           '/assets/js/index.json',
-          '/assets/WOFF2/OTF/SourceCodePro-Bold.otf.woff2',
-          '/assets/WOFF2/OTF/SourceCodePro-It.otf.woff2',
-          '/assets/WOFF2/OTF/SourceCodePro-Light.otf.woff2',
-          '/assets/WOFF2/OTF/SourceCodePro-Regular.otf.woff2',
-          '/assets/WOFF2/TTF/SourceSans3-LightIt.ttf.woff2'
       ]);
       // critical
       return cache.addAll([
@@ -25,6 +20,7 @@ self.addEventListener('install', function (event) {
           '/search',
           '/assets/WOFF2/TTF/SourceSerifPro-Light.ttf.woff2',
           '/assets/WOFF2/TTF/SourceSans3-Light.ttf.woff2',
+          '/assets/WOFF2/OTF/SourceCodePro-Regular.otf.woff2',
           '/assets/WOFF2/TTF/SourceSans3-Regular.ttf.woff2'
         ]);
     }),
