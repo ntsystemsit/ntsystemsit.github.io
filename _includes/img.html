@@ -1,5 +1,16 @@
+{% if include.srcset %}
 <figure>
     <a href="{{ include.img }}">
-        <img src="{{ include.img }}">
+        <img src="{{ include.img }}" 
+        sizes="(min-width: 576px) 546px, (min-width: 768px) 664px, (min-width: 992px) 740px, 96vw"
+        srcset="{{ include.srcset }}" 
+        alt="{{ include.alt }}}}">
     </a>
 </figure>
+{% else %}
+<figure>
+    <a href="{{ include.img }}">
+        <img src="{{ include.img }}" alt="{{ include.alt }}">
+    </a>
+</figure>
+{% endif %}

@@ -4,6 +4,9 @@ date: 2021-01-16
 author: tto
 tags: Jekyll ntSystems GitHub
 hidden: true
+image: /assets/2021/2021-01-18_10-21-13.png
+twitter: 
+  card: summary_large_image
 ---
 
 I have recently updated our website and have learned a few things while doing so.<!-- more --> As mentioned on the home page, this website is still built with Jekyll. The so-called grandfather of static website generators is maybe not perfect, but the following reasons make it a good option for me.
@@ -58,5 +61,11 @@ if ('serviceWorker' in navigator && !(/localhost/.test(window.location.href))) {
 I have [used]({% link _posts/2017-04-24-Jekyll-on-WSL.md %}) Jekyll on Windows 10 leveraging the Windows Subsystem for Linux since 2017. Today I realized that actually storing the files within WSL makes the build time much (much) faster. Until today I stored the repository in my Windows user profile, something like `C:\users\tto\...`. In the WSL I happily changed into this directory following `/mnt/C/Users...` before running `jekyll serve`. Build time was around 5 minutes. Not great. 
 
 Today it ocurred to me to clone the repository again, this time into the WSL. So I can access it using a WSL path, something like `/home/tto/...`. Build time is now less than one minute. Not bad.
+
+## WebpageTest results
+
+You don't have to take my word for it, [webpagetest](https://webpagetest.org/result/210118_DiMH_f1f144faef540fc0069cf3b56982c94c/) also thinks this website is pretty fast: 
+
+{% include img.html img="/assets/2021/2021-01-18_9-37-430.gif" srcset="/assets/2021/2021-01-18_9-37-430.gif 430w, /assets/2021/2021-01-18_9-38-137.gif 137w" alt="webpagetest results" %}
 
 &mdash; Tom 
