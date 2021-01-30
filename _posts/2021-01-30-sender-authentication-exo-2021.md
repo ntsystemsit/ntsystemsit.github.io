@@ -119,13 +119,13 @@ With this record in place, you are now ready to send emails from Exchange Online
 
 The ultimate goal is to set the DMARC policy to `p=reject` thereby telling any receiving system to reject emails that fail authentication. Before we can do that, we must make sure all legitimate emails pass authentication. The monitoring helps us verify exactly that, the example in the following screenshot shows outbound emails from our systems for the last month. As you can see, all of them authenticated successfully:
 
-{% include img.html img="/assets/2021/2021-01-30_20-45-13-740.png" srcset="/assets/2021/2021-01-30_20-45-13-740.png 740w, /assets/2021/2021-01-30_20-45-13-664.png 664w, /assets/2021/2021-01-30_20-45-13-546.png 546w" alt="dmarc monitor results" %}
+{% include img.html img="/assets/2021/2021-01-30_20-45-13-740.png" srcset="/assets/2021/2021-01-30_20-45-13-546.png 546w, /assets/2021/2021-01-30_20-45-13-664.png 664w, /assets/2021/2021-01-30_20-45-13-740.png 740w" alt="dmarc monitor results" %}
 
 > Exchange Online does currently not send DMARC reports, so if you are sending only to Exchange Online recipients, don't expect much information in your monitoring.
 
 Remember that I said from *our* systems above, now let's change that filter in ValiMail and look at *all* emails from our domain. As you can see in the screenshot below, over the same period of time, 90 emails failed DMARC authentication:
 
-{% include img.html img="/assets/2021/2021-01-30_21-32-31-740.png" srcset="/assets/2021/2021-01-30_21-32-31-740.png 740w, /assets/2021/2021-01-30_21-32-31-664.png 664w, /assets/2021/2021-01-30_21-32-31-546.png 546w" alt="dmarc monitor results" %}
+{% include img.html img="/assets/2021/2021-01-30_21-32-31-740.png" srcset="/assets/2021/2021-01-30_21-32-31-546.png 546w, /assets/2021/2021-01-30_21-32-31-664.png 664w, /assets/2021/2021-01-30_21-32-31-740.png 740w" alt="dmarc monitor results" %}
 
 In our case, we already have a reject policy in place, so receiving systems should not accept these emails which are spam or worse. So, after setting up DMARC monitoring with a policy of none, observe the situation for some time and, if you are confident your systems are configured correctly, go ahead and update the record:
 
