@@ -1,6 +1,6 @@
 ---
 title: "How to configure sender authentication for Exchange Online in 2021"
-excerpt: "Learn how to configure Exchange Online"
+excerpt: "Learn how to configure your email domains for Exchange Online"
 date: 2021-01-30
 author: tto
 category: Cloud

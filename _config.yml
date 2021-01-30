@@ -59,7 +59,8 @@ collections:
     permalink: "/PowerShell/:title/"
   my_tags:
     output: true
-
+  categories:
+    output: true
  
 # Default Values for "Front Matter"
 # hidden: true filters out articles from pagination on the front page
@@ -78,3 +79,10 @@ defaults:
     values:
       permalink: "/Tags/:title"
       layout: "tags"
+  -
+    scope:
+      path: ""
+      type: "categories"
+    values:
+      permalink: "/categories/:title"
+      layout: "categories"
