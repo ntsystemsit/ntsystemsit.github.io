@@ -2,6 +2,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
     <link rel="preload" href="/assets/WOFF2/TTF/SourceSans3-Light.ttf.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/assets/WOFF2/TTF/SourceSans3-Regular.ttf.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/assets/WOFF2/TTF/SourceSerifPro-Light.ttf.woff2" as="font" type="font/woff2" crossorigin>
@@ -22,11 +23,5 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-config" content="/assets/icons/browserconfig.xml">
     <meta name="theme-color" content="#171717">
-    {% capture critical_styles %}
-    {% include critical.scss %}
-    {% endcapture %}
-    <style>
-        {{ critical_styles | scssify }}
-    </style>
     {% seo %}
 </head>

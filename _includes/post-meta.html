@@ -1,4 +1,4 @@
-<p class="small-caps">
+<p class="section small-caps">
     {% if post.author %}
         <span itemprop="author">{{ site.data.authors[post.author].name | downcase }}</span>
     {% else %}
@@ -13,13 +13,6 @@
         <time datetime="{{ page.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ page.date | date: "%-d %b %Y" | downcase }}</time>
     </span>
     {% endif %}
-    {% if page.tags.size >= 1 %}
-        <span class="meta-tag" itemprop="keywords">
-        {% for tag in page.tags %}
-            <a href="{{ site.baseurl }}/Tags/{{ tag }}">#{{ tag | downcase }}</a>{% unless forloop.last %},{% endunless %} 
-        {% endfor %}
-        </span>
-    {% endif %}
     {% if post.date_modified %}
     <span class="meta-tag post-updated">
         updated <time datetime="{{ post.date_modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ post.date_modified | date: "%-d %b %Y" | downcase}}</time>
@@ -28,6 +21,13 @@
     {% if page.author %}
     <span class="meta-tag">
         <a href="{{ site.github.repository_url }}/edit/master/{{ page.path }}" target="_blank" rel="noopener">edit</a> this page
+    </span>
+    {% endif %}
+    {% if page.tags.size >= 1 %}
+    <br><span itemprop="keywords">
+    {% for tag in page.tags %}
+        <a class="tag" href="{{ site.baseurl }}/Tags/{{ tag }}">#{{ tag | downcase }}</a>
+    {% endfor %}
     </span>
     {% endif %}
 </p>

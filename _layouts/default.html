@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
     {% include head.html %}
-    <body>
+    <body class="has-navbar-fixed-top">
         {% include nav.html %}
-        <main class="container">
+        <main class="section">
         {{ content }}
         </main>
         {%- include footer.html -%}

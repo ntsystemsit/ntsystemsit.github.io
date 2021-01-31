@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-<article itemscope itemtype="http://schema.org/BlogPosting">
+<article class="content container is-max-desktop" itemscope itemtype="http://schema.org/BlogPosting">
 <header>
-  <h1 class="pagetitle bold-title" itemprop="headline">{{ page.title | escape }}</h1>
+  <h1 class="is-size-1" itemprop="headline">{{ page.title | escape }}</h1>
   {%- include post-meta.html -%}
 </header>
 <section itemprop="articleBody">
@@ -11,3 +11,5 @@ layout: default
 </section>
 {% include post-footer.html %}
 </article>
+
+
