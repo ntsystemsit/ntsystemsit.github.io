@@ -16,4 +16,4 @@ Convert-TextToSpeech -Text "Hi there, how are you doing today?" -Path hithere.mp
 
 {% include module-functions.html %}
 
-{% include psgallery.html packagename="TAK" type="Module" reponame="TAK" %}
+{% include psgallery.html packagename="PSSPeech" type="Module" reponame="PSSPeech" %}
