@@ -23,4 +23,4 @@ You can read more about it [here]({{ "/post/ntsystemspsdrive-a-ships-drive-for-t
 
 {% include module-functions.html %}
 
-{% include psgallery.html packagename="TAK" type="Module" reponame="TAK" %}
+{% include psgallery.html packagename="ntSystemsPSDrive" type="Module" reponame="ntSystemsPSDrive" %}
