@@ -1,0 +1,6 @@
+---
+layout: none
+permalink: .well-known/did.json
+---
+
+{"id":"did:web:onprem.wtf","@context":["https://www.w3.org/ns/did/v1",{"@base":"did:web:onprem.wtf"}],"service":[{"id":"#linkeddomains","type":"LinkedDomains","serviceEndpoint":{"origins":["https://onprem.wtf/"]}},{"id":"#hub","type":"IdentityHub","serviceEndpoint":{"instances":["https://beta.hub.msidentity.com/v1.0/52c72f04-c2a5-4d53-b80a-7c13cb7efcbe"]}}],"verificationMethod":[{"id":"#dad59896e82b4501a18928a5af2e3085vcSigningKey-436b6","controller":"did:web:onprem.wtf","type":"EcdsaSecp256k1VerificationKey2019","publicKeyJwk":{"crv":"secp256k1","kty":"EC","x":"YYk8lDQ_6nJZ6t0OsgprYMJevCtqKfscZ8HTmbJvAwA","y":"egwyOSI0Hmad--ZowgFKM0fr0UoEpmrjQrH99eT6YHI"}}],"authentication":["#dad59896e82b4501a18928a5af2e3085vcSigningKey-436b6"],"assertionMethod":["#dad59896e82b4501a18928a5af2e3085vcSigningKey-436b6"]}
